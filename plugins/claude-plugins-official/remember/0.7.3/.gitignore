@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.coverage
+.coverage
+.pytest_cache/
+identity.md
+.DS_Store

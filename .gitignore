@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# Archives — kept on disk, not in git
+*.zip
+
+# Virtual environment
+.venv/
+
+# Temp plugin installs
+temp_local_*/
+
+# Large metadata dumps
+enriched-*.csv
+docs-*.csv
+docs.txt
+chozen-land.txt

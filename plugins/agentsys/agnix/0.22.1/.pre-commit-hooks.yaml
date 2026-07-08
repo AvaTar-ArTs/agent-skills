@@ -1,0 +1,59 @@
+- id: agnix
+  name: agnix
+  description: Lint AI agent configuration files
+  entry: agnix
+  language: system
+  types: [file]
+  files: |
+    (?x)^(
+      SKILL\.md|
+      CLAUDE\.md|
+      CLAUDE\.local\.md|
+      AGENTS\.md|
+      AGENTS\.local\.md|
+      AGENTS\.override\.md|
+      \.claude/settings\.json|
+      \.claude/settings\.local\.json|
+      \.claude/agents/.*\.md|
+      .*\.mcp\.json|
+      \.github/copilot-instructions\.md|
+      \.cursor/rules/.*\.mdc
+    )$
+  args: [--strict]
+
+- id: agnix-fix
+  name: agnix (with auto-fix)
+  description: Lint and auto-fix AI agent configuration files
+  entry: agnix
+  language: system
+  types: [file]
+  files: |
+    (?x)^(
+      SKILL\.md|
+      CLAUDE\.md|
+      CLAUDE\.local\.md|
+      AGENTS\.md|
+      AGENTS\.local\.md|
+      AGENTS\.override\.md|
+      \.claude/settings\.json|
+      \.claude/settings\.local\.json|
+      \.claude/agents/.*\.md|
+      .*\.mcp\.json|
+      \.github/copilot-instructions\.md|
+      \.cursor/rules/.*\.mdc
+    )$
+  args: [--fix]
+
+- id: agnix-schema
+  name: agnix-schema
+  description: |
+    Keep the source-controlled `schemas/agnix.json` in sync with the installed
+    agnix version. The hook regenerates the schema in place only when it
+    differs from what the current agnix binary produces; pre-commit then
+    fails the commit if the working tree is dirty afterward. Override the
+    target path with `args: [--output=<path>, --fix]`.
+  entry: agnix schema
+  language: system
+  pass_filenames: false
+  always_run: true
+  args: [--fix]
