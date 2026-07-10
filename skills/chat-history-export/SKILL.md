@@ -1,64 +1,45 @@
 ---
 name: chat-history-export
-description: Use when asked "what did we work on before?", at the end of substantial sessions, before major workspace changes, or when needing to search past conversations. Exports Cline and Gemini conversations to markdown for persistence and review.
-platforms: [cline, gemini, Codex, cursor, codex]
+description: Export, search, list, or inspect local AI conversation history from Cline session JSON. Use when asked what was worked on before, to preserve substantial sessions, to search past Cline/Gemini-style sessions, or before major workspace changes that need a durable markdown record.
 ---
 
 # Chat History Export
 
-Export Cline and Gemini conversations to markdown for persistence and review.
+Use this skill to work with local Cline session history. The live source data is under `~/.cline/data/sessions`, where each session has metadata JSON and a companion `*.messages.json` file.
 
-## When to Use
+## Workflow
 
-- At the end of any substantial session
-- When asked "what did we work on before?"
-- Before making major changes to the workspace
+1. Prefer the bundled script over undocumented shell aliases.
+2. Run with `--dry-run` before a broad export if the user only asked for review or inventory.
+3. Export markdown into `~/.cline/chat-history` unless the user gives a different output directory.
+4. Treat `~/.cline/data/secrets.json` and provider settings as sensitive runtime state; never export or quote those files.
 
-## How to Use
+## Commands
 
-### Automatic (Preferred)
-
-The system exports automatically via launchd (every 5 min) and cron (every hour).
-No action needed — session data is captured within minutes of completion.
-
-### Manual
+From the skill folder:
 
 ```bash
-ai-export-all     # Export all unexported from both Cline + Gemini
-cline-export      # Export only Cline sessions
-gemini-export     # Export only Gemini sessions
+python3 scripts/export_cline_history.py export --dry-run
+python3 scripts/export_cline_history.py export
+python3 scripts/export_cline_history.py list --limit 20
+python3 scripts/export_cline_history.py search "workspace cleanup"
+python3 scripts/export_cline_history.py latest
 ```
 
-### Search Past Sessions
+Useful options:
 
 ```bash
-ai-search "error handling"     # Search all exported history
-cline-history                   # List recent Cline exports
-gemini-history                  # List recent Gemini exports
+--source ~/.cline/data/sessions
+--out ~/.cline/chat-history
+--limit 50
 ```
 
-### View Most Recent
+## Output
 
-```bash
-cline-latest     # Open most recent Cline export
-gemini-latest    # Open most recent Gemini export
-```
+Markdown exports include session metadata, prompt/title when present, message timestamps, roles, text content, tool/result JSON summaries when present, model/provider info, and token/cost metrics when available.
 
-## What Gets Saved
+The script writes a tracking file at `~/.cline/chat-history/.exported_sessions.json` so repeated exports skip unchanged sessions. Use `--force` to regenerate.
 
-| Component | Content |
-|-----------|---------|
-| User messages | Full text of every prompt |
-| AI responses | Full text of every answer |
-| Thinking traces | Internal reasoning (💭 blocks) |
-| Tool calls | Function inputs with JSON |
-| Tool results | Outputs (truncated if large) |
-| Metadata | Model, cost, tokens, timestamps |
+## Host Mirrors
 
-## Storage
-
-- **Location**: `~/.cline/chat-history/`
-- **Cline exports**: `~/.cline/chat-history/<date>_<session>_<title>.md`
-- **Gemini exports**: `~/.cline/chat-history/gemini/<date>_<session>_<title>.md`
-- **Tracking**: `.exported_sessions.json` / `.exported_gemini.json`
-- **Auto-export**: launchd (5 min) + cron (1 hour) + manual
+Mirrors may exist under `.qwen`, `.gemini`, `my-supremepowers`, or CloudDocs. Use the active skill folder first, then update mirrors deliberately only when the user asks for cross-host synchronization.
