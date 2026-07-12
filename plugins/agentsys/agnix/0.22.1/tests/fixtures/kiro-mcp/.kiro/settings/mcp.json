@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "local": {
-      "command": "node",
-      "args": ["scripts/mock-filesystem-mcp.js", "./sandbox"]
-    }
-  }
-}

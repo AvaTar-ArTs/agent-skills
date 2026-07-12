@@ -1,4 +1,0 @@
-{
-  "event": "fileEdited",
-  "runCommand": "echo missing patterns"
-}

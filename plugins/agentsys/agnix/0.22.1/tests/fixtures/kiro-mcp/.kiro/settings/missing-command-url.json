@@ -1,7 +1,0 @@
-{
-  "mcpServers": {
-    "broken": {
-      "args": ["--debug"]
-    }
-  }
-}

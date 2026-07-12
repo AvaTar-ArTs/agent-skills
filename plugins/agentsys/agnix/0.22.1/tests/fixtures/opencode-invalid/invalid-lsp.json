@@ -1,7 +1,0 @@
-{
-  "lsp": {
-    "ts": {
-      "command": "typescript-language-server"
-    }
-  }
-}
