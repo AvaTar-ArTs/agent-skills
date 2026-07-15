@@ -1,0 +1,4 @@
+interface:
+  display_name: "Chat History Export"
+  short_description: "Export and search local Cline sessions"
+  default_prompt: "Use $chat-history-export to search prior Cline sessions and export relevant history to markdown."

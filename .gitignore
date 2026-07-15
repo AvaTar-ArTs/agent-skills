@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Archives — kept on disk, not in git
+*.zip
+
+# Virtual environment
+.venv/
+
+# Temp plugin installs
+temp_local_*/
+
+# Local generated review/staging outputs
+tmp/
+tmp-csv/
+tmp-md/
+
+# Large metadata dumps
+enriched-*.csv
+docs-*.csv
+docs.txt
+chozen-land.txt
