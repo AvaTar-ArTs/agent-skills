@@ -26,10 +26,10 @@ changelog beside the CSV.
 Last audited: 2026-07-15.
 
 - `agents/`: 108 non-hidden root agent/config files; 221 non-hidden files total.
-- `skills/`: 92 non-hidden top-level directories, hidden `.system/`, plus 1 top-level symlink.
-- Direct/root-visible skills: 74 `SKILL.md` files within depth 2.
-- Local expanded skills: 181 `SKILL.md` files.
-- Symlink-followed runtime-visible skills: 182 `SKILL.md` files.
+- `skills/`: 97 non-hidden top-level directories plus hidden `.system/`; no top-level skill symlinks.
+- Direct/root-visible skills: 79 `SKILL.md` files within depth 2.
+- Local expanded skills: 186 `SKILL.md` files.
+- Symlink-followed runtime-visible skills: 186 `SKILL.md` files.
 
 Claude and Codex should consume this tree directly:
 
@@ -83,6 +83,8 @@ Each CSV script also appends a sibling changelog:
 7. Treat root `agents/*.md` files as the runtime primary surface when matching by
    filename; categorized `agents/<group>/*.md` copies are retained for
    organization.
+8. Treat this repository as the sole active runtime. `~/my-supremepowers` is a
+   historical/upstream lab only; do not link runtime skills to it.
 
 ## Git Notes
 

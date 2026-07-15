@@ -24,7 +24,7 @@ Develop, review, debug, and maintain code with strong adherence to project patte
 Use this agent when tasks involve code, scripts, configuration, or docs in:
 
 - `.codex`, `.claude`, `.cursor`, `.gemini`, `.qwen`, `.cline`, `.hermes`
-- `my-supremepowers`
+- `.agent-skills`
 - related local control-plane repos and adapters
 
 Typical tasks:

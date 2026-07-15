@@ -13,8 +13,8 @@ Use this pattern when you are scanning a folder and want temporary output to sta
 - `/Users/steven/MySites/tmp` -> `[MySites]/tmp`
 - `/Users/steven/NotebookLM-AutoMated` -> `[NotebookLM-AutoMated]`
 - `/Users/steven/NotebookLM-AutoMated/tmp` -> `[NotebookLM-AutoMated]/tmp`
-- `/Users/steven/my-supremepowers` -> `[my-supremepowers]`
-- `/Users/steven/my-supremepowers/tmp` -> `[my-supremepowers]/tmp`
+- `/Users/steven/.agent-skills` -> `[.agent-skills]`
+- `/Users/steven/.agent-skills/tmp` -> `[.agent-skills]/tmp`
 
 ## Working Rule
 

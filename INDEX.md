@@ -13,10 +13,10 @@ this directory; new runtime configuration should point directly at
 |------|---------------|-------|
 | `agents/` root files | 108 | Non-hidden files directly under `agents/` |
 | `agents/` all files | 221 | Non-hidden files under all agent subdirectories |
-| `skills/` top-level directories | 92 | Non-hidden dirs; hidden `.system/` also present, plus one top-level symlink |
-| Direct/root-visible skills | 74 | `SKILL.md` files within depth 2 |
-| Local expanded skills | 181 | All local `SKILL.md` files |
-| Symlink-followed runtime-visible skills | 182 | Includes linked/reference-visible skill material |
+| `skills/` top-level directories | 97 | Non-hidden dirs; hidden `.system/` also present; no top-level skill symlinks |
+| Direct/root-visible skills | 79 | `SKILL.md` files within depth 2 |
+| Local expanded skills | 186 | All local `SKILL.md` files |
+| Symlink-followed runtime-visible skills | 186 | No external skill symlink required for runtime material |
 
 ## Runtime Links
 
@@ -41,6 +41,8 @@ system skills, not a symlink to this tree.
   material; their duplicate skill names are intentional unless promoted.
 - Treat root `agents/*.md` files as the runtime primary surface when matching by
   filename; categorized `agents/<group>/*.md` copies are retained for organization.
+- Treat this repository as the sole active runtime. `~/my-supremepowers` is a
+  historical/upstream lab only; do not link runtime skills to it.
 - Preserve local history and generated reports unless cleanup is explicitly
   requested.
 - Put temporary generated outputs under `tmp/`, `tmp-csv/`, or `tmp-md/`.

@@ -121,4 +121,4 @@ The script writes a tracking file at `~/.config/poolside/chat-history/.exported_
 
 ## Host Mirrors
 
-Mirrors may exist under `.qwen`, `.gemini`, `my-supremepowers`, or CloudDocs. Use the active skill folder first, then update mirrors deliberately only when the user asks for cross-host synchronization.
+Mirrors may exist under `.qwen`, `.gemini`, `.agent-skills`, or CloudDocs. Use the active skill folder first, then update mirrors deliberately only when the user asks for cross-host synchronization.

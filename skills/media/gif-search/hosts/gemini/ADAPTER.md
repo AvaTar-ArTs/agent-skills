@@ -1,6 +1,6 @@
 ---
 host: gemini
-source: /Users/steven/my-supremepowers/skills/media/gif-search/SKILL.md
+source: /Users/steven/.agent-skills/skills/media/gif-search/SKILL.md
 ---
 
 # Adapter: Gemini

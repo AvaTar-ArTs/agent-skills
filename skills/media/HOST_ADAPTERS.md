@@ -1,6 +1,6 @@
 # Host Adapters (media skills)
 
-`/Users/steven/my-supremepowers` is the agnostic Tier-0 hub. Skills in this tree may need host-specific renderings (Qwen/Gemini/Cursor/Codex) to match each runtime’s expected formats (YAML frontmatter, TOML agent profiles, command wrappers, plugin/extension packaging).
+`/Users/steven/.agent-skills` is the agnostic Tier-0 hub. Skills in this tree may need host-specific renderings (Qwen/Gemini/Cursor/Codex) to match each runtime’s expected formats (YAML frontmatter, TOML agent profiles, command wrappers, plugin/extension packaging).
 
 ## Standard layout (per skill)
 

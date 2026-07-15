@@ -1,6 +1,6 @@
 ---
 host: gemini
-source: /Users/steven/my-supremepowers/skills/media/heartmula/SKILL.md
+source: /Users/steven/.agent-skills/skills/media/heartmula/SKILL.md
 ---
 
 # Adapter: Gemini
