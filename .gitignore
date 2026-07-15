@@ -5,6 +5,12 @@
 __pycache__/
 *.py[cod]
 
+# Local runtime state
+memory/*.sqlite
+skills/agmsg/db/*.db
+skills/agmsg/db/*.db-shm
+skills/agmsg/db/*.db-wal
+
 # Archives — kept on disk, not in git
 *.zip
 

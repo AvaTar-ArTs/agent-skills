@@ -2,7 +2,7 @@
 
 ## Location
 
-`/Users/steven/.agents/skills/creative/structured-asset-pipeline/`
+`/Users/steven/.agent-skills/skills/creative/structured-asset-pipeline/`
 
 ## Acceptance
 

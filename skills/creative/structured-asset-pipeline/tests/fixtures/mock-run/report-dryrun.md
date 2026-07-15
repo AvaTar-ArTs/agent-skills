@@ -1,5 +1,5 @@
 # Pipeline dry-run report
-Run dir: /Users/steven/.agents/skills/creative/structured-asset-pipeline/tests/fixtures/mock-run
+Run dir: /Users/steven/.agent-skills/skills/creative/structured-asset-pipeline/tests/fixtures/mock-run
 
 | unit_id | backend | ok | exit | note |
 |---------|---------|----|----|------|

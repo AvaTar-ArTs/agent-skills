@@ -5,8 +5,8 @@ GitHub snapshot: `9d0849a Add repository README`
 
 ## Scope
 - `local_agents`: `/Users/steven/.agents`
-- `active_agent_skills`: `/Users/steven/.Agent-skills`
-- `github_agents`: `/Users/steven/.Agent-skills/tmp/github-avatar-arts-dot-agents`
+- `active_agent_skills`: `/Users/steven/.agent-skills`
+- `github_agents`: `/Users/steven/.agent-skills/tmp/github-avatar-arts-dot-agents`
 - Active comparison excludes: `.codex-history, .git, tmp, tmp-csv, tmp-md`
 - GitHub comparison excludes: `plugins`
 - Outputs are stored in the workspace `tmp/` folder, not `/private/tmp`.
@@ -97,4 +97,4 @@ Legend: L=local `~/.agents`, A=active `~/.Agent-skills`, G=GitHub clone with `pl
 - `.DS_Store`: Finder metadata.
 - `plugins/*`: explicitly out of scope per your correction.
 
-Full JSON: `/Users/steven/.Agent-skills/tmp/agents_three_way_audit.json`
+Full JSON: `/Users/steven/.agent-skills/tmp/agents_three_way_audit.json`

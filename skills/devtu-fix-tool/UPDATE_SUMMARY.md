@@ -144,7 +144,7 @@ Skill successfully used to fix GTEx tools (gtex and gtex_v2):
 - 100% test pass rate achieved
 
 ## Files Modified
-- `/Users/shgao/.cursor/skills/tooluniverse-fix-tool/SKILL.md`
+- `/Users/username/.cursor/skills/tooluniverse-fix-tool/SKILL.md`
   - Original: 551 lines
   - Updated: 967 lines
   - Change: +416 lines (+75%)
