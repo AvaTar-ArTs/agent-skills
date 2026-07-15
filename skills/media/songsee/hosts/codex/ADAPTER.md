@@ -1,6 +1,6 @@
 ---
 host: codex
-source: /Users/steven/my-supremepowers/skills/media/songsee/SKILL.md
+source: /Users/steven/.agent-skills/skills/media/songsee/SKILL.md
 ---
 
 # Adapter: Codex

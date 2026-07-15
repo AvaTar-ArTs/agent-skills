@@ -1,8 +1,8 @@
 # Skill Conventions Across Ecosystems
 
-Observed 2026-05-15 while analyzing `~/my-supremepowers/` and `~/.cline/` as reference points for hermes-agent skill authoring.
+Observed 2026-05-15 while analyzing `~/.agent-skills/` and `~/.cline/` as reference points for hermes-agent skill authoring.
 
-## my-supremepowers (Canonical Authoring Surface)
+## .agent-skills (Canonical Authoring Surface)
 
 - **76 SKILL.md files**, 500B–22K chars each
 - Frontmatter: `name` + `description` always. Sometimes `version`, `author`, `license`, `metadata.hermes.{tags, related_skills}`
@@ -22,7 +22,7 @@ Observed 2026-05-15 while analyzing `~/my-supremepowers/` and `~/.cline/` as ref
 
 ## Key Differences vs Hermes-Agent
 
-| Aspect | my-supremepowers | .cline | hermes-agent |
+| Aspect | .agent-skills | .cline | hermes-agent |
 |--------|-----------------|--------|-------------|
 | Skill count | 76 | 3 | varies |
 | Size range | 500B–22K | 500–1700 | 8–14K target |
@@ -38,7 +38,7 @@ Not a runtime surface — acts as the "librarian" for a multi-agent home directo
 - **Path inventories with taxonomy**: 203 paths classified by 12 buckets (first-party ecosystems, vendor SDK noise, ephemeral caches, false positives) — see `_agent_paths_inventory.txt` + `AGENT_ECOSYSTEM_INDEX_AND_REVIEW.md`
 - **Dotfolder catalog**: 302 dotfolders tagged as A (agents/skills/rules), M (MCP/telemetry), I (third-party IDE), D (dev toolchain), O (OS), P (personal projects) — see `AGENT_DOTFILES_AND_DOTFOLDERS.md`
 - **Unified ecosystem documents**: `Ecosystem-Unified-Organization-2026-05-15.md` — 3-layer architecture (Hooks Engine → Cognitive Polymath Mesh → Control Plane) with assets tallied across 5+ platforms
-- **9-volume Book of Memory**: Mirrors `my-supremepowers/book_of_memory/` — Platforms, Agents, Skills, Business, Cognition, Tools, Memory, Patterns, Implementation
+- **9-volume Book of Memory**: Mirrors `.agent-skills/book_of_memory/` — Platforms, Agents, Skills, Business, Cognition, Tools, Memory, Patterns, Implementation
 
 ### MULTI_AGENT_HYGIENE — The Cross-Contamination Problem
 
@@ -64,7 +64,7 @@ The fix has three layers:
 
 ## Takeaway for Porting
 
-When adapting a my-supremepowers skill to hermes-agent:
+When adapting a .agent-skills skill to hermes-agent:
 1. Add `version`, `author`, `license`, `metadata.hermes.{tags, related_skills}` frontmatter
 2. Expand to hermes-agent's expected structure (Overview → When to Use → body → Pitfalls → Verification)
 3. Target 8–14K chars; push heavy reference to `references/`

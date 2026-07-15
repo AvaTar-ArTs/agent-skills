@@ -1,6 +1,6 @@
 ---
 host: gemini
-source: /Users/steven/my-supremepowers/skills/media/youtube-content/SKILL.md
+source: /Users/steven/.agent-skills/skills/media/youtube-content/SKILL.md
 ---
 
 # Adapter: Gemini

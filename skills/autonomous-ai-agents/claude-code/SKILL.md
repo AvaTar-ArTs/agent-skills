@@ -1,86 +1,86 @@
 ---
-name: Codex
-description: "Delegate coding to Codex CLI (features, PRs)."
+name: claude-code
+description: "Delegate coding to Claude Code CLI (features, PRs)."
 version: 2.2.0
 author: Hermes Agent + Teknium
 license: MIT
 platforms: [linux, macos, windows]
 metadata:
   hermes:
-    tags: [Coding-Agent, Codex, Anthropic, Code-Review, Refactoring, PTY, Automation]
+    tags: [Coding-Agent, Claude, Anthropic, Code-Review, Refactoring, PTY, Automation]
     related_skills: [codex, hermes-agent, opencode]
 ---
 
-# Codex — Hermes Orchestration Guide
+# Claude Code — Hermes Orchestration Guide
 
-Delegate coding tasks to [Codex](https://code.Codex.com/docs/en/cli-reference) (Anthropic's autonomous coding agent CLI) via the Hermes terminal. Codex v2.x can read files, write code, run shell commands, spawn subagents, and manage git workflows autonomously.
+Delegate coding tasks to [Claude Code](https://code.claude.com/docs/en/cli-reference) (Anthropic's autonomous coding agent CLI) via the Hermes terminal. Claude Code v2.x can read files, write code, run shell commands, spawn subagents, and manage git workflows autonomously.
 
 ## Prerequisites
 
-- **Install:** `npm install -g @anthropic-ai/Codex`
-- **Auth:** run `Codex` once to log in (browser OAuth for Pro/Max, or set `ANTHROPIC_API_KEY`)
-- **Console auth:** `Codex auth login --console` for API key billing
-- **SSO auth:** `Codex auth login --sso` for Enterprise
-- **Check status:** `Codex auth status` (JSON) or `Codex auth status --text` (human-readable)
-- **Health check:** `Codex doctor` — checks auto-updater and installation health
-- **Version check:** `Codex --version` (requires v2.x+)
-- **Update:** `Codex update` or `Codex upgrade`
+- **Install:** `npm install -g @anthropic-ai/claude-code`
+- **Auth:** run `claude` once to log in (browser OAuth for Pro/Max, or set `ANTHROPIC_API_KEY`)
+- **Console auth:** `claude auth login --console` for API key billing
+- **SSO auth:** `claude auth login --sso` for Enterprise
+- **Check status:** `claude auth status` (JSON) or `claude auth status --text` (human-readable)
+- **Health check:** `claude doctor` — checks auto-updater and installation health
+- **Version check:** `claude --version` (requires v2.x+)
+- **Update:** `claude update` or `claude upgrade`
 
 ## Two Orchestration Modes
 
-Hermes interacts with Codex in two fundamentally different ways. Choose based on the task.
+Hermes interacts with Claude Code in two fundamentally different ways. Choose based on the task.
 
 ### Mode 1: Print Mode (`-p`) — Non-Interactive (PREFERRED for most tasks)
 
 Print mode runs a one-shot task, returns the result, and exits. No PTY needed. No interactive prompts. This is the cleanest integration path.
 
 ```
-terminal(command="Codex -p 'Add error handling to all API calls in src/' --allowedTools 'Read,Edit' --max-turns 10", workdir="/path/to/project", timeout=120)
+terminal(command="claude -p 'Add error handling to all API calls in src/' --allowedTools 'Read,Edit' --max-turns 10", workdir="/path/to/project", timeout=120)
 ```
 
 **When to use print mode:**
 - One-shot coding tasks (fix a bug, add a feature, refactor)
 - CI/CD automation and scripting
 - Structured data extraction with `--json-schema`
-- Piped input processing (`cat file | Codex -p "analyze this"`)
+- Piped input processing (`cat file | claude -p "analyze this"`)
 - Any task where you don't need multi-turn conversation
 
 **Print mode skips ALL interactive dialogs** — no workspace trust prompt, no permission confirmations. This makes it ideal for automation.
 
 ### Mode 2: Interactive PTY via tmux — Multi-Turn Sessions
 
-Interactive mode gives you a full conversational REPL where you can send follow-up prompts, use slash commands, and watch Codex work in real time. **Requires tmux orchestration.**
+Interactive mode gives you a full conversational REPL where you can send follow-up prompts, use slash commands, and watch Claude work in real time. **Requires tmux orchestration.**
 
 ```
 # Start a tmux session
-terminal(command="tmux new-session -d -s Codex-work -x 140 -y 40")
+terminal(command="tmux new-session -d -s claude-work -x 140 -y 40")
 
-# Launch Codex inside it
-terminal(command="tmux send-keys -t Codex-work 'cd /path/to/project && Codex' Enter")
+# Launch Claude Code inside it
+terminal(command="tmux send-keys -t claude-work 'cd /path/to/project && claude' Enter")
 
 # Wait for startup, then send your task
 # (after ~3-5 seconds for the welcome screen)
-terminal(command="sleep 5 && tmux send-keys -t Codex-work 'Refactor the auth module to use JWT tokens' Enter")
+terminal(command="sleep 5 && tmux send-keys -t claude-work 'Refactor the auth module to use JWT tokens' Enter")
 
 # Monitor progress by capturing the pane
-terminal(command="sleep 15 && tmux capture-pane -t Codex-work -p -S -50")
+terminal(command="sleep 15 && tmux capture-pane -t claude-work -p -S -50")
 
 # Send follow-up tasks
-terminal(command="tmux send-keys -t Codex-work 'Now add unit tests for the new JWT code' Enter")
+terminal(command="tmux send-keys -t claude-work 'Now add unit tests for the new JWT code' Enter")
 
 # Exit when done
-terminal(command="tmux send-keys -t Codex-work '/exit' Enter")
+terminal(command="tmux send-keys -t claude-work '/exit' Enter")
 ```
 
 **When to use interactive mode:**
 - Multi-turn iterative work (refactor → review → fix → test cycle)
 - Tasks requiring human-in-the-loop decisions
 - Exploratory coding sessions
-- When you need to use Codex's slash commands (`/compact`, `/review`, `/model`)
+- When you need to use Claude's slash commands (`/compact`, `/review`, `/model`)
 
 ## PTY Dialog Handling (CRITICAL for Interactive Mode)
 
-Codex presents up to two confirmation dialogs on first launch. You MUST handle these via tmux send-keys:
+Claude Code presents up to two confirmation dialogs on first launch. You MUST handle these via tmux send-keys:
 
 ### Dialog 1: Workspace Trust (first visit to a directory)
 ```
@@ -102,16 +102,16 @@ tmux send-keys -t <session> Down && sleep 0.3 && tmux send-keys -t <session> Ent
 ### Robust Dialog Handling Pattern
 ```
 # Launch with permissions bypass
-terminal(command="tmux send-keys -t Codex-work 'Codex --dangerously-skip-permissions \"your task\"' Enter")
+terminal(command="tmux send-keys -t claude-work 'claude --dangerously-skip-permissions \"your task\"' Enter")
 
 # Handle trust dialog (Enter for default "Yes")
-terminal(command="sleep 4 && tmux send-keys -t Codex-work Enter")
+terminal(command="sleep 4 && tmux send-keys -t claude-work Enter")
 
 # Handle permissions dialog (Down then Enter for "Yes, I accept")
-terminal(command="sleep 3 && tmux send-keys -t Codex-work Down && sleep 0.3 && tmux send-keys -t Codex-work Enter")
+terminal(command="sleep 3 && tmux send-keys -t claude-work Down && sleep 0.3 && tmux send-keys -t claude-work Enter")
 
-# Now wait for Codex to work
-terminal(command="sleep 15 && tmux capture-pane -t Codex-work -p -S -60")
+# Now wait for Claude to work
+terminal(command="sleep 15 && tmux capture-pane -t claude-work -p -S -60")
 ```
 
 **Note:** After the first trust acceptance for a directory, the trust dialog won't appear again. Only the permissions dialog recurs each time you use `--dangerously-skip-permissions`.
@@ -120,31 +120,31 @@ terminal(command="sleep 15 && tmux capture-pane -t Codex-work -p -S -60")
 
 | Subcommand | Purpose |
 |------------|---------|
-| `Codex` | Start interactive REPL |
-| `Codex "query"` | Start REPL with initial prompt |
-| `Codex -p "query"` | Print mode (non-interactive, exits when done) |
-| `cat file \| Codex -p "query"` | Pipe content as stdin context |
-| `Codex -c` | Continue the most recent conversation in this directory |
-| `Codex -r "id"` | Resume a specific session by ID or name |
-| `Codex auth login` | Sign in (add `--console` for API billing, `--sso` for Enterprise) |
-| `Codex auth status` | Check login status (returns JSON; `--text` for human-readable) |
-| `Codex mcp add <name> -- <cmd>` | Add an MCP server |
-| `Codex mcp list` | List configured MCP servers |
-| `Codex mcp remove <name>` | Remove an MCP server |
-| `Codex agents` | List configured agents |
-| `Codex doctor` | Run health checks on installation and auto-updater |
-| `Codex update` / `Codex upgrade` | Update Codex to latest version |
-| `Codex remote-control` | Start server to control Codex from Codex.ai or mobile app |
-| `Codex install [target]` | Install native build (stable, latest, or specific version) |
-| `Codex setup-token` | Set up long-lived auth token (requires subscription) |
-| `Codex plugin` / `Codex plugins` | Manage Codex plugins |
-| `Codex auto-mode` | Inspect auto mode classifier configuration |
+| `claude` | Start interactive REPL |
+| `claude "query"` | Start REPL with initial prompt |
+| `claude -p "query"` | Print mode (non-interactive, exits when done) |
+| `cat file \| claude -p "query"` | Pipe content as stdin context |
+| `claude -c` | Continue the most recent conversation in this directory |
+| `claude -r "id"` | Resume a specific session by ID or name |
+| `claude auth login` | Sign in (add `--console` for API billing, `--sso` for Enterprise) |
+| `claude auth status` | Check login status (returns JSON; `--text` for human-readable) |
+| `claude mcp add <name> -- <cmd>` | Add an MCP server |
+| `claude mcp list` | List configured MCP servers |
+| `claude mcp remove <name>` | Remove an MCP server |
+| `claude agents` | List configured agents |
+| `claude doctor` | Run health checks on installation and auto-updater |
+| `claude update` / `claude upgrade` | Update Claude Code to latest version |
+| `claude remote-control` | Start server to control Claude from claude.ai or mobile app |
+| `claude install [target]` | Install native build (stable, latest, or specific version) |
+| `claude setup-token` | Set up long-lived auth token (requires subscription) |
+| `claude plugin` / `claude plugins` | Manage Claude Code plugins |
+| `claude auto-mode` | Inspect auto mode classifier configuration |
 
 ## Print Mode Deep Dive
 
 ### Structured JSON Output
 ```
-terminal(command="Codex -p 'Analyze auth.py for security issues' --output-format json --max-turns 5", workdir="/project", timeout=120)
+terminal(command="claude -p 'Analyze auth.py for security issues' --output-format json --max-turns 5", workdir="/project", timeout=120)
 ```
 
 Returns a JSON object with:
@@ -160,7 +160,7 @@ Returns a JSON object with:
   "stop_reason": "end_turn",
   "terminal_reason": "completed",
   "usage": { "input_tokens": 5, "output_tokens": 603, ... },
-  "modelUsage": { "Codex-sonnet-4-6": { "costUSD": 0.078, "contextWindow": 200000 } }
+  "modelUsage": { "claude-sonnet-4-6": { "costUSD": 0.078, "contextWindow": 200000 } }
 }
 ```
 
@@ -169,12 +169,12 @@ Returns a JSON object with:
 ### Streaming JSON Output
 For real-time token streaming, use `stream-json` with `--verbose`:
 ```
-terminal(command="Codex -p 'Write a summary' --output-format stream-json --verbose --include-partial-messages", timeout=60)
+terminal(command="claude -p 'Write a summary' --output-format stream-json --verbose --include-partial-messages", timeout=60)
 ```
 
 Returns newline-delimited JSON events. Filter with jq for live text:
 ```
-Codex -p "Explain X" --output-format stream-json --verbose --include-partial-messages | \
+claude -p "Explain X" --output-format stream-json --verbose --include-partial-messages | \
   jq -rj 'select(.type == "stream_event" and .event.delta.type? == "text_delta") | .event.delta.text'
 ```
 
@@ -183,50 +183,50 @@ Stream events include `system/api_retry` with `attempt`, `max_retries`, and `err
 ### Bidirectional Streaming
 For real-time input AND output streaming:
 ```
-Codex -p "task" --input-format stream-json --output-format stream-json --replay-user-messages
+claude -p "task" --input-format stream-json --output-format stream-json --replay-user-messages
 ```
 `--replay-user-messages` re-emits user messages on stdout for acknowledgment.
 
 ### Piped Input
 ```
 # Pipe a file for analysis
-terminal(command="cat src/auth.py | Codex -p 'Review this code for bugs' --max-turns 1", timeout=60)
+terminal(command="cat src/auth.py | claude -p 'Review this code for bugs' --max-turns 1", timeout=60)
 
 # Pipe multiple files
-terminal(command="cat src/*.py | Codex -p 'Find all TODO comments' --max-turns 1", timeout=60)
+terminal(command="cat src/*.py | claude -p 'Find all TODO comments' --max-turns 1", timeout=60)
 
 # Pipe command output
-terminal(command="git diff HEAD~3 | Codex -p 'Summarize these changes' --max-turns 1", timeout=60)
+terminal(command="git diff HEAD~3 | claude -p 'Summarize these changes' --max-turns 1", timeout=60)
 ```
 
 ### JSON Schema for Structured Extraction
 ```
-terminal(command="Codex -p 'List all functions in src/' --output-format json --json-schema '{\"type\":\"object\",\"properties\":{\"functions\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"functions\"]}' --max-turns 5", workdir="/project", timeout=90)
+terminal(command="claude -p 'List all functions in src/' --output-format json --json-schema '{\"type\":\"object\",\"properties\":{\"functions\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"functions\"]}' --max-turns 5", workdir="/project", timeout=90)
 ```
 
-Parse `structured_output` from the JSON result. Codex validates output against the schema before returning.
+Parse `structured_output` from the JSON result. Claude validates output against the schema before returning.
 
 ### Session Continuation
 ```
 # Start a task
-terminal(command="Codex -p 'Start refactoring the database layer' --output-format json --max-turns 10 > /tmp/session.json", workdir="/project", timeout=180)
+terminal(command="claude -p 'Start refactoring the database layer' --output-format json --max-turns 10 > /tmp/session.json", workdir="/project", timeout=180)
 
 # Resume with session ID
-terminal(command="Codex -p 'Continue and add connection pooling' --resume $(cat /tmp/session.json | python3 -c 'import json,sys; print(json.load(sys.stdin)[\"session_id\"])') --max-turns 5", workdir="/project", timeout=120)
+terminal(command="claude -p 'Continue and add connection pooling' --resume $(cat /tmp/session.json | python3 -c 'import json,sys; print(json.load(sys.stdin)[\"session_id\"])') --max-turns 5", workdir="/project", timeout=120)
 
 # Or resume the most recent session in the same directory
-terminal(command="Codex -p 'What did you do last time?' --continue --max-turns 1", workdir="/project", timeout=30)
+terminal(command="claude -p 'What did you do last time?' --continue --max-turns 1", workdir="/project", timeout=30)
 
 # Fork a session (new ID, keeps history)
-terminal(command="Codex -p 'Try a different approach' --resume <id> --fork-session --max-turns 10", workdir="/project", timeout=120)
+terminal(command="claude -p 'Try a different approach' --resume <id> --fork-session --max-turns 10", workdir="/project", timeout=120)
 ```
 
 ### Bare Mode for CI/Scripting
 ```
-terminal(command="Codex --bare -p 'Run all tests and report failures' --allowedTools 'Read,Bash' --max-turns 10", workdir="/project", timeout=180)
+terminal(command="claude --bare -p 'Run all tests and report failures' --allowedTools 'Read,Bash' --max-turns 10", workdir="/project", timeout=180)
 ```
 
-`--bare` skips hooks, plugins, MCP discovery, and AGENTS.md loading. Fastest startup. Requires `ANTHROPIC_API_KEY` (skips OAuth).
+`--bare` skips hooks, plugins, MCP discovery, and CLAUDE.md loading. Fastest startup. Requires `ANTHROPIC_API_KEY` (skips OAuth).
 
 To selectively load context in bare mode:
 | To load | Flag |
@@ -238,7 +238,7 @@ To selectively load context in bare mode:
 
 ### Fallback Model for Overload
 ```
-terminal(command="Codex -p 'task' --fallback-model haiku --max-turns 5", timeout=90)
+terminal(command="claude -p 'task' --fallback-model haiku --max-turns 5", timeout=90)
 ```
 Automatically falls back to the specified model when the default is overloaded (print mode only).
 
@@ -253,8 +253,8 @@ Automatically falls back to the specified model when the default is overloaded (
 | `--fork-session` | When resuming, create new session ID instead of reusing original |
 | `--session-id <uuid>` | Use a specific UUID for the conversation |
 | `--no-session-persistence` | Don't save session to disk (print mode only) |
-| `--add-dir <paths...>` | Grant Codex access to additional working directories |
-| `-w, --worktree [name]` | Run in an isolated git worktree at `.Codex/worktrees/<name>` |
+| `--add-dir <paths...>` | Grant Claude access to additional working directories |
+| `-w, --worktree [name]` | Run in an isolated git worktree at `.claude/worktrees/<name>` |
 | `--tmux` | Create a tmux session for the worktree (requires `--worktree`) |
 | `--ide` | Auto-connect to a valid IDE on startup |
 | `--chrome` / `--no-chrome` | Enable/disable Chrome browser integration for web testing |
@@ -264,7 +264,7 @@ Automatically falls back to the specified model when the default is overloaded (
 ### Model & Performance
 | Flag | Effect |
 |------|--------|
-| `--model <alias>` | Model selection: `sonnet`, `opus`, `haiku`, or full name like `Codex-sonnet-4-6` |
+| `--model <alias>` | Model selection: `sonnet`, `opus`, `haiku`, or full name like `claude-sonnet-4-6` |
 | `--effort <level>` | Reasoning depth: `low`, `medium`, `high`, `max`, `auto` | Both |
 | `--max-turns <n>` | Limit agentic loops (print mode only; prevents runaway) |
 | `--max-budget-usd <n>` | Cap API spend in dollars (print mode only) |
@@ -298,7 +298,7 @@ Automatically falls back to the specified model when the default is overloaded (
 | `--append-system-prompt-file <path>` | **Add** file contents to the default system prompt |
 | `--system-prompt <text>` | **Replace** the entire system prompt (use --append instead usually) |
 | `--system-prompt-file <path>` | **Replace** the system prompt with file contents |
-| `--bare` | Skip hooks, plugins, MCP discovery, AGENTS.md, OAuth (fastest startup) |
+| `--bare` | Skip hooks, plugins, MCP discovery, CLAUDE.md, OAuth (fastest startup) |
 | `--agents '<json>'` | Define custom subagents dynamically as JSON |
 | `--mcp-config <path>` | Load MCP servers from JSON file (repeatable) |
 | `--strict-mcp-config` | Only use MCP servers from `--mcp-config`, ignoring all other MCP configs |
@@ -337,9 +337,9 @@ mcp__<server>__<tool>   # Specific MCP tool
 
 ### Settings Hierarchy (highest to lowest priority)
 1. **CLI flags** — override everything
-2. **Local project:** `.Codex/settings.local.json` (personal, gitignored)
-3. **Project:** `.Codex/settings.json` (shared, git-tracked)
-4. **User:** `~/.Codex/settings.json` (global)
+2. **Local project:** `.claude/settings.local.json` (personal, gitignored)
+3. **Project:** `.claude/settings.json` (shared, git-tracked)
+4. **User:** `~/.claude/settings.json` (global)
 
 ### Permissions in Settings
 ```json
@@ -352,10 +352,10 @@ mcp__<server>__<tool>   # Specific MCP tool
 }
 ```
 
-### Memory Files (AGENTS.md) Hierarchy
-1. **Global:** `~/.Codex/AGENTS.md` — applies to all projects
-2. **Project:** `./AGENTS.md` — project-specific context (git-tracked)
-3. **Local:** `.Codex/Codex.local.md` — personal project overrides (gitignored)
+### Memory Files (CLAUDE.md) Hierarchy
+1. **Global:** `~/.claude/CLAUDE.md` — applies to all projects
+2. **Project:** `./CLAUDE.md` — project-specific context (git-tracked)
+3. **Local:** `.claude/CLAUDE.local.md` — personal project overrides (gitignored)
 
 Use the `#` prefix in interactive mode to quickly add to memory: `# Always use 2-space indentation`.
 
@@ -365,7 +365,7 @@ Use the `#` prefix in interactive mode to quickly add to memory: `# Always use 2
 | Command | Purpose |
 |---------|---------|
 | `/help` | Show all commands (including custom and MCP commands) |
-| `/compact [focus]` | Compress context to save tokens; AGENTS.md survives compaction. E.g., `/compact focus on auth logic` |
+| `/compact [focus]` | Compress context to save tokens; CLAUDE.md survives compaction. E.g., `/compact focus on auth logic` |
 | `/clear` | Wipe conversation history for a fresh start |
 | `/context` | Visualize context usage as a colored grid with optimization tips |
 | `/cost` | View token usage with per-model and cache-hit breakdowns |
@@ -390,8 +390,8 @@ Use the `#` prefix in interactive mode to quickly add to memory: `# Always use 2
 |---------|---------|
 | `/model [model]` | Switch models mid-session (use arrow keys to adjust effort) |
 | `/effort [level]` | Set reasoning effort: `low`, `medium`, `high`, `max`, or `auto` |
-| `/init` | Create a AGENTS.md file for project memory |
-| `/memory` | Open AGENTS.md for editing |
+| `/init` | Create a CLAUDE.md file for project memory |
+| `/memory` | Open CLAUDE.md for editing |
 | `/config` | Open interactive settings configuration |
 | `/permissions` | View/update tool permissions |
 | `/agents` | Manage specialized subagents |
@@ -402,10 +402,10 @@ Use the `#` prefix in interactive mode to quickly add to memory: `# Always use 2
 | `/release-notes` | Interactive picker for version release notes |
 
 ### Custom Slash Commands
-Create `.Codex/commands/<name>.md` (project-shared) or `~/.Codex/commands/<name>.md` (personal):
+Create `.claude/commands/<name>.md` (project-shared) or `~/.claude/commands/<name>.md` (personal):
 
 ```markdown
-# .Codex/commands/deploy.md
+# .claude/commands/deploy.md
 Run the deploy pipeline:
 1. Run all tests
 2. Build the Docker image
@@ -416,10 +416,10 @@ Run the deploy pipeline:
 Usage: `/deploy production` — `$ARGUMENTS` is replaced with the user's input.
 
 ### Skills (Natural Language Invocation)
-Unlike slash commands (manually invoked), skills in `.Codex/skills/` are markdown guides that Codex invokes automatically via natural language when the task matches:
+Unlike slash commands (manually invoked), skills in `.claude/skills/` are markdown guides that Claude invokes automatically via natural language when the task matches:
 
 ```markdown
-# .Codex/skills/database-migration.md
+# .claude/skills/database-migration.md
 When asked to create or modify database migrations:
 1. Use Alembic for migration generation
 2. Always create a rollback function
@@ -436,7 +436,7 @@ When asked to create or modify database migrations:
 | `Ctrl+R` | Reverse search command history |
 | `Ctrl+B` | Background a running task |
 | `Ctrl+V` | Paste image into conversation |
-| `Ctrl+O` | Transcript mode — see Codex's thinking process |
+| `Ctrl+O` | Transcript mode — see Claude's thinking process |
 | `Ctrl+G` or `Ctrl+X Ctrl+E` | Open prompt in external editor |
 | `Esc Esc` | Rewind conversation or code state / summarize |
 
@@ -460,7 +460,7 @@ When asked to create or modify database migrations:
 |--------|--------|
 | `!` | Execute bash directly, bypassing AI (e.g., `!npm test`). Use `!` alone to toggle shell mode. |
 | `@` | Reference files/directories with autocomplete (e.g., `@./src/api/`) |
-| `#` | Quick add to AGENTS.md memory (e.g., `# Use 2-space indentation`) |
+| `#` | Quick add to CLAUDE.md memory (e.g., `# Use 2-space indentation`) |
 | `/` | Slash commands |
 
 ### Pro Tip: "ultrathink"
@@ -470,13 +470,13 @@ Use the keyword "ultrathink" in your prompt for maximum reasoning effort on a sp
 
 ### Quick Review (Print Mode)
 ```
-terminal(command="cd /path/to/repo && git diff main...feature-branch | Codex -p 'Review this diff for bugs, security issues, and style problems. Be thorough.' --max-turns 1", timeout=60)
+terminal(command="cd /path/to/repo && git diff main...feature-branch | claude -p 'Review this diff for bugs, security issues, and style problems. Be thorough.' --max-turns 1", timeout=60)
 ```
 
 ### Deep Review (Interactive + Worktree)
 ```
 terminal(command="tmux new-session -d -s review -x 140 -y 40")
-terminal(command="tmux send-keys -t review 'cd /path/to/repo && Codex -w pr-review' Enter")
+terminal(command="tmux send-keys -t review 'cd /path/to/repo && claude -w pr-review' Enter")
 terminal(command="sleep 5 && tmux send-keys -t review Enter")  # Trust dialog
 terminal(command="sleep 2 && tmux send-keys -t review 'Review all changes vs main. Check for bugs, security issues, race conditions, and missing tests.' Enter")
 terminal(command="sleep 30 && tmux capture-pane -t review -p -S -60")
@@ -484,36 +484,36 @@ terminal(command="sleep 30 && tmux capture-pane -t review -p -S -60")
 
 ### PR Review from Number
 ```
-terminal(command="Codex -p 'Review this PR thoroughly' --from-pr 42 --max-turns 10", workdir="/path/to/repo", timeout=120)
+terminal(command="claude -p 'Review this PR thoroughly' --from-pr 42 --max-turns 10", workdir="/path/to/repo", timeout=120)
 ```
 
-### Codex Worktree with tmux
+### Claude Worktree with tmux
 ```
-terminal(command="Codex -w feature-x --tmux", workdir="/path/to/repo")
+terminal(command="claude -w feature-x --tmux", workdir="/path/to/repo")
 ```
-Creates an isolated git worktree at `.Codex/worktrees/feature-x` AND a tmux session for it. Uses iTerm2 native panes when available; add `--tmux=classic` for traditional tmux.
+Creates an isolated git worktree at `.claude/worktrees/feature-x` AND a tmux session for it. Uses iTerm2 native panes when available; add `--tmux=classic` for traditional tmux.
 
-## Parallel Codex Instances
+## Parallel Claude Instances
 
-Run multiple independent Codex tasks simultaneously:
+Run multiple independent Claude tasks simultaneously:
 
 ```
 # Task 1: Fix backend
-terminal(command="tmux new-session -d -s task1 -x 140 -y 40 && tmux send-keys -t task1 'cd ~/project && Codex -p \"Fix the auth bug in src/auth.py\" --allowedTools \"Read,Edit\" --max-turns 10' Enter")
+terminal(command="tmux new-session -d -s task1 -x 140 -y 40 && tmux send-keys -t task1 'cd ~/project && claude -p \"Fix the auth bug in src/auth.py\" --allowedTools \"Read,Edit\" --max-turns 10' Enter")
 
 # Task 2: Write tests
-terminal(command="tmux new-session -d -s task2 -x 140 -y 40 && tmux send-keys -t task2 'cd ~/project && Codex -p \"Write integration tests for the API endpoints\" --allowedTools \"Read,Write,Bash\" --max-turns 15' Enter")
+terminal(command="tmux new-session -d -s task2 -x 140 -y 40 && tmux send-keys -t task2 'cd ~/project && claude -p \"Write integration tests for the API endpoints\" --allowedTools \"Read,Write,Bash\" --max-turns 15' Enter")
 
 # Task 3: Update docs
-terminal(command="tmux new-session -d -s task3 -x 140 -y 40 && tmux send-keys -t task3 'cd ~/project && Codex -p \"Update README.md with the new API endpoints\" --allowedTools \"Read,Edit\" --max-turns 5' Enter")
+terminal(command="tmux new-session -d -s task3 -x 140 -y 40 && tmux send-keys -t task3 'cd ~/project && claude -p \"Update README.md with the new API endpoints\" --allowedTools \"Read,Edit\" --max-turns 5' Enter")
 
 # Monitor all
 terminal(command="sleep 30 && for s in task1 task2 task3; do echo '=== '$s' ==='; tmux capture-pane -t $s -p -S -5 2>/dev/null; done")
 ```
 
-## AGENTS.md — Project Context File
+## CLAUDE.md — Project Context File
 
-Codex auto-loads `AGENTS.md` from the project root. Use it to persist project context:
+Claude Code auto-loads `CLAUDE.md` from the project root. Use it to persist project context:
 
 ```markdown
 # Project: My API
@@ -537,30 +537,30 @@ Codex auto-loads `AGENTS.md` from the project root. Use it to persist project co
 
 **Be specific.** Instead of "Write good code", use "Use 2-space indentation for JS" or "Name test files with `.test.ts` suffix." Specific instructions save correction cycles.
 
-### Rules Directory (Modular AGENTS.md)
-For projects with many rules, use the rules directory instead of one massive AGENTS.md:
-- **Project rules:** `.Codex/rules/*.md` — team-shared, git-tracked
-- **User rules:** `~/.Codex/rules/*.md` — personal, global
+### Rules Directory (Modular CLAUDE.md)
+For projects with many rules, use the rules directory instead of one massive CLAUDE.md:
+- **Project rules:** `.claude/rules/*.md` — team-shared, git-tracked
+- **User rules:** `~/.claude/rules/*.md` — personal, global
 
-Each `.md` file in the rules directory is loaded as additional context. This is cleaner than cramming everything into a single AGENTS.md.
+Each `.md` file in the rules directory is loaded as additional context. This is cleaner than cramming everything into a single CLAUDE.md.
 
 ### Auto-Memory
-Codex automatically stores learned project context in `~/.Codex/projects/<project>/memory/`.
+Claude automatically stores learned project context in `~/.claude/projects/<project>/memory/`.
 - **Limit:** 25KB or 200 lines per project
-- This is separate from AGENTS.md — it's Codex's own notes about the project, accumulated across sessions
+- This is separate from CLAUDE.md — it's Claude's own notes about the project, accumulated across sessions
 
 ## Custom Subagents
 
-Define specialized agents in `.Codex/agents/` (project), `~/.Codex/agents/` (personal), or via `--agents` CLI flag (session):
+Define specialized agents in `.claude/agents/` (project), `~/.claude/agents/` (personal), or via `--agents` CLI flag (session):
 
 ### Agent Location Priority
-1. `.Codex/agents/` — project-level, team-shared
+1. `.claude/agents/` — project-level, team-shared
 2. `--agents` CLI flag — session-specific, dynamic
-3. `~/.Codex/agents/` — user-level, personal
+3. `~/.claude/agents/` — user-level, personal
 
 ### Creating an Agent
 ```markdown
-# .Codex/agents/security-reviewer.md
+# .claude/agents/security-reviewer.md
 ---
 name: security-reviewer
 description: Security-focused code review
@@ -578,14 +578,14 @@ Invoke via: `@security-reviewer review the auth module`
 
 ### Dynamic Agents via CLI
 ```
-terminal(command="Codex --agents '{\"reviewer\": {\"description\": \"Reviews code\", \"prompt\": \"You are a code reviewer focused on performance\"}}' -p 'Use @reviewer to check auth.py'", timeout=120)
+terminal(command="claude --agents '{\"reviewer\": {\"description\": \"Reviews code\", \"prompt\": \"You are a code reviewer focused on performance\"}}' -p 'Use @reviewer to check auth.py'", timeout=120)
 ```
 
-Codex can orchestrate multiple agents: "Use @db-expert to optimize queries, then @security to audit the changes."
+Claude can orchestrate multiple agents: "Use @db-expert to optimize queries, then @security to audit the changes."
 
 ## Hooks — Automation on Events
 
-Configure in `.Codex/settings.json` (project) or `~/.Codex/settings.json` (global):
+Configure in `.claude/settings.json` (project) or `~/.claude/settings.json` (global):
 
 ```json
 {
@@ -599,7 +599,7 @@ Configure in `.Codex/settings.json` (project) or `~/.Codex/settings.json` (globa
       "hooks": [{"type": "command", "command": "if echo \"$CLAUDE_TOOL_INPUT\" | grep -q 'rm -rf'; then echo 'Blocked!' && exit 2; fi"}]
     }],
     "Stop": [{
-      "hooks": [{"type": "command", "command": "echo 'Codex finished a response' >> /tmp/Codex-activity.log"}]
+      "hooks": [{"type": "command", "command": "echo 'Claude finished a response' >> /tmp/claude-activity.log"}]
     }]
   }
 }
@@ -608,11 +608,11 @@ Configure in `.Codex/settings.json` (project) or `~/.Codex/settings.json` (globa
 ### All 8 Hook Types
 | Hook | When it fires | Common use |
 |------|--------------|------------|
-| `UserPromptSubmit` | Before Codex processes a user prompt | Input validation, logging |
+| `UserPromptSubmit` | Before Claude processes a user prompt | Input validation, logging |
 | `PreToolUse` | Before tool execution | Security gates, block dangerous commands (exit 2 = block) |
 | `PostToolUse` | After a tool finishes | Auto-format code, run linters |
 | `Notification` | On permission requests or input waits | Desktop notifications, alerts |
-| `Stop` | When Codex finishes a response | Completion logging, status updates |
+| `Stop` | When Claude finishes a response | Completion logging, status updates |
 | `SubagentStop` | When a subagent completes | Agent orchestration |
 | `PreCompact` | Before context memory is cleared | Backup session transcripts |
 | `SessionStart` | When a session begins | Load dev context (e.g., `git status`) |
@@ -640,25 +640,25 @@ Add external tool servers for databases, APIs, and services:
 
 ```
 # GitHub integration
-terminal(command="Codex mcp add -s user github -- npx @modelcontextprotocol/server-github", timeout=30)
+terminal(command="claude mcp add -s user github -- npx @modelcontextprotocol/server-github", timeout=30)
 
 # PostgreSQL queries
-terminal(command="Codex mcp add -s local postgres -- npx @anthropic-ai/server-postgres --connection-string postgresql://localhost/mydb", timeout=30)
+terminal(command="claude mcp add -s local postgres -- npx @anthropic-ai/server-postgres --connection-string postgresql://localhost/mydb", timeout=30)
 
 # Puppeteer for web testing
-terminal(command="Codex mcp add puppeteer -- npx @anthropic-ai/server-puppeteer", timeout=30)
+terminal(command="claude mcp add puppeteer -- npx @anthropic-ai/server-puppeteer", timeout=30)
 ```
 
 ### MCP Scopes
 | Flag | Scope | Storage |
 |------|-------|---------|
-| `-s user` | Global (all projects) | `~/.Codex.json` |
-| `-s local` | This project (personal) | `.Codex/settings.local.json` (gitignored) |
-| `-s project` | This project (team-shared) | `.Codex/settings.json` (git-tracked) |
+| `-s user` | Global (all projects) | `~/.claude.json` |
+| `-s local` | This project (personal) | `.claude/settings.local.json` (gitignored) |
+| `-s project` | This project (team-shared) | `.claude/settings.json` (git-tracked) |
 
 ### MCP in Print/CI Mode
 ```
-terminal(command="Codex --bare -p 'Query database' --mcp-config mcp-servers.json --strict-mcp-config", timeout=60)
+terminal(command="claude --bare -p 'Query database' --mcp-config mcp-servers.json --strict-mcp-config", timeout=60)
 ```
 `--strict-mcp-config` ignores all MCP servers except those from `--mcp-config`.
 
@@ -674,13 +674,13 @@ Reference MCP resources in chat: `@github:issue://123`
 
 ### Reading the TUI Status
 ```
-# Periodic capture to check if Codex is still working or waiting for input
+# Periodic capture to check if Claude is still working or waiting for input
 terminal(command="tmux capture-pane -t dev -p -S -10")
 ```
 
 Look for these indicators:
-- `❯` at bottom = waiting for your input (Codex is done or asking a question)
-- `●` lines = Codex is actively using tools (reading, writing, running commands)
+- `❯` at bottom = waiting for your input (Claude is done or asking a question)
+- `●` lines = Claude is actively using tools (reading, writing, running commands)
 - `⏵⏵ bypass permissions on` = status bar showing permissions mode
 - `◐ medium · /effort` = current effort level in status bar
 - `ctrl+o to expand` = tool output was truncated (can be expanded interactively)
@@ -710,7 +710,7 @@ Use `/context` in interactive mode to see a colored grid of context usage. Key t
 4. **Use `--bare`** for CI/scripting to skip plugin/hook discovery overhead.
 5. **Use `--allowedTools`** to restrict to only what's needed (e.g., `Read` only for reviews).
 6. **Use `/compact`** in interactive sessions when context gets large.
-7. **Pipe input** instead of having Codex read files when you just need analysis of known content.
+7. **Pipe input** instead of having Claude read files when you just need analysis of known content.
 8. **Use `--model haiku`** for simple tasks (cheaper) and `--model opus` for complex multi-step work.
 9. **Use `--fallback-model haiku`** in print mode to gracefully handle model overload.
 10. **Start new sessions for distinct tasks** — sessions last 5 hours; fresh context is more efficient.
@@ -718,13 +718,13 @@ Use `/context` in interactive mode to see a colored grid of context usage. Key t
 
 ## Pitfalls & Gotchas
 
-1. **Interactive mode REQUIRES tmux** — Codex is a full TUI app. Using `pty=true` alone in Hermes terminal works but tmux gives you `capture-pane` for monitoring and `send-keys` for input, which is essential for orchestration.
+1. **Interactive mode REQUIRES tmux** — Claude Code is a full TUI app. Using `pty=true` alone in Hermes terminal works but tmux gives you `capture-pane` for monitoring and `send-keys` for input, which is essential for orchestration.
 2. **`--dangerously-skip-permissions` dialog defaults to "No, exit"** — you must send Down then Enter to accept. Print mode (`-p`) skips this entirely.
 3. **`--max-budget-usd` minimum is ~$0.05** — system prompt cache creation alone costs this much. Setting lower will error immediately.
 4. **`--max-turns` is print-mode only** — ignored in interactive sessions.
-5. **Codex may use `python` instead of `python3`** — on systems without a `python` symlink, Codex's bash commands will fail on first try but it self-corrects.
+5. **Claude may use `python` instead of `python3`** — on systems without a `python` symlink, Claude's bash commands will fail on first try but it self-corrects.
 6. **Session resumption requires same directory** — `--continue` finds the most recent session for the current working directory.
-7. **`--json-schema` needs enough `--max-turns`** — Codex must read files before producing structured output, which takes multiple turns.
+7. **`--json-schema` needs enough `--max-turns`** — Claude must read files before producing structured output, which takes multiple turns.
 8. **Trust dialog only appears once per directory** — first-time only, then cached.
 9. **Background tmux sessions persist** — always clean up with `tmux kill-session -t <name>` when done.
 10. **Slash commands (like `/commit`) only work in interactive mode** — in `-p` mode, describe the task in natural language instead.
@@ -735,11 +735,11 @@ Use `/context` in interactive mode to see a colored grid of context usage. Key t
 
 1. **Prefer print mode (`-p`) for single tasks** — cleaner, no dialog handling, structured output
 2. **Use tmux for multi-turn interactive work** — the only reliable way to orchestrate the TUI
-3. **Always set `workdir`** — keep Codex focused on the right project directory
+3. **Always set `workdir`** — keep Claude focused on the right project directory
 4. **Set `--max-turns` in print mode** — prevents infinite loops and runaway costs
 5. **Monitor tmux sessions** — use `tmux capture-pane -t <session> -p -S -50` to check progress
-6. **Look for the `❯` prompt** — indicates Codex is waiting for input (done or asking a question)
+6. **Look for the `❯` prompt** — indicates Claude is waiting for input (done or asking a question)
 7. **Clean up tmux sessions** — kill them when done to avoid resource leaks
-8. **Report results to user** — after completion, summarize what Codex did and what changed
-9. **Don't kill slow sessions** — Codex may be doing multi-step work; check progress instead
+8. **Report results to user** — after completion, summarize what Claude did and what changed
+9. **Don't kill slow sessions** — Claude may be doing multi-step work; check progress instead
 10. **Use `--allowedTools`** — restrict capabilities to what the task actually needs

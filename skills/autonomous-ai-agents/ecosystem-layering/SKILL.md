@@ -40,7 +40,7 @@ Every healthy multi-agent ecosystem separates into three planes. Each has a dist
 ```
 ┌─────────────────────────────────────────────┐
 │  CANONICAL PLANE  (Write here first)         │
-│  ~/my-supremepowers/, ~/.hermes/skills/      │
+│  ~/.agent-skills/, ~/.hermes/skills/      │
 │  Source of truth for skills, agents, rules   │
 │  EDIT: Always                                 │
 └──────────────┬──────────────────────────────┘
@@ -65,7 +65,7 @@ Every healthy multi-agent ecosystem separates into three planes. Each has a dist
 
 | Plane | Purpose | Edit Rule | Example Paths |
 |-------|---------|-----------|---------------|
-| **Canonical** | Single source of truth for behaviors | Always edit here; changes flow downstream | `~/my-supremepowers/skills/`, `~/.hermes/skills/` |
+| **Canonical** | Single source of truth for behaviors | Always edit here; changes flow downstream | `~/.agent-skills/skills/`, `~/.hermes/skills/` |
 | **Runtime** | What each agent actually loads | Never edit directly; adapt from canonical | `~/.cline/skills/`, `~/.codex/skills/`, `~/.cursor/skills/` |
 | **Librarian** | Cross-platform maps, inventories, analysis | Append; treat as documentation, not runtime | `~/Guides/`, `docs/ECOSYSTEM_MAP.md` |
 
@@ -192,7 +192,7 @@ Pick ONE directory as source of truth. Options:
 
 ```bash
 # Option A: Dedicated repo (recommended for shared ecosystems)
-~/my-supremepowers/skills/
+~/.agent-skills/skills/
 
 # Option B: Hermes Agent's own skill tree (for hermes-centric setups)
 ~/.hermes/skills/
@@ -245,11 +245,11 @@ After writing a skill in canonical, adapt it to each runtime:
 ```bash
 # Adapt canonical skill to Hermes Agent runtime
 python scripts/adapt-skill.py \
-  ~/my-supremepowers/skills/brainstorming/SKILL.md \
+  ~/.agent-skills/skills/brainstorming/SKILL.md \
   ~/.hermes/skills/software-development/brainstorming/SKILL.md
 
 # Batch-adapt all skills
-for skill in ~/my-supremepowers/skills/*/SKILL.md; do
+for skill in ~/.agent-skills/skills/*/SKILL.md; do
   name=$(basename $(dirname "$skill"))
   python scripts/adapt-skill.py "$skill" "~/.hermes/skills/$category/$name/SKILL.md"
 done
@@ -387,7 +387,7 @@ while IFS= read -r path; do
     */\.gemini/*) echo "GEMINI: $path" ;;
     */\.qwen/*) echo "QWEN: $path" ;;
     */\.hermes/*) echo "HERMES: $path" ;;
-    */my-supremepowers/*) echo "CANONICAL: $path" ;;
+    */.agent-skills/*) echo "CANONICAL: $path" ;;
     *) echo "UNKNOWN: $path" ;;
   esac
 done < /tmp/all-skills.txt | sort
