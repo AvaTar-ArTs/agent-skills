@@ -26,7 +26,7 @@ changelog beside the CSV.
 Last audited: 2026-07-15.
 
 - `agents/`: 108 non-hidden root agent/config files; 221 non-hidden files total.
-- `skills/`: 92 top-level directories plus 1 top-level symlink.
+- `skills/`: 92 non-hidden top-level directories, hidden `.system/`, plus 1 top-level symlink.
 - Direct/root-visible skills: 74 `SKILL.md` files within depth 2.
 - Local expanded skills: 181 `SKILL.md` files.
 - Symlink-followed runtime-visible skills: 182 `SKILL.md` files.
@@ -80,6 +80,9 @@ Each CSV script also appends a sibling changelog:
 6. Treat `skills/.system/` and `skills/skill-porter-examples/` as vendored or
    reference material; duplicate names there should not be considered active
    runtime conflicts unless those folders are promoted.
+7. Treat root `agents/*.md` files as the runtime primary surface when matching by
+   filename; categorized `agents/<group>/*.md` copies are retained for
+   organization.
 
 ## Git Notes
 

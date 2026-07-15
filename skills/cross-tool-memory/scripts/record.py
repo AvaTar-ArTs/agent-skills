@@ -1,1 +1,1 @@
-/Users/steven/.agent-skills/skills/self-evolving-memory/scripts/init_memory.py
+../../self-evolving-memory/scripts/init_memory.py

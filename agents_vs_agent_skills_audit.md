@@ -4,7 +4,7 @@ Generated: 2026-07-12T11:32:00
 
 ## Scope
 - Source/reference tree: `/Users/steven/.agents`
-- Active comparison tree: `/Users/steven/.Agent-skills`
+- Active comparison tree: `/Users/steven/.agent-skills`
 - Method: full file traversal, SHA-256 content hashes, relative path comparison, moved-file detection by hash, and metadata/content heuristics for text frontmatter.
 - No files were modified.
 
@@ -154,6 +154,6 @@ These are not missing; they appear to have been relocated/reorganized in the act
 - `agents/workspace-ecosystem-audit-data/` in `.agents` contains large generated CSV/JSON/DB-style audit outputs. Treat as historical evidence, not active runtime material.
 - `skills/agmsg/db/*` in `.agents` contains live-ish message DB artifacts. Do not copy into `.Agent-skills`; active writable DB roots are managed elsewhere.
 - `.DS_Store` files are ignored for promotion decisions.
-- `~/.agent-skills` and `~/.Agent-skills` both exist as directory entries with the same visible metadata; this audit used `/Users/steven/.Agent-skills`, matching the current workspace.
+- `~/.agent-skills` is the canonical local workspace; legacy audits may mention differently cased paths.
 
 Full machine-readable report: `/private/tmp/agents_vs_agent_skills_audit.json`
