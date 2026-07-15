@@ -1,0 +1,1082 @@
+{
+  "generated_at": "2026-07-12T11:38:08",
+  "roots": {
+    "local_agents": "/Users/steven/.agents",
+    "active_agent_skills": "/Users/steven/.Agent-skills",
+    "github_agents": "/Users/steven/.Agent-skills/tmp/github-avatar-arts-dot-agents"
+  },
+  "active_excludes": [
+    ".codex-history",
+    ".git",
+    "tmp",
+    "tmp-csv",
+    "tmp-md"
+  ],
+  "github_excludes": [
+    "plugins"
+  ],
+  "github_commit": "9d0849a Add repository README",
+  "counts": {
+    "local_agents": {
+      "files": 1024,
+      "dirs": 398
+    },
+    "active_agent_skills": {
+      "files": 1089,
+      "dirs": 388
+    },
+    "github_agents": {
+      "files": 1052,
+      "dirs": 370
+    }
+  },
+  "presence_counts": {
+    "LAG": 960,
+    "L": 56,
+    "AG": 87,
+    "A": 39,
+    "LG": 5,
+    "LA": 3
+  },
+  "local_vs_active": {
+    "same_path_different": 94,
+    "local_not_active_candidates": [
+      "agents/.gitkeep",
+      "agents/AGENT_NORMALIZATION_REGISTRY.md",
+      "agents/REGISTRY.md",
+      "agents/SUBAGENTS_GUIDE.md",
+      "agents/SUBAGENT_QUICK_REFERENCE.md",
+      "agents/api-specialist/agent.md",
+      "agents/backend-architect/agent.md",
+      "agents/context-management/agent.md",
+      "agents/database-specialist/agent.md",
+      "agents/devops-engineer/agent.md",
+      "agents/ecosystem-learning/agent.md",
+      "agents/ecosystem-synergy/agent.md",
+      "agents/find-docs/SKILL.md",
+      "agents/frontend-architect/agent.md",
+      "agents/ice-tracker-assistant/agent.md",
+      "agents/integrated-evolution/agent.md",
+      "agents/javascript-expert/agent.md",
+      "agents/performance-engineer/agent.md",
+      "agents/python-expert/agent.md",
+      "agents/security-engineer/agent.md",
+      "agents/self-evolution/agent.md",
+      "agents/self-evolution-plan.md",
+      "agents/system-architect/agent.md",
+      "agents/task-management/agent.md",
+      "agents/technical-writer/agent.md",
+      "agents/testing-specialist/agent.md",
+      "skills/agmsg/.agmsg",
+      "skills/agmsg/db/config.yaml"
+    ],
+    "relocated_duplicates": [
+      [
+        "agents/.gitkeep",
+        [
+          "skills/creative/pixel-art/scripts/__init__.py",
+          "skills/creative/structured-asset-pipeline/scripts/common/__init__.py",
+          "skills/creative/structured-asset-pipeline/tests/__init__.py",
+          "skills/productivity/powerpoint/scripts/__init__.py",
+          "skills/productivity/powerpoint/scripts/office/helpers/__init__.py"
+        ]
+      ],
+      [
+        "agents/api-specialist/agent.md",
+        [
+          "agents/api-specialist.md"
+        ]
+      ],
+      [
+        "agents/context-management/agent.md",
+        [
+          "agents/5-misc-personal/context-management.md"
+        ]
+      ],
+      [
+        "agents/ecosystem-learning/agent.md",
+        [
+          "agents/5-misc-personal/ecosystem-learning.md"
+        ]
+      ],
+      [
+        "agents/ecosystem-synergy/agent.md",
+        [
+          "agents/5-misc-personal/ecosystem-synergy.md"
+        ]
+      ],
+      [
+        "agents/ice-tracker-assistant/agent.md",
+        [
+          "agents/5-misc-personal/ice-tracker-assistant.md"
+        ]
+      ],
+      [
+        "agents/integrated-evolution/agent.md",
+        [
+          "agents/5-misc-personal/integrated-evolution.md"
+        ]
+      ],
+      [
+        "agents/self-evolution/agent.md",
+        [
+          "agents/5-misc-personal/self-evolution.md"
+        ]
+      ],
+      [
+        "agents/task-management/agent.md",
+        [
+          "agents/5-misc-personal/task-management.md"
+        ]
+      ],
+      [
+        "agents/workspace-ecosystem-audit-data/docs-07-09-21:01.csv",
+        [
+          "skills/workspace-ecosystem-audit/references/workspace-ecosystem-audit-data-docs.csv"
+        ]
+      ],
+      [
+        "agents/workspace-ecosystem-audit-data/enriched-workspace-ecosystem-audit-data.csv",
+        [
+          "skills/workspace-ecosystem-audit/references/workspace-ecosystem-audit-data-index.csv"
+        ]
+      ],
+      [
+        "skills/agmsg/.agmsg",
+        [
+          "skills/creative/pixel-art/scripts/__init__.py",
+          "skills/creative/structured-asset-pipeline/scripts/common/__init__.py",
+          "skills/creative/structured-asset-pipeline/tests/__init__.py",
+          "skills/productivity/powerpoint/scripts/__init__.py",
+          "skills/productivity/powerpoint/scripts/office/helpers/__init__.py"
+        ]
+      ],
+      [
+        "skills/agmsg/db/messages.db-wal",
+        [
+          "skills/creative/pixel-art/scripts/__init__.py",
+          "skills/creative/structured-asset-pipeline/scripts/common/__init__.py",
+          "skills/creative/structured-asset-pipeline/tests/__init__.py",
+          "skills/productivity/powerpoint/scripts/__init__.py",
+          "skills/productivity/powerpoint/scripts/office/helpers/__init__.py"
+        ]
+      ]
+    ],
+    "same_path_different_examples": [
+      {
+        "rel": ".DS_Store",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 10244,
+        "active_size": 10244,
+        "local_desc": null,
+        "active_desc": null
+      },
+      {
+        "rel": "agents/.DS_Store",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 18436,
+        "active_size": 8196,
+        "local_desc": null,
+        "active_desc": null
+      },
+      {
+        "rel": "agents/agent-creation-guidance.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 3967,
+        "active_size": 3839,
+        "local_desc": "Provides a structured approach and best practices for creating new agents, covering purpose definition, skill integration, context management, and iterative refinement. Use when initiating the development of a new AI agent.",
+        "active_desc": "Use when working with: agent, creation, guidance. Activates for: agent,"
+      },
+      {
+        "rel": "agents/ai-engineer.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 5595,
+        "active_size": 4268,
+        "local_desc": "|",
+        "active_desc": "Use this agent when implementing AI/ML features, integrating language models, building recommendation systems, or adding intelligent automation to applications."
+      },
+      {
+        "rel": "agents/ai-music-video-creator.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 2593,
+        "active_size": 2357,
+        "local_desc": "Use this agent when creating AI-powered music videos that transform lyrics into visually compelling stories using DALL\u00b7E, Runway, Sora, and Python automation. This agent specializes in lyric analysis, emotional visual storytelling, and technical precision for YouTube and Instagram content.",
+        "active_desc": "AI-powered music video creator specializing in lyric-to-visual storytelling."
+      },
+      {
+        "rel": "agents/ai-workflow-manager.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 8764,
+        "active_size": 8645,
+        "local_desc": "Multi-AI orchestration expert. Use proactively for routing tasks between Claude, Qwen, aider-env, and Ollama. Optimizes AI tool selection based on task type, complexity, and priority for maximum efficiency.",
+        "active_desc": "Use when working with: ai, workflow, manager. Activates for: ai, workflow,"
+      },
+      {
+        "rel": "agents/ai-xeo.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 1080,
+        "active_size": 991,
+        "local_desc": "Generates distinct variations across personas, platforms, and narratives for XEO/AEO/SEO product ideas; use proactively when exploring niche creation and demand/offer gaps.",
+        "active_desc": "Use when working with: ai, xeo, agent support. Activates for: ai, xeo,"
+      },
+      {
+        "rel": "agents/analytics-reporter.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 8179,
+        "active_size": 6375,
+        "local_desc": "|",
+        "active_desc": "Use this agent when analyzing metrics, generating insights from data, creating performance reports, or making data-driven recommendations."
+      },
+      {
+        "rel": "agents/api-specialist.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 2631,
+        "active_size": 1693,
+        "local_desc": null,
+        "active_desc": "Use when designing, documenting, versioning, or securing APIs. Activates for: API, REST, RESTful, GraphQL, gRPC, endpoint, OpenAPI, Swagger, API design, versioning, integration, webhook, rate limit. Expertise: API design, REST/GraphQL/gRPC, OpenAPI/Swagger, versioning, API security, integration patterns."
+      },
+      {
+        "rel": "agents/api-tester.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 8034,
+        "active_size": 6309,
+        "local_desc": "|",
+        "active_desc": "Use this agent for comprehensive API testing including performance testing, load testing, and contract testing."
+      },
+      {
+        "rel": "agents/app-store-optimizer.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 7797,
+        "active_size": 6086,
+        "local_desc": "|",
+        "active_desc": "Use this agent when preparing app store listings, researching keywords, optimizing app metadata, improving conversion rates, or analyzing app store performance."
+      },
+      {
+        "rel": "agents/avatararts-organizer.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 5262,
+        "active_size": 5164,
+        "local_desc": "AVATARARTS directory structure expert. Use proactively for organizing files, maintaining the 8-category structure, consolidating content, and ensuring enterprise-grade organization within AVATARARTS ecosystem.",
+        "active_desc": "Use when working with: avatararts, organizer, agent support. Activates"
+      },
+      {
+        "rel": "agents/backend-architect.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 2480,
+        "active_size": 2129,
+        "local_desc": null,
+        "active_desc": "Use when working with: backend, architect, agent support. Activates"
+      },
+      {
+        "rel": "agents/brand-guardian.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 9292,
+        "active_size": 7572,
+        "local_desc": "|",
+        "active_desc": "Use this agent when establishing brand guidelines, ensuring visual consistency, managing brand assets, or evolving brand identity."
+      },
+      {
+        "rel": "agents/capability-atlas.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 3341,
+        "active_size": 2019,
+        "local_desc": "Use when translating a capability across hosts, creating a capability matrix, mirroring a skill or agent into Gemini/Codex/Qwen/Cursor, preserving parity across renderings, or deciding whether a function should be a skill, agent, hook, command, script, plugin, extension, doc, plan, or test. Examples:",
+        "active_desc": "Coordinator for mapping and translating capabilities across different hosts and formats."
+      },
+      {
+        "rel": "agents/code-review.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 3888,
+        "active_size": 2848,
+        "local_desc": "|",
+        "active_desc": "Use this agent when a major project step has been completed and needs to be reviewed against the original plan and coding standards."
+      },
+      {
+        "rel": "agents/code-reviewer.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 3888,
+        "active_size": 2243,
+        "local_desc": "|",
+        "active_desc": "Use when working with: code, reviewer, agent support. Activates for:"
+      },
+      {
+        "rel": "agents/content-consolidator.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 11199,
+        "active_size": 11094,
+        "local_desc": "Advanced content deduplication and consolidation specialist. Use proactively for finding duplicates, merging directories, content-aware comparison, and maintaining zero-redundancy across AVATARARTS and entire system.",
+        "active_desc": "Use when working with: content, consolidator, agent support. Activates"
+      },
+      {
+        "rel": "agents/content-organizer.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 2745,
+        "active_size": 2491,
+        "local_desc": "Use this agent when you need to organize, categorize, or structure content based on its semantic meaning, context, or relationships. This agent excels at analyzing content and determining optimal organizational structures, whether that's file organization, content categorization, or structuring documents according to defined patterns.",
+        "active_desc": "Use when working with: content, organizer, agent support. Activates"
+      },
+      {
+        "rel": "agents/context-fetcher.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 3954,
+        "active_size": 2845,
+        "local_desc": "Efficiently retrieves specific documentation and context information without duplication. Use when you need targeted information from project specs, standards, or documentation. Examples:\\n\\n<example>\\nContext: Working on authentication feature, need security standards\\nuser: \"Get the security best practices from our standards\"\\nassistant: \"I'll fetch the security section from standards/best-practices.md and return only the relevant authentication guidelines.\"\\n<commentary>\\nPrevents loading entire documents when only specific sections are needed\\n</commentary>\\n</example>\\n\\n<example>\\nContext: Implementing new API endpoint, need existing patterns\\nuser: \"Find similar API implementations in our specs\"\\nassistant: \"I'll search through specs/ for API patterns and return the relevant examples without duplicating existing context.\"\\n<commentary>\\nTargeted retrieval reduces token usage while providing necessary context\\n</commentary>\\n</example>\\n\\n<example>\\nContext: Need project mission statement for feature alignment\\nuser: \"Get our product mission for this feature\"\\nassistant: \"I'll extract the mission statement from product/mission.md if it's not already in context.\"\\n<commentary>\\nSmart context checking prevents redundant information loading\\n</commentary>\\n</example>",
+        "active_desc": "Efficiently retrieves specific documentation and context information without duplication. Use when you need targeted information from project specs, standards, or documentation."
+      },
+      {
+        "rel": "agents/context-handoff-compiler.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 5919,
+        "active_size": 4286,
+        "local_desc": "Use this agent when the user requests to compile, analyze, sort, organize, and improve context or information that was previously discussed or provided, particularly when preparing a comprehensive handoff document. Examples:\\n\\n- <example>\\nContext: User has been discussing a complex project with multiple components and now wants to create a handoff.\\nuser: \"compile analyze sort organize and improve ALL the above starting at the very beginning into a handoff\"\\nassistant: \"I'm going to use the Task tool to launch the context-handoff-compiler agent to create a comprehensive, well-organized handoff document from our discussion.\"\\n<commentary>The user is requesting a compilation and organization of previous context, so use the context-handoff-compiler agent.</commentary>\\n</example>\\n\\n- <example>\\nContext: After a long conversation about project requirements and decisions.\\nuser: \"Can you organize everything we've discussed into a proper handoff?\"\\nassistant: \"Let me use the context-handoff-compiler agent to compile and organize all the information from our conversation into a structured handoff document.\"\\n<commentary>User needs previous context compiled into a handoff, which is the primary function of context-handoff-compiler.</commentary>\\n</example>\\n\\n- <example>\\nContext: User has provided multiple pieces of code, instructions, and requirements.\\nuser: \"Please create a comprehensive summary of everything above\"\\nassistant: \"I'll use the context-handoff-compiler agent to analyze and organize all the provided information into a comprehensive handoff.\"\\n<commentary>Compiling and organizing previous context requires the context-handoff-compiler agent.</commentary>\\n</example>",
+        "active_desc": "Use when working with: context, handoff, compiler. Activates for: context,"
+      },
+      {
+        "rel": "agents/context-management.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 764,
+        "active_size": 919,
+        "local_desc": null,
+        "active_desc": "Use when working with: context, management, agent support. Activates"
+      },
+      {
+        "rel": "agents/database-specialist.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 2769,
+        "active_size": 2487,
+        "local_desc": null,
+        "active_desc": "Use when working with: database, specialist, agent support. Activates"
+      },
+      {
+        "rel": "agents/date-checker.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 4445,
+        "active_size": 3465,
+        "local_desc": "Provides current date and time information for timestamps, logging, and file naming. Use when you need accurate date/time context. Examples:\\n\\n<example>\\nContext: Creating log files with timestamps\\nuser: \"Create a deployment log file with today's date\"\\nassistant: \"I'll determine today's date (2024-01-15) and create deployment-log-2024-01-15.md with proper timestamp headers.\"\\n<commentary>\\nSimple date retrieval prevents main conversation from handling time context\\n</commentary>\\n</example>\\n\\n<example>\\nContext: Need to timestamp commits or releases\\nuser: \"What's today's date for the release tag?\"\\nassistant: \"Today is 2024-01-15, I'll format it as v1.2.0-20240115 for the release tag.\"\\n<commentary>\\nDate formatting for versioning and tagging systems\\n</commentary>\\n</example>\\n\\n<example>\\nContext: Setting up scheduled tasks or cron jobs\\nuser: \"Schedule this task for next Monday\"\\nassistant: \"Today is Wednesday, 2024-01-15, so next Monday would be 2024-01-20. I'll set up the schedule accordingly.\"\\n<commentary>\\nDate calculation and scheduling context for task management\\n</commentary>\\n</example>",
+        "active_desc": "Provides current date and time information for timestamps, logging, and file naming. Use when you need accurate date/time context."
+      },
+      {
+        "rel": "agents/devops-automator.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 5162,
+        "active_size": 3853,
+        "local_desc": "|",
+        "active_desc": "Use this agent when setting up CI/CD pipelines, configuring cloud infrastructure, implementing monitoring systems, or automating deployment processes."
+      },
+      {
+        "rel": "agents/devops-engineer.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 2832,
+        "active_size": 2483,
+        "local_desc": null,
+        "active_desc": "Use when working with: devops, engineer, agent support. Activates for:"
+      },
+      {
+        "rel": "agents/documentation-management.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 1279,
+        "active_size": 1259,
+        "local_desc": "Use this agent when documentation needs to be created, corrected, consolidated, or updated to match current system behavior.",
+        "active_desc": "Use when working with: documentation, management, agent support. Activates"
+      },
+      {
+        "rel": "agents/documentation/agent.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 681,
+        "active_size": 686,
+        "local_desc": null,
+        "active_desc": null
+      },
+      {
+        "rel": "agents/ecosystem-analyzer.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 5168,
+        "active_size": 4907,
+        "local_desc": "Development ecosystem audit and consolidation strategist. Use proactively when analyzing directory structures, detecting structural redundancies, quantifying storage waste, identifying version proliferation, planning directory reorganizations, or auditing any development environment. Complements content-consolidator (file-level) by working at the architecture level.",
+        "active_desc": "Use when working with: ecosystem, analyzer, agent support. Activates"
+      },
+      {
+        "rel": "agents/ecosystem-learning.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 2453,
+        "active_size": 2608,
+        "local_desc": null,
+        "active_desc": "Use when working with: ecosystem, learning, agent support. Activates"
+      },
+      {
+        "rel": "agents/ecosystem-synergy.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 5518,
+        "active_size": 5670,
+        "local_desc": null,
+        "active_desc": "Use when working with: ecosystem, synergy, agent support. Activates"
+      },
+      {
+        "rel": "agents/experiment-tracker.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 7616,
+        "active_size": 5771,
+        "local_desc": "|",
+        "active_desc": "PROACTIVELY use this agent when experiments are started, modified, or when results need analysis. Trigger when feature flags are introduced, A/B tests deployed, experiment milestones reached, or data-driven product decisions are needed."
+      },
+      {
+        "rel": "agents/file-creator.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 4660,
+        "active_size": 3565,
+        "local_desc": "Handles mechanical file and directory creation tasks efficiently. Use for creating project structure, templates, and batch file operations. Examples:\\n\\n<example>\\nContext: Starting new feature development\\nuser: \"Create the standard directory structure for user authentication feature\"\\nassistant: \"I'll create src/features/auth/, tests/auth/, and docs/auth/ directories with initial template files.\"\\n<commentary>\\nHandles repetitive file structure creation, freeing main conversation for logic\\n</commentary>\\n</example>\\n\\n<example>\\nContext: Need component files with standard templates\\nuser: \"Create React component files for UserProfile with TypeScript\"\\nassistant: \"I'll create UserProfile.tsx, UserProfile.module.css, UserProfile.test.tsx with appropriate templates.\"\\n<commentary>\\nMechanical file creation with consistent templates and naming conventions\\n</commentary>\\n</example>\\n\\n<example>\\nContext: Setting up new project documentation\\nuser: \"Create spec files for the new API endpoints\"\\nassistant: \"I'll generate spec.md, api-spec.md, and technical-requirements.md with proper headers and placeholders.\"\\n<commentary>\\nBatch operations for related files, ensuring consistency across project docs\\n</commentary>\\n</example>",
+        "active_desc": "Handles mechanical file and directory creation tasks efficiently. Use for creating project structure, templates, and batch file operations."
+      },
+      {
+        "rel": "agents/filesystem-inventory.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 3560,
+        "active_size": 3408,
+        "local_desc": "Expert at scanning multiple directories and producing structured inventory reports (CSV + Markdown with TOC). Use proactively when the user wants a full look into a list of paths, dot directories, or home folders, or when compiling findings across many locations.",
+        "active_desc": "Use when working with: filesystem, inventory, agent support. Activates"
+      },
+      {
+        "rel": "agents/finance-tracker.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 9176,
+        "active_size": 7431,
+        "local_desc": "|",
+        "active_desc": "Use this agent when managing budgets, optimizing costs, forecasting revenue, or analyzing financial performance."
+      },
+      {
+        "rel": "agents/frontend-architect.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 2612,
+        "active_size": 2276,
+        "local_desc": null,
+        "active_desc": "Use when working with: frontend, architect, agent support. Activates"
+      },
+      {
+        "rel": "agents/frontend-developer.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 5319,
+        "active_size": 3984,
+        "local_desc": "|",
+        "active_desc": "Use this agent when building user interfaces, implementing React/Vue/Angular components, handling state management, or optimizing frontend performance."
+      },
+      {
+        "rel": "agents/git-workflow.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 10368,
+        "active_size": 9232,
+        "local_desc": "Manages git operations and workflow automation with safety-first practices. Use for branch management, commits, and pull request creation. Examples:\\n\\n<example>\\nContext: Feature development completed, ready for PR\\nuser: \"Create a pull request for the user authentication feature\"\\nassistant: \"I'll create a feature branch, stage changes, commit with descriptive message, and generate a comprehensive PR with proper template.\"\\n<commentary>\\nEnd-to-end git workflow automation with safety checks and best practices\\n</commentary>\\n</example>\\n\\n<example>\\nContext: Starting new feature development\\nuser: \"Set up git branch for payment processing feature\"\\nassistant: \"I'll create a feature/payment-processing branch following naming conventions and ensure clean starting state.\"\\n<commentary>\\nStandardized branch creation with proper naming and validation\\n</commentary>\\n</example>\\n\\n<example>\\nContext: Multiple commits need to be organized before PR\\nuser: \"Clean up the commit history and prepare for code review\"\\nassistant: \"I'll review commits, suggest squash opportunities, and ensure descriptive commit messages before PR creation.\"\\n<commentary>\\nGit history management and preparation for collaborative review\\n</commentary>\\n</example>",
+        "active_desc": "Manages git operations and workflow automation with safety-first practices. Use for branch management, commits, and pull request creation."
+      },
+      {
+        "rel": "agents/ice-tracker-assistant.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 4177,
+        "active_size": 4319,
+        "local_desc": null,
+        "active_desc": "Use when working with: ice, tracker, assistant. Activates for: ice,"
+      },
+      {
+        "rel": "agents/infrastructure-maintainer.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 8500,
+        "active_size": 6722,
+        "local_desc": "|",
+        "active_desc": "Use this agent when monitoring system health, optimizing performance, managing scaling, or ensuring infrastructure reliability."
+      },
+      {
+        "rel": "agents/integrated-evolution.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 3653,
+        "active_size": 3814,
+        "local_desc": null,
+        "active_desc": "Use when working with: integrated, evolution, agent support. Activates"
+      },
+      {
+        "rel": "agents/iterm2-ecosystem-dev.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 24996,
+        "active_size": 22433,
+        "local_desc": null,
+        "active_desc": "Use this agent when working on code, scripts, configurations, or documentation within the /Users/steven/iterm2 repository and its sub-ecosystems (agent_ops, claude-ecosystem, cursor-ecosystem, gemini, Codex, .qwen, superpowers-codex-product)."
+      },
+      {
+        "rel": "agents/javascript-expert.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 2568,
+        "active_size": 2230,
+        "local_desc": null,
+        "active_desc": "Use when working with: javascript, expert, agent support. Activates"
+      },
+      {
+        "rel": "agents/joker.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 1779,
+        "active_size": 1089,
+        "local_desc": "|",
+        "active_desc": "Use this agent when you need to lighten the mood, create funny content, or add humor to any situation. Specializes in dad jokes, programming puns, and startup humor."
+      },
+      {
+        "rel": "agents/knowledge-automation-strategist.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 6165,
+        "active_size": 5889,
+        "local_desc": "Use this agent when developing strategic plans for integrating AI-driven knowledge management systems with automation tools to drive business growth and optimize operations. This agent specializes in creating comprehensive roadmaps that leverage predictive analytics, trend analysis, and ROI forecasting to maximize automation effectiveness while minimizing risks.",
+        "active_desc": "Use when working with: knowledge, automation, strategist. Activates"
+      },
+      {
+        "rel": "agents/knowledge-fetcher.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 4318,
+        "active_size": 3176,
+        "local_desc": "Retrieves information from external knowledge sources including personal libraries, technical documentation, and web search. Use when you need information from Readwise, Context7, or current web sources. Examples:",
+        "active_desc": "Use this agent when retrieving information from external knowledge sources including Readwise, Context7 documentation, or current web search."
+      },
+      {
+        "rel": "agents/legal-compliance-checker.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 8878,
+        "active_size": 7122,
+        "local_desc": "|",
+        "active_desc": "Use this agent when reviewing terms of service, privacy policies, ensuring regulatory compliance, or handling legal requirements for app development."
+      },
+      {
+        "rel": "agents/mobile-app-builder.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 5151,
+        "active_size": 3806,
+        "local_desc": "|",
+        "active_desc": "Use this agent when developing native iOS or Android applications, implementing React Native features, or optimizing mobile performance."
+      },
+      {
+        "rel": "agents/notebooklm-enhancement-advisor.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 6555,
+        "active_size": 4841,
+        "local_desc": "Use this agent when you need guidance on implementing next-level enhancements to the NotebookLM skill. This agent analyzes your specific needs, priorities, and constraints to recommend which improvements will deliver the most value for your use case. It helps you evaluate trade-offs between complexity and benefit, prioritize features based on your workflow, and create an implementation roadmap.\\\\n\\\\n<example>\\\\nContext: A user has a NotebookLM skill and wants to know which enhancements would be most impactful for their research workflow.\\\\nuser: \\\"We do a lot of batch research queries, and our team needs to share findings. What should we implement first?\\\"\\\\nassistant: \\\"I'll use the notebooklm-enhancement-advisor agent to analyze your specific needs and recommend a prioritized implementation strategy.\\\"\\\\n<function call to Task tool with notebooklm-enhancement-advisor>\\\\nassistant: \\\"Based on your batch research and sharing requirements, here's my recommended roadmap: Start with [Feature A] for immediate productivity gains, then layer in [Feature B] for team collaboration. Here's why this sequence makes sense for your workflow...\\\"\\\\n</example>\\\\n\\\\n<example>\\\\nContext: A user is overwhelmed by the many enhancement options and needs help deciding what's worth implementing.\\\\nuser: \\\"There are so many possible improvements. How do I know which ones to focus on?\\\"\\\\nassistant: \\\"Let me use the notebooklm-enhancement-advisor to help you evaluate these options against your actual needs and constraints.\\\"\\\\n<function call to Task tool with notebooklm-enhancement-advisor>\\\\nassistant: \\\"I've analyzed all 15+ enhancement options. Here are the quick wins vs. high-impact long-term investments, how they relate to each other, and a phased implementation plan...\\\"\\\\n</example>",
+        "active_desc": "Use when working with: notebooklm, enhancement, advisor. Activates for:"
+      },
+      {
+        "rel": "agents/path-list-analyzer.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 2630,
+        "active_size": 2445,
+        "local_desc": "Analyzes and organizes large path lists (files or pasted paths). Use proactively when the user has a path list (e.g. 30k-paths.txt), wants to classify by prefix/type, dedupe, sort, or produce a taxonomy or inventory summary for reference-resources-inventory or \u00a79 flow.",
+        "active_desc": "Use when working with: path, list, analyzer. Activates for: path, list,"
+      },
+      {
+        "rel": "agents/performance-benchmarker.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 8767,
+        "active_size": 7023,
+        "local_desc": "|",
+        "active_desc": "Use this agent for comprehensive performance testing, profiling, and optimization recommendations."
+      },
+      {
+        "rel": "agents/performance-engineer.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 2663,
+        "active_size": 2351,
+        "local_desc": null,
+        "active_desc": "Use when working with: performance, engineer, agent support. Activates"
+      },
+      {
+        "rel": "agents/project-launch-manager.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 2890,
+        "active_size": 2619,
+        "local_desc": "Use this agent when you need to prioritize, plan, and execute launches for multiple business projects and products. This agent specializes in organizing complex project portfolios, identifying immediate action items, and creating systematic approaches to market entry across different platforms (SaaS, marketplaces, content platforms, etc.).",
+        "active_desc": "Use when working with: project, launch, manager. Activates for: project,"
+      },
+      {
+        "rel": "agents/project-shipper.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 8785,
+        "active_size": 6837,
+        "local_desc": "|",
+        "active_desc": "PROACTIVELY use this agent when approaching launch milestones, release deadlines, or go-to-market activities. Trigger when release dates are set, launch plans are needed, GTM positioning is discussed, or post-launch monitoring is required."
+      },
+      {
+        "rel": "agents/python-expert.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 2510,
+        "active_size": 2210,
+        "local_desc": null,
+        "active_desc": "Use when working with: python, expert, agent support. Activates for:"
+      },
+      {
+        "rel": "agents/rapid-prototyper.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 6822,
+        "active_size": 4968,
+        "local_desc": "|",
+        "active_desc": "Use this agent when you need to quickly create a new application prototype, MVP, or proof-of-concept. Trigger when starting new experiments, validating business ideas, capitalizing on trends, or building demo apps for stakeholders."
+      },
+      {
+        "rel": "agents/revenue-optimizer.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 10561,
+        "active_size": 10442,
+        "local_desc": "Revenue generation and product launch expert. Use proactively for monetization strategies, Gumroad launches, pricing optimization, customer acquisition, and maximizing the $950K+ revenue potential across AVATARARTS products.",
+        "active_desc": "Use when working with: revenue, optimizer, agent support. Activates"
+      },
+      {
+        "rel": "agents/security-engineer.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 2745,
+        "active_size": 2425,
+        "local_desc": null,
+        "active_desc": "Use when working with: security, engineer, agent support. Activates"
+      },
+      {
+        "rel": "agents/self-evolution.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 2103,
+        "active_size": 2246,
+        "local_desc": null,
+        "active_desc": "Use when working with: self, evolution, agent support. Activates for:"
+      },
+      {
+        "rel": "agents/seo-keyword-analyst.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 3631,
+        "active_size": 3480,
+        "local_desc": "Use this agent when you need to identify and analyze trending SEO keyword themes in AI/tech, including prioritization, search intent analysis, content strategy recommendations, and a 90-day implementation playbook with validation metrics.",
+        "active_desc": "Use when working with: seo, keyword, analyst. Activates for: seo, keyword,"
+      },
+      {
+        "rel": "agents/skill-creator/SKILL.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 18838,
+        "active_size": 18847,
+        "local_desc": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Codex's capabilities with specialized knowledge, workflows, or tool integrations.",
+        "active_desc": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Codex's capabilities with specialized knowledge, workflows, or tool integrations."
+      },
+      {
+        "rel": "agents/skill-creator/references/openai_yaml.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 2080,
+        "active_size": 2085,
+        "local_desc": null,
+        "active_desc": null
+      },
+      {
+        "rel": "agents/skill-installer/SKILL.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 3348,
+        "active_size": 3365,
+        "local_desc": "Install Codex skills into $CODEX_HOME/skills from a curated list or a GitHub repo path. Use when a user asks to list installable skills, install a curated skill, or install a skill from another repo (including private repos).",
+        "active_desc": "Install Codex skills into $CODEX_HOME/skills from a curated list or a GitHub repo path. Use when a user asks to list installable skills, install a curated skill, or install a skill from another repo (including private repos)."
+      },
+      {
+        "rel": "agents/skill-porter/README.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 5248,
+        "active_size": 5257,
+        "local_desc": null,
+        "active_desc": null
+      },
+      {
+        "rel": "agents/skill-porter/api-connector-gemini/GEMINI.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 771,
+        "active_size": 782,
+        "local_desc": null,
+        "active_desc": null
+      },
+      {
+        "rel": "agents/skill-porter/before-after/api-connector-converted/GEMINI.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 771,
+        "active_size": 782,
+        "local_desc": null,
+        "active_desc": null
+      },
+      {
+        "rel": "agents/skill-porter/before-after/api-connector-converted/SKILL.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 1621,
+        "active_size": 1633,
+        "local_desc": "Connect to REST APIs, manage authentication, and process responses. Use for API integration tasks.",
+        "active_desc": "Connect to REST APIs, manage authentication, and process responses. Use for API integration tasks."
+      },
+      {
+        "rel": "agents/skill-porter/before-after/code-formatter-converted/GEMINI.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 1127,
+        "active_size": 1138,
+        "local_desc": null,
+        "active_desc": null
+      },
+      {
+        "rel": "agents/skill-porter/before-after/code-formatter-converted/SKILL.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 928,
+        "active_size": 940,
+        "local_desc": "Formats code files using prettier and eslint. Use when the user wants to format code, fix linting issues, or clean up code style.",
+        "active_desc": "Formats code files using prettier and eslint. Use when the user wants to format code, fix linting issues, or clean up code style."
+      },
+      {
+        "rel": "agents/skill-porter/simple-claude-skill/SKILL.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 914,
+        "active_size": 926,
+        "local_desc": "A simple example skill for demonstration purposes",
+        "active_desc": "A simple example skill for demonstration purposes"
+      },
+      {
+        "rel": "agents/sprint-prioritizer.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 5009,
+        "active_size": 3781,
+        "local_desc": "|",
+        "active_desc": "Use this agent when planning development cycles, prioritizing features, managing product roadmaps, or making trade-off decisions. Trigger for sprint planning, feature trade-offs, or mid-sprint scope changes."
+      },
+      {
+        "rel": "agents/studio-coach.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 8283,
+        "active_size": 6448,
+        "local_desc": "|",
+        "active_desc": "PROACTIVELY use this agent when complex multi-agent tasks begin, when agents seem stuck, or when the team needs coordination. Trigger at the start of challenging projects, when detecting agent confusion, or for pre-sprint alignment."
+      },
+      {
+        "rel": "agents/studio-producer.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 9136,
+        "active_size": 7129,
+        "local_desc": "|",
+        "active_desc": "PROACTIVELY use this agent when coordinating across multiple teams, allocating resources, or optimizing studio workflows. Trigger when team dependencies arise, resource conflicts occur, sprint planning is needed, or workflow bottlenecks surface."
+      },
+      {
+        "rel": "agents/support-responder.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 8235,
+        "active_size": 6470,
+        "local_desc": "|",
+        "active_desc": "Use this agent when handling customer support inquiries, creating support documentation, setting up automated responses, or analyzing support patterns."
+      },
+      {
+        "rel": "agents/system-analyzer.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 2414,
+        "active_size": 2183,
+        "local_desc": "Use this agent when you need to analyze system configurations, review file structures, examine dotfiles, or investigate technical setups across user directories. This agent excels at reviewing complex technical environments including cursor configurations, development setups, and system-level configurations.",
+        "active_desc": "Use when working with: system, analyzer, agent support. Activates for:"
+      },
+      {
+        "rel": "agents/system-architect.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 2805,
+        "active_size": 2458,
+        "local_desc": null,
+        "active_desc": "Use when working with: system, architect, agent support. Activates for:"
+      },
+      {
+        "rel": "agents/task-management.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 673,
+        "active_size": 819,
+        "local_desc": null,
+        "active_desc": "Use when working with: task, management, agent support. Activates for:"
+      },
+      {
+        "rel": "agents/technical-writer.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 2673,
+        "active_size": 2366,
+        "local_desc": null,
+        "active_desc": "Use when working with: technical, writer, agent support. Activates for:"
+      },
+      {
+        "rel": "agents/test-results-analyzer.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 9352,
+        "active_size": 7685,
+        "local_desc": "|",
+        "active_desc": "Use this agent for analyzing test results, synthesizing test data, identifying trends, and generating quality metrics reports."
+      },
+      {
+        "rel": "agents/test-writer-fixer.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 8185,
+        "active_size": 5623,
+        "local_desc": "|",
+        "active_desc": "Use this agent when code changes have been made and you need to write new tests, run existing tests, analyze failures, and fix them while maintaining test integrity. Trigger proactively after code modifications, refactors, or bug fixes."
+      },
+      {
+        "rel": "agents/testing-specialist.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 2535,
+        "active_size": 2206,
+        "local_desc": null,
+        "active_desc": "Use when working with: testing, specialist, agent support. Activates"
+      },
+      {
+        "rel": "agents/tiktok-strategist.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 7241,
+        "active_size": 5344,
+        "local_desc": "|",
+        "active_desc": "Use this agent when creating TikTok marketing strategies, developing viral content ideas, planning TikTok campaigns, optimizing for TikTok's algorithm, or identifying creator partnerships for app growth."
+      },
+      {
+        "rel": "agents/tool-evaluator.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 7703,
+        "active_size": 6011,
+        "local_desc": "|",
+        "active_desc": "Use this agent when evaluating new development tools, frameworks, or services. Trigger for framework decisions, comparative analysis (tools, services, providers), or tool recommendations within rapid development cycles."
+      },
+      {
+        "rel": "agents/tree-explorer.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 2859,
+        "active_size": 2590,
+        "local_desc": "Directory tree exploration specialist. Generates full recursive trees, manifests (path, type, size, extension), and per-target summaries (counts by extension, largest files). Use proactively when the user wants to know what's in a directory, explore large codebases, or improve \"what's in there\" tooling (e.g. iterm2_full_tree, iterm2_tree_summary, INDEX/summaries).",
+        "active_desc": "Use when working with: tree, explorer, agent support. Activates for:"
+      },
+      {
+        "rel": "agents/trend-researcher.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 6805,
+        "active_size": 5006,
+        "local_desc": "|",
+        "active_desc": "Use this agent when identifying market opportunities, analyzing trending topics, researching viral content, or understanding emerging user behaviors. Trigger for new app ideas, market validation, competitive analysis, or finding viral mechanics."
+      },
+      {
+        "rel": "agents/ui-designer.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 7931,
+        "active_size": 6196,
+        "local_desc": "|",
+        "active_desc": "Use this agent when creating user interfaces, designing components, building design systems, or improving visual aesthetics."
+      },
+      {
+        "rel": "agents/ux-researcher.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 8419,
+        "active_size": 6629,
+        "local_desc": "|",
+        "active_desc": "Use this agent when conducting user research, analyzing user behavior, creating journey maps, or validating design decisions through testing."
+      },
+      {
+        "rel": "agents/visual-storyteller.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 9921,
+        "active_size": 8136,
+        "local_desc": "|",
+        "active_desc": "Use this agent when creating visual narratives, designing infographics, building presentations, or communicating complex ideas through imagery."
+      },
+      {
+        "rel": "agents/whimsy-injector.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 7172,
+        "active_size": 5421,
+        "local_desc": "|",
+        "active_desc": "PROACTIVELY use this agent after any UI/UX changes to ensure delightful, playful elements are incorporated. Trigger when new UI components, error states, loading states, or completed features need personality and delight injected."
+      },
+      {
+        "rel": "agents/workflow-optimizer.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 8458,
+        "active_size": 6788,
+        "local_desc": "|",
+        "active_desc": "Use this agent for optimizing human-agent collaboration workflows, identifying bottlenecks, streamlining processes, and ensuring smooth handoffs between human creativity and AI assistance."
+      },
+      {
+        "rel": "agents/workflow-orchestrator.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 5764,
+        "active_size": 3239,
+        "local_desc": "Use this agent when you need a high-level workflow lead that can orchestrate new work across bootstrap, planning, TDD, implementation, verification, and docs. Use it for requests like \"create this properly\", \"set up the workflow\", \"build the feature\", \"coordinate the stack\", or when the task spans JavaScript, shell scripts, Python, markdown docs, hooks, and command manifests. Use it especially when the user wants the advanced logics and flows in the markdown sources reviewed first and then implemented back into docs, scripts, manifests, or tests. Examples:",
+        "active_desc": "Use when working with: workflow, orchestrator, agent support. Activates"
+      },
+      {
+        "rel": "agents/xeo-strategist.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 8246,
+        "active_size": 8145,
+        "local_desc": "XEO Business Operations expert. Use proactively for business strategy, revenue planning, product launches, market analysis, and implementing the XEO Elite methodology for $950K+ revenue opportunities.",
+        "active_desc": "Use when working with: xeo, strategist, agent support. Activates for:"
+      },
+      {
+        "rel": "skills/.DS_Store",
+        "local_newer": true,
+        "active_newer": false,
+        "local_size": 26628,
+        "active_size": 30724,
+        "local_desc": null,
+        "active_desc": null
+      },
+      {
+        "rel": "skills/workspace-ecosystem-audit/SKILL.md",
+        "local_newer": false,
+        "active_newer": true,
+        "local_size": 6033,
+        "active_size": 6197,
+        "local_desc": "Provides a methodology and tools for deep inventory and purpose-aware review of local AI/agent ecosystems, focusing on identifying configurations, code, dependencies, and potential risks. Use for understanding and managing your development environment.",
+        "active_desc": "Provides a methodology and tools for deep inventory and purpose-aware review of local AI/agent ecosystems, focusing on identifying configurations, code, dependencies, and potential risks. Use for understanding and managing your development environment."
+      }
+    ]
+  },
+  "github_vs_active": {
+    "same_path_different": 2,
+    "repo_not_active_count": 2,
+    "repo_not_active_candidates": [
+      "skills/agmsg/.agmsg",
+      "skills/agmsg/db/config.yaml"
+    ],
+    "repo_only_bucket_counts": {
+      "skills": 2
+    },
+    "relocated_duplicates": [
+      [
+        "skills/agmsg/.agmsg",
+        [
+          "skills/creative/pixel-art/scripts/__init__.py",
+          "skills/creative/structured-asset-pipeline/scripts/common/__init__.py",
+          "skills/creative/structured-asset-pipeline/tests/__init__.py",
+          "skills/productivity/powerpoint/scripts/__init__.py",
+          "skills/productivity/powerpoint/scripts/office/helpers/__init__.py"
+        ]
+      ],
+      [
+        "skills/agmsg/db/messages.db-wal",
+        [
+          "skills/creative/pixel-art/scripts/__init__.py",
+          "skills/creative/structured-asset-pipeline/scripts/common/__init__.py",
+          "skills/creative/structured-asset-pipeline/tests/__init__.py",
+          "skills/productivity/powerpoint/scripts/__init__.py",
+          "skills/productivity/powerpoint/scripts/office/helpers/__init__.py"
+        ]
+      ]
+    ],
+    "same_path_different_examples": [
+      {
+        "rel": "README.md",
+        "repo_size": 2145,
+        "active_size": 2409,
+        "repo_desc": null,
+        "active_desc": null
+      },
+      {
+        "rel": "skills/workspace-ecosystem-audit/SKILL.md",
+        "repo_size": 6033,
+        "active_size": 6197,
+        "repo_desc": "Provides a methodology and tools for deep inventory and purpose-aware review of local AI/agent ecosystems, focusing on identifying configurations, code, dependencies, and potential risks. Use for understanding and managing your development environment.",
+        "active_desc": "Provides a methodology and tools for deep inventory and purpose-aware review of local AI/agent ecosystems, focusing on identifying configurations, code, dependencies, and potential risks. Use for understanding and managing your development environment."
+      }
+    ]
+  },
+  "priority_candidates": [
+    "agents/AGENT_NORMALIZATION_REGISTRY.md",
+    "agents/REGISTRY.md",
+    "agents/SUBAGENTS_GUIDE.md",
+    "agents/SUBAGENT_QUICK_REFERENCE.md",
+    "agents/api-specialist/agent.md",
+    "agents/backend-architect/agent.md",
+    "agents/database-specialist/agent.md",
+    "agents/devops-engineer/agent.md",
+    "agents/frontend-architect/agent.md",
+    "agents/javascript-expert/agent.md",
+    "agents/performance-engineer/agent.md",
+    "agents/python-expert/agent.md",
+    "agents/security-engineer/agent.md",
+    "agents/system-architect/agent.md",
+    "agents/technical-writer/agent.md",
+    "agents/testing-specialist/agent.md",
+    "agents/find-docs/SKILL.md"
+  ]
+}
