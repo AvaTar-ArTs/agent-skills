@@ -11,6 +11,15 @@ skills/agmsg/db/*.db
 skills/agmsg/db/*.db-shm
 skills/agmsg/db/*.db-wal
 
+# AI/session history is local evidence, not reusable public source.
+.codex-history/
+.specstory/
+Session-History/
+Session-History-Archive/
+conversation-export*.json
+gemini-conversation-*.json
+*-this-session-is-being-continued-from-*
+
 # Archives — kept on disk, not in git
 *.zip
 
