@@ -1,57 +1,48 @@
-# ~/.agent-skills - Current Runtime Index
+# agent-skills Index
 
-Last audited: 2026-07-15.
+Generated from commit 15c9bbc0ef13d6d3bf5cdd3c4292fb8e12db7143 on 2026-08-18T03:40:00Z.
 
-This tree is the canonical local source for reusable agents and skills. The
-legacy `/Users/steven/.agents` path is maintained as a compatibility symlink to
-this directory; new runtime configuration should point directly at
-`/Users/steven/.agent-skills`.
+## Verified inventory
 
-## At a Glance
+| Area | Count |
+| --- | ---: |
+| Total files | 1161 |
+| Agent/config files under agents/ | 218 |
+| Indexed agent entries | 217 |
+| Root agent/config files | 102 |
+| Skill contracts | 186 |
+| Skill directories | 97 |
+| Python files | 114 |
+| Markdown files | 815 |
+| Root scripts/ files | 9 |
 
-| Area | Current count | Notes |
-|------|---------------|-------|
-| `agents/` root files | 108 | Non-hidden files directly under `agents/` |
-| `agents/` all files | 221 | Non-hidden files under all agent subdirectories |
-| `skills/` top-level directories | 97 | Non-hidden dirs; hidden `.system/` also present; no top-level skill symlinks |
-| Direct/root-visible skills | 79 | `SKILL.md` files within depth 2 |
-| Local expanded skills | 186 | All local `SKILL.md` files |
-| Symlink-followed runtime-visible skills | 186 | No external skill symlink required for runtime material |
+## Runtime boundary
 
-## Runtime Links
+- Root agent/config files and categorized agent packs coexist under agents/.
+- Skill contracts are indexed by each skills/**/SKILL.md entry.
+- This repository is the broad authored source ecosystem.
+- Curated skills should be projected into superSkills.
+- Curated agents should be projected into superAgents.
+- Historical, generated, restricted, and vendored material should not be promoted automatically.
 
-Claude and Codex should resolve through the canonical `.agent-skills` tree:
+## Known issues
 
-```text
-/Users/steven/.agents -> /Users/steven/.agent-skills
-/Users/steven/.claude/agents -> /Users/steven/.agent-skills/agents
-/Users/steven/.claude/skills -> /Users/steven/.agent-skills/skills
-/Users/steven/.codex/agents -> /Users/steven/.agent-skills/agents
-/Users/steven/.codex/superpowers -> /Users/steven/.agent-skills/skills/using-superpowers
-```
+- agents/MANIFEST.csv has 75 unresolved agents.archive/ references.
+- Prior counts in this file were stale.
+- A root CHANGELOG.md now exists; CI workflow remains to be added.
+- Red-team jailbreak material requires restricted promotion policy.
+- File modes need normalization; many Markdown agents are executable.
 
-Codex note: `/Users/steven/.codex/skills` is an existing managed directory with
-system skills, not a symlink to this tree.
+## Generated catalogs
 
-## Operating Notes
+- [Agent catalog](catalog/agents.json)
+- [Skill catalog](catalog/skills.json)
+- [Full repository index](catalog/repository-index.json)
+- [Audit report](docs/audits/2026-08-18-agent-skills-audit.md)
+- [Changelog](CHANGELOG.md)
 
-- Use `/Users/steven/.agent-skills` as the canonical path in new configuration.
-- Keep `/Users/steven/.agents` only as a compatibility alias for older tools.
-- Treat `skills/.system/` and `skills/skill-porter-examples/` as vendored/reference
-  material; their duplicate skill names are intentional unless promoted.
-- Treat root `agents/*.md` files as the runtime primary surface when matching by
-  filename; categorized `agents/<group>/*.md` copies are retained for organization.
-- Treat this repository as the sole active runtime. `~/my-supremepowers` is a
-  historical/upstream lab only; do not link runtime skills to it.
-- Preserve local history and generated reports unless cleanup is explicitly
-  requested.
-- Put temporary generated outputs under `tmp/`, `tmp-csv/`, or `tmp-md/`.
-- Treat cache, session, credential, and runtime-state paths as non-importable.
+## Source
 
-## Useful Entry Points
-
-- `skills/using-superpowers/SKILL.md` - process authority for SupremePower /
-  using-superpowers requests.
-- `skills/ecosystem-intelligence/SKILL.md` - ecosystem audit and topology work.
-- `skills/cross-tool-memory/SKILL.md` - shared memory bridge workflows.
-- `skills/agmsg/SKILL.md` - cross-agent messaging workflows.
+- Repository: [AvaTar-ArTs/agent-skills](https://github.com/AvaTar-ArTs/agent-skills)
+- Branch: main
+- Commit: 15c9bbc0ef13d6d3bf5cdd3c4292fb8e12db7143
