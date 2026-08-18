@@ -1,0 +1,1314 @@
+{
+  "repository": "AvaTar-ArTs/agent-skills",
+  "branch": "main",
+  "source_commit": "15c9bbc0ef13d6d3bf5cdd3c4292fb8e12db7143",
+  "generated_at": "2026-08-18T03:40:00Z",
+  "counts": {
+    "skills": 186,
+    "skill_directories": 97
+  },
+  "skills": [
+    {
+      "id": "imagegen",
+      "path": "skills/.system/imagegen/SKILL.md",
+      "category": ".system",
+      "blob_sha": "4285e5e6419e87bb2250daf2cafe099c1aab1e80",
+      "size": 24003
+    },
+    {
+      "id": "openai-docs",
+      "path": "skills/.system/openai-docs/SKILL.md",
+      "category": ".system",
+      "blob_sha": "4994fd8802b26457b6bdb4e539dcb7f82c8ccd21",
+      "size": 7315
+    },
+    {
+      "id": "plugin-creator",
+      "path": "skills/.system/plugin-creator/SKILL.md",
+      "category": ".system",
+      "blob_sha": "af960ec50c657682a8227a0f6ee980e5f11fee16",
+      "size": 11040
+    },
+    {
+      "id": "skill-creator",
+      "path": "skills/.system/skill-creator/SKILL.md",
+      "category": ".system",
+      "blob_sha": "57f4e58b10cec3b0d2b3eccfd510201fefa140eb",
+      "size": 22047
+    },
+    {
+      "id": "skill-installer",
+      "path": "skills/.system/skill-installer/SKILL.md",
+      "category": ".system",
+      "blob_sha": "313626ac2f4c9c65f7b8267fdc974abb1dc797d3",
+      "size": 3366
+    },
+    {
+      "id": "agent-creation-guidance",
+      "path": "skills/agent-creation-guidance/SKILL.md",
+      "category": "agent-creation-guidance",
+      "blob_sha": "96f7efe14f6bbb45515d5ebef0065d37c5c38b7b",
+      "size": 3657
+    },
+    {
+      "id": "agent-development",
+      "path": "skills/agent-development/SKILL.md",
+      "category": "agent-development",
+      "blob_sha": "bc5ba0b4ce5cfa8ea4c0961310fbbc32ee42ade9",
+      "size": 10400
+    },
+    {
+      "id": "agmsg",
+      "path": "skills/agmsg/SKILL.md",
+      "category": "agmsg",
+      "blob_sha": "9eaaaabce9f6b6af5e852722dc93dd7f67347f20",
+      "size": 7308
+    },
+    {
+      "id": "apple",
+      "path": "skills/apple/SKILL.md",
+      "category": "apple",
+      "blob_sha": "b0b9f9d7ca4c616399af05bce831ecc6c6a6375f",
+      "size": 315
+    },
+    {
+      "id": "apple-notes",
+      "path": "skills/apple/apple-notes/SKILL.md",
+      "category": "apple",
+      "blob_sha": "020f0d641df4074d69d6c31cf816afcd42d583c7",
+      "size": 2169
+    },
+    {
+      "id": "apple-reminders",
+      "path": "skills/apple/apple-reminders/SKILL.md",
+      "category": "apple",
+      "blob_sha": "37c4fa74fd848cad96426e8a6063c859c9b501e8",
+      "size": 2530
+    },
+    {
+      "id": "findmy",
+      "path": "skills/apple/findmy/SKILL.md",
+      "category": "apple",
+      "blob_sha": "e2bed384d13834c39d128f6e53a3d37bdf7c0c6d",
+      "size": 3709
+    },
+    {
+      "id": "imessage",
+      "path": "skills/apple/imessage/SKILL.md",
+      "category": "apple",
+      "blob_sha": "82df6a6ecf8a81e9ff265fe2d70cabb44b0ebc6c",
+      "size": 2442
+    },
+    {
+      "id": "macos-computer-use",
+      "path": "skills/apple/macos-computer-use/SKILL.md",
+      "category": "apple",
+      "blob_sha": "5bb2b8cce2a90c370af19b629353c76505a14a9a",
+      "size": 7307
+    },
+    {
+      "id": "automation-recommender",
+      "path": "skills/automation-recommender/SKILL.md",
+      "category": "automation-recommender",
+      "blob_sha": "db63d669de19a0845201236621cc7cc85694eb26",
+      "size": 10785
+    },
+    {
+      "id": "claude-code",
+      "path": "skills/autonomous-ai-agents/claude-code/SKILL.md",
+      "category": "autonomous-ai-agents",
+      "blob_sha": "57f5147b7c83e7f829e6ffc280d76f950c14bbd4",
+      "size": 34288
+    },
+    {
+      "id": "codex",
+      "path": "skills/autonomous-ai-agents/codex/SKILL.md",
+      "category": "autonomous-ai-agents",
+      "blob_sha": "7959c85a3a0174dec0bbfc8861706788a97a5bc6",
+      "size": 4551
+    },
+    {
+      "id": "ecosystem-layering",
+      "path": "skills/autonomous-ai-agents/ecosystem-layering/SKILL.md",
+      "category": "autonomous-ai-agents",
+      "blob_sha": "1e753fc062cb0d60b92b075e5ed383b74439987d",
+      "size": 18448
+    },
+    {
+      "id": "hermes-agent",
+      "path": "skills/autonomous-ai-agents/hermes-agent/SKILL.md",
+      "category": "autonomous-ai-agents",
+      "blob_sha": "ec19f21ad5faed44660544fde9badca070f3342f",
+      "size": 45617
+    },
+    {
+      "id": "opencode",
+      "path": "skills/autonomous-ai-agents/opencode/SKILL.md",
+      "category": "autonomous-ai-agents",
+      "blob_sha": "a4717112b637a0ea8e954fcd8c0e4b9bd654ac36",
+      "size": 7251
+    },
+    {
+      "id": "brainstorm",
+      "path": "skills/brainstorm/SKILL.md",
+      "category": "brainstorm",
+      "blob_sha": "508ae80dced2557bfc493d8dc10f501434954657",
+      "size": 1681
+    },
+    {
+      "id": "brainstorming",
+      "path": "skills/brainstorming/SKILL.md",
+      "category": "brainstorming",
+      "blob_sha": "7699340e9978b6a149d6bccbb008b67a4263ba99",
+      "size": 4899
+    },
+    {
+      "id": "build-mcp-app",
+      "path": "skills/build-mcp-app/SKILL.md",
+      "category": "build-mcp-app",
+      "blob_sha": "1556d9ed38e36071b3386e93a589c633f1266f11",
+      "size": 16428
+    },
+    {
+      "id": "build-mcp-server",
+      "path": "skills/build-mcp-server/SKILL.md",
+      "category": "build-mcp-server",
+      "blob_sha": "bb87bce7825009e5c9946cc956320c80fccc8863",
+      "size": 10923
+    },
+    {
+      "id": "build-mcpb",
+      "path": "skills/build-mcpb/SKILL.md",
+      "category": "build-mcpb",
+      "blob_sha": "a2535a96bb25db4c074624da3ec4f7113de1d811",
+      "size": 7689
+    },
+    {
+      "id": "capability-atlas",
+      "path": "skills/capability-atlas/SKILL.md",
+      "category": "capability-atlas",
+      "blob_sha": "2abb4d9688496fbd6ed6e4f85cd133577a2d9aa7",
+      "size": 3483
+    },
+    {
+      "id": "chat-history-export",
+      "path": "skills/chat-history-export/SKILL.md",
+      "category": "chat-history-export",
+      "blob_sha": "1c082fee4faa328cba21774142a43879c02ac7c3",
+      "size": 4082
+    },
+    {
+      "id": "claude-md-improver",
+      "path": "skills/claude-md-improver/SKILL.md",
+      "category": "claude-md-improver",
+      "blob_sha": "57bb7678c78289db9f61e3edd7bfb501b8defa27",
+      "size": 6012
+    },
+    {
+      "id": "command-development",
+      "path": "skills/command-development/SKILL.md",
+      "category": "command-development",
+      "blob_sha": "c1593c5dafcc16bb343903dfd45495e216616deb",
+      "size": 19196
+    },
+    {
+      "id": "architecture-diagram",
+      "path": "skills/creative/architecture-diagram/SKILL.md",
+      "category": "creative",
+      "blob_sha": "2c813c53c131e67a76806e8dc5a2934efafba4a4",
+      "size": 5830
+    },
+    {
+      "id": "ascii-art",
+      "path": "skills/creative/ascii-art/SKILL.md",
+      "category": "creative",
+      "blob_sha": "c3b5c7fb274724de739cbcccbd168df5dfc9a1a7",
+      "size": 10556
+    },
+    {
+      "id": "ascii-video",
+      "path": "skills/creative/ascii-video/SKILL.md",
+      "category": "creative",
+      "blob_sha": "b3eba0ac177295dcf8206b0a8c0f0b48de572878",
+      "size": 14864
+    },
+    {
+      "id": "baoyu-comic",
+      "path": "skills/creative/baoyu-comic/SKILL.md",
+      "category": "creative",
+      "blob_sha": "6745b55e04ef7b21e5b5172ef651bf850e41c3e9",
+      "size": 14621
+    },
+    {
+      "id": "baoyu-infographic",
+      "path": "skills/creative/baoyu-infographic/SKILL.md",
+      "category": "creative",
+      "blob_sha": "6206a5b220a492e1f36380e7ee1819a6f3ce8649",
+      "size": 10434
+    },
+    {
+      "id": "claude-design",
+      "path": "skills/creative/claude-design/SKILL.md",
+      "category": "creative",
+      "blob_sha": "accfc7291e4c4b3a7471dab49d4ed0b8ff798def",
+      "size": 19844
+    },
+    {
+      "id": "comfyui",
+      "path": "skills/creative/comfyui/SKILL.md",
+      "category": "creative",
+      "blob_sha": "e5a8a7c074527e38dd0cc2628712f1b9ef2a6e0a",
+      "size": 24287
+    },
+    {
+      "id": "creative-ideation",
+      "path": "skills/creative/creative-ideation/SKILL.md",
+      "category": "creative",
+      "blob_sha": "27244252f0a55fae1c49b32c8ee90729f41ab71e",
+      "size": 6318
+    },
+    {
+      "id": "design-md",
+      "path": "skills/creative/design-md/SKILL.md",
+      "category": "creative",
+      "blob_sha": "83c627393df1f40f8a9da94e5c034bc6ea644973",
+      "size": 7021
+    },
+    {
+      "id": "excalidraw",
+      "path": "skills/creative/excalidraw/SKILL.md",
+      "category": "creative",
+      "blob_sha": "0474391a400b3c24e60b43284dff0cefaa193650",
+      "size": 7300
+    },
+    {
+      "id": "humanizer",
+      "path": "skills/creative/humanizer/SKILL.md",
+      "category": "creative",
+      "blob_sha": "1bfa094837c02fbf1b292e9eafa9ad93ad53f79d",
+      "size": 30025
+    },
+    {
+      "id": "manim-video",
+      "path": "skills/creative/manim-video/SKILL.md",
+      "category": "creative",
+      "blob_sha": "e82c7ccb2da312322052d90d51b02894094957d5",
+      "size": 12023
+    },
+    {
+      "id": "p5js",
+      "path": "skills/creative/p5js/SKILL.md",
+      "category": "creative",
+      "blob_sha": "819259c562a2a6f1f98877eba52f19c1a7755b11",
+      "size": 27494
+    },
+    {
+      "id": "pixel-art",
+      "path": "skills/creative/pixel-art/SKILL.md",
+      "category": "creative",
+      "blob_sha": "e49f3747aaef562174097ee1ec076802b50dcb54",
+      "size": 7829
+    },
+    {
+      "id": "popular-web-designs",
+      "path": "skills/creative/popular-web-designs/SKILL.md",
+      "category": "creative",
+      "blob_sha": "0a037ffab82cf2a521ac0279941e667b21df9cd6",
+      "size": 9719
+    },
+    {
+      "id": "pretext",
+      "path": "skills/creative/pretext/SKILL.md",
+      "category": "creative",
+      "blob_sha": "a09abb72aca275153dd9a4a880dd69ebe79edd5e",
+      "size": 14167
+    },
+    {
+      "id": "sketch",
+      "path": "skills/creative/sketch/SKILL.md",
+      "category": "creative",
+      "blob_sha": "1f3df20da463c7f322870eabb179048882d19d36",
+      "size": 9301
+    },
+    {
+      "id": "songwriting-and-ai-music",
+      "path": "skills/creative/songwriting-and-ai-music/SKILL.md",
+      "category": "creative",
+      "blob_sha": "806eb874269ea1051e8c38825dcf810b72bc376e",
+      "size": 10206
+    },
+    {
+      "id": "structured-asset-pipeline",
+      "path": "skills/creative/structured-asset-pipeline/SKILL.md",
+      "category": "creative",
+      "blob_sha": "abfcd0434aa5ae0fc9ee431e934f2cf445e77d6f",
+      "size": 6857
+    },
+    {
+      "id": "touchdesigner-mcp",
+      "path": "skills/creative/touchdesigner-mcp/SKILL.md",
+      "category": "creative",
+      "blob_sha": "745e9ac838eee794ab9d7fee6475f58520e5eafc",
+      "size": 15429
+    },
+    {
+      "id": "cross-tool-memory",
+      "path": "skills/cross-tool-memory/SKILL.md",
+      "category": "cross-tool-memory",
+      "blob_sha": "6bec3be00fea3619737cccc22afadf253b3a779d",
+      "size": 1400
+    },
+    {
+      "id": "cua-driver",
+      "path": "skills/cua-driver/SKILL.md",
+      "category": "cua-driver",
+      "blob_sha": "5f8adf8222f510b39b6ef211b2dddcdf6e9a0352",
+      "size": 47065
+    },
+    {
+      "id": "cursor-integration",
+      "path": "skills/cursor-integration/SKILL.md",
+      "category": "cursor-integration",
+      "blob_sha": "b6a83328ed340620f5e27a778b593dc48de812a9",
+      "size": 5030
+    },
+    {
+      "id": "jupyter-live-kernel",
+      "path": "skills/data-science/jupyter-live-kernel/SKILL.md",
+      "category": "data-science",
+      "blob_sha": "53b0574c770e313b7e0589a51970ba19c5f1935d",
+      "size": 5285
+    },
+    {
+      "id": "design-taste-frontend",
+      "path": "skills/design-taste-frontend/SKILL.md",
+      "category": "design-taste-frontend",
+      "blob_sha": "13256ec637add993d0524a0aaecc48e3da641fc7",
+      "size": 87228
+    },
+    {
+      "id": "kanban-orchestrator",
+      "path": "skills/devops/kanban-orchestrator/SKILL.md",
+      "category": "devops",
+      "blob_sha": "25f634205c847aa0800bc21fc370a9f6890c8a3d",
+      "size": 14105
+    },
+    {
+      "id": "kanban-worker",
+      "path": "skills/devops/kanban-worker/SKILL.md",
+      "category": "devops",
+      "blob_sha": "b24e90610f4ec8a3cf674c67731ea32e13065089",
+      "size": 10030
+    },
+    {
+      "id": "webhook-subscriptions",
+      "path": "skills/devops/webhook-subscriptions/SKILL.md",
+      "category": "devops",
+      "blob_sha": "1f359b1a557ed64a1159400e3ce3c68fa72d9111",
+      "size": 6836
+    },
+    {
+      "id": "devtu-fix-tool",
+      "path": "skills/devtu-fix-tool/SKILL.md",
+      "category": "devtu-fix-tool",
+      "blob_sha": "6393626327c7f4be04557bf94e6f346aeaaea440",
+      "size": 9531
+    },
+    {
+      "id": "devtu-optimize-descriptions",
+      "path": "skills/devtu-optimize-descriptions/SKILL.md",
+      "category": "devtu-optimize-descriptions",
+      "blob_sha": "5fbe66a34434961091f5f29a6fe7ffcb3677118b",
+      "size": 10995
+    },
+    {
+      "id": "devtu-optimize-skills",
+      "path": "skills/devtu-optimize-skills/SKILL.md",
+      "category": "devtu-optimize-skills",
+      "blob_sha": "12e738c601474a3c4e904228b9e9d97b92b78a98",
+      "size": 20245
+    },
+    {
+      "id": "discord-access",
+      "path": "skills/discord-access/SKILL.md",
+      "category": "discord-access",
+      "blob_sha": "59762aeda23c3dcea1b3488ed2f65da74beaf874",
+      "size": 4359
+    },
+    {
+      "id": "discord-configure",
+      "path": "skills/discord-configure/SKILL.md",
+      "category": "discord-configure",
+      "blob_sha": "92d514e6c518d853a7fa927c1dcdce18d56d252c",
+      "size": 4327
+    },
+    {
+      "id": "dispatching-parallel-agents",
+      "path": "skills/dispatching-parallel-agents/SKILL.md",
+      "category": "dispatching-parallel-agents",
+      "blob_sha": "1c9dd8ecba41d326c056f45d22d7203023147852",
+      "size": 6098
+    },
+    {
+      "id": "dogfood",
+      "path": "skills/dogfood/SKILL.md",
+      "category": "dogfood",
+      "blob_sha": "82d7dca2013115e6cb9fa5617f02934eb3f4c36d",
+      "size": 6270
+    },
+    {
+      "id": "ecosystem-clarity",
+      "path": "skills/ecosystem-clarity/SKILL.md",
+      "category": "ecosystem-clarity",
+      "blob_sha": "db6341b0f9010959289dfea4b9423d56dfde53ef",
+      "size": 2825
+    },
+    {
+      "id": "ecosystem-intelligence",
+      "path": "skills/ecosystem-intelligence/SKILL.md",
+      "category": "ecosystem-intelligence",
+      "blob_sha": "27fce5a3b4f5903d5b9737b98bda9e23d09726da",
+      "size": 1452
+    },
+    {
+      "id": "ecosystem-navigation",
+      "path": "skills/ecosystem-navigation/SKILL.md",
+      "category": "ecosystem-navigation",
+      "blob_sha": "1608b4f1bd60097c87f05325c2273d3b5b3ba626",
+      "size": 1875
+    },
+    {
+      "id": "himalaya",
+      "path": "skills/email/himalaya/SKILL.md",
+      "category": "email",
+      "blob_sha": "d7392e6bdc8771067bc95b90b13b7d417c908d49",
+      "size": 6902
+    },
+    {
+      "id": "executing-plans",
+      "path": "skills/executing-plans/SKILL.md",
+      "category": "executing-plans",
+      "blob_sha": "ca77290c84566a826e21007767ae887dc4453b22",
+      "size": 2171
+    },
+    {
+      "id": "eza-nav",
+      "path": "skills/eza-nav/SKILL.md",
+      "category": "eza-nav",
+      "blob_sha": "5abdb22761f4f1982c20c9bfb36e9e98c5337a46",
+      "size": 716
+    },
+    {
+      "id": "find-docs",
+      "path": "skills/find-docs/SKILL.md",
+      "category": "find-docs",
+      "blob_sha": "99e5c6e1439d81760e6f06eb9139eeb02524b542",
+      "size": 6326
+    },
+    {
+      "id": "finishing-a-development-branch",
+      "path": "skills/finishing-a-development-branch/SKILL.md",
+      "category": "finishing-a-development-branch",
+      "blob_sha": "c308b43b4b6a856f8d721c594f0907af614b8e2e",
+      "size": 4250
+    },
+    {
+      "id": "frontend-design",
+      "path": "skills/frontend-design/SKILL.md",
+      "category": "frontend-design",
+      "blob_sha": "72ca89826b309bdeb3c2b54dc7f722d5e794a875",
+      "size": 4273
+    },
+    {
+      "id": "frontend-ux-modernizer",
+      "path": "skills/frontend-ux-modernizer/SKILL.md",
+      "category": "frontend-ux-modernizer",
+      "blob_sha": "f0df3dbb93e6d10d4743d579312e10aa1b92d259",
+      "size": 973
+    },
+    {
+      "id": "minecraft-modpack-server",
+      "path": "skills/gaming/minecraft-modpack-server/SKILL.md",
+      "category": "gaming",
+      "blob_sha": "0164f7ed9b61f0214b631d72e4128e9875005cb5",
+      "size": 6559
+    },
+    {
+      "id": "pokemon-player",
+      "path": "skills/gaming/pokemon-player/SKILL.md",
+      "category": "gaming",
+      "blob_sha": "335f4afc41a5c1f3160c8776c311f985a9e3504b",
+      "size": 9213
+    },
+    {
+      "id": "git-ai-assistant",
+      "path": "skills/git-ai-assistant/SKILL.md",
+      "category": "git-ai-assistant",
+      "blob_sha": "b2fdfe8c02245fe714cea539bdde8cba10b60131",
+      "size": 205
+    },
+    {
+      "id": "git-ai-cursor-integration",
+      "path": "skills/git-ai-cursor-integration/SKILL.md",
+      "category": "git-ai-cursor-integration",
+      "blob_sha": "f1bb48074dd312ee9a815f019ed3fd39c9b7b048",
+      "size": 5692
+    },
+    {
+      "id": "github",
+      "path": "skills/github/SKILL.md",
+      "category": "github",
+      "blob_sha": "de9217b68ed4893292ba24ab9c60d1f35319afef",
+      "size": 461
+    },
+    {
+      "id": "codebase-inspection",
+      "path": "skills/github/codebase-inspection/SKILL.md",
+      "category": "github",
+      "blob_sha": "08810b36d15f96dba00ef6fa271f35c635d22bd8",
+      "size": 4078
+    },
+    {
+      "id": "github-auth",
+      "path": "skills/github/github-auth/SKILL.md",
+      "category": "github",
+      "blob_sha": "6b929a408d5b2a549f0e1c9c3e011a84dfc1cdb0",
+      "size": 7546
+    },
+    {
+      "id": "github-code-review",
+      "path": "skills/github/github-code-review/SKILL.md",
+      "category": "github",
+      "blob_sha": "3b50ac4527918fa581ef4eb073c706553a930f67",
+      "size": 13565
+    },
+    {
+      "id": "github-issues",
+      "path": "skills/github/github-issues/SKILL.md",
+      "category": "github",
+      "blob_sha": "338074f885c75a61308a1ed7ffbbe94e0c38b93d",
+      "size": 9265
+    },
+    {
+      "id": "github-pr-workflow",
+      "path": "skills/github/github-pr-workflow/SKILL.md",
+      "category": "github",
+      "blob_sha": "0b02eca3d1eb9d2e215095756c5317081daddcd0",
+      "size": 9985
+    },
+    {
+      "id": "github-repo-management",
+      "path": "skills/github/github-repo-management/SKILL.md",
+      "category": "github",
+      "blob_sha": "0ba049e2787f581a7e94af2df73969d233f5d101",
+      "size": 13683
+    },
+    {
+      "id": "hermes-integration",
+      "path": "skills/hermes-integration/SKILL.md",
+      "category": "hermes-integration",
+      "blob_sha": "e022eb62455c11f7376bcca78c809750e9fc01a8",
+      "size": 915
+    },
+    {
+      "id": "hook-development",
+      "path": "skills/hook-development/SKILL.md",
+      "category": "hook-development",
+      "blob_sha": "9cd433a3b6b9ec368379be7798f7eb9d738975fa",
+      "size": 16165
+    },
+    {
+      "id": "ice-tracker-integration",
+      "path": "skills/ice-tracker-integration/SKILL.md",
+      "category": "ice-tracker-integration",
+      "blob_sha": "208738c356c6790edb57c554c46f998f63a3062d",
+      "size": 4052
+    },
+    {
+      "id": "imessage-access",
+      "path": "skills/imessage-access/SKILL.md",
+      "category": "imessage-access",
+      "blob_sha": "3326f931480b65477b09aa56be417b7e45425489",
+      "size": 4757
+    },
+    {
+      "id": "imessage-configure",
+      "path": "skills/imessage-configure/SKILL.md",
+      "category": "imessage-configure",
+      "blob_sha": "2f3b191ce4a9f3ce95a53e3b62abaa80c2cde941",
+      "size": 3548
+    },
+    {
+      "id": "innate-workflow",
+      "path": "skills/innate-workflow/SKILL.md",
+      "category": "innate-workflow",
+      "blob_sha": "0e435e1add116a5120b2a91589c4d25396d4f7ea",
+      "size": 522
+    },
+    {
+      "id": "managing-ecosystem-cleanup",
+      "path": "skills/managing-ecosystem-cleanup/SKILL.md",
+      "category": "managing-ecosystem-cleanup",
+      "blob_sha": "165f184584cfa4a02cd58b162bec249fe5f3fb71",
+      "size": 7282
+    },
+    {
+      "id": "math-olympiad-solver",
+      "path": "skills/math-olympiad-solver/SKILL.md",
+      "category": "math-olympiad-solver",
+      "blob_sha": "c7cf1343c5fdc296928330b37e6d399919b857cd",
+      "size": 4664
+    },
+    {
+      "id": "mcp-app-development-principles",
+      "path": "skills/mcp-app-development-principles/SKILL.md",
+      "category": "mcp-app-development-principles",
+      "blob_sha": "e949ee5e4d202ba92a13b6bef98c7ed71a6990b8",
+      "size": 3260
+    },
+    {
+      "id": "mcp-integration",
+      "path": "skills/mcp-integration/SKILL.md",
+      "category": "mcp-integration",
+      "blob_sha": "b8d60203655b3564c0e94e05a0fe0c9bce590c03",
+      "size": 14649
+    },
+    {
+      "id": "native-mcp",
+      "path": "skills/mcp/native-mcp/SKILL.md",
+      "category": "mcp",
+      "blob_sha": "ca3896745db31558b73c205e68790038a3d94453",
+      "size": 12365
+    },
+    {
+      "id": "gif-search",
+      "path": "skills/media/gif-search/SKILL.md",
+      "category": "media",
+      "blob_sha": "1a28b8b293d10298a53c3ce8b6f380ea0122ba49",
+      "size": 2704
+    },
+    {
+      "id": "heartmula",
+      "path": "skills/media/heartmula/SKILL.md",
+      "category": "media",
+      "blob_sha": "e6adc4b0965a308751dc6a59d1ddc517b454e297",
+      "size": 6412
+    },
+    {
+      "id": "songsee",
+      "path": "skills/media/songsee/SKILL.md",
+      "category": "media",
+      "blob_sha": "a74c1ab271628cc4d9ecee42fbd7855c25315e31",
+      "size": 2336
+    },
+    {
+      "id": "spotify",
+      "path": "skills/media/spotify/SKILL.md",
+      "category": "media",
+      "blob_sha": "47fe0e24b9c18ceb297dd22bb8268a30fcc5bd4e",
+      "size": 6319
+    },
+    {
+      "id": "youtube-content",
+      "path": "skills/media/youtube-content/SKILL.md",
+      "category": "media",
+      "blob_sha": "32828f75986bb8ebae04cf0122d06362114d8a60",
+      "size": 3218
+    },
+    {
+      "id": "lm-evaluation-harness",
+      "path": "skills/mlops/evaluation/lm-evaluation-harness/SKILL.md",
+      "category": "mlops",
+      "blob_sha": "79c59f1e340fb516f54bd5383bc3ed728ea64fc7",
+      "size": 12020
+    },
+    {
+      "id": "weights-and-biases",
+      "path": "skills/mlops/evaluation/weights-and-biases/SKILL.md",
+      "category": "mlops",
+      "blob_sha": "6dd17694b12bc1cad2a4c064432a1f0c741b5cf2",
+      "size": 12395
+    },
+    {
+      "id": "huggingface-hub",
+      "path": "skills/mlops/huggingface-hub/SKILL.md",
+      "category": "mlops",
+      "blob_sha": "a9ed104b3c04a8fac8f62457749653bed97c2af8",
+      "size": 3674
+    },
+    {
+      "id": "llama-cpp",
+      "path": "skills/mlops/inference/llama-cpp/SKILL.md",
+      "category": "mlops",
+      "blob_sha": "07fe98a81f74ae69610f10dd5a3bd2cf8a75667f",
+      "size": 8880
+    },
+    {
+      "id": "obliteratus",
+      "path": "skills/mlops/inference/obliteratus/SKILL.md",
+      "category": "mlops",
+      "blob_sha": "ea93758327e4f4fd175f793987844753097937d4",
+      "size": 15464
+    },
+    {
+      "id": "vllm",
+      "path": "skills/mlops/inference/vllm/SKILL.md",
+      "category": "mlops",
+      "blob_sha": "2f754e1b0f5ff8ec96c2fab62a5e33b3dca08295",
+      "size": 9071
+    },
+    {
+      "id": "audiocraft",
+      "path": "skills/mlops/models/audiocraft/SKILL.md",
+      "category": "mlops",
+      "blob_sha": "824147fe4117296adf397ee17c580dc05b7fcff2",
+      "size": 16189
+    },
+    {
+      "id": "segment-anything",
+      "path": "skills/mlops/models/segment-anything/SKILL.md",
+      "category": "mlops",
+      "blob_sha": "765176d9c161bccbbaf07bfd72207e4a8aa3de3c",
+      "size": 13372
+    },
+    {
+      "id": "dspy",
+      "path": "skills/mlops/research/dspy/SKILL.md",
+      "category": "mlops",
+      "blob_sha": "bde5d164b2f2862ab227ed3540344870d866c313",
+      "size": 15210
+    },
+    {
+      "id": "narrative-blueprints",
+      "path": "skills/narrative-blueprints/SKILL.md",
+      "category": "narrative-blueprints",
+      "blob_sha": "1ef609e41317d955bbd9389135b5e95b7ccef1e9",
+      "size": 1518
+    },
+    {
+      "id": "narrative-documentation",
+      "path": "skills/narrative-documentation/SKILL.md",
+      "category": "narrative-documentation",
+      "blob_sha": "535c671044f471464b943dc7c5f9fdb5d35ae0c9",
+      "size": 2037
+    },
+    {
+      "id": "obsidian",
+      "path": "skills/note-taking/obsidian/SKILL.md",
+      "category": "note-taking",
+      "blob_sha": "158109008898e2c77ab891d728e04fc83ca2bf3a",
+      "size": 2919
+    },
+    {
+      "id": "notebooklm",
+      "path": "skills/notebooklm/SKILL.md",
+      "category": "notebooklm",
+      "blob_sha": "e376684bdf22940840abee9b433dd9afbb2fad6c",
+      "size": 25499
+    },
+    {
+      "id": "playground",
+      "path": "skills/playground/SKILL.md",
+      "category": "playground",
+      "blob_sha": "b5cac3de3506dd950720051402b39414b883089c",
+      "size": 3823
+    },
+    {
+      "id": "plugin-settings",
+      "path": "skills/plugin-settings/SKILL.md",
+      "category": "plugin-settings",
+      "blob_sha": "5220964d4a063429dd99bb3c8f6494a3c98117b7",
+      "size": 11495
+    },
+    {
+      "id": "plugin-structure",
+      "path": "skills/plugin-structure/SKILL.md",
+      "category": "plugin-structure",
+      "blob_sha": "b383497f0569c94fc0c584b0dac78ee8bee77269",
+      "size": 13696
+    },
+    {
+      "id": "airtable",
+      "path": "skills/productivity/airtable/SKILL.md",
+      "category": "productivity",
+      "blob_sha": "547e2a14b7346f3aa5c1b7efaf6cd3fa341ca257",
+      "size": 11302
+    },
+    {
+      "id": "google-workspace",
+      "path": "skills/productivity/google-workspace/SKILL.md",
+      "category": "productivity",
+      "blob_sha": "5668d80f28a3e0dddaf612074fa9adff9df9a3d9",
+      "size": 13411
+    },
+    {
+      "id": "linear",
+      "path": "skills/productivity/linear/SKILL.md",
+      "category": "productivity",
+      "blob_sha": "a08a03e439e0e3a283e2f3bf720db8945ae935ef",
+      "size": 14782
+    },
+    {
+      "id": "maps",
+      "path": "skills/productivity/maps/SKILL.md",
+      "category": "productivity",
+      "blob_sha": "3c1e8af3dfbca9339eb388103c50cd48efd6fd71",
+      "size": 6726
+    },
+    {
+      "id": "nano-pdf",
+      "path": "skills/productivity/nano-pdf/SKILL.md",
+      "category": "productivity",
+      "blob_sha": "68d38c6710ad5a9982fbdeb630704f5721251ede",
+      "size": 1414
+    },
+    {
+      "id": "notion",
+      "path": "skills/productivity/notion/SKILL.md",
+      "category": "productivity",
+      "blob_sha": "b645c088f2813afab7dcb3ee7650c79c80a8fdbf",
+      "size": 5236
+    },
+    {
+      "id": "ocr-and-documents",
+      "path": "skills/productivity/ocr-and-documents/SKILL.md",
+      "category": "productivity",
+      "blob_sha": "9295b15e0fcbf20ef88add7b65003fb63fafd699",
+      "size": 5280
+    },
+    {
+      "id": "powerpoint",
+      "path": "skills/productivity/powerpoint/SKILL.md",
+      "category": "productivity",
+      "blob_sha": "c9bd8588aa13ce52ebda1fbe513c2055a27ff4c9",
+      "size": 9298
+    },
+    {
+      "id": "teams-meeting-pipeline",
+      "path": "skills/productivity/teams-meeting-pipeline/SKILL.md",
+      "category": "productivity",
+      "blob_sha": "4ad37c4758a9e767da3e1c2a3f6c7dcfeb48a82e",
+      "size": 6867
+    },
+    {
+      "id": "receiving-code-review",
+      "path": "skills/receiving-code-review/SKILL.md",
+      "category": "receiving-code-review",
+      "blob_sha": "0f3025f4ec143ec02d49023d2b82b6f3ef6306c5",
+      "size": 6314
+    },
+    {
+      "id": "godmode",
+      "path": "skills/red-teaming/godmode/SKILL.md",
+      "category": "red-teaming",
+      "blob_sha": "f707517c70121d6851e5549f62ba575332dae2c0",
+      "size": 20706
+    },
+    {
+      "id": "research",
+      "path": "skills/research/SKILL.md",
+      "category": "research",
+      "blob_sha": "7c6c162a1b4e38cc10c9dc36bc17be896c170f03",
+      "size": 319
+    },
+    {
+      "id": "arxiv",
+      "path": "skills/research/arxiv/SKILL.md",
+      "category": "research",
+      "blob_sha": "70ab36eba2480f5209df746d1c31a2f27730d681",
+      "size": 10085
+    },
+    {
+      "id": "blogwatcher",
+      "path": "skills/research/blogwatcher/SKILL.md",
+      "category": "research",
+      "blob_sha": "a1d52441e1943dc0684ca5e10483e7041528b06c",
+      "size": 5111
+    },
+    {
+      "id": "llm-wiki",
+      "path": "skills/research/llm-wiki/SKILL.md",
+      "category": "research",
+      "blob_sha": "839c2f682a04b392ca7ab7839b478219b2b02ca5",
+      "size": 20113
+    },
+    {
+      "id": "polymarket",
+      "path": "skills/research/polymarket/SKILL.md",
+      "category": "research",
+      "blob_sha": "6913e4872962166be252e22ddf8cde37ae56450a",
+      "size": 2985
+    },
+    {
+      "id": "research-paper-writing",
+      "path": "skills/research/research-paper-writing/SKILL.md",
+      "category": "research",
+      "blob_sha": "5a7fa07bae0c59e247139295a8caa04f0673809d",
+      "size": 103374
+    },
+    {
+      "id": "rule-definition-patterns",
+      "path": "skills/rule-definition-patterns/SKILL.md",
+      "category": "rule-definition-patterns",
+      "blob_sha": "8bf3f2440a4e6a040fd64d5620a597c74ef838fa",
+      "size": 4879
+    },
+    {
+      "id": "self-assistance",
+      "path": "skills/self-assistance/SKILL.md",
+      "category": "self-assistance",
+      "blob_sha": "805e69027ff1ef39357d29f33f50b809d515f828",
+      "size": 870
+    },
+    {
+      "id": "self-evolving-memory",
+      "path": "skills/self-evolving-memory/SKILL.md",
+      "category": "self-evolving-memory",
+      "blob_sha": "42775d5300323731780db871b95801ece99198d5",
+      "size": 1732
+    },
+    {
+      "id": "self-improvement",
+      "path": "skills/self-improvement/SKILL.md",
+      "category": "self-improvement",
+      "blob_sha": "6454378bf5b2c84834663c963d060228b07dc430",
+      "size": 4438
+    },
+    {
+      "id": "session-export",
+      "path": "skills/session-export/SKILL.md",
+      "category": "session-export",
+      "blob_sha": "7429e64c32951570b3583aecab627f9213df053d",
+      "size": 1815
+    },
+    {
+      "id": "session-report",
+      "path": "skills/session-report/SKILL.md",
+      "category": "session-report",
+      "blob_sha": "d9db50cc8f8f988ae6ae5b252e79f11108ea7fcf",
+      "size": 3136
+    },
+    {
+      "id": "setup-tooluniverse",
+      "path": "skills/setup-tooluniverse/SKILL.md",
+      "category": "setup-tooluniverse",
+      "blob_sha": "b37e2f362d8b852a7d42c6b2743fb56fce25f26e",
+      "size": 21883
+    },
+    {
+      "id": "skill-creator",
+      "path": "skills/skill-creator/SKILL.md",
+      "category": "skill-creator",
+      "blob_sha": "28b2d317a03db0e98b8e6eb72ff58797a4a02c54",
+      "size": 32328
+    },
+    {
+      "id": "skill-development",
+      "path": "skills/skill-development/SKILL.md",
+      "category": "skill-development",
+      "blob_sha": "1db8ed7ca789b1acafeaadde6bf93528398e5336",
+      "size": 22764
+    },
+    {
+      "id": "skill-installer",
+      "path": "skills/skill-installer/SKILL.md",
+      "category": "skill-installer",
+      "blob_sha": "04f4484a916c4bf6af91f379333e0e66348d7d22",
+      "size": 3353
+    },
+    {
+      "id": "api-connector-converted",
+      "path": "skills/skill-porter-examples/before-after/api-connector-converted/SKILL.md",
+      "category": "skill-porter-examples",
+      "blob_sha": "9f31d775b5383a2904290ea5656ccfd0902d0a81",
+      "size": 1640
+    },
+    {
+      "id": "code-formatter-converted",
+      "path": "skills/skill-porter-examples/before-after/code-formatter-converted/SKILL.md",
+      "category": "skill-porter-examples",
+      "blob_sha": "998d51a1cbb4cac4ef40383f53b941c70db0441f",
+      "size": 938
+    },
+    {
+      "id": "simple-claude-skill",
+      "path": "skills/skill-porter-examples/simple-claude-skill/SKILL.md",
+      "category": "skill-porter-examples",
+      "blob_sha": "f6498cbb295f496b38864084778053fffcc38ecc",
+      "size": 928
+    },
+    {
+      "id": "openhue",
+      "path": "skills/smart-home/openhue/SKILL.md",
+      "category": "smart-home",
+      "blob_sha": "3f60c0556f9c37b3bf439a9a1c04bdc3a1e64325",
+      "size": 2713
+    },
+    {
+      "id": "xurl",
+      "path": "skills/social-media/xurl/SKILL.md",
+      "category": "social-media",
+      "blob_sha": "2fe23ef8575adc43ee6fcbc6f332f83b6559a256",
+      "size": 13993
+    },
+    {
+      "id": "debugging-hermes-tui-commands",
+      "path": "skills/software-development/debugging-hermes-tui-commands/SKILL.md",
+      "category": "software-development",
+      "blob_sha": "2e23a7e5e1415136d61ed8bdce34121d9930be84",
+      "size": 8557
+    },
+    {
+      "id": "hermes-agent-skill-authoring",
+      "path": "skills/software-development/hermes-agent-skill-authoring/SKILL.md",
+      "category": "software-development",
+      "blob_sha": "3e355f4faad29c1cf352fbfe70615ed4df21b389",
+      "size": 8843
+    },
+    {
+      "id": "node-inspect-debugger",
+      "path": "skills/software-development/node-inspect-debugger/SKILL.md",
+      "category": "software-development",
+      "blob_sha": "d623c43f8279cee9c80cb935bb7c81ce5aa2e22e",
+      "size": 11539
+    },
+    {
+      "id": "plan",
+      "path": "skills/software-development/plan/SKILL.md",
+      "category": "software-development",
+      "blob_sha": "dcfba8e2293a2b7a153e59e2755c3da9017741aa",
+      "size": 2016
+    },
+    {
+      "id": "python-debugpy",
+      "path": "skills/software-development/python-debugpy/SKILL.md",
+      "category": "software-development",
+      "blob_sha": "f6f546097c381bc7a366a4a9b1df9a16413cdda6",
+      "size": 13786
+    },
+    {
+      "id": "requesting-code-review",
+      "path": "skills/software-development/requesting-code-review/SKILL.md",
+      "category": "software-development",
+      "blob_sha": "0fe15042babe9f67037c7751d3cc95cc6f67b524",
+      "size": 11578
+    },
+    {
+      "id": "spike",
+      "path": "skills/software-development/spike/SKILL.md",
+      "category": "software-development",
+      "blob_sha": "93eb15d8e8c00206c8c74622a985d81bce0d1d29",
+      "size": 8753
+    },
+    {
+      "id": "subagent-driven-development",
+      "path": "skills/software-development/subagent-driven-development/SKILL.md",
+      "category": "software-development",
+      "blob_sha": "d2cff3d8000ea423c8251a5273b2622de8b33b4b",
+      "size": 10742
+    },
+    {
+      "id": "systematic-debugging",
+      "path": "skills/software-development/systematic-debugging/SKILL.md",
+      "category": "software-development",
+      "blob_sha": "635fde7943ff2d05fe85987c1043acd6a96c15bb",
+      "size": 10480
+    },
+    {
+      "id": "test-driven-development",
+      "path": "skills/software-development/test-driven-development/SKILL.md",
+      "category": "software-development",
+      "blob_sha": "1ae1195e944bc9c00621a5ba42efc3c6dc4153af",
+      "size": 9573
+    },
+    {
+      "id": "writing-plans",
+      "path": "skills/software-development/writing-plans/SKILL.md",
+      "category": "software-development",
+      "blob_sha": "abb321dd83f27edf6944ce23a9b18d24e9d55df0",
+      "size": 7229
+    },
+    {
+      "id": "sora",
+      "path": "skills/sora/SKILL.md",
+      "category": "sora",
+      "blob_sha": "eecd9801746e4ee7bcd192c991ff0e134f137638",
+      "size": 8163
+    },
+    {
+      "id": "taste-skill",
+      "path": "skills/taste-skill/SKILL.md",
+      "category": "taste-skill",
+      "blob_sha": "b72132fcd466da605623ffe96e370b3991fc5285",
+      "size": 87253
+    },
+    {
+      "id": "brandkit",
+      "path": "skills/taste-skill/skills/brandkit/SKILL.md",
+      "category": "taste-skill",
+      "blob_sha": "d76399f666af97ac8c142928e02602d9732e78aa",
+      "size": 15992
+    },
+    {
+      "id": "brutalist-skill",
+      "path": "skills/taste-skill/skills/brutalist-skill/SKILL.md",
+      "category": "taste-skill",
+      "blob_sha": "f5375b908340e1376ed391232a31c5d82d5babfb",
+      "size": 8456
+    },
+    {
+      "id": "gpt-tasteskill",
+      "path": "skills/taste-skill/skills/gpt-tasteskill/SKILL.md",
+      "category": "taste-skill",
+      "blob_sha": "03ed209b8fdc0a3cd6bccf8a5b3bfffe56aa4558",
+      "size": 7857
+    },
+    {
+      "id": "image-to-code-skill",
+      "path": "skills/taste-skill/skills/image-to-code-skill/SKILL.md",
+      "category": "taste-skill",
+      "blob_sha": "d19f8de112252ea88724c540647cad85b7653d46",
+      "size": 36442
+    },
+    {
+      "id": "imagegen-frontend-mobile",
+      "path": "skills/taste-skill/skills/imagegen-frontend-mobile/SKILL.md",
+      "category": "taste-skill",
+      "blob_sha": "9d8d55f3ca7a77e18329922ea8a67694dee52ebb",
+      "size": 40326
+    },
+    {
+      "id": "imagegen-frontend-web",
+      "path": "skills/taste-skill/skills/imagegen-frontend-web/SKILL.md",
+      "category": "taste-skill",
+      "blob_sha": "26b293b8d0088631c41ebefde4a650768d01cf22",
+      "size": 36854
+    },
+    {
+      "id": "minimalist-skill",
+      "path": "skills/taste-skill/skills/minimalist-skill/SKILL.md",
+      "category": "taste-skill",
+      "blob_sha": "44ead27ef04ffe79ade0c6df7fd696dbcf7b246b",
+      "size": 7901
+    },
+    {
+      "id": "output-skill",
+      "path": "skills/taste-skill/skills/output-skill/SKILL.md",
+      "category": "taste-skill",
+      "blob_sha": "d983bbcf040b6f433c624ce2212a2c044ad2da3c",
+      "size": 2592
+    },
+    {
+      "id": "redesign-skill",
+      "path": "skills/taste-skill/skills/redesign-skill/SKILL.md",
+      "category": "taste-skill",
+      "blob_sha": "c8304f0c9301385e3641b052d6b25b8af11cb6c1",
+      "size": 15060
+    },
+    {
+      "id": "soft-skill",
+      "path": "skills/taste-skill/skills/soft-skill/SKILL.md",
+      "category": "taste-skill",
+      "blob_sha": "4038f41ec0137ec92e98ed0151fe3b7038b9329e",
+      "size": 10561
+    },
+    {
+      "id": "stitch-skill",
+      "path": "skills/taste-skill/skills/stitch-skill/SKILL.md",
+      "category": "taste-skill",
+      "blob_sha": "56e1266f56d1b681c8baaeb09eb4022a89b2e336",
+      "size": 11859
+    },
+    {
+      "id": "taste-skill",
+      "path": "skills/taste-skill/skills/taste-skill/SKILL.md",
+      "category": "taste-skill",
+      "blob_sha": "ccc3a2f84f529ee7faafcfe0a71678447675056f",
+      "size": 21140
+    },
+    {
+      "id": "telegram-access",
+      "path": "skills/telegram-access/SKILL.md",
+      "category": "telegram-access",
+      "blob_sha": "31ac343af223b1e5807481b30459379de7f738eb",
+      "size": 4283
+    },
+    {
+      "id": "telegram-configure",
+      "path": "skills/telegram-configure/SKILL.md",
+      "category": "telegram-configure",
+      "blob_sha": "47227e10cedd3395a3843dac0e20433143008f10",
+      "size": 4028
+    },
+    {
+      "id": "tooluniverse-clinical-trial-design",
+      "path": "skills/tooluniverse-clinical-trial-design/SKILL.md",
+      "category": "tooluniverse-clinical-trial-design",
+      "blob_sha": "cbd560dae7046182f88ed93f56bcc1720196d393",
+      "size": 43489
+    },
+    {
+      "id": "tooluniverse-sequence-retrieval",
+      "path": "skills/tooluniverse-sequence-retrieval/SKILL.md",
+      "category": "tooluniverse-sequence-retrieval",
+      "blob_sha": "37b9ac861b763ac3c1281e1f77aa420ad822b55b",
+      "size": 11049
+    },
+    {
+      "id": "tooluniverse",
+      "path": "skills/tooluniverse/SKILL.md",
+      "category": "tooluniverse",
+      "blob_sha": "0c93070b3b49dd499269877440e2de2272450051",
+      "size": 23121
+    },
+    {
+      "id": "using-git-worktrees",
+      "path": "skills/using-git-worktrees/SKILL.md",
+      "category": "using-git-worktrees",
+      "blob_sha": "aa2146f60e0fc64a23702872cca53772183fd8be",
+      "size": 5595
+    },
+    {
+      "id": "using-superpowers",
+      "path": "skills/using-superpowers/SKILL.md",
+      "category": "using-superpowers",
+      "blob_sha": "ea3de439139104e23b5e913cbfdddb7ceeec82c8",
+      "size": 6771
+    },
+    {
+      "id": "verification-before-completion",
+      "path": "skills/verification-before-completion/SKILL.md",
+      "category": "verification-before-completion",
+      "blob_sha": "2f14076e59e6ce5cd6f88007421a85f0bd772520",
+      "size": 4201
+    },
+    {
+      "id": "workflow-bootstrap",
+      "path": "skills/workflow-bootstrap/SKILL.md",
+      "category": "workflow-bootstrap",
+      "blob_sha": "dfa4c0bb4c043d14212b71176cd3f891583d0028",
+      "size": 2853
+    },
+    {
+      "id": "workspace-ecosystem-audit",
+      "path": "skills/workspace-ecosystem-audit/SKILL.md",
+      "category": "workspace-ecosystem-audit",
+      "blob_sha": "554da670f9c2d2c50c9c27397ce512aa77ee39df",
+      "size": 6197
+    },
+    {
+      "id": "writing-rules",
+      "path": "skills/writing-rules/SKILL.md",
+      "category": "writing-rules",
+      "blob_sha": "a58ad899e16dd8869e65d785fabd5dccd661f1cf",
+      "size": 8408
+    },
+    {
+      "id": "writing-skills",
+      "path": "skills/writing-skills/SKILL.md",
+      "category": "writing-skills",
+      "blob_sha": "66b8aea74fe9f260426464c5c1d5fd17a803f405",
+      "size": 22444
+    }
+  ]
+}
