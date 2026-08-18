@@ -96,3 +96,8 @@ Remote:
 ```text
 https://github.com/AvaTar-ArTs/agent-skills.git
 ```
+
+
+## Current index
+
+The generated [INDEX.md](INDEX.md), [agent catalog](catalog/agents.json), [skill catalog](catalog/skills.json), and [audit report](docs/audits/2026-08-18-agent-skills-audit.md) are the current repository inventory. See [CHANGELOG.md](CHANGELOG.md) for audit history.
