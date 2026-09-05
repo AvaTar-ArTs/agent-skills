@@ -2,6 +2,9 @@
 
 ## [Unreleased]
 
+### Fixed — 2026-09-05
+- Preserved research capabilities (`skills/research/`) and updated `.gitignore` to exclude runtime state (`agent-skills-meta.csv.summary.json`, `agent-skills-meta.duplicates.csv`, `deeptutor/user/logs/deeptutor.jsonl`).
+
 ### Added — 2026-08-08
 - Bounded `ralph-self-audit` reasoning gate in `~/.agent-skills/skills/ralph-self-audit/` and `~/.codex/skills/ralph-self-audit/`.
 - Durable-artifact rule: `/tmp` is scratch-only; reusable audits belong in a canonical, indexed location.
