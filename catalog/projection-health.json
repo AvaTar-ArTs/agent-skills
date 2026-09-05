@@ -1,13 +1,5 @@
 {
-  "broken_links": [
-    ".gemini/skills/ccxt-cli",
-    ".gemini/skills/ccxt-python",
-    ".grok/marketplace-cache/13ed29d0831c181b/.gemini/skills/skills-status-2/SKILL.md",
-    ".grok/marketplace-cache/13ed29d0831c181b/.hermes/skills/claude-skills/engineering-team/status",
-    ".grok/marketplace-cache/13ed29d0831c181b/.vibe/skills/claude-skills/engineering-team/status",
-    ".opencode/skills/ccxt-cli",
-    ".opencode/skills/ccxt-python"
-  ],
+  "broken_links": [],
   "known": [
     {
       "expected_target": "/Users/steven/.agent-skills/skills",
