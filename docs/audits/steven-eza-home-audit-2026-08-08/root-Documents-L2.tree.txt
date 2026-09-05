@@ -1,0 +1,723 @@
+/Users/steven/Documents/
+├── Adobe/
+│   └── 'Photoshop Cloud Associates'/
+├── as-a-man-thinketh_tts_mine/
+│   ├── .lh/
+│   ├── utils/
+│   ├── AS-A-MAN-THINKETH-nonformat.docx
+│   ├── README.txt
+│   └── requirements.txt
+├── Cline/
+│   ├── Hooks/
+│   ├── MCP/
+│   ├── Rules/
+│   └── Workflows/
+├── Codex/
+│   ├── 2026-06-12/
+│   ├── 2026-07-08/
+│   └── 2026-07-13/
+├── craft/
+│   ├── 'Exported Documents'/
+│   └── document_instructions_to_agent.md
+├── CsV/
+│   ├── CSV_Explorer/
+│   ├── Data-Analysis/
+│   ├── xlsx/
+│   ├── 2025_BreakDown_-_Sheet1.csv
+│   ├── 2025_BreakDown_-_Sheet2.csv
+│   ├── 25000_spend_dataset_current.csv
+│   ├── _exact_duplicate_deletion_plan_20251201_144346.csv
+│   ├── _final_rename_plan_20251106_133811.csv
+│   ├── _merge_2txx_plan_20251201_142632.csv
+│   ├── _needs_renaming_20251106_133157.csv
+│   ├── _organization_plan_20251201_140234.csv
+│   ├── _semantic_similarity_groups_20251201_145319.csv
+│   ├── AG_news_samples.csv
+│   ├── ai_tools_database.csv
+│   ├── 'Albums-Grid view.csv'*
+│   ├── all_scripts_analysis_20251106_132427.csv
+│   ├── all_scripts_analysis_20251126_203737.csv
+│   ├── all_scripts_analysis_20251127_053511.csv
+│   ├── alternatives_avatararts.csv
+│   ├── amazon_furniture_dataset.csv
+│   ├── ANALYSIS_DISCOGRAPHY_20251126_074509.csv
+│   ├── ANALYSIS_LYRICS_20251126_074509.csv
+│   ├── ANALYSIS_PROMPTS_20251126_074509.csv
+│   ├── ANALYSIS_SUMMARY_20251126_074509.csv
+│   ├── analyzed_images.csv
+│   ├── 'Artists-Grid view.csv'*
+│   ├── audio.csv
+│   ├── AUDIO_ORGANIZATION_LOG_20251105_115912.csv
+│   ├── audio_output.csv
+│   ├── autoupload_auto.csv
+│   ├── cache-prune-plan.csv
+│   ├── Cards_13b36221d8b280bf8f2ddff29f702bd8.csv*
+│   ├── categories_15936221d8b281e9b6e6d5c1cda931be.csv*
+│   ├── 'Category of AI 09a1f08e57c1444c91a9f3c82b8a8023.csv'*
+│   ├── chatgpt_9984265b49ce4333bf22494b75cec2b9.csv
+│   ├── combined_output-4-4.csv
+│   ├── 'combined_output - combined_output.csv.csv'*
+│   ├── combined_output_04-07-25.csv
+│   ├── combined_output_04-08-25.csv
+│   ├── 'Companies-ALL Data.csv'*
+│   ├── comparison_summary.csv
+│   ├── CONSOLIDATION_ANALYSIS_BY_FOLDER.csv
+│   ├── CONSOLIDATION_REPORT.csv
+│   ├── CONSOLIDATION_SUMMARY.csv
+│   ├── Content_Planner_b4d54e9da47a4bea9a68537d022d73fe.csv*
+│   ├── context_fluid_analysis_20251026_023106.json
+│   ├── cookbook_recipes_nlg_10k.csv
+│   ├── CookieMonster-May.CSV
+│   ├── 'Creative FaBrica-prompts_all.csv'*
+│   ├── csv-move-plan.csv
+│   ├── CSV_Example.csv
+│   ├── cursor.csv
+│   ├── cursor_sorted_comma.csv*
+│   ├── DALL-E_3_image_gallery_d4a9a67282ef41e19f449617b809bb59.csv*
+│   ├── dataset_twitter-scraper_2025-09-12_16-25-18-928.csv*
+│   ├── dataset_twitter-scraper_2025-09-12_16-32-30-986.csv*
+│   ├── day_calendar.csv
+│   ├── DB_FeaturedAITools_3bce05e1eb624c489f357292c69a240c.csv*
+│   ├── DEEP_SCAN_API_USAGE_20251204_051103.csv
+│   ├── DEEP_SCAN_API_USAGE_20251204_062833.csv
+│   ├── DEEP_SCAN_DETAILED_20251204_050925.csv
+│   ├── DEEP_SCAN_SUMMARY_20251204_051103.csv
+│   ├── DEEP_SCAN_SUMMARY_20251204_062833.csv
+│   ├── DELETION_PLAN_20251204_042431.csv
+│   ├── detailed_organization.csv
+│   ├── DigiTaL_DiVe_15236221d8b2808aa697d88175ddfe35.csv*
+│   ├── dir_file_counts.csv
+│   ├── dir_line_counts.csv
+│   ├── Directory_15936221d8b281ccaf09d4e6c7916f88.csv*
+│   ├── 'Disco-Content-4-8-25 - combined_output_04-08-25.csv'*
+│   ├── 'Discography ALL - Shorts -  2024 _9bc187fa-6024-43dd-b80c-8503abd80dac.csv'*
+│   ├── DOCUMENTS_CLEANUP_BACKUP_20251105_115512.csv
+│   ├── downloads_duplicates_to_remove.csv
+│   ├── Downloads_MultiDepth_Analysis.csv
+│   ├── dry_run_output.csv
+│   ├── DUPLICATE_REMOVAL_LOG_20251126_021838.csv
+│   ├── DUPLICATE_REMOVAL_LOG_20251126_021909.csv
+│   ├── DUPLICATES_COMPARISON.csv
+│   ├── e6137cb8-HEAD.csv
+│   ├── enhanced_image_data-05-30-21-05.csv
+│   ├── enhancedimagedata08120339.csv
+│   ├── EpicT-CuTs.csv
+│   ├── Etsy-12-2-2024.csv
+│   ├── etsy_0959.csv
+│   ├── Etsy_Product_Listings_Database.csv
+│   ├── 'EtsyBlackTopListingsNov2024  EtsyBlackTop.csv'*
+│   ├── 'etsylisting0mydesign (1).CSV'
+│   ├── etsylisting0mydesign.CSV
+│   ├── EtsyListingsDownload.csv*
+│   ├── 'EtsyListingsSep2025  EtsyListingsMerge.csv'*
+│   ├── etsymergedmaster.csv*
+│   ├── EXACT_DUPLICATES_20251204_054321.csv
+│   ├── EXACT_DUPLICATES_20251204_054534.csv
+│   ├── file.csv
+│   ├── FINAL_UNIQUE_FILES_20251204_062325.csv
+│   ├── fine_food_reviews_1k.csv
+│   ├── fine_food_reviews_with_embeddings_1k.csv
+│   ├── flexible_analyzed.csv
+│   ├── formatted_article.csv
+│   ├── GPTs_6c2ff37690e743958aeb50d8aad8af3f.csv*
+│   ├── Gtrivia.csv*
+│   ├── hahnclifford.csv
+│   ├── helpcenter_articles.csv
+│   ├── HOME_CONSOLIDATION_OPPORTUNITIES.csv
+│   ├── home_directory_python_analysis.csv
+│   ├── html_users.csv
+│   ├── ichoake_accessKeys.csv
+│   ├── ichoake_python_category_counts.csv*
+│   ├── ichoake_python_focus_counts(1).csv*
+│   ├── ichoake_python_focus_counts.csv*
+│   ├── ichoake_python_index.csv*
+│   ├── IDENTICAL_CODE_20251204_055538.csv
+│   ├── IDENTICAL_CODE_20251204_055707.csv
+│   ├── image_data-01-07-15-06.csv
+│   ├── image_data-01-07-17-36.csv
+│   ├── image_data-03-10-00-08.csv
+│   ├── image_data-04-29-25.csv
+│   ├── image_data-05-30-21-05.csv
+│   ├── image_data-05-30-22-21.csv
+│   ├── image_data-08-10-23-27.csv
+│   ├── image_data-12-04-04-44.csv
+│   ├── image_output.csv
+│   ├── imagedata08120339.csv
+│   ├── imdb_top_1000.csv
+│   ├── improved_organization.csv
+│   ├── input.csv
+│   ├── 'input copy 2.csv'
+│   ├── Instagram_Ai_4ec70cde15a44036980ca9dbde3e1086.csv*
+│   ├── intelligent_organization.csv
+│   ├── intelligent_rollback.csv
+│   ├── intelligent_summary.csv
+│   ├── items_tagged_and_captioned.csv
+│   ├── items_tagged_and_captioned_embeddings.csv
+│   ├── 'Jobs-ALL Data.csv'*
+│   ├── jobs_companies_resumes_MERGED.csv*
+│   ├── judgement_summary.csv
+│   ├── judgement_summary_1.csv
+│   ├── labelled_transactions.csv
+│   ├── leonardo.csv
+│   ├── leonardo_urls.csv
+│   ├── library_transactions_with_embeddings_359.csv
+│   ├── Listings.csv
+│   ├── Listingsmydesignsexport.csv
+│   ├── LYRICS_INDEX.csv
+│   ├── market_trends_merged.csv
+│   ├── market_trends_merged_dedup.csv
+│   ├── master_image_info.csv
+│   ├── media-dup-manifest.csv
+│   ├── media-move-plan.csv
+│   ├── Merged_Trends__preview_.csv
+│   ├── messages.csv
+│   ├── mini_index.csv*
+│   ├── Monthly_Follower_Tracker_1_3259dbe8499c4ee784f5a8fd3ef51f65.csv*
+│   ├── more_products_7_15936221d8b281f2bf81e3799b598c7d.csv*
+│   ├── Movies_2025-03-09_1150.csv
+│   ├── MP3_ALL_FILES_20251126_073052.csv
+│   ├── MP3_ALL_FILES_20251126_081751.csv
+│   ├── mp3_all_files_organized.csv
+│   ├── MP3_BY_DEPTH_20251126_073052.csv
+│   ├── MP3_BY_DEPTH_20251126_081751.csv
+│   ├── MP3_DUPLICATES_20251126_073052.csv
+│   ├── MP3_DUPLICATES_20251126_081751.csv
+│   ├── mp3_volumes_only.csv
+│   ├── 'MP3 Catalog Entries-Grid view.csv'*
+│   ├── MUSIC_MASTER_TABLE.csv*
+│   ├── MUSIC_MOVIES_ORG_LOG_20251126_022248.csv
+│   ├── 'Music Analysis Records-Grid view.csv'*
+│   ├── mydesigns-export-4500-mock.CSV
+│   ├── mydesigns-export_1.CSV
+│   ├── mydesignsexport.CSV
+│   ├── mydesignsexport1.csv*
+│   ├── Mythic-legendary-places.csv*
+│   ├── mythic-riddles.csv*
+│   ├── OPENAI_API_INDEX.csv
+│   ├── ORGANIZATION_SUGGESTIONS_20251126_083622.csv
+│   ├── OrigiN_sToRies_1_13536221d8b280fcbb08cfdd95e952cf.csv*
+│   ├── other.csv
+│   ├── output-.csv
+│   ├── output.csv
+│   ├── parsed_pdf_docs_with_embeddings.csv
+│   ├── PATTERN_DUPLICATES_20251204_054321.csv
+│   ├── PHASE_4_CONSOLIDATION_ACTIONS.csv
+│   ├── pictures.csv
+│   ├── Pictures_2025-02-01_2128.csv
+│   ├── pictures_by_aspect_ratio_20251106_073441.csv
+│   ├── pictures_SMART_20251106_123406.csv
+│   ├── pictures_summary_20251106_062120.csv
+│   ├── pip3.csv
+│   ├── playlist_info.csv*
+│   ├── portfolio_descriptions.csv
+│   ├── Poster_Dimensions_at_300_DPI.csv
+│   ├── pr09ns.csv
+│   ├── pricedesc.csv*
+│   ├── print_on_demand_data.csv
+│   ├── printify_bestsellers_updated.csv
+│   ├── printify_blueprints.csv
+│   ├── printify_bulk_upload.csv
+│   ├── product_information.csv
+│   ├── 'Progress bar 15936221d8b281bd9348f9a28797e32f.csv'*
+│   ├── Project2025-ResistQuiz.csv
+│   ├── Project_2025_Quiz_-_ReSiSt.csv
+│   ├── Prompt_Database_15436221d8b2813d9134f2b77dc7ddc8.csv*
+│   ├── PROMPT_INDEX_GENERAL.csv
+│   ├── PROMPT_INDEX_IMAGE.csv
+│   ├── Prompt_Library_AI_for_Instagram_15936221d8b28045a20bcc42b884ed8d.csv*
+│   ├── Prompt_Library_AI_for_Instagram_15936221d8b28049bf07faeb53ff572d.csv*
+│   ├── Prompts_3d7f55f1c5ac4d52af74a322b93f871b.csv*
+│   ├── prompts_expanded.csv
+│   ├── Prompts_extracted_from_whisper-prompts_md.csv*
+│   ├── PromptTrendydesigns.csv*
+│   ├── python-050625.csv
+│   ├── python_organization_progress.csv
+│   ├── pythons_duplicates.csv
+│   ├── Quick_Links_eb8a14dfb5a04b01bc20ce67a500addb.csv*
+│   ├── Quiz_3-29_f8fdbd4051f8413a813b950dfdf2b497.csv*
+│   ├── quiz_quiz54.csv
+│   ├── rankings.csv
+│   ├── RECURSIVE_FOLDER_SCAN_20251204_052507.csv
+│   ├── RELATED_ITEMS_20251126_083437.csv
+│   ├── RELATED_ITEMS_20251126_083450.csv
+│   ├── RELATED_ITEMS_DETAILED_20251126_083437.csv
+│   ├── RELATED_ITEMS_DETAILED_20251126_083450.csv
+│   ├── relatedQueries.csv*
+│   ├── rename_backup_20251106.csv
+│   ├── results.csv
+│   ├── results_failsafeqa_baseline.csv
+│   ├── results_failsafeqa_optimized.csv
+│   ├── 'Resumes-Grid view.csv'*
+│   ├── Reusable_Prompt_Database_15436221d8b281a8be12ff9fc5ffd32a.csv*
+│   ├── rollback.csv
+│   ├── rootkey.csv
+│   ├── RTF_MISNAMED_INDEX.csv
+│   ├── run_results_topk_baseline.csv
+│   ├── run_results_topk_optimized.csv
+│   ├── Russ_Vought_Dominion_Dossier.csv*
+│   ├── SAME_NAME_DIFFERENT_LOCATION.csv
+│   ├── Sample_Quiz_Questions_Database.csv
+│   ├── sample_styles.csv
+│   ├── scarletiriscreation_analytics20241211-11-p1i1l4.csv*
+│   ├── script_directory_detailed_metadata.csv
+│   ├── script_directory_metadata.csv
+│   ├── script_operations.csv
+│   ├── SCRIPTS_AND_ORGANIZATION_PREVIEW.csv
+│   ├── Shorts_-_2024_15336221d8b280be9760eae3f1708be2.csv*
+│   ├── SIMILAR_NAMES_20251204_054321.csv
+│   ├── SIMILAR_STRUCTURE_20251204_055538.csv
+│   ├── SIMILAR_STRUCTURE_20251204_055707.csv
+│   ├── snli_1.0_train_2k.csv
+│   ├── Song_Lyrics_Visual_Storytelling_Framework.csv
+│   ├── songs.csv
+│   ├── songs_1.csv
+│   ├── songs_data_1.csv
+│   ├── SPHINX_DOCS_FLATTEN_LOG_20251126_021453.csv
+│   ├── spooky_riddles.csv
+│   ├── stormchild_storyboard.csv
+│   ├── stuck.csv
+│   ├── styles_2k.csv
+│   ├── styles_44k.csv
+│   ├── summary.csv
+│   ├── summary_clean.csv
+│   ├── t-shirt-feb.CSV
+│   ├── Table_1.csv
+│   ├── Table_2.csv
+│   ├── Table_3.csv
+│   ├── Table_4.csv
+│   ├── Table_5.csv
+│   ├── Table_6.csv
+│   ├── Table_7.csv
+│   ├── Table_8.csv
+│   ├── Table_9.csv
+│   ├── Table_10.csv
+│   ├── Table_11.csv
+│   ├── Table_12.csv
+│   ├── Table_13.csv
+│   ├── Table_14.csv
+│   ├── Table_15.csv
+│   ├── Table_16.csv
+│   ├── Table_17.csv
+│   ├── Table_18.csv
+│   ├── Table_19.csv
+│   ├── Table_20.csv
+│   ├── Table_21.csv
+│   ├── Table_22.csv
+│   ├── test.csv
+│   ├── tools_71f741c6142846b39b256ace8df8e582.csv
+│   ├── tools_15936221d8b28161bbbdf01d87ac6b55.csv*
+│   ├── tools_15936221d8b28192b15fd6e595cc9b14.csv*
+│   ├── top-products-list_topt_captured-list_04-55-41_93ee8c95-08a4-46b4-8eb3-f12bbf0a32fc.csv
+│   ├── topbyfavorites.csv*
+│   ├── topbyorders.csv*
+│   ├── topics_1b35d06ed6234fc4ad6d946aa065b02b.csv
+│   ├── traffic_accidents.csv
+│   ├── trashcat.csv
+│   ├── Trekkie.csv
+│   ├── trick.csv
+│   ├── ultimate_analysis_20251026_021356.json
+│   ├── Untitled-Database-983d0b56fa34456cb34c0d5453505848.csv*
+│   ├── 'Untitled 15936221d8b281f3bbd8f72297986ff2.csv'*
+│   ├── Untitled_13c36221d8b2801cb38dcc7f06ab377b.csv*
+│   ├── Untitled_16e36221d8b2804c9d42c02f508b19a0.csv*
+│   ├── Untitled_71ac465da7144c4dad5c1dab6da39274.csv*
+│   ├── Untitled_25328af8d6a84e89aecf8ac2a7429b0a.csv*
+│   ├── Untitled_15036221d8b280a6a687d00887bcde01.csv*
+│   ├── Untitled_15136221d8b280f69eb4e2cba22a8a02.csv*
+│   ├── Untitled_15236221d8b2808aa697d88175ddfe35_all.csv*
+│   ├── Untitled_15436221d8b28116b57ccd9db2d8a9a6.csv*
+│   ├── Untitled_15536221d8b280549cc9cff887535e09.csv*
+│   ├── Untitled_b2f74f42ee094ac884b1f599633b04f7.csv*
+│   ├── Untitled_bbeae22474fe49d0b024b0c48b512abf.csv*
+│   ├── Untitled_d75c6c0fb2dc433db89710381da55808.csv*
+│   ├── Untitled_e5155b902c2346018409b34a379939d5.csv*
+│   ├── Untitled_fbe2b263d823488aa46a2b7603c0a018.csv*
+│   ├── updated_product.csv
+│   ├── username_strategies.csv
+│   ├── VERSION_ANALYSIS_REPORT_20251204_050037.csv
+│   ├── Video_Ideas_af2218f4359143b0aad97e6e0452533b.csv*
+│   ├── Video_Ideas_b903de7d3aa4482586babe30801297d3.csv*
+│   ├── vidIQ_CSV_export_for_50_Photos_2025-02-07.csv
+│   ├── vidIQ_CSV_export_for_I_ve_Had_It_2025-05-10.csv
+│   ├── vidIQ_CSV_export_for_TrapTalk_2025-05-31.csv
+│   ├── vidiq_santrel.csv
+│   ├── 'vidIQ CSV export for AI Money Maniac 🤑 2025-10-25.csv'
+│   ├── 'vidIQ CSV export for Frank Garrett 2025-10-25.csv'
+│   ├── 'vidIQ CSV export for Hasan Aboul Hasan 2025-10-25.csv'
+│   ├── 'vidIQ CSV export for Travis Wardrop 2025-10-25.csv'
+│   ├── 'vidIQ CSV export for Wholesale Ted 2025-10-25.csv'
+│   ├── vids.csv
+│   ├── webm_files.csv
+│   ├── whisper-3-8.csv
+│   ├── whisper_prompts_compiled.csv*
+│   ├── whisper_prompts_from_md.csv*
+│   ├── WhisperTextOutput44.csv
+│   ├── whisperTranscripts_-_Sheet1_1ae36221d8b280aba2fcdd95168e5ea9.csv*
+│   ├── workflow_templates.csv
+│   ├── youtube_extract_50_Photos.csv
+│   ├── youtube_search_results.csv*
+│   └── zip_contents_inventory.csv
+├── 'File Cabinet'/
+├── Hookmark/
+│   ├── Help/
+│   ├── ADVANCED_CONTENT_AWARE_LINKER.py
+│   ├── quick-load.sh*
+│   └── quick_analyze.sh*
+├── HTML/
+│   ├── organized_intelligent/
+│   ├── responsive-slideshow-carousel-with-only-html5-css3/
+│   ├── SBHTML/
+│   ├── seamless-pattern-app/
+│   ├── sites-navigator/
+│   ├── 3D_Cracked_Wall_Designs.html
+│   ├── 1001.html
+│   ├── Add_Jump_Up_Button.html*
+│   ├── 'Ai-Search Engine.html'*
+│   ├── AiArt.html*
+│   ├── Alfred_Image_Processing_Workflow.html
+│   ├── Alley_Animal_Artistic_Descriptions.html
+│   ├── Amber_Nicole_Williams_PaROLE.html
+│   ├── "Anti-Valentine's_Raccoon_Designs2 2.html"
+│   ├── Art_Prompts_Summary.html
+│   ├── 'Aspect Ratios for Greeting Cards – Redbubble 2b99ef6bae8847c583d525bf9efb723b.html'*
+│   ├── AutoUploadShorts.html
+│   ├── Awesome_Prompts.html
+│   ├── Best-AI-Tools-7cf54c1fdd3149b6a868a84f74403450.html*
+│   ├── 'Best_Prompt_Camera_2025-03-29_14_24_13 1.html'
+│   ├── card.html
+│   ├── 'Catchy_YouTube_#Shorts_Titles-2025-05-01 1.html'
+│   ├── character_portraits-lore-driven.html
+│   ├── chat.html
+│   ├── chat.txt
+│   ├── 'code_browser_modern 2.html'
+│   ├── 'code_gallery 2.html'
+│   ├── CodeAnalysis.html
+│   ├── 'Compelling-narrative 2.html'
+│   ├── 'contact 1.html'
+│   ├── content_automation_dashboard.html
+│   ├── 'Converting_markdown_to_PDFs_with_pandoc_on_macOS 2.html'
+│   ├── cover2.html
+│   ├── 'covers 1.html'
+│   ├── 'Creating_a_shortcut_in_vscode_to_switch_between_the_terminal_and_editor 2.html'
+│   ├── 'DaLLe-NewPrompt 2.html'
+│   ├── 'dallemod 3.html'
+│   ├── 'dark 1.html'
+│   ├── 'Debunking the Mayan Calendar Myths A comprehensi 15336221d8b281ad99e3cc6dc2e09ecf.html'*
+│   ├── deep-analysis-seo-improvements.html
+│   ├── 'Design Assistant 53c27f5899f248458bc8ccbceb594692.html'*
+│   ├── DighitalDiVe.zip
+│   ├── 'DiGiTaL_DiVe 2.html'
+│   ├── 'DiGiTaL_DiVe_Image_Generation_Instructions 2.html'
+│   ├── 'DiGiTaL_DiVe_Prompt_Layout 2.html'
+│   ├── 'DiGiTaL DiVe Instructions.html'
+│   ├── 'DiGiTaL DiVe Prompt Layout\.html'
+│   ├── disco6.html
+│   ├── disco25-black.html
+│   ├── 'discography-test 1.html'
+│   ├── 'discography 1.html'
+│   ├── 'Discography Auto-Grid Gallery 15936221d8b280ac8145f2eb80ff73ee.html'*
+│   ├── 'Domain Deployment Guide.html'
+│   ├── 'Epic History of the Inca Empire A Journey Throug 15336221d8b281669d24e079941f729d.html'*
+│   ├── fancy.html
+│   ├── FFmpeg_MP4_to_MP3_Conversion.html*
+│   ├── Finalize_artist_identity.html
+│   ├── formy.html
+│   ├── 'Funny Gingerbread Nurse Christmas PNG Graphic by T 95cfecd23cef437285d717242e660937.html'*
+│   ├── 'Funny Sarcastic Mug Sublimation Bundle Graphic by  36f981b342f149bcaa00a1cd6c48f62c.html'*
+│   ├── 'Fun Tools e46d44efa2eb488987e7511103b97870.html'*
+│   ├── FuzzyTime_Form.html
+│   ├── gall.html*
+│   ├── 'gallery 4.html'
+│   ├── glitch.html
+│   ├── grid.html
+│   ├── 'Grinch Svg Design Bundle Graphic by DollarSmart ·  23e4b03bbb3947a0aaf5b64ad65cc368.html'*
+│   ├── grouped_gallery.html
+│   ├── 'Hilarious Christmas Puns Bundle PNG Graphic by Ell 558cdd0e824c4605b2e3198797eaa058.html'*
+│   ├── 'Home Ornaments for Decoration Printify 293342d6a95545aa94313e9acda9bfae.html'*
+│   ├── 'Home Ornaments for Decoration Printify b7b89c71ecb340398615373fb0c9cf2f.html'*
+│   ├── 'hovercard 1.html'
+│   ├── "I Do It for the Ho's,Retro Santa Png Graphic by Ma 9abf2ac559894754b9e0136f8de78789.html"*
+│   ├── 'Image_Series_Beautiful_Mess 2.html'
+│   ├── 'Image Editing 682d6f8e245348068be4de155a243c3f 1.html'*
+│   ├── 'Image Generation Concepts.html'
+│   ├── 'Image Generator bed0f44d07454df1ac703f3a3b987f59.html'*
+│   ├── 'Image Tools 15936221d8b281ba8732fffc846ae604.html'*
+│   ├── 'Image Tools 15936221d8b28149be92f1b400137243.html'*
+│   ├── 'Inflated Christmas Tumbler Bundle Graphic by Chris ca7c20dab2d54e1d9ef2c389803244d2.html'*
+│   ├── interactive-search-standalone.html
+│   ├── interactive-search-v2.html
+│   ├── interactive-search.html
+│   ├── iterm2.txt
+│   ├── 'I’m Not a Grinch, I’m Just Selectively Festive Gra dd033029b23943b9a625aeac470618c2.html'*
+│   ├── layout.html
+│   ├── leo-archive.html
+│   ├── leo1.html*
+│   ├── leo2.html*
+│   ├── leo3.html*
+│   ├── 'Leonardo Ai f844c620a036427ba7916c9366599a99.html'*
+│   ├── Memento_mori_-mythic_Images-2025-05-01.html
+│   ├── 'MiXeD 2.html'
+│   ├── 'Narrative_Image_Generation_Guide_for_DALL-E_Usage_(YouTube_Shorts_Version)_In_each_image_generation_request_using_D 1.html'
+│   ├── 'New Apostolic Reformation.html'
+│   ├── "now_create_a_'generic'_prompt_that_i_can_use_on_ma 2.html"
+│   ├── 'Organizing and improving AI directories list.html'
+│   ├── popup.html
+│   ├── 'Printify Drop Shipping Print on Demand for Ecommer 5c51ed2e710c4dbe9990b082b0781eac.html'*
+│   ├── 'Prompt_Layout_Title_{Randomly_Generated_Title} 2.html'
+│   ├── 'Prompt_Layout_Title_{Randomly_Generated_Youtube_Trendy,_Catchy,_and_seo_optimized_Title} 2.html'
+│   ├── 'PromptLy 16e36221d8b280e98a60c525a50453ad.html'*
+│   ├── 'Prompt Structure.html'
+│   ├── python-script-for-image-renaming-and-copying-6c58f096.html
+│   ├── 'qf-labs 2.html'
+│   ├── 'Raccoon Image Prompts (3) 16f36221d8b281bc9950e1cc3669fcb2.html'*
+│   ├── 'Raccoon Image Prompts (5) 16f36221d8b281a3b796fcadf7af3040 1.html'*
+│   ├── 'Raccoon Image Prompts (6) 16f36221d8b28178bb21f6956f397796.html'*
+│   ├── 'refind-img-generation 2.html'
+│   ├── saved_resource.html
+│   ├── script-search.html
+│   ├── seamless.html
+│   ├── 'Social Media Assistant 5419a9be371843a99bc176e5c2279c1b.html'*
+│   ├── 'SongPrompt 2.html'
+│   ├── Split_Large_HTML_File.html
+│   ├── 'sun3 1.html'
+│   ├── test_20250102115142.html
+│   ├── test_sample.html
+│   ├── Title_Art_Prompts_Summary.html
+│   ├── 'TrashCaTs 2.html'
+│   ├── typo-dalle_20250309204229.html
+│   ├── ultimate_analysis_20251026_022230.json
+│   ├── 'Updated_Narrative_Script_with_New_Section 2.html'
+│   ├── 'Video Editing 240fc9561f78429b98d924816a075964 1.html'*
+│   ├── 'Video Tools 15936221d8b2817b8074e69cd969f4c7.html'*
+│   ├── 'Video Tools 15936221d8b2819fbf4acc001889d694.html'*
+│   ├── 'What is Phi (The Basics of the Golden Ratio) 0e3775ace2e146828dbcc9c7b21bab47.html'*
+│   ├── 'YouTube Shorts Content GeneratorTrashCat Origin 17036221d8b281de84c8d555fd5decc5.html'*
+│   ├── 'YouTube Shorts Content GeneratorTrashCat Origin 17036221d8b281eb9bd8f91deb651988.html'*
+│   ├── 'YouTube Shorts Content GeneratorTrashCat Origin 17036221d8b281428eddc4476d3cae1b.html'*
+│   └── 'YouTube Shorts Content GeneratorTrashCat Origin 17036221d8b2818388baddd0fb528e12.html'*
+├── HTML5-Video-Playlist/
+│   ├── css/
+│   ├── js/
+│   ├── .gitignore
+│   └── README.md
+├── iTermAI.app/
+│   └── Contents/
+├── json/
+│   ├── _invalid/
+│   ├── _misnamed_rtf/
+│   ├── automation-workflows/
+│   ├── claude-ai/
+│   ├── config-files/
+│   ├── leonardo-ai/
+│   ├── misc-data/
+│   ├── openai-api/
+│   ├── Web-Development/
+│   ├── YouTube-Content/
+│   ├── youtube-data/
+│   └── ANALYZE_AND_CLEAN_JSON.py
+├── markD/
+│   ├── .lh/
+│   ├── aLFred_Books/
+│   ├── all-paths.txt/
+│   ├── css/
+│   ├── general-notes/
+│   ├── programming/
+│   ├── project-docs/
+│   ├── ALL_ORGANIZED_FOLDERS_SUMMARY.md
+│   ├── Api-DeepDive.md
+│   ├── AS-A-MAN-THINKETH-nonformat.rtf
+│   ├── CATALOG_USAGE_GUIDE.md
+│   ├── ChatGPT_Exporter.js
+│   ├── 'ChatGPT Auto-Continue ⏩.user.js'*
+│   ├── claude-code-SETUP_GUIDE.md
+│   ├── COMPLETE_ORGANIZATION_SUMMARY.md
+│   ├── CONTEXT7_COMPLETE_SETUP.md
+│   ├── CONTEXT7_DEEP_INTEGRATION_COMPLETE.md
+│   ├── CONTEXT7_INTEGRATION_PLAN.md
+│   ├── conversation-handoff.md
+│   ├── CONVERSATION_EXPORTER_README.md
+│   ├── 'Conversation with Gemini.pdf'
+│   ├── DEDUPLICATION_REPORT.md
+│   ├── deep_analysis.zip
+│   ├── DEEP_DIVE_ANALYSIS.md
+│   ├── DEEP_FOLDER_ANALYSIS_REPORT.md
+│   ├── DEEP_FOLDER_ORGANIZATION_COMPLETE.md
+│   ├── 'Deep home directory analysis complete.md'
+│   ├── DEPTH_COMPARISON_ANALYSIS.md
+│   ├── EXTERNAL_PROJECTS_CATALOG.md
+│   ├── FINAL_ORGANIZATION_STATUS.md
+│   ├── grok-cli-setup.zip
+│   ├── 'Grok Imagine Favorites Grabber + Metadata + CSV:JSONL.md'
+│   ├── HANDOFF_20251106_FINAL.md
+│   ├── HANDOFF_NEXT_SESSION.md
+│   ├── 'Hookmark Research.md'
+│   ├── "I'll help you configure it.md"
+│   ├── INTELLIGENT_CONTENT_AWARENESS_SYSTEM.md
+│   ├── Intelligent_Organization_Systems_for_Creative_Automation_Developers_2025_Implementation_Guide.md.md*
+│   ├── markdown.db
+│   ├── markdown_archive.zip*
+│   ├── markdown_archive_fixed.zip*
+│   ├── markdown_dashboard.html.zip
+│   ├── markdown_data.json
+│   ├── MCP_COMPLETE_SETUP.md
+│   ├── MCP_QUICK_REF.md
+│   ├── MCP_SETUP_GUIDE.md
+│   ├── MCP_TOKEN_SETUP.md
+│   ├── MP3_DISCOGRAPHY_SEARCH_REPORT.md
+│   ├── MUSIC_MOVIES_ORGANIZATION_REPORT.md
+│   ├── NEXT_STEPS_ORGANIZATION.md
+│   ├── 'NotebookLM FULL COURS-whisper.md'
+│   ├── ORGANIZATION_ANALYSIS_AND_SUGGESTIONS.md
+│   ├── ORGANIZATION_COMPLETE_REPORT.md
+│   ├── PROMPTS_ORGANIZATION_REPORT.md
+│   ├── 'Python Automation & AI Systems Engineer.md'
+│   ├── '  Search.user.js'*
+│   ├── shorts_-_2024
+│   ├── spooky-story.Markdown
+│   ├── THE_GREAT_ORGANIZATION_SAGA.md
+│   ├── The_legend_of_the_rainbow_bridge_an_Indian_Lakota_legend.Markdown
+│   ├── 'The Digital Empire Blueprint.md'
+│   ├── 'Top 5 AI Tool Scripts for 2025.md'
+│   ├── '  to PDF by PDFCrowd.user.js'*
+│   ├── VertexAi-YTUploader.zip
+│   ├── WORKSPACE_ANALYSIS_2025.md
+│   ├── '🤖 Model Context Protocol (MCP) Allowlist Server.md'
+│   └── '🧠 A — How to remember what each tool does.md'
+├── ObsidianVault/
+│   ├── .obsidian/
+│   ├── .smart-env/
+│   ├── assets/
+│   ├── AutoMationEmpire/
+│   ├── AvaTarArTs/
+│   ├── 'Book of Memory'/
+│   ├── Chat/
+│   ├── Chats/
+│   ├── cLauDe/
+│   ├── export-settings/
+│   ├── Forge/
+│   ├── Inbox/
+│   ├── MOCs/
+│   ├── 'Nocturne MeLodies'/
+│   ├── Notes/
+│   ├── Obsidian/
+│   ├── Perplexity/
+│   ├── SupremePowers/
+│   ├── Templates/
+│   ├── xEo/
+│   ├── 20260207001844.snbackup
+│   ├── 20260207044520-locked.snbackup
+│   ├── 20260411172408.snbackup
+│   ├── 20260520221706.snbackup
+│   ├── 20260520221824.snbackup
+│   ├── 'Creative Automation Portfolio Strategy.md'
+│   ├── gemini.md
+│   ├── Untitled.md
+│   ├── 'Untitled 1.md'
+│   ├── 'Untitled 2.md'
+│   ├── 'Untitled 3.md'
+│   ├── 'Untitled 4.md'
+│   ├── 'Untitled 5.md'
+│   └── 'Untitled 6.md'
+├── Project-Insights/
+│   └── Project-Insights-Summary.txt
+├── system-reports/
+│   └── 2026-07-11-macos-systems-check-slow-performance.md
+├── Typora/
+├── WalterRussell/
+│   ├── audio_output/
+│   ├── walter-russell-s-home-study-course-unit-1-lessons-1-2-3-4.pdf*
+│   ├── walter-russell-s-home-study-course-unit-2-lessons-5-6-7-8.pdf*
+│   ├── walter-russell-s-home-study-course-unit-3-lessons-9-10-11-12.pdf*
+│   ├── walter-russell-s-home-study-course-unit-4-lessons-13-14-15-16.pdf*
+│   ├── walter-russell-s-home-study-course-unit-5-lessons-17-18-19-20.pdf*
+│   ├── walter-russell-s-home-study-course-unit-6-lessons-21-22-23-24.pdf*
+│   ├── walter-russell-s-home-study-course-unit-7-lessons-25-26-27-28.pdf*
+│   ├── walter-russell-s-home-study-course-unit-8-lessons-29-30-31-32.pdf*
+│   ├── walter-russell-s-home-study-course-unit-9-lessons-33-34-35-36.pdf*
+│   ├── walter-russell-s-home-study-course-unit-10-lessons-37-38-39-40.pdf*
+│   ├── walter-russell-s-home-study-course-unit-11-lessons-41-42-43-44.pdf*
+│   ├── walter-russell-s-home-study-course-unit-12-lessons-45-46-47-48.pdf*
+│   ├── Walter-Russell-the-Universal-One-Alchemy-Chemistry.pdf
+│   └── Walter_Russell_-_A_New_Concept_Of_The_Universe.pdf*
+├── .localized
+├── 2025-12-04-would-obsidian-be-good-to-organize-my-docs-or-is-t.txt
+├── '2025 -Quiz.pdf'
+├── 20251229064436.snbackup
+├── 20260113162138.snbackup
+├── 20260207043813.snbackup
+├── agents.html
+├── all.txt
+├── all_scan.csv
+├── AS_A_MAN_THINKETH.txt
+├── As_A_Man_Thinketh_Narrative.docx
+├── as_a_man_thinketh_package.zip*
+├── AutoTagger_Implementation_Explained.md
+├── AutoTagger_Implementation_Handoff.md
+├── AutoTagger_Workflow_Memory.txt
+├── 'Best Sellers.pdf'
+├── 'build an AI that can answer crawl-website-embeddings.txt'
+├── Chalice_of_Reflection.txt*
+├── CHANGELOG.md
+├── Complete_AutoTagger_Implementation_Export.txt
+├── 'Comprehensive Documentation Document Organization & Search System with Tag.md'
+├── 'Comprehensive System Memory Document Organization & Search System with Tag.md'
+├── 'Comprehensive Technical Documentation Document Organization & Search.md'
+├── cosmic-balance-tale-visualized-with-sora.md
+├── CosmicCoVe.txt*
+├── DaLLe-Trashcribe-key-anakysis.pdf
+├── deepseek-iterm-setup.md
+├── Detailed_Comprehensive_Documentation.txt
+├── DiGiTaL_DiVe_Narrative_Image_Generation_Framework.txt
+├── easylist.json
+├── emo-tag.txt
+├── enigmas.html
+├── env-qwen.txt
+├── favorite.json
+├── 'Future Prophecy: The Hilariously Tragic Cycle of Tolerance and Dominance in the White Nationalist Christian Extremist Playbook.md'
+├── 'greek origins.pdf'
+├── hookmark_links_documents.json
+├── hustl-20260212041543-1080p-Maximum-24fps.mp4
+├── 'Immersive Adventures in Tamriel: A Guide to Elder Scrolls Online.md'
+├── 'In a whimsical world of cotton and wool, iTchy iSLe is a place where imagination weaves into reality. Here are some story prompts that could arise in this uniquely crafted world.pdf'
+├── LaunchCat.plist
+├── Li_2222_Lease_Renewal_Offer_COMPLETE.docx
+├── Li_2222_Lease_Renewal_Offer_FINAL.docx
+├── llm_as_judge.txt
+├── Makefile
+├── melody-of-marrowbrook.txt*
+├── 'Obsidian Vault.zip'
+├── openingTabs.json
+├── Overall_Documentation_Summary.txt
+├── Panoramic_View_of_Threat.html
+├── pdfs.txt
+├── Peacock_Angel-Malek_taus.zip*
+├── 'Phi and Fibonacci The Divine Duality.html'*
+├── 'Phi Fibonacchi and Love of Self.txt'
+├── prompt-engineering.txt
+├── README_HOME_SEARCH.md
+├── 'Removing_QuickLook_Plugins_and_Resetting_QuickLook 2.html'
+├── requirements_home_search.txt
+├── Session_Memory.txt
+├── 'Shadow Messages.txt'
+├── silent_lady.txt*
+├── 'spirit seeker.pdf'
+├── 'Streamlining Al Content withJSONGuide.pdf'
+├── suggested_organization_mapping_improved.csv
+├── Tag_Application_Guide.txt
+├── The_Chalice_of_Reflection.txt*
+├── The_Locket_of_Lament_FiN.txt*
+├── The_Long_Thread.docx
+├── The_Raccoons_Revelry.txt
+├── theCursedAmulet.txt*
+├── TheLastTrain_1.txt*
+├── TheUnmended_1.txt*
+├── thinketh_tts_mine.zip
+├── 'Title The Final Recipe.pdf'
+├── 'Title The Unmended.pdf'
+├── toomuch.txt
+├── trashCaTs.pdf
+├── trashcats.rtf
+├── Unraveling_of_itchy_isle.txt
+├── 'Uploading Videos to YouTube Using Python and OAuth 2.0_ A Step-by-Step Guide with Reauthentication _ by Py-Core Python Programming _ Python in P.pdf'
+├── whispermirror.txt*
+└── Workshop-Worries.txt*

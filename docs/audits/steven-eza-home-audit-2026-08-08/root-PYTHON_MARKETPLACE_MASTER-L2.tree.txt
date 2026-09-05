@@ -1,0 +1,1039 @@
+/Users/steven/PYTHON_MARKETPLACE_MASTER/
+├── .claude/
+│   └── worktrees/
+├── .codex-history/
+│   ├── 2026-05-09_171752_now-lets-focus-on-the-whole-of-Users_019e0e9a.md
+│   ├── 2026-05-09_181222_deepdive-my-folders-and-files-within_019e0da8.md
+│   ├── 2026-05-09_192746_hellp-with-httpsgithub.comAvaTar-ArT_019e0ed5.md
+│   ├── 2026-05-10_043949_⚠-`[features].codex_hooks`-is-deprecated_019e108d.md
+│   ├── 2026-05-12_022630_download-from-httpsgithub.comAvaTar-_019e1ad5.md
+│   ├── 2026-06-20_080443_review_019ee4e9.md
+│   └── 2026-07-08_141032_Use-GitHub-to-review-recent-notebook-and_019f42e8.md
+├── 01_AI_LLM_TOOLS/
+│   ├── ai_agents/
+│   ├── ai_collection/
+│   ├── ai_platform/
+│   ├── ai_project/
+│   ├── content_generation/
+│   ├── crew_ai/
+│   ├── fine_tuning/
+│   ├── llm_orchestration/
+│   ├── llm_training_framework/
+│   ├── multi_llm_systems/
+│   ├── multi_purpose_ai/
+│   ├── newly_added/
+│   ├── voice_speech/
+│   ├── BUNDLE_MANIFEST.md
+│   ├── CATEGORY_MANIFEST.md
+│   ├── CATEGORY_MANIFEST.md.html
+│   ├── README.md
+│   └── README.md.html
+├── 02_AUTOMATION_BOTS/
+│   ├── data_extractors/
+│   ├── file_management/
+│   ├── instagram_automation/
+│   ├── newly_added/
+│   ├── utility_scripts/
+│   ├── web_scrapers/
+│   ├── youtube_automation/
+│   ├── BUNDLE_MANIFEST.md
+│   ├── CATEGORY_MANIFEST.md
+│   └── README.md
+├── 03_MEDIA_PROCESSING/
+│   ├── audio_transcription/
+│   ├── auto_tagging/
+│   ├── gallery_systems/
+│   ├── image_gallery/
+│   ├── image_processing/
+│   ├── image_upscaling/
+│   ├── newly_added/
+│   ├── video_editing/
+│   ├── BUNDLE_MANIFEST.md
+│   ├── CATEGORY_MANIFEST.md
+│   ├── CATEGORY_MANIFEST.md.html
+│   ├── README.md
+│   └── README.md.html
+├── 04_BUSINESS_TOOLS/
+│   ├── analytics_dashboards/
+│   ├── lead_generation/
+│   ├── newly_added/
+│   ├── BUNDLE_MANIFEST.md
+│   ├── CATEGORY_MANIFEST.md
+│   ├── CATEGORY_MANIFEST.md.html
+│   ├── README.md
+│   └── README.md.html
+├── 05_WEB_DEVELOPMENT/
+│   ├── api_services/
+│   ├── dev_tools/
+│   ├── github_repo/
+│   ├── mcp_protocol/
+│   ├── newly_added/
+│   ├── python_module/
+│   ├── website_generators/
+│   ├── BUNDLE_MANIFEST.md
+│   ├── CATEGORY_MANIFEST.md
+│   ├── CATEGORY_MANIFEST.md.html
+│   ├── README.md
+│   └── README.md.html
+├── 06_DATA_ANALYSIS/
+│   ├── csv_tools/
+│   ├── data_cleaners/
+│   ├── newly_added/
+│   ├── research/
+│   ├── BUNDLE_MANIFEST.md
+│   ├── CATEGORY_MANIFEST.md
+│   ├── CATEGORY_MANIFEST.md.html
+│   ├── README.md
+│   └── README.md.html
+├── 07_MARKETING_SEO/
+│   ├── newly_added/
+│   ├── seo_tools/
+│   ├── BUNDLE_MANIFEST.md
+│   ├── CATEGORY_MANIFEST.md
+│   ├── CATEGORY_MANIFEST.md.html
+│   ├── README.md
+│   └── README.md.html
+├── 08_UTILITIES_SCRIPTS/
+│   ├── file_utilities/
+│   ├── newly_added/
+│   ├── BUNDLE_MANIFEST.md
+│   ├── CATEGORY_MANIFEST.md
+│   ├── CATEGORY_MANIFEST.md.html
+│   ├── README.md
+│   └── README.md.html
+├── ai-usage-analytics/
+│   ├── EXAMPLES.md
+│   ├── EXAMPLES.md.html
+│   ├── hook.py
+│   ├── INSTALLATION.md
+│   ├── INSTALLATION.md.html
+│   ├── README.md
+│   ├── README.md.html
+│   ├── SALES_PAGE.md
+│   └── SALES_PAGE.md.html
+├── AUTO_LISTINGS/
+│   ├── LISTING_DATA/
+│   └── PACKAGES/
+├── avatararts_site/
+│   ├── content/
+│   ├── templates/
+│   ├── build_site.py
+│   ├── README.md
+│   ├── README.md.html
+│   └── site.json
+├── backup/
+│   ├── COMPLETE_ANALYSIS_SUMMARY_OLD_20260410_190806.md
+│   ├── COMPLETE_ANALYSIS_SUMMARY_OLD_20260410_190806.md.html
+│   ├── marketplace_inventory_CLEANED_OLD_20260410_190806.csv
+│   ├── marketplace_inventory_OLD_20260410_190806.csv
+│   ├── marketplace_inventory_REMOVED_OLD_20260410_190806.csv
+│   ├── MARKETPLACE_SUMMARY_OLD_20260410_190806.md
+│   ├── MARKETPLACE_SUMMARY_OLD_20260410_190806.md.html
+│   ├── SCRIPT_ANALYSIS_REPORT_OLD_20260410_190806.csv
+│   ├── TOP_MARKETABLE_SCRIPTS_OLD_20260410_190806.csv
+│   ├── YOUR_PYTHON_SCRIPTS_OLD_20260410_190806.csv
+│   ├── YOUR_SCRIPTS_REPORT_OLD_20260410_190806.md
+│   └── YOUR_SCRIPTS_REPORT_OLD_20260410_190806.md.html
+├── Brands/
+│   ├── .gemini/
+│   ├── Findings.md
+│   ├── gemini-conversation-1778357384720.json
+│   └── GEMINI.md
+├── clean/
+│   ├── audio/
+│   ├── docs/
+│   ├── img/
+│   ├── other/
+│   ├── outputs/
+│   ├── vids/
+│   ├── __init__.py
+│   ├── all.py
+│   ├── all_for_csv.py
+│   ├── audio-04-14-21:18.csv
+│   ├── audio-04-14-21:19.csv
+│   ├── audio-04-14-23:14.csv
+│   ├── audio.py
+│   ├── audio.txt
+│   ├── back-clean.sh
+│   ├── batch-info.py
+│   ├── cleanup_and_organize.py
+│   ├── config.py
+│   ├── docs-04-14-23:19.csv
+│   ├── docs-05-09-15:46.csv
+│   ├── docs.py
+│   ├── docs.txt
+│   ├── ecosystem_scan_2026-04-14_21-21-35.csv
+│   ├── ecosystem_scan_2026-04-14_21-21-35_compare.md
+│   ├── ecosystem_scan_2026-04-14_21-22-17.csv
+│   ├── ecosystem_scan_2026-04-14_21-22-17_compare.md
+│   ├── ecosystem_scan_2026-04-14_22-05-31.csv
+│   ├── ecosystem_scan_2026-04-14_22-05-31_compare.md
+│   ├── ecosystem_scan_compare.py
+│   ├── exclude_patterns.py
+│   ├── image_data-04-14-21-20.csv
+│   ├── image_data.txt
+│   ├── img.py
+│   ├── other-04-14-21:23.csv
+│   ├── other.py
+│   ├── other.txt
+│   ├── python_sorter.py
+│   ├── python_workflow.py
+│   ├── repo_python_run1.py
+│   ├── repo_python_run2.py
+│   ├── repo_python_run3.py
+│   ├── requirements.txt
+│   ├── run.sh*
+│   ├── scan_state.py
+│   ├── sortD.sh*
+│   ├── vids-04-14-21:21.csv
+│   ├── vids.py
+│   └── vids.txt
+├── CODESTER/
+│   ├── codester_uploader.py
+│   ├── QUICK_START.md
+│   ├── QUICK_START.md.html
+│   ├── README.md
+│   ├── README.md.html
+│   └── run.sh*
+├── docs/
+│   └── plans/
+├── DOCUMENTATION/
+│   ├── samples/
+│   ├── 01_AI_LLM_TOOLS_REVIEW_AND_CHANGELOG_2026-05-09.md
+│   ├── 02_AUTOMATION_BOTS_REVIEW_AND_CHANGELOG_2026-05-09.md
+│   ├── 03_MEDIA_PROCESSING_REVIEW_AND_CHANGELOG_2026-05-09.md
+│   ├── 04_BUSINESS_TOOLS_REVIEW_AND_CHANGELOG_2026-05-09.md
+│   ├── 05_WEB_DEVELOPMENT_REVIEW_AND_CHANGELOG_2026-05-09.md
+│   ├── 06_DATA_ANALYSIS_REVIEW_AND_CHANGELOG_2026-05-09.md
+│   ├── 07_MARKETING_SEO_REVIEW_AND_CHANGELOG_2026-05-09.md
+│   ├── 08_UTILITIES_SCRIPTS_REVIEW_AND_CHANGELOG_2026-05-09.md
+│   ├── artifact_manifest.json
+│   ├── artifact_manifest.schema.json
+│   ├── AUTO_LISTINGS_REVIEW_AND_CHANGELOG_2026-05-09.md
+│   ├── CATEGORY_POOLS_INVENTORY_2026-05-09.csv
+│   ├── CATEGORY_POOLS_INVENTORY_SUMMARY_2026-05-09.md
+│   ├── CHANGELOG_2026-04-26_PRODUCT_SURFACE_AND_REVENUE.md
+│   ├── CHANGELOG_2026-04-26_PRODUCT_SURFACE_AND_REVENUE.md.html
+│   ├── CHANGELOG_2026-04-26_REPO_NORMALIZATION.md
+│   ├── CHANGELOG_2026-04-26_REPO_NORMALIZATION.md.html
+│   ├── CHANGELOG_INDEX.md
+│   ├── CHANGELOG_INDEX.md.html
+│   ├── CLEANUP_PREVIEW_2026-05-09.md
+│   ├── COPY_REPORT.md
+│   ├── COPY_REPORT.md.html
+│   ├── DEEPDIVE_ARTIFACTS_CLUSTER_ANALYSIS.md
+│   ├── DEEPDIVE_ARTIFACTS_CLUSTER_ANALYSIS.md.html
+│   ├── DEEPTUTOR-REPOSITORY-INDEX.md
+│   ├── DEEPTUTOR-TECHNICAL-ANALYSIS-EXPANDED.md
+│   ├── DEEPTUTOR_TREE_FOCUS_UPSTREAM_VS_PROPRIETARY_2026-05-09.md
+│   ├── DETAILED_CHANGELOG_2026-04-26.md
+│   ├── DOCUMENTATION_REVIEW_AND_CHANGELOG_2026-05-09.md
+│   ├── ECOSYSTEM_DEEP_REVIEW_MULTIROOT_2026-05-09.md
+│   ├── finished_products_duplicate_content_report_20260426_134711.csv
+│   ├── finished_products_identical_folders_20260426_134711.csv
+│   ├── finished_products_quarantine_moves_20260426_134711.csv
+│   ├── finished_products_quarantine_preview_20260426_134711.md
+│   ├── finished_products_quarantine_preview_20260426_134711.md.html
+│   ├── FINISHED_PRODUCTS_REVIEW_AND_CHANGELOG_2026-05-09.md
+│   ├── finished_products_semantic_diff_report_20260426_134711.csv
+│   ├── FULL_REPO_REVIEW_2026-05-09.md
+│   ├── GAP_PRODUCTS_REVIEW_AND_CHANGELOG_2026-05-09.md
+│   ├── gumroad_database.db
+│   ├── HOME_MISSED_PRODUCTS_ANALYSIS.md
+│   ├── HOME_MISSED_PRODUCTS_ANALYSIS.md.html
+│   ├── listings_database.db
+│   ├── MASTER_INVENTORY.csv
+│   ├── MISSING_ITEMS_MATRIX.csv
+│   ├── MY_DEEP_PROPRIETARY_PLACEMENT_AND_REVIEW_2026-05-09.md
+│   ├── my_supremepowers_content_compare_2026-05-09.csv
+│   ├── my_supremepowers_framework_compare_2026-05-09.csv
+│   ├── my_supremepowers_home_relationships_2026-05-09.csv
+│   ├── my_supremepowers_home_relationships_addendum_2026-05-09.csv
+│   ├── my_supremepowers_index_2026-05-09.csv
+│   ├── my_supremepowers_index_summary_2026-05-09.json
+│   ├── NOTION_EMPIRE_EXTENDED_MASTER.md
+│   ├── NOTION_EMPIRE_EXTENDED_MASTER.md.html
+│   ├── ORIGINAL_PRODUCTS_v1_REVIEW_AND_CHANGELOG_2026-05-09.md
+│   ├── ORIGINAL_PRODUCTS_v2_REVIEW_AND_CHANGELOG_2026-05-09.md
+│   ├── PARALLEL_SYSTEM_ROLLOUT_REPORT.md
+│   ├── path_fix_before_after_20260426_134221.csv
+│   ├── PATH_LIST_FORMAT_CONVENTION.md
+│   ├── PRICING_GUIDE.md
+│   ├── PRICING_GUIDE.md.html
+│   ├── PRODUCT_ASSETS_REVIEW_AND_CHANGELOG_2026-05-09.md
+│   ├── PRODUCT_RELEASE_MANIFEST.csv
+│   ├── python-marketplace-inventory_REVIEW_AND_CHANGELOG_2026-05-09.md
+│   ├── PYTHON_MARKETPLACE_MASTER_REPO_OUTLINE.md
+│   ├── PYTHON_MARKETPLACE_MASTER_REPO_OUTLINE_CLEAN.md
+│   ├── RELEASES_REVIEW_AND_CHANGELOG_2026-05-09.md
+│   ├── REPO_COMPONENTS_REANALYSIS.md
+│   ├── REPO_COMPONENTS_REANALYSIS.md.html
+│   ├── REPO_CONTENTS_FUNCTIONS_COMPARE.md
+│   ├── repo_vs_local_inventory_2026-05-09.csv
+│   ├── review_REVIEW_AND_CHANGELOG_2026-05-09.md
+│   ├── ROOT_FILES_INVENTORY_2026-05-09.csv
+│   ├── ROOT_FILES_REVIEW_2026-05-09.md
+│   ├── SEARCH_SUPPLY_GAP_MATRIX.md
+│   ├── SEARCH_SUPPLY_GAP_MATRIX.md.html
+│   ├── SELLABLE_HOME_QUEUE_REVIEW_AND_CHANGELOG_2026-05-09.md
+│   ├── SELLABLE_PRODUCTS_REVIEW_AND_CHANGELOG_2026-05-09.md
+│   ├── SELLING_STRATEGY.md
+│   ├── SELLING_STRATEGY.md.html
+│   ├── SEO_OPTIMIZED_LISTINGS_REVIEW_AND_CHANGELOG_2026-05-09.md
+│   ├── STATISTICS_REPORT.md
+│   ├── STATISTICS_REPORT.md.html
+│   ├── supremepowers_repo_copy_compare_2026-05-09.csv
+│   ├── tests_REVIEW_AND_CHANGELOG_2026-05-09.md
+│   ├── TIER_A_PACKAGE_QUEUE.md
+│   ├── TIER_A_PACKAGE_QUEUE.md.html
+│   ├── tier_a_scan_paths.json
+│   ├── tier_b_scan_paths.json
+│   ├── tools_REVIEW_AND_CHANGELOG_2026-05-09.md
+│   ├── TOP_POSTINGS_AND_SEARCH_GAP_ANALYSIS.md
+│   ├── TOP_POSTINGS_AND_SEARCH_GAP_ANALYSIS.md.html
+│   ├── UNIQUE_PRODUCTS_REVIEW_AND_CHANGELOG_2026-05-09.md
+│   ├── USABLE_VERSUS_CATALOG.md
+│   └── USABLE_VERSUS_CATALOG.md.html
+├── envmanager-pro/
+│   ├── dashboard/
+│   ├── SALES_PAGE.md
+│   └── SALES_PAGE.md.html
+├── fabric-prompt-toolkit/
+│   ├── bonus/
+│   ├── category-packs/
+│   ├── patterns/
+│   ├── strategies/
+│   ├── INSTALLATION_GUIDE.md
+│   ├── INSTALLATION_GUIDE.md.html
+│   ├── pattern_browser.py*
+│   ├── PATTERN_REFERENCE.md
+│   ├── PATTERN_REFERENCE.md.html
+│   ├── QUICK_START.md
+│   ├── QUICK_START.md.html
+│   ├── README.md
+│   ├── README.md.html
+│   ├── SALES_PAGE.md
+│   ├── SALES_PAGE.md.html
+│   ├── SALES_PAGE_GENERATED.md
+│   └── SALES_PAGE_GENERATED.md.html
+├── FINISHED_PRODUCTS/
+│   ├── 01_AI_LLM_TOOLS/
+│   ├── 02_AUTOMATION_BOTS/
+│   ├── 03_MEDIA_PROCESSING/
+│   ├── 04_BUSINESS_TOOLS/
+│   ├── 05_WEB_DEVELOPMENT/
+│   ├── 06_DATA_ANALYSIS/
+│   ├── 07_MARKETING_SEO/
+│   ├── 08_UTILITIES_SCRIPTS/
+│   ├── _MARKETPLACES/
+│   ├── _QUARANTINE_DOCS_ONLY_20260426_134711/
+│   ├── manifest.json
+│   ├── PRODUCTS_INDEX.csv
+│   ├── README.md
+│   └── README.md.html
+├── FIVERR/
+│   ├── fiverr_uploader.py
+│   ├── QUICK_START.md
+│   ├── QUICK_START.md.html
+│   ├── README.md
+│   ├── README.md.html
+│   └── run.sh*
+├── GAP_PRODUCTS/
+│   ├── csv_safe_merge/
+│   ├── directory_tree_csv/
+│   ├── llm_prompt_batch/
+│   ├── media_inventory_manifest/
+│   ├── README.md
+│   └── README.md.html
+├── GIT_REPO/
+│   ├── README.md
+│   └── README.md.html
+├── Guides/
+│   ├── DeepTutor-ARCHITECTURE_MAP_MERMAID_AND_EXPLORATION.md
+│   ├── Long-Lived-reference.md
+│   └── Users-Flows.md
+├── GUMROAD/
+│   ├── gumroad_uploader.py
+│   ├── QUICK_START.md
+│   ├── QUICK_START.md.html
+│   ├── README.md
+│   ├── README.md.html
+│   └── run.sh*
+├── GUMROAD_LISTINGS/
+│   ├── LISTING_DATA/
+│   ├── PACKAGES/
+│   └── REPORTS/
+├── GUMROAD_TEMPLATES/
+│   ├── bundles/
+│   ├── reports/
+│   ├── 2026-07-10-092740-this-session-is-being-continued-from-a-previous-c.txt
+│   ├── products.yaml
+│   └── upload_products.py
+├── MARKETPLACE_LISTINGS/
+│   ├── auto_generated/
+│   ├── codester/
+│   ├── consolidated/
+│   ├── fiverr/
+│   ├── gumroad/
+│   ├── sellfy/
+│   ├── upwork/
+│   ├── FIVERR_LISTINGS.md
+│   ├── FIVERR_LISTINGS.md.html
+│   ├── GUMROAD_LISTINGS.md
+│   ├── GUMROAD_LISTINGS.md.html
+│   ├── UPWORK_LISTINGS.md
+│   └── UPWORK_LISTINGS.md.html
+├── mcp-server-starter-kit/
+│   ├── configs/
+│   ├── docs/
+│   ├── scripts/
+│   ├── README.md
+│   ├── README.md.html
+│   ├── SALES_PAGE.md
+│   └── SALES_PAGE.md.html
+├── mcPHooker/
+│   ├── docs/
+│   ├── mcphooker-lite/
+│   ├── samples/
+│   ├── schema/
+│   ├── scripts/
+│   ├── src/
+│   ├── templates/
+│   ├── tests/
+│   ├── __init__.py
+│   └── README.md
+├── multi-agent-skill-pack/
+│   ├── INSTALLATION.md
+│   ├── INSTALLATION.md.html
+│   ├── README.md
+│   ├── README.md.html
+│   ├── SALES_PAGE.md
+│   ├── SALES_PAGE.md.html
+│   ├── SKILLS_CATALOG.md
+│   └── SKILLS_CATALOG.md.html
+├── My-Deep-Proprietary/
+│   ├── .claude -> /Users/steven/PYTHON_MARKETPLACE_MASTER/SupremePowers/deep-learning/
+│   ├── .github/
+│   ├── assets/
+│   ├── bundled/
+│   ├── deeptutor/
+│   ├── deeptutor-mimic/
+│   ├── deeptutor_cli/
+│   ├── docs/
+│   ├── flows/
+│   ├── mimic-scripts/
+│   ├── packages/
+│   ├── requirements/
+│   ├── scripts/
+│   ├── tests/
+│   ├── web/
+│   ├── .dockerignore*
+│   ├── .env.example*
+│   ├── .env.example_CN*
+│   ├── .gitattributes*
+│   ├── .gitignore*
+│   ├── .pre-commit-config.yaml*
+│   ├── .secrets.baseline*
+│   ├── AGENTIC_LOCAL_VS_TRENDSHIFT.md
+│   ├── AGENTS.md*
+│   ├── AVA-TAR-OVERLAY.md
+│   ├── CITATION.cff*
+│   ├── CLAUDE.md
+│   ├── Communication.md*
+│   ├── COMPONENT_INVENTORY.md
+│   ├── CONTRIBUTING.md*
+│   ├── cursor_creating_a_mamba_environment_for.md
+│   ├── DeepTutor.code-workspace*
+│   ├── docker-compose.dev.yml*
+│   ├── docker-compose.ghcr.yml*
+│   ├── docker-compose.yml*
+│   ├── Dockerfile*
+│   ├── ENV_KEYS.md
+│   ├── FUNDAMENTALS.md
+│   ├── home-dot-ecosystem-inventory.json
+│   ├── How-To.md
+│   ├── 'How-To copy.md'
+│   ├── INDEX.md
+│   ├── LICENSE*
+│   ├── MERGED_UNIFIED.md
+│   ├── MIMIC_OVERVIEW.md
+│   ├── NOTICE-THIRD-PARTY.md
+│   ├── pyproject.toml*
+│   ├── README.md*
+│   ├── 'README copy.md'
+│   ├── requirements.txt*
+│   ├── RUNBOOK.md
+│   ├── SKILL.md*
+│   ├── SOURCE_OF_TRUTH.md
+│   └── WALKTHROUGH_PATTERN.md
+├── MY_SETUP/
+│   ├── deeptutor-mimic/
+│   ├── AGENTIC_LOCAL_VS_TRENDSHIFT.md
+│   ├── FUNDAMENTALS.md
+│   └── README.md
+├── n8n_workflows/
+│   ├── docs/
+│   ├── free/
+│   ├── imports/
+│   ├── premium/
+│   ├── workflows/
+│   ├── .cursorignore
+│   ├── .gitignore
+│   ├── CANONICAL_HOME.md
+│   ├── CHANGELOG.md
+│   ├── COMPLETE_SUMMARY.md
+│   ├── MASTER_N8N_LIBRARY.md
+│   ├── README.md
+│   ├── SUMMARY.md
+│   ├── TRENDINGKEYWORDS2026.md
+│   ├── WORKFLOWCREATIONGUIDE.md
+│   └── WORKSPACE_POLICY.md
+├── NEW_CONTENT_GENERATED/
+│   ├── 3D_MODELS/
+│   ├── CRYPTO_TOOLS/
+│   ├── DATABASE_SCHEMAS/
+│   ├── GAME_ASSETS/
+│   ├── IMAGE_PROMPTS/
+│   ├── MARKETING_TOOLS/
+│   ├── MUSIC_AUDIO/
+│   ├── NFT_TOOLS/
+│   ├── VIDEO_TOOLS/
+│   ├── GENERATED_CONTENT_INDEX.md
+│   └── GENERATED_CONTENT_INDEX.md.html
+├── NEWLY_ADDED_SCRIPTS/
+│   └── added_scripts.csv
+├── niche-market/
+│   ├── _TEMPLATE/
+│   ├── ecommerce-csv-operations/
+│   ├── llm-batch-builders/
+│   ├── podcast-audio-ops/
+│   ├── seo-folder-audits/
+│   ├── niches.json
+│   ├── README.md
+│   └── README.md.html
+├── notion-test/
+│   ├── .examples/
+│   ├── docs/
+│   ├── src/
+│   ├── worker/
+│   ├── .npmignore
+│   ├── AGENTS.alpha.md
+│   ├── AGENTS.alpha.md.html
+│   ├── AGENTS.md
+│   ├── AGENTS.md.html
+│   ├── CLAUDE.md
+│   ├── CLAUDE.md.html
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── README.md
+│   ├── README.md.html
+│   ├── tsconfig.json
+│   └── workers.json
+├── ORIGINAL_PRODUCTS_v1/
+│   ├── ai_ready_packager/
+│   ├── auto_tagging_studio/
+│   ├── client_project_auto_reporter/
+│   ├── competitor_change_tracker/
+│   ├── content_recycling_machine/
+│   ├── csv_federation_tool/
+│   ├── data_reliability_radar/
+│   ├── evidence_snapshot_engine/
+│   ├── inbox_to_insights/
+│   └── media_provenance_vault/
+├── ORIGINAL_PRODUCTS_v2/
+│   ├── audit_trail_for_ai/
+│   ├── bundle_builder/
+│   ├── client_value_digest/
+│   ├── doc_contradiction_finder/
+│   ├── policy_packager/
+│   ├── reputation_risk_radar/
+│   ├── signal_to_schedule/
+│   ├── smart_folder_briefcase/
+│   ├── voice_asset_cleaner/
+│   └── workflow_lint/
+├── PLAYBOOKS/
+│   ├── code/
+│   ├── design-assets/
+│   └── launch-kit/
+├── PRODUCT_ASSETS/
+│   ├── _thumbnails/
+│   ├── GAP_PRODUCTS/
+│   ├── ORIGINAL_PRODUCTS_v1/
+│   ├── ORIGINAL_PRODUCTS_v2/
+│   ├── UNIQUE_PRODUCTS/
+│   ├── README.md
+│   └── README.md.html
+├── python-marketplace-inventory/
+│   ├── ITERM2_EXTRACTED/
+│   ├── add_missed_scripts.py
+│   ├── ADVANCED_COMPARE_CONTRAST.md
+│   ├── ADVANCED_COMPARE_CONTRAST.md.html
+│   ├── advanced_content_filter.py
+│   ├── analyze_duplicate_identity.py
+│   ├── analyze_empire_versions.py
+│   ├── analyze_items_file.py
+│   ├── BEFORE_AFTER_COMPARISON.csv
+│   ├── COMMERCIAL_ANALYSIS.md
+│   ├── COMMERCIAL_ANALYSIS.md.html
+│   ├── COMPARE_CONTRAST_PREVIEW.md
+│   ├── COMPARE_CONTRAST_PREVIEW.md.html
+│   ├── compare_directories.py
+│   ├── compare_master_vs_home.py
+│   ├── COMPLETE_ANALYSIS_SUMMARY.md
+│   ├── COMPLETE_ANALYSIS_SUMMARY.md.html
+│   ├── COMPLETE_ANALYSIS_SUMMARY_OLD_20260410_190806.md
+│   ├── COMPLETE_ANALYSIS_SUMMARY_OLD_20260410_190806.md.html
+│   ├── COMPREHENSIVE_CONTENT_SCAN.csv
+│   ├── comprehensive_content_scan.py
+│   ├── comprehensive_scan.py
+│   ├── COMPREHENSIVE_SCAN_RESULTS.csv
+│   ├── COMPREHENSIVE_SESSION_HANDOFF_2026-04-11.md
+│   ├── COMPREHENSIVE_SESSION_HANDOFF_2026-04-11.md.html
+│   ├── CONTENT_SCAN_SUMMARY.md
+│   ├── CONTENT_SCAN_SUMMARY.md.html
+│   ├── create_clean_master_inventory.py
+│   ├── create_compare_contrast_preview.py
+│   ├── create_complete_reorganization_csv.py
+│   ├── create_comprehensive_package.py
+│   ├── create_duplicate_csvs.py
+│   ├── create_every_file_needed.py
+│   ├── create_original_to_new_mapping.py
+│   ├── create_p_market.py
+│   ├── create_proprietary_products.py
+│   ├── create_reorganization_csv.py
+│   ├── deep_commercial_analysis.py
+│   ├── deep_dive_analysis.py
+│   ├── DIRECTORY_COMPARISON_REPORT.md
+│   ├── DIRECTORY_COMPARISON_REPORT.md.html
+│   ├── DISCOVERED_CONTENT.csv
+│   ├── DUPLICATE_IDENTITY_ANALYSIS.md
+│   ├── DUPLICATE_IDENTITY_ANALYSIS.md.html
+│   ├── DUPLICATE_REVIEW.md
+│   ├── DUPLICATE_REVIEW.md.html
+│   ├── DUPLICATES_ORIGINAL.csv
+│   ├── DUPLICATES_TO_REMOVE.csv
+│   ├── DUPLICATES_UPDATED.csv
+│   ├── EMPIRE_VERSIONS_ANALYSIS.md
+│   ├── EMPIRE_VERSIONS_ANALYSIS.md.html
+│   ├── extract_top_scripts.py
+│   ├── FILENAME_DUPLICATE_COMPARISON.md
+│   ├── FILENAME_DUPLICATE_COMPARISON.md.html
+│   ├── filename_duplicate_comparison.py
+│   ├── FILENAME_DUPLICATE_DETAILED.md
+│   ├── FILENAME_DUPLICATE_DETAILED.md.html
+│   ├── filename_duplicate_detailed.py
+│   ├── filter_system_files.py
+│   ├── flatten_redundant_folders.py
+│   ├── generate_inventory.py
+│   ├── generate_missing_content.py
+│   ├── ITERM2_VALUABLE_CONTENT.md
+│   ├── ITERM2_VALUABLE_CONTENT.md.html
+│   ├── list_root_files.py
+│   ├── marketplace_inventory.csv
+│   ├── marketplace_inventory_CLEANED.csv
+│   ├── marketplace_inventory_CLEANED_OLD_20260410_190806.csv
+│   ├── marketplace_inventory_OLD_20260410_190806.csv
+│   ├── marketplace_inventory_REMOVED.csv
+│   ├── marketplace_inventory_REMOVED_OLD_20260410_190806.csv
+│   ├── marketplace_sell_automation.py
+│   ├── MARKETPLACE_SUMMARY.md
+│   ├── MARKETPLACE_SUMMARY.md.html
+│   ├── MARKETPLACE_SUMMARY_OLD_20260410_190806.md
+│   ├── MARKETPLACE_SUMMARY_OLD_20260410_190806.md.html
+│   ├── MASTER_CLEAN_INVENTORY.csv
+│   ├── master_merge.py
+│   ├── merge_diff_du_dedupe.py
+│   ├── MERGE_DIFF_DU_DEDUPE_REPORT.md
+│   ├── MERGE_DIFF_DU_DEDUPE_REPORT.md.html
+│   ├── MERGE_PLAN.json
+│   ├── MISSED_SCRIPTS.csv
+│   ├── MONETIZATION_PLAN.md
+│   ├── MONETIZATION_PLAN.md.html
+│   ├── ORIGINAL_TO_NEW_MAPPING.csv
+│   ├── populate_empire_folders.py
+│   ├── PRODUCT_CATALOG.csv
+│   ├── rebuild_empire.py
+│   ├── rebuild_empire_v3.py
+│   ├── rebuild_marketplace_inventory.py*
+│   ├── rebuild_marketplace_inventory_v2.py
+│   ├── redo_duplicate_review.py
+│   ├── reorganization_preview.py
+│   ├── reorganize_to_product_names.py
+│   ├── safe_duplicate_cleanup.py
+│   ├── SCRIPT_ANALYSIS_REPORT.csv
+│   ├── SCRIPT_ANALYSIS_REPORT_OLD_20260410_190806.csv
+│   ├── search_iterm2_valuable.sh*
+│   ├── split_iterm2_log.sh
+│   ├── TOP_MARKETABLE_SCRIPTS.csv
+│   ├── TOP_MARKETABLE_SCRIPTS_OLD_20260410_190806.csv
+│   ├── VERIFICATION_STEP_1_2.md
+│   ├── VERIFICATION_STEP_1_2.md.html
+│   ├── verify_before_delete.py
+│   ├── verify_steps_1_2.py
+│   ├── YOUR_PYTHON_SCRIPTS.csv
+│   ├── YOUR_PYTHON_SCRIPTS_OLD_20260410_190806.csv
+│   ├── YOUR_SCRIPTS_REPORT.md
+│   ├── YOUR_SCRIPTS_REPORT.md.html
+│   ├── YOUR_SCRIPTS_REPORT_OLD_20260410_190806.md
+│   └── YOUR_SCRIPTS_REPORT_OLD_20260410_190806.md.html
+├── RELEASES/
+│   ├── GAP_PRODUCTS/
+│   ├── README.md
+│   ├── README.md.html
+│   └── RELEASE_INDEX.html
+├── review/
+│   ├── compare_all/
+│   ├── audit.csv
+│   ├── extra_paths_python.csv
+│   ├── functions.csv
+│   ├── missed_python_paths.csv
+│   ├── missed_python_paths_filtered.csv
+│   ├── projects_sorted_by_largefiles.csv
+│   ├── projects_sorted_by_pyfiles.csv
+│   ├── review_inventory.py
+│   └── summaries.csv
+├── SELLABLE_HOME_QUEUE/
+│   ├── 01_marketmaster_doc_bundle/
+│   ├── 02_masterxeo_phased/
+│   ├── 03_autotagger/
+│   ├── 04_pythons_projects/
+│   ├── 05_userscripts_curated/
+│   ├── 06_gallery_variants/
+│   ├── 07_lite_utilities/
+│   ├── 09_seller_gap_scanner/
+│   ├── README.md
+│   ├── README.md.html
+│   ├── TIER_C_WATCHLIST.md
+│   └── TIER_C_WATCHLIST.md.html
+├── SELLABLE_PRODUCTS/
+│   ├── 01-ai-ml-tools/
+│   ├── 02-social-media-automation/
+│   ├── 03-media-processing/
+│   ├── 04-file-management/
+│   ├── 05-seo-marketing/
+│   ├── 06-mcp-platform/
+│   ├── 07-code-quality/
+│   └── 08-nm-music-catalog/
+├── SELLFY/
+│   ├── QUICK_START.md
+│   ├── QUICK_START.md.html
+│   ├── README.md
+│   ├── README.md.html
+│   ├── run.sh*
+│   └── sellfy_uploader.py
+├── SEO_OPTIMIZED_LISTINGS/
+│   ├── FIVERR/
+│   ├── GUMROAD/
+│   ├── REPORTS/
+│   └── UPWORK/
+├── SupremePowers/
+│   ├── .claude/
+│   ├── .claude-plugin/
+│   ├── .codex/
+│   ├── .githooks/
+│   ├── .github/
+│   ├── .opencode/
+│   ├── adapters/
+│   ├── agents/
+│   ├── benchmarks/
+│   ├── commands/
+│   ├── core/
+│   ├── data-analysis/
+│   ├── deep-learning/
+│   ├── docs/
+│   ├── docs-site/
+│   ├── examples/
+│   ├── extensions/
+│   ├── hookify/
+│   ├── hooks/
+│   ├── integrations/
+│   ├── lib/
+│   ├── logs/
+│   ├── mcp-server/
+│   ├── new-hooks-system/
+│   ├── plans/
+│   ├── plugins/
+│   ├── policies/
+│   ├── products/
+│   ├── reports/
+│   ├── research/
+│   ├── rules/
+│   ├── scripts/
+│   ├── security-guidance/
+│   ├── skills/
+│   ├── superpowers/
+│   ├── tests/
+│   ├── web-development/
+│   ├── .eslintrc.json
+│   ├── .gemini-extension-install.json
+│   ├── .gitattributes
+│   ├── .gitignore
+│   ├── .prettierrc.json
+│   ├── '2025 Q4 Deep SEO Trend Analysis .md'
+│   ├── 2026-02-13-superpowers-supremepower-research-and-improvements.md
+│   ├── 2026-02-13-supremepower-incorporation-design.md
+│   ├── 2026-02-13-supremepower-incorporation-narrative.md
+│   ├── 2026-05-11-230221-this-session-is-being-continued-from-a-previous-c.txtmysuper.md
+│   ├── activate-skills.txt
+│   ├── 'advanced intelligence.md'
+│   ├── all.csv
+│   ├── all.txt
+│   ├── ARCHITECTURE.md
+│   ├── ARCHITECTURE_DISCOVERY.md
+│   ├── CHANGELOG.md
+│   ├── CLAUDE.md
+│   ├── COMPLETION_SUMMARY.md
+│   ├── config.json
+│   ├── CONSOLIDATION_ANALYSIS.md
+│   ├── CONSOLIDATION_EXECUTIVE_SUMMARY.md
+│   ├── CONSOLIDATION_INDEX.md
+│   ├── CONSOLIDATION_SUCCESS_REPORT.md
+│   ├── CONSOLIDATION_VALIDATION_RESULTS.md
+│   ├── contents.md
+│   ├── deeppipe.md
+│   ├── docs-my-supremepowers.csv
+│   ├── docs-my-supremepowers_1.csv
+│   ├── docs-my-supremepowers_2.csv
+│   ├── docs.txt
+│   ├── DOMAIN_TEMPLATE.md
+│   ├── DOMAINS_INDEX.md
+│   ├── eslint.config.js
+│   ├── EVOLUTION_HISTORY.md
+│   ├── GEMINI-baks.md
+│   ├── gemini-extension.json
+│   ├── GEMINI.md
+│   ├── GIT_AI.md
+│   ├── GOVERNANCE.md
+│   ├── How-To.md
+│   ├── INDEX.md
+│   ├── INTEGRATION_GUIDE.md
+│   ├── jest.config.js
+│   ├── LICENSE
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── projects.json
+│   ├── qwen_settings.json
+│   ├── README.md
+│   ├── RELEASE-NOTES.md
+│   ├── ROADMAP.md
+│   ├── superclean.md
+│   ├── supercleaner.md
+│   ├── superpowers.md
+│   ├── supremepower.bak.zip
+│   ├── tsconfig.json
+│   └── using-superpowers-paths.md
+├── tests/
+│   ├── test_artifact_manifest.py
+│   ├── test_check_docs_artifact_refs.py
+│   ├── test_clean_python_sorter.py
+│   ├── test_clean_python_workflow.py
+│   ├── test_clean_scan_state.py
+│   ├── test_format_path_list.py
+│   ├── test_inventory_category_pools.py
+│   ├── test_marketplace_input_contract.py
+│   ├── test_plan_artifact_cleanup.py
+│   ├── test_pytest_collection_config.py
+│   ├── test_scan_outputs_contract.py
+│   ├── test_update_docs_artifact_metadata.py
+│   ├── test_validate_artifacts.py
+│   └── test_verify_parallel_system.py
+├── tools/
+│   ├── check_docs_artifact_refs.py
+│   ├── format_path_list.py
+│   ├── generate_sales_page.py
+│   ├── inventory_category_pools.py
+│   ├── plan_artifact_cleanup.py
+│   ├── update_docs_artifact_metadata.py
+│   ├── validate_artifacts.py
+│   └── verify_parallel_system.py
+├── UNIQUE_PRODUCTS/
+│   ├── csv_schema_diff/
+│   ├── import_requirements_audit/
+│   ├── token_budget_estimator/
+│   ├── README.md
+│   └── README.md.html
+├── UPWORK/
+│   ├── QUICK_START.md
+│   ├── QUICK_START.md.html
+│   ├── README.md
+│   ├── README.md.html
+│   ├── run.sh*
+│   ├── upwork-jobs-etc.cleaned-deduped.txt
+│   ├── upwork-jobs-etc.txt
+│   ├── UPWORK_ACTION_PLAN_2026.md
+│   ├── UPWORK_ACTION_PLAN_2026.md.html*
+│   ├── UPWORK_ACTIVATION_COMPLETE.md
+│   ├── UPWORK_ACTIVATION_COMPLETE.md.html*
+│   ├── UPWORK_AUTOMATION_README.md
+│   ├── UPWORK_AUTOMATION_README.md.html*
+│   ├── UPWORK_COMPLETE_SYSTEM_SUMMARY.md
+│   ├── UPWORK_COMPLETE_SYSTEM_SUMMARY.md.html*
+│   ├── UPWORK_EMPIRE_ACTIVATION_PLAN.md
+│   ├── UPWORK_EMPIRE_ACTIVATION_PLAN.md.html*
+│   └── upwork_uploader.py
+├── .git.broken-worktree-pointer
+├── .gitignore
+├── 5-percent.txt
+├── 'ACTIVATION ROADMAP 7-DAY LAUNCH SEQUENCE.md'
+├── add_missed_scripts.py
+├── advanced_content_filter.py
+├── advanced_seo_listings.py
+├── all-directories-inventory.csv
+├── all-files-inventory.csv
+├── all_scan.csv
+├── all_scan_fresh.csv
+├── analyze_empire_versions.py
+├── AUTOMATED_LISTING_UPLOADER.py
+├── AUTOMATION_GUIDE.md
+├── AUTOMATION_GUIDE.md.html
+├── avatararts-index-og.html
+├── avatararts-index-spin.html
+├── avatararts-index-techna.html
+├── avatararts-index-techna_copy.html
+├── 'avatararts-index-techna copy.html'
+├── build_finished_products.py
+├── build_portfolio_inventory.py
+├── build_product_gallery.py
+├── build_product_pages.py
+├── build_release_assets.py
+├── CHANGELOG.md
+├── codester_uploader.py
+├── COMMERCIAL_ANALYSIS.md
+├── COMMERCIAL_ANALYSIS.md.html
+├── COMPLETE_ANALYSIS_SUMMARY.md
+├── COMPLETE_ANALYSIS_SUMMARY.md.html
+├── COMPLETE_INDEX.md
+├── COMPLETE_INDEX.md.html
+├── COMPLETE_LAUNCH_GUIDE.md
+├── COMPLETE_LAUNCH_GUIDE.md.html
+├── COMPLETE_MARKETPLACE_INDEX.md
+├── COMPLETE_MARKETPLACE_INDEX.md.html
+├── COMPREHENSIVE_CONTENT_SCAN.csv
+├── comprehensive_content_scan.py
+├── COMPREHENSIVE_CONTENT_SCAN_RESULTS.md
+├── COMPREHENSIVE_CONTENT_SCAN_RESULTS.md.html
+├── COMPREHENSIVE_MARKETPLACE_GUIDE.html
+├── COMPREHENSIVE_MARKETPLACE_GUIDE_v2.html
+├── comprehensive_scan.py
+├── COMPREHENSIVE_SCAN_RESULTS.csv
+├── COMPREHENSIVE_SCAN_SUMMARY.md
+├── COMPREHENSIVE_SCAN_SUMMARY.md.html
+├── consolidate_sources.py
+├── CONTENT_SCAN_SUMMARY.md
+├── CONTENT_SCAN_SUMMARY.md.html
+├── continue.txt
+├── COPIED_FILES_INDEX.csv
+├── create_comprehensive_package.py
+├── create_separate_systems.py
+├── deep_commercial_analysis.py
+├── DEEP_DIVE_ANALYSIS.md
+├── DEEP_DIVE_ANALYSIS.md.html
+├── DISCOVERED_CONTENT.csv
+├── docs-04-26-14:14.csv
+├── docs-05-09-15:47.csv
+├── docs-05-18-00:48.csv
+├── docs.txt
+├── EMPIRE_OVERVIEW.md
+├── EMPIRE_OVERVIEW.md.html
+├── EMPIRE_VERSIONS_ANALYSIS.md
+├── EMPIRE_VERSIONS_ANALYSIS.md.html
+├── enriched-PYTHON_MARKETPLACE_MASTER.csv
+├── extract_top_scripts.py
+├── filter_system_files.py
+├── fiverr_uploader.py
+├── GEMINI.md
+├── GEMINI.md.html
+├── gemini_extensions.csv
+├── generate_inventory.py
+├── gumroad-codster-sell.txt
+├── gumroad-massive.txt
+├── gumroad_uploader.py
+├── HOME_COMPARISON_REPORT.md
+├── HOME_COMPARISON_REPORT.md.html
+├── HOME_COMPARISON_REPORT_TIER_A.md
+├── HOME_COMPARISON_REPORT_TIER_A.md.html
+├── HOME_COMPARISON_REPORT_TIER_B.md
+├── HOME_COMPARISON_REPORT_TIER_B.md.html
+├── HTML_EXPORT_INDEX.html
+├── items.txt
+├── ITEMS_TXT_DEEP_ANALYSIS.md
+├── ITEMS_TXT_DEEP_ANALYSIS.md.html
+├── jupyter-notebooks-inventory.csv
+├── LAUNCH_DASHBOARD.html
+├── lost.html
+├── MARKETPLACE_DEVELOPER_HANDBOOK.html
+├── MARKETPLACE_IMPROVEMENTS_ROADMAP.md
+├── MARKETPLACE_IMPROVEMENTS_ROADMAP.md.html
+├── MARKETPLACE_IMPROVEMENTS_v2.md
+├── MARKETPLACE_IMPROVEMENTS_v2.md.html
+├── MARKETPLACE_IMPROVEMENTS_v3.md
+├── MARKETPLACE_IMPROVEMENTS_v3.md.html
+├── MARKETPLACE_IMPROVEMENTS_v4.md
+├── MARKETPLACE_IMPROVEMENTS_v4.md.html
+├── marketplace_inventory.csv
+├── marketplace_inventory_CLEANED.csv
+├── marketplace_inventory_REMOVED.csv
+├── MARKETPLACE_SCRIPTS_README.md
+├── MARKETPLACE_SCRIPTS_README.md.html
+├── marketplace_sell_automation.py
+├── MARKETPLACE_SUMMARY.md
+├── MARKETPLACE_SUMMARY.md.html
+├── MASTER_INDEX.md
+├── MASTER_INDEX.md.html
+├── master_merge.py
+├── MERGE_CONSOLIDATION_REPORT.md
+├── MERGE_REPORT.md
+├── MERGE_REPORT.md.html
+├── MISSED_PRODUCTS_ANALYSIS.md
+├── MISSED_PRODUCTS_ANALYSIS.md.html
+├── MISSED_SCRIPTS.csv
+├── MONETIZATION_PLAN.md
+├── MONETIZATION_PLAN.md.html
+├── populate_empire_folders.py
+├── PRODUCT_CATALOG.csv
+├── PRODUCT_GALLERY.html
+├── PRODUCT_INVENTORY.csv
+├── PRODUCT_PAGES_INDEX.html
+├── projects.csv
+├── pyfiles.csv
+├── pyfiles_merged.csv
+├── pytest.ini
+├── python-for-ai-og.zip
+├── python-portfolio-inventory.csv
+├── python-source-files.csv
+├── PYTHON_MARKETPLACE_CATALOG.html
+├── PYTHON_MARKETPLACE_CLEANUP_PLAN.md
+├── PYTHON_MARKETPLACE_MASTER_ATLAS.html
+├── PYTHON_MARKETPLACE_PRIORITY_BOARD.md
+├── QUICK_START.md
+├── QUICK_START.md.html
+├── qwen-code-export-2026-04-11T03-37-01-783Z.html
+├── qwen-code-export-2026-04-11T03-37-11-945Z.md
+├── README.md
+├── README.md.html
+├── rebuild_empire.py
+├── rebuild_empire_v3.py
+├── rebuild_marketplace_inventory.py*
+├── rebuild_marketplace_inventory_v2.py
+├── reindex_master.py
+├── render_markdown_html.py
+├── REORGANIZATION_COMPLETE.csv
+├── REORGANIZATION_PREVIEW.csv
+├── REORGANIZATION_PREVIEW.md
+├── REORGANIZATION_PREVIEW.md.html
+├── ROOT_LEVEL_FILES.csv
+├── run_all_marketplaces.py
+├── run_build.sh*
+├── scaffold_product_readiness.py
+├── scan_python_inventory.py*
+├── SCRIPT_ANALYSIS_REPORT.csv
+├── SEO_OPTIMIZATION_COMPLETE_GUIDE.md
+├── SEO_OPTIMIZATION_COMPLETE_GUIDE.md.html
+├── TOP_MARKETABLE_SCRIPTS.csv
+├── upwork_uploader.py
+├── VERIFICATION_REPORT.md
+├── VERIFICATION_REPORT.md.html
+├── verify_before_delete.py
+├── YOUR_PYTHON_SCRIPTS.csv
+├── YOUR_SCRIPTS_REPORT.md
+└── YOUR_SCRIPTS_REPORT.md.html

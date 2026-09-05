@@ -1,0 +1,800 @@
+{
+  "capabilities": [],
+  "classification": "archived",
+  "generated_at": "2026-08-18T06:56:31+00:00",
+  "roots": [
+    {
+      "classification": "archived",
+      "file_count": 215,
+      "frontmatter_count": 179,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills/backups/agent-skills-20260815-024526/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills/backups/agent-skills-20260815-024526/agents/skill-creator/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills/backups/agent-skills-20260815-024526/agents/skill-installer/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 302,
+      "frontmatter_count": 302,
+      "kind": "skill",
+      "path": "/Users/steven/.agent-skills/backups/agent-skills-20260815-024526/skills",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills/backups/agent-skills-20260815-024526/skills/.system/imagegen/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills/backups/agent-skills-20260815-024526/skills/.system/openai-docs/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills/backups/agent-skills-20260815-024526/skills/.system/plugin-creator/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills/backups/agent-skills-20260815-024526/skills/.system/skill-creator/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills/backups/agent-skills-20260815-024526/skills/.system/skill-installer/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills/backups/agent-skills-20260815-024526/skills/agmsg/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills/backups/agent-skills-20260815-024526/skills/ask-matt/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills/backups/agent-skills-20260815-024526/skills/chat-history-export/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills/backups/agent-skills-20260815-024526/skills/claude-handoff/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills/backups/agent-skills-20260815-024526/skills/code-review/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills/backups/agent-skills-20260815-024526/skills/codebase-design/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills/backups/agent-skills-20260815-024526/skills/diagnosing-bugs/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills/backups/agent-skills-20260815-024526/skills/domain-modeling/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills/backups/agent-skills-20260815-024526/skills/git-guardrails-claude-code/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills/backups/agent-skills-20260815-024526/skills/grill-me/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills/backups/agent-skills-20260815-024526/skills/grill-with-docs/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills/backups/agent-skills-20260815-024526/skills/grilling/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills/backups/agent-skills-20260815-024526/skills/handoff/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills/backups/agent-skills-20260815-024526/skills/hyperframes-keyframes/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills/backups/agent-skills-20260815-024526/skills/implement/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills/backups/agent-skills-20260815-024526/skills/improve-codebase-architecture/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills/backups/agent-skills-20260815-024526/skills/loop-me/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills/backups/agent-skills-20260815-024526/skills/migrate-to-shoehorn/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 3,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills/backups/agent-skills-20260815-024526/skills/motion-graphics/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills/backups/agent-skills-20260815-024526/skills/prototype/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills/backups/agent-skills-20260815-024526/skills/remotion-best-practices/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills/backups/agent-skills-20260815-024526/skills/remotion-best-practices/remotion-captions/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills/backups/agent-skills-20260815-024526/skills/remotion-best-practices/remotion-create/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills/backups/agent-skills-20260815-024526/skills/remotion-best-practices/remotion-docs/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills/backups/agent-skills-20260815-024526/skills/remotion-best-practices/remotion-interactivity/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills/backups/agent-skills-20260815-024526/skills/remotion-best-practices/remotion-maps/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills/backups/agent-skills-20260815-024526/skills/remotion-best-practices/remotion-markup/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills/backups/agent-skills-20260815-024526/skills/remotion-best-practices/remotion-markup/remotion-maps/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills/backups/agent-skills-20260815-024526/skills/remotion-best-practices/remotion-multimedia/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills/backups/agent-skills-20260815-024526/skills/remotion-best-practices/remotion-render/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills/backups/agent-skills-20260815-024526/skills/remotion-best-practices/remotion-saas/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills/backups/agent-skills-20260815-024526/skills/remotion-best-practices/remotion-studio/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills/backups/agent-skills-20260815-024526/skills/remotion-best-practices/remotion-upgrade/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills/backups/agent-skills-20260815-024526/skills/research/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills/backups/agent-skills-20260815-024526/skills/resolving-merge-conflicts/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills/backups/agent-skills-20260815-024526/skills/scaffold-exercises/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills/backups/agent-skills-20260815-024526/skills/setup-matt-pocock-skills/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills/backups/agent-skills-20260815-024526/skills/setup-pre-commit/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills/backups/agent-skills-20260815-024526/skills/setup-ts-deep-modules/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 3,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills/backups/agent-skills-20260815-024526/skills/skill-creator/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills/backups/agent-skills-20260815-024526/skills/skill-installer/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 12,
+      "frontmatter_count": 12,
+      "kind": "skill",
+      "path": "/Users/steven/.agent-skills/backups/agent-skills-20260815-024526/skills/taste-skill/skills",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills/backups/agent-skills-20260815-024526/skills/tdd/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills/backups/agent-skills-20260815-024526/skills/teach/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills/backups/agent-skills-20260815-024526/skills/to-questionnaire/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills/backups/agent-skills-20260815-024526/skills/to-spec/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills/backups/agent-skills-20260815-024526/skills/to-tickets/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills/backups/agent-skills-20260815-024526/skills/triage/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills/backups/agent-skills-20260815-024526/skills/wait-what/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills/backups/agent-skills-20260815-024526/skills/wayfinder/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills/backups/agent-skills-20260815-024526/skills/wizard/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills/backups/agent-skills-20260815-024526/skills/writing-beats/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills/backups/agent-skills-20260815-024526/skills/writing-for-agents/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills/backups/agent-skills-20260815-024526/skills/writing-fragments/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills/backups/agent-skills-20260815-024526/skills/writing-shape/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 212,
+      "frontmatter_count": 176,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills-backup-2026-08-06/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills-backup-2026-08-06/agents/skill-creator/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills-backup-2026-08-06/agents/skill-installer/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 196,
+      "frontmatter_count": 196,
+      "kind": "skill",
+      "path": "/Users/steven/.agent-skills-backup-2026-08-06/skills",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills-backup-2026-08-06/skills/.system/imagegen/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills-backup-2026-08-06/skills/.system/openai-docs/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills-backup-2026-08-06/skills/.system/plugin-creator/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills-backup-2026-08-06/skills/.system/skill-creator/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills-backup-2026-08-06/skills/.system/skill-installer/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills-backup-2026-08-06/skills/agmsg/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills-backup-2026-08-06/skills/chat-history-export/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 3,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills-backup-2026-08-06/skills/skill-creator/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.agent-skills-backup-2026-08-06/skills/skill-installer/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 12,
+      "frontmatter_count": 12,
+      "kind": "skill",
+      "path": "/Users/steven/.agent-skills-backup-2026-08-06/skills/taste-skill/skills",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 33,
+      "frontmatter_count": 29,
+      "kind": "agent",
+      "path": "/Users/steven/.cursor/MERGE_BACKUP_20260411_025502/MERGE_BACKUP_20260411_025502/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 33,
+      "frontmatter_count": 29,
+      "kind": "agent",
+      "path": "/Users/steven/.cursor/MERGE_BACKUP_20260411_025502/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 3,
+      "frontmatter_count": 3,
+      "kind": "skill",
+      "path": "/Users/steven/.cursor/MERGE_BACKUP_20260411_025502/skills",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 45,
+      "frontmatter_count": 33,
+      "kind": "agent",
+      "path": "/Users/steven/.gemini/backups/re-ole-20260415/.qwen/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/.gemini/backups/re-ole-20260415/.qwen/coderabbit/1.0.0/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.gemini/backups/re-ole-20260415/.qwen/coderabbit/1.0.0/skills",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/.gemini/backups/re-ole-20260415/.qwen/hookify/2cd88e7947b7/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.gemini/backups/re-ole-20260415/.qwen/hookify/2cd88e7947b7/skills",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/.gemini/backups/re-ole-20260415/.qwen/integrations/supremepower/commands/skills",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 16,
+      "frontmatter_count": 16,
+      "kind": "skill",
+      "path": "/Users/steven/.gemini/backups/re-ole-20260415/.qwen/integrations/supremepower/skills",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 59,
+      "frontmatter_count": 59,
+      "kind": "skill",
+      "path": "/Users/steven/.gemini/backups/re-ole-20260415/.qwen/skills",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/.gemini/backups/re-ole-20260415/.qwen/superpowers/4.2.0/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 14,
+      "frontmatter_count": 14,
+      "kind": "skill",
+      "path": "/Users/steven/.gemini/backups/re-ole-20260415/.qwen/superpowers/4.2.0/skills",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/.gemini/backups/re-ole-20260415/.qwen/superpowers/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 16,
+      "frontmatter_count": 16,
+      "kind": "skill",
+      "path": "/Users/steven/.gemini/backups/re-ole-20260415/.qwen/superpowers/skills",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.gemini/history/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.qwen/archive/cleanup_20260422_162321/agents",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/.qwen/archive/cleanup_20260422_162321/integrations/supremepower/skills",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/.qwen/archive/cleanup_20260422_162321/skills",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/.qwen/archive/cleanup_20260422_162321/superpowers/4.2.0/skills",
+      "symlink": false
+    },
+    {
+      "classification": "archived",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/.qwen/archive/cleanup_20260422_162321/superpowers/skills",
+      "symlink": false
+    }
+  ],
+  "schema": "capability-index/v1"
+}

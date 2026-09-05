@@ -1,0 +1,203 @@
+/Users/steven/agents/
+├── 1-eng-specialist-pack/
+│   ├── api-specialist.md*
+│   ├── database-specialist.md*
+│   ├── devops-engineer.md*
+│   ├── frontend-architect.md*
+│   ├── javascript-expert.md*
+│   ├── performance-engineer.md*
+│   ├── python-expert.md*
+│   ├── security-engineer.md*
+│   ├── system-architect.md*
+│   ├── technical-writer.md*
+│   └── testing-specialist.md*
+├── 2-personal-tooled/
+│   ├── bots.md*
+│   ├── capability-atlas.md*
+│   ├── code-review.md*
+│   ├── context-handoff-compiler.md*
+│   ├── documentation-management.md*
+│   ├── notebooklm-enhancement-advisor.md*
+│   ├── rule-definition.md*
+│   ├── system-analysis.md*
+│   └── workflow-orchestrator.md*
+├── 3-contains-studio/
+│   ├── ai-music-video-creator.md*
+│   ├── analytics-reporter.md*
+│   ├── api-tester.md*
+│   ├── app-store-optimizer.md*
+│   ├── brand-guardian.md*
+│   ├── content-creator.md*
+│   ├── content-organizer.md*
+│   ├── experiment-tracker.md*
+│   ├── feedback-synthesizer.md*
+│   ├── finance-tracker.md*
+│   ├── growth-hacker.md*
+│   ├── infrastructure-maintainer.md*
+│   ├── instagram-curator.md*
+│   ├── joker.md*
+│   ├── knowledge-automation-strategist.md*
+│   ├── legal-compliance-checker.md*
+│   ├── mobile-app-builder.md*
+│   ├── performance-benchmarker.md*
+│   ├── project-launch-manager.md*
+│   ├── project-shipper.md*
+│   ├── reddit-community-builder.md*
+│   ├── sprint-prioritizer.md*
+│   ├── studio-producer.md*
+│   ├── support-responder.md*
+│   ├── system-analyzer.md*
+│   ├── test-results-analyzer.md*
+│   ├── tiktok-strategist.md*
+│   ├── tool-evaluator.md*
+│   ├── trend-researcher.md*
+│   ├── twitter-engager.md*
+│   ├── ui-designer.md*
+│   ├── ux-researcher.md*
+│   ├── visual-storyteller.md*
+│   ├── whimsy-injector.md*
+│   └── workflow-optimizer.md*
+├── 5-misc-personal/
+│   ├── agent-creation-guidance.md*
+│   ├── ai-workflow-manager.md*
+│   ├── ai-xeo.md*
+│   ├── avatararts-organizer.md*
+│   ├── content-consolidator.md*
+│   ├── context-management.md*
+│   ├── documentation-manager.md*
+│   ├── ecosystem-analyzer.md*
+│   ├── ecosystem-learning.md*
+│   ├── ecosystem-synergy.md*
+│   ├── filesystem-inventory.md*
+│   ├── ice-tracker-assistant.md*
+│   ├── integrated-evolution.md*
+│   ├── path-list-analyzer.md*
+│   ├── revenue-optimizer.md*
+│   ├── self-evolution.md*
+│   ├── seo-keyword-analyst.md*
+│   ├── task-management.md*
+│   ├── tree-explorer.md*
+│   └── xeo-strategist.md*
+├── documentation/
+│   └── agent.md*
+├── skill-creator/
+│   ├── agents/
+│   ├── assets/
+│   ├── references/
+│   ├── scripts/
+│   ├── license.txt*
+│   └── SKILL.md*
+├── skill-installer/
+│   ├── agents/
+│   ├── assets/
+│   ├── scripts/
+│   ├── LICENSE.txt*
+│   └── SKILL.md*
+├── skill-porter/
+│   ├── api-connector-gemini/
+│   ├── before-after/
+│   ├── simple-claude-skill/
+│   └── README.md*
+├── agent-creation-guidance.md*
+├── ai-engineer.md*
+├── ai-music-video-creator.md*
+├── ai-workflow-manager.md*
+├── ai-xeo.md*
+├── analytics-reporter.md*
+├── api-specialist.md*
+├── api-tester.md*
+├── app-store-optimizer.md*
+├── ask.md*
+├── autotag_architect.toml*
+├── avatararts-organizer.md*
+├── backend-architect.md*
+├── bots.md*
+├── brand-guardian.md*
+├── capability-atlas.md*
+├── capability_atlas.toml*
+├── cleanup-manifest.csv*
+├── code-review.md*
+├── code-reviewer.md*
+├── consolidator-agent.md*
+├── content-consolidator.md*
+├── content-creator.md*
+├── content-organizer.md*
+├── context-fetcher.md*
+├── context-handoff-compiler.md*
+├── context-management.md*
+├── conversation-analyzer.md*
+├── database-specialist.md*
+├── date-checker.md*
+├── devops-automator.md*
+├── devops-engineer.md*
+├── documentation-management.md*
+├── documentation-manager.md*
+├── ecosystem-analyzer.md*
+├── ecosystem-dev.md*
+├── ecosystem-learning.md*
+├── ecosystem-synergy.md*
+├── ecosystem_intelligence.toml*
+├── experiment-tracker.md*
+├── feedback-synthesizer.md*
+├── file-creator.md*
+├── filesystem-inventory.md*
+├── finance-tracker.md*
+├── frontend-architect.md*
+├── frontend-developer.md*
+├── git-workflow.md*
+├── growth-hacker.md*
+├── ice-tracker-assistant.md*
+├── infrastructure-maintainer.md*
+├── instagram-curator.md*
+├── integrated-evolution.md*
+├── iterm2-ecosystem-dev.md*
+├── javascript-expert.md*
+├── joker.md*
+├── knowledge-automation-strategist.md*
+├── knowledge-fetcher.md*
+├── legal-compliance-checker.md*
+├── MANIFEST.csv*
+├── mobile-app-builder.md*
+├── notebooklm-enhancement-advisor.md*
+├── openai.yaml*
+├── path-list-analyzer.md*
+├── performance-benchmarker.md*
+├── performance-engineer.md*
+├── plan.md*
+├── project-launch-manager.md*
+├── project-shipper.md*
+├── python-expert.md*
+├── rapid-prototyper.md*
+├── reddit-community-builder.md*
+├── revenue-optimizer.md*
+├── review.md*
+├── rule-definition.md*
+├── security-engineer.md*
+├── self-evolution.md*
+├── seo-keyword-analyst.md*
+├── sorty.md*
+├── sprint-prioritizer.md*
+├── studio-coach.md*
+├── studio-producer.md*
+├── support-responder.md*
+├── system-analysis.md*
+├── system-analyzer.md*
+├── system-architect.md*
+├── task-management.md*
+├── technical-writer.md*
+├── test-agent.md*
+├── test-results-analyzer.md*
+├── test-writer-fixer.md*
+├── testing-specialist.md*
+├── tiktok-strategist.md*
+├── tool-evaluator.md*
+├── tree-explorer.md*
+├── trend-researcher.md*
+├── twitter-engager.md*
+├── ui-designer.md*
+├── ux-researcher.md*
+├── visual-storyteller.md*
+├── whimsy-injector.md*
+├── workflow-optimizer.md*
+├── workflow-orchestrator.md*
+└── xeo-strategist.md*

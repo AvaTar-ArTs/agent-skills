@@ -1,8 +1,12 @@
 ---
 name: code-formatter
 description: A simple example skill for demonstration purposes
-subagents: - name: reviewer description: You are a senior code reviewer.
-allowed-tools: - Read - Write
+subagents:
+  - name: reviewer
+    description: "You are a senior code reviewer."
+allowed-tools: [Read, Write]
+changelog:
+  - "2026-08-15: Repaired malformed frontmatter; preserved the file body."
 ---
 
 # Code Formatter Skill Automatically formats code files using industry-standard tools. ## Capabilities - Format JavaScript/TypeScript with Prettier

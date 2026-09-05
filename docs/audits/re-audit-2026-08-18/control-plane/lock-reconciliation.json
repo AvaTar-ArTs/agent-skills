@@ -1,0 +1,70 @@
+{
+  "authority": "/Users/steven/.agent-skills/.skill-lock.json",
+  "drift": [
+    "/Users/steven/.agents/.skill-lock.json"
+  ],
+  "files": [
+    {
+      "authority": true,
+      "lastSelectedAgents": [
+        "aider-desk",
+        "amp",
+        "antigravity",
+        "antigravity-cli",
+        "astrbot",
+        "claude-code",
+        "cline",
+        "codex",
+        "cursor",
+        "deepagents",
+        "gemini-cli",
+        "github-copilot",
+        "goose",
+        "grok",
+        "hermes-agent",
+        "kimi-code-cli",
+        "opencode",
+        "qwen-code",
+        "warp",
+        "zed"
+      ],
+      "path": "/Users/steven/.agent-skills/.skill-lock.json",
+      "skills": [
+        "find-skills",
+        "hyperframes-cli",
+        "hyperframes-registry",
+        "media-use"
+      ],
+      "version": 3
+    },
+    {
+      "authority": false,
+      "lastSelectedAgents": [
+        "amp",
+        "antigravity",
+        "antigravity-cli",
+        "claude-code",
+        "cline",
+        "codex",
+        "cursor",
+        "deepagents",
+        "gemini-cli",
+        "github-copilot",
+        "goose",
+        "hermes-agent",
+        "kimi-code-cli",
+        "opencode",
+        "qwen-code",
+        "warp",
+        "zed"
+      ],
+      "path": "/Users/steven/.agents/.skill-lock.json",
+      "skills": [
+        "hyperframes-cli",
+        "hyperframes-registry",
+        "media-use"
+      ],
+      "version": 3
+    }
+  ]
+}

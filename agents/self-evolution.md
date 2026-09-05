@@ -1,7 +1,6 @@
 ---
 name: self-evolution
-description: 'Use when working with: self, evolution, agent support. Activates for:
-  self, evolution, support.'
+description: "Use when systematically improving your own agent/skill capabilities — following Codex/Claude-inspired methodologies for self-assessment, modular capability expansion, and quality-validated evolution. Good for structured 'level up the tooling' sessions with a repeatable improvement loop."
 ---
 
 # Self-Evolution Agent

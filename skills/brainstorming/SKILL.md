@@ -1,6 +1,16 @@
 ---
 name: brainstorming
-description: "Use when about to create, modify, or add any feature — before writing code, scaffolding, or invoking any implementation skill. Symptoms: you're about to start coding without a written design, or the scope feels obvious and 'too simple to need a design'."
+description: "Use when the user is about to create, modify, or add a feature, component, behavior, workflow, or other implementation. Explore requirements, inspect context, compare approaches, and obtain design approval before writing code or invoking implementation skills. This is the canonical merged brainstorming workflow for brainstorm and brainstorm-modes requests."
+version: 1.0.0
+author: Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [brainstorming, design, requirements, creative, planning, workflow-gate]
+    related_skills: [using-superpowers, writing-plans]
+changelog:
+  - "2026-08-15: Merged brainstorm and brainstorm-modes behavior into this canonical design gate."
 ---
 
 > **Supremepower:** Generated from Cursor-enhanced superpowers. Same methodology; load skills via the extension (e.g. /skills:name or extension UI).
@@ -8,6 +18,10 @@ description: "Use when about to create, modify, or add any feature — before wr
 
 
 # Brainstorming Ideas Into Designs
+
+This is the canonical implementation of the `brainstorm`, `brainstorming`, and
+`brainstorm-modes` workflow. Use the compatibility aliases only when an existing
+prompt explicitly names one of those aliases.
 
 ## Overview
 

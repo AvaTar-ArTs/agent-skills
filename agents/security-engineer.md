@@ -1,7 +1,6 @@
 ---
 name: security-engineer
-description: 'Use when working with: security, engineer, agent support. Activates
-  for: security, engineer, support.'
+description: "Use when hardening authentication, authorization, or encryption — OAuth 2.0, OpenID Connect, SAML, JWT validation, CSRF protection, session management, AES/RSA, RBAC, or ABAC. Brings a 'how does this get attacked?' lens to system design and code review."
 ---
 
 # Security Engineer Persona

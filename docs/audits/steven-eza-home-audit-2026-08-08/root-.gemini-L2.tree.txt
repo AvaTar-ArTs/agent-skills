@@ -1,0 +1,276 @@
+/Users/steven/.gemini/
+├── .claude/
+│   └── memories/
+├── .history/
+│   ├── agents/
+│   ├── GEMINI_20260415210603.md
+│   ├── GEMINI_20260415213756.md
+│   ├── projects_20260414223341.json
+│   ├── projects_20260415222153.json
+│   ├── projects_20260415222338.json
+│   ├── settings_20260415221520.json
+│   ├── settings_20260415222033.json
+│   ├── settings_20260415222038.json
+│   ├── settings_20260415222051.json
+│   ├── settings_20260415233916.json
+│   ├── settings_20260415233927.json
+│   ├── settings_20260415233929.json
+│   ├── settings_20260415233930.json
+│   ├── settings_20260416010834.json
+│   ├── settings_20260416010843.json
+│   ├── settings_20260509160356.json
+│   ├── settings_20260509160527.json
+│   ├── settings_20260509160541.json
+│   ├── settings_20260509160640.json
+│   ├── settings_20260509160709.json
+│   ├── trustedFolders_20260411053832.json
+│   ├── trustedFolders_20260415221911.json
+│   └── trustedFolders_20260415221914.json
+├── .sixth/
+│   └── skills/
+├── .vscode/
+│   └── mcp.json
+├── __MACOSX/
+│   ├── hooks/
+│   └── hooks.bak/
+├── acknowledgments/
+│   └── agents.json
+├── agents/
+│   ├── autotag_architect.toml
+│   └── ecosystem_intelligence.toml
+├── antigravity/
+│   ├── brain/
+│   ├── conversations/
+│   ├── html_artifacts/
+│   ├── knowledge/
+│   ├── skills/
+│   ├── installation_id
+│   └── mcp_config.json
+├── antigravity-cli/
+│   ├── bin/
+│   ├── brain/
+│   ├── builtin/
+│   ├── cache/
+│   ├── conversations/
+│   ├── crashes/
+│   ├── implicit/
+│   ├── knowledge/
+│   ├── log/
+│   ├── mcp/
+│   ├── plugins/
+│   ├── presence/
+│   ├── updater/
+│   ├── cli.log -> log/cli-20260807_232526.log
+│   ├── conversation_summaries.db
+│   ├── history.jsonl
+│   ├── import_manifest.json
+│   ├── installation_id
+│   ├── jetski_state.pbtxt
+│   ├── keybindings.json
+│   ├── last_check.timestamp
+│   └── settings.json
+├── backups/
+│   └── re-ole-20260415/
+├── commands/
+│   ├── cd.md
+│   ├── export.toml
+│   └── generalist.toml
+├── config/
+│   ├── plugins/
+│   ├── projects/
+│   ├── .migrated
+│   ├── config.json
+│   ├── import_manifest.json
+│   └── mcp_config.json
+├── docs/
+│   ├── AGENT-HOOKS-RALPH-RESEARCH-AND-ASSESSMENT.md
+│   ├── AGENTS-EXTENSIONS-POLICIES-REVIEW.md
+│   ├── CAPABILITY_ATLAS_WALKTHROUGH.md
+│   ├── CHANGELOG.md
+│   ├── CHAT_HISTORY_EXPORT.md
+│   ├── ENABLED-EXTENSIONS.md
+│   ├── EXTENSIONS-INVENTORY.md
+│   ├── EZA_USAGE_GUIDE.md
+│   ├── GEMINI-COPY-REFERENCE-CHECK.md
+│   ├── GEMINI-FILES-INDEX.md
+│   ├── GEMINI_ARCHITECTURE_AND_CHANGELOG.md
+│   ├── HOME-ECOSYSTEM-INVENTORY.md
+│   ├── ITERM2_GEMINI_EXPLORATION.md
+│   ├── MCPHOOKER-AUTOTAGGER-FOCUS.md
+│   ├── PYTHON-PIP-SYSTEM-CHECK.md
+│   └── TMP-REVIEW.md
+├── extensions/
+│   ├── ability-dna/
+│   ├── agent-creator/
+│   ├── code-review/
+│   ├── extension-browser/
+│   ├── find-docs/
+│   ├── gemini-cli-git/
+│   ├── gemini-cli-prompt-library/
+│   ├── my-code-analyzer/
+│   ├── refactor/
+│   ├── run-long-command/
+│   ├── skill-porter/
+│   ├── upwork-intelligence/
+│   └── extension-enablement.json
+├── extensions_backup/
+│   └── mcp-toolbox/
+├── history/
+│   ├── 0-avatararts/
+│   ├── 2026-02/
+│   ├── adventures-guild/
+│   ├── agent-skills/
+│   ├── agents/
+│   ├── ai-ready-packager/
+│   ├── avatararts/
+│   ├── avatararts-codex-mcp/
+│   ├── avatararts-mcp/
+│   ├── brands/
+│   ├── chozen/
+│   ├── chozen-land/
+│   ├── claude/
+│   ├── cline/
+│   ├── code-ai/
+│   ├── codex/
+│   ├── cox-sidekick/
+│   ├── deeptutor-main/
+│   ├── digitaldive/
+│   ├── downloads/
+│   ├── dr-adu/
+│   ├── env-d/
+│   ├── eso/
+│   ├── eso-build-calculator-v4-flutter/
+│   ├── eso-build-editor-main/
+│   ├── gemini/
+│   ├── github/
+│   ├── glass-wrap-3000/
+│   ├── guides/
+│   ├── ideogram/
+│   ├── ideogram-scripts-data/
+│   ├── iterm2/
+│   ├── june-suno/
+│   ├── movies/
+│   ├── music/
+│   ├── my-deep-setup/
+│   ├── my-maigret/
+│   ├── my-supremepowers/
+│   ├── nocturnemelodies/
+│   ├── once-ui-app/
+│   ├── open-sora/
+│   ├── opencode/
+│   ├── pictures/
+│   ├── pr0n/
+│   ├── python-marketplace-master/
+│   ├── pythons/
+│   ├── qwen/
+│   ├── scripts/
+│   ├── sillytavern-launcher/
+│   ├── soul-blueprint/
+│   ├── steven/
+│   ├── uesp-eso-build-wrapper-main/
+│   ├── users/
+│   └── userscripts/
+├── hooks/
+│   ├── hooks.json
+│   └── log-tools.sh*
+├── logs/
+│   └── tool-use.jsonl
+├── memory/
+│   ├── MEMORY.md
+│   └── SUPREME_POWERS.md
+├── policies/
+│   ├── auto-saved.toml
+│   └── README.md
+├── scripts/
+│   └── sora.py
+├── skills/
+│   ├── ccxt-csharp/
+│   ├── ccxt-go/
+│   ├── ccxt-php/
+│   ├── ccxt-typescript/
+│   ├── comic/
+│   ├── ccxt-cli -> ../../.agents/skills/ccxt-cli
+│   └── ccxt-python -> ../../.agents/skills/ccxt-python
+├── sora_assets/
+│   ├── sora-small.svg
+│   └── sora.png
+├── sora_references/
+│   ├── cinematic-shots.md
+│   ├── cli.md
+│   ├── codex-network.md
+│   ├── prompting.md
+│   ├── sample-prompts.md
+│   ├── social-ads.md
+│   ├── troubleshooting.md
+│   └── video-api.md
+├── supremepower/
+│   ├── .claude-plugin/
+│   ├── .codex/
+│   ├── .github/
+│   ├── .opencode/
+│   ├── adapters/
+│   ├── agents/
+│   ├── commands/
+│   ├── core/
+│   ├── docs/
+│   ├── examples/
+│   ├── hooks/
+│   ├── lib/
+│   ├── mcp-server/
+│   ├── scripts/
+│   ├── skills/
+│   ├── tests/
+│   ├── .eslintrc.json
+│   ├── .gemini-extension-install.json
+│   ├── .gitignore
+│   ├── .prettierrc.json
+│   ├── gemini-extension.json
+│   ├── jest.config.js
+│   ├── LICENSE
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── README.md
+│   ├── RELEASE-NOTES.md
+│   └── tsconfig.json
+├── tmp/
+│   ├── adventures-guild/
+│   ├── agents/
+│   ├── cox-sidekick/
+│   ├── iterm2/
+│   ├── nocturnemelodies/
+│   ├── python-marketplace-master/
+│   ├── pythons/
+│   ├── sillytavern-launcher/
+│   ├── soul-blueprint/
+│   └── steven/
+├── .gitignore
+├── 2026-06-14-145228-command-messageusing-superpowerscommand-messa.txt
+├── all_scan.csv
+├── Archive.zip
+├── 'Archive 2.zip'
+├── cleanup-proposal.md
+├── differences.log
+├── enriched-.gemini.csv
+├── extension_integrity.json
+├── fix-me.txt
+├── fix.txt
+├── GEMINI.md
+├── GEMINI.md.bak
+├── GIT_AI.md
+├── google_accounts.json
+├── grep_output.txt
+├── installation_id
+├── LICENSE.txt
+├── may.txt
+├── mcp-server-enablement.json
+├── projects.json
+├── settings.json
+├── settings.json.bak-20260709-authfix
+├── SKILL.md
+├── state.json
+├── trustedFolders.json
+├── trustedFolders.json.bak
+├── update.sh*
+├── 'XEO-DEO UNIVERSAL CONSTITUTION (V3.4) - LAYER V2.md'
+├── 'XEO-DEO UNIVERSAL CONSTITUTION (V3.4).md'
+└── 'XEO-DEO UNIVERSAL CONSTITUTION (V3.4)BACKUP.md'

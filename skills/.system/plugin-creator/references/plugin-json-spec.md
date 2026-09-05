@@ -15,7 +15,6 @@
   "license": "MIT",
   "keywords": ["keyword1", "keyword2"],
   "skills": "./skills/",
-  "hooks": "./hooks.json",
   "mcpServers": "./.mcp.json",
   "apps": "./.app.json",
   "interface": {
@@ -36,6 +35,7 @@
     "brandColor": "#3B82F6",
     "composerIcon": "./assets/icon.png",
     "logo": "./assets/logo.png",
+    "logoDark": "./assets/logo-dark.png",
     "screenshots": [
       "./assets/screenshot1.png",
       "./assets/screenshot2.png",
@@ -61,10 +61,30 @@
 - `license` (`string`): License identifier (for example `MIT`, `Apache-2.0`).
 - `keywords` (`array` of `string`): Search/discovery tags.
 - `skills` (`string`): Relative path to skill directories/files.
-- `hooks` (`string`): Hook config path.
-- `mcpServers` (`string`): MCP config path.
+- `mcpServers` (`string` or `object`): MCP config path, or an object whose keys are MCP server names and whose values are MCP server config objects.
 - `apps` (`string`): App manifest path for plugin integrations.
 - `interface` (`object`): Interface/UX metadata block for plugin presentation.
+
+`mcpServers` may be declared as a companion file path:
+
+```json
+{
+  "mcpServers": "./.mcp.json"
+}
+```
+
+Or as an object directly in `plugin.json`:
+
+```json
+{
+  "mcpServers": {
+    "counter": {
+      "type": "http",
+      "url": "https://sample.example/counter/mcp"
+    }
+  }
+}
+```
 
 ### `interface` fields
 
@@ -84,6 +104,7 @@
 - `brandColor` (`string`): Theme color for the plugin card.
 - `composerIcon` (`string`): Path to icon asset.
 - `logo` (`string`): Path to logo asset.
+- `logoDark` (`string`): Optional path to the logo asset used in dark mode.
 - `screenshots` (`array` of `string`): List of screenshot asset paths.
   - Screenshot entries must be PNG filenames and stored under `./assets/`.
   - Keep file paths relative to plugin root.
@@ -91,7 +112,7 @@
 ### Path conventions and defaults
 
 - Path values should be relative and begin with `./`.
-- `skills`, `hooks`, and `mcpServers` are supplemented on top of default component discovery; they do not replace defaults.
+- `skills` and string-valued `mcpServers` are supplemented on top of default component discovery; they do not replace defaults.
 - Custom path values must follow the plugin root convention and naming/namespacing rules.
 - This repo’s scaffold writes `.codex-plugin/plugin.json`; treat that as the manifest location this skill generates.
 
@@ -143,7 +164,7 @@ personal marketplace unless the caller explicitly requests a repo-local destinat
 - `name` (`string`): Plugin identifier. Match the plugin folder name and `plugin.json` `name`.
 - `source` (`object`): Plugin source descriptor.
   - `source` (`string`): Use `local` for this repo workflow.
-  - `path` (`string`): Relative plugin path based on the marketplace root.
+  - `path` (`string`): Relative plugin path based on the configured marketplace root reported by Codex, not the immediate parent directory of `marketplace.json`.
     - Personal plugin in `~/.agents/plugins/marketplace.json`: `./plugins/<plugin-name>`
     - Repo/team plugin: `./plugins/<plugin-name>`
   - The same relative path convention is used for both personal and repo/team marketplaces.
@@ -184,11 +205,12 @@ personal marketplace unless the caller explicitly requests a repo-local destinat
 - `version` must use strict semver.
 - `websiteURL`, `privacyPolicyURL`, and `termsOfServiceURL` must be absolute `https://` URLs when
   present.
-- `composerIcon`, `logo`, and `screenshots` must point to real files inside the plugin archive when
+- `composerIcon`, `logo`, `logoDark`, and `screenshots` must point to real files inside the plugin archive when
   present.
-- `apps` and `mcpServers` should appear in `plugin.json` only when `.app.json` and `.mcp.json`
-  actually exist.
-- Validation rejects unsupported manifest fields such as `hooks`, so the scaffold keeps them out of
-  generated manifests.
+- `apps` should appear in `plugin.json` only when `.app.json` actually exists.
+- `mcpServers` may point to `.mcp.json` or contain the MCP server object directly in
+  `plugin.json`.
+- Validation rejects unsupported manifest fields such as `hooks`. `--with-hooks` may create a
+  plugin resource directory, but the scaffold keeps `hooks` out of generated manifests.
 - Run `scripts/validate_plugin.py <plugin-path>` before handing back a generated plugin. It adds one
   intentional preflight check that rejects leftover `[TODO: ...]` placeholders.

@@ -1,0 +1,47 @@
+{
+  "broken_links": [],
+  "canonical_agent_source": "/Users/steven/.agent-skills/agents",
+  "canonical_source": "/Users/steven/.agent-skills",
+  "codex_home": "/Users/steven/.codex",
+  "counts": {
+    "canonical_agents": 221,
+    "canonical_skills": 330,
+    "codex_local_skills": 9,
+    "codex_visible_agents": 15,
+    "enabled_plugins": 11
+  },
+  "duplicate_agent_names": {},
+  "enabled_plugins": [
+    "browser@openai-bundled",
+    "chrome@openai-bundled",
+    "codex-app-tools@openai-bundled",
+    "context7@claude-plugins-official",
+    "documents@openai-primary-runtime",
+    "pdf@openai-primary-runtime",
+    "presentations@openai-primary-runtime",
+    "sites@openai-bundled",
+    "spreadsheets@openai-primary-runtime",
+    "template-creator@openai-primary-runtime",
+    "visualize@openai-bundled"
+  ],
+  "projections": {
+    "agents": {
+      "canonical_before_curation": false,
+      "is_symlink": false,
+      "path": "/Users/steven/.codex/agents",
+      "resolved": "/Users/steven/.codex/agents"
+    },
+    "superpowers": {
+      "healthy": true,
+      "path": "/Users/steven/.codex/superpowers",
+      "resolved": "/Users/steven/.agent-skills/skills/using-superpowers"
+    }
+  },
+  "schema": "codex-runtime-audit/v1",
+  "sensitive_paths_excluded": [
+    "auth.json",
+    "config.toml",
+    "history.jsonl",
+    "hooks.json"
+  ]
+}

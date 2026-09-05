@@ -1,0 +1,553 @@
+/Users/steven/.qwen/
+├── .claude/
+│   └── settings.json
+├── .codex-history/
+│   ├── 2026-04-16_005241_Review-the-code-changes-against-the-base_019d94a2.md
+│   ├── 2026-04-16_015500_list-your-mcp_019d9457.md
+│   ├── 2026-05-10_045455_review_019e141d.md
+│   ├── 2026-06-13_031513_resolve-your-error_019ebfd0.md
+│   └── 2026-06-13_062139_auth_019ebfd6.md
+├── .history/
+├── agents/
+│   ├── api-specialist/
+│   ├── backend-architect/
+│   ├── context-management/
+│   ├── database-specialist/
+│   ├── devops-engineer/
+│   ├── documentation/
+│   ├── ecosystem-learning/
+│   ├── ecosystem-synergy/
+│   ├── frontend-architect/
+│   ├── ice-tracker-assistant/
+│   ├── integrated-evolution/
+│   ├── javascript-expert/
+│   ├── performance-engineer/
+│   ├── python-expert/
+│   ├── security-engineer/
+│   ├── self-evolution/
+│   ├── system-architect/
+│   ├── task-management/
+│   ├── technical-writer/
+│   ├── testing-specialist/
+│   ├── ai-music-video-creator.md
+│   ├── ai-workflow-manager.md
+│   ├── ai-xeo.md
+│   ├── avatararts-organizer.md
+│   ├── bots.md
+│   ├── code-reviewer.md
+│   ├── content-consolidator.md
+│   ├── content-organizer.md
+│   ├── context-handoff-compiler.md
+│   ├── documentation-manager.md
+│   ├── ecosystem-analyzer.md
+│   ├── filesystem-inventory.md
+│   ├── git-ai-agent.sh*
+│   ├── knowledge-automation-strategist.md
+│   ├── notebooklm-enhancement-advisor.md
+│   ├── path-list-analyzer.md
+│   ├── project-launch-manager.md
+│   ├── REGISTRY.md
+│   ├── revenue-optimizer.md
+│   ├── self-evolution-plan.md
+│   ├── seo-keyword-analyst.md
+│   ├── SUBAGENT_QUICK_REFERENCE.md
+│   ├── SUBAGENTS_GUIDE.md
+│   ├── system-analyzer.md
+│   ├── tree-explorer.md
+│   └── xeo-strategist.md
+├── archive/
+│   ├── 2026-04-16/
+│   └── cleanup_20260422_162321/
+├── code-review/
+│   ├── 2cd88e7947b7/
+│   └── commands/
+├── code-reviewer/
+│   ├── agents/
+│   ├── commands/
+│   ├── skills/
+│   ├── LICENSE
+│   └── README.md
+├── coderabbit/
+│   └── 1.0.0/
+├── commands/
+│   ├── brainstorm.md
+│   ├── execute-plan.md
+│   └── write-plan.md
+├── commit-commands/
+│   └── 2cd88e7947b7/
+├── context7/
+│   └── 2cd88e7947b7/
+├── debug/
+│   ├── 0a8c0dbb-5fe4-4ca4-a1ac-260fb5f87dbc.txt
+│   ├── 0d177e52-a761-40f9-8e27-373f574722b4.txt
+│   ├── 00cd6b4a-6c2f-4f0f-a62d-0077a7a4d0b6.txt
+│   ├── 0209f3f1-a53e-4312-9abb-aecbfc8f5e0d.txt
+│   ├── 02908748-12d5-45db-9943-a0daf545fbae.txt
+│   ├── 062ec3e3-a30c-4f49-83e6-8f97177e6a2c.txt
+│   ├── 1ddf83e4-2583-4c79-850c-451cbd9d162f.txt
+│   ├── 2a38d232-d73f-47de-b35d-1757dcc9f4f8.txt
+│   ├── 3ad033c3-ef47-4226-8c80-33d32fe4e99b.txt
+│   ├── 3da502fe-6e13-45cc-9038-34b231ebaeeb.txt
+│   ├── 4b1c8316-d2df-4e67-a146-3606d826acec.txt
+│   ├── 4db0f438-1b35-4eeb-9337-de3ac74646f7.txt
+│   ├── 4e02aed6-8c31-4b12-b026-e2247d7990f8.txt
+│   ├── 5a1a9b9e-af5a-49b4-8526-b6e639b56aaf.txt
+│   ├── 6fd2ca7c-e85a-4ad6-88d8-8d6d399faab3.txt
+│   ├── 7d0a8481-c4fe-4dba-acde-ad65a7969214.txt
+│   ├── 9b26239f-0f4b-443a-a37e-a0f198fa9464.txt
+│   ├── 9cfdfb66-4d60-41f6-8746-5dc08ba3c578.txt
+│   ├── 9d1b8394-d0ae-4412-bc1e-f87a9e132034.txt
+│   ├── 9dded660-0c3c-4b66-b2f4-d2573e6eefd2.txt
+│   ├── 17a391be-e7ec-4b47-b68b-024600fcaa02.txt
+│   ├── 20aba357-5b4d-4d0c-9aed-a3cc3c2c430b.txt
+│   ├── 58b5b35c-836a-45db-8971-e7e680dc6fef.txt
+│   ├── 65d7bfbf-741c-428c-8a95-3f0108ab6fa8.txt
+│   ├── 68de8b92-106e-4adf-8abd-67e92aa835f3.txt
+│   ├── 73e271a9-5c8d-4688-beec-d43bad67e8df.txt
+│   ├── 85ed6ece-a444-48e6-865d-a51befbbaaba.txt
+│   ├── 91b062d9-b6a0-4be5-a86d-4b82cdcbe231.txt
+│   ├── 96b303c0-1738-41d4-a350-6722bd7dbdaf.txt
+│   ├── 245f0f77-9631-4c34-8a08-f6d719804298.txt
+│   ├── 382c8ab9-ecbf-4cdf-99aa-139fd3c0e3fd.txt
+│   ├── 578dcb1e-a6d0-418d-baff-ef7a9060d125.txt
+│   ├── 836a6f68-9052-46d5-94b7-5a68bc2b6d28.txt
+│   ├── 862de9ce-29e9-4e59-8b10-cd75d508bdd1.txt
+│   ├── 952b269b-6f6f-476f-97dc-7447f1c041df.txt
+│   ├── 1012e7cd-94b6-478b-895a-67915daf87ca.txt
+│   ├── 2483f3d8-1627-4bf4-b4cf-cebd3e1421e6.txt
+│   ├── 4651a2da-1764-4335-bbfa-d823c0a338df.txt
+│   ├── 40275c4f-64dc-45c6-85f1-d1cbbbce90fa.txt
+│   ├── 141072d2-956b-4216-9da5-b794f3339c2a.txt
+│   ├── 360795d3-69ed-4c4e-bf50-4a0b99ad93ea.txt
+│   ├── 399515fb-a17e-46e8-bbe0-05f06c34fa9c.txt
+│   ├── 902679b5-3272-4112-82de-f733035f445a.txt
+│   ├── 1864661d-f294-43a8-83cd-f72fb9ab7918.txt
+│   ├── 16679746-30f8-404b-bf28-279e1ab458ac.txt
+│   ├── 81067106-3889-4bd9-934e-94afd613e0c1.txt
+│   ├── a6640718-5c91-4d3c-8fb4-2bac1119a861.txt
+│   ├── abc5261d-4ef6-4780-9486-f929794d55ca.txt
+│   ├── ae051a9d-0d47-4bdb-85ee-ecd5e5db7e1a.txt
+│   ├── ae8b8991-6d15-41c7-9a24-30cdf727cb77.txt
+│   ├── ae66b847-57c4-492d-911c-03dbe9cb33c5.txt
+│   ├── ae86d452-66ce-4000-9bd3-259bd9cd602b.txt
+│   ├── b0cd6434-ad06-40ea-bbc2-b8e085929c4c.txt
+│   ├── b06ab1da-ac28-493f-8c12-f621915046a1.txt
+│   ├── b08cfe83-7df6-462b-8d88-1e3675ee76e8.txt
+│   ├── b5e40e44-bd20-41ec-a329-c0fb24c670a9.txt
+│   ├── b924750f-31ad-4468-ab41-cb1fa9388903.txt
+│   ├── cb70c863-5d09-4cd8-b63c-c4d3947a134c.txt
+│   ├── d7a16c30-9009-4733-ae73-7f55b00c107e.txt
+│   ├── d2918dc8-48bf-40f0-9370-1554e7f94095.txt
+│   ├── d40394b4-8f0d-46f2-afcd-7948c258deb8.txt
+│   ├── db3d7dc1-6da2-4e70-8f0c-e6f567891e8c.txt
+│   ├── db98322e-14d5-439e-aa6e-9db3a938c219.txt
+│   ├── e7db90bc-cc5a-44bd-a105-267ba97a0140.txt
+│   ├── e9cd21df-2836-4d34-8917-5cb0806ef107.txt
+│   ├── e74e85ef-ed39-4264-93af-89b3a76983f3.txt
+│   ├── f8f3874f-2b3f-4463-bfec-a3043030e4ea.txt
+│   ├── f38d14da-83e3-4a56-811d-c1a0fe16e48f.txt
+│   ├── fe1e42ac-6ae0-4f0c-9243-fd596741feda.txt
+│   └── latest -> 399515fb-a17e-46e8-bbe0-05f06c34fa9c.txt
+├── docs/
+│   ├── evolution-changelogs/
+│   ├── exports/
+│   ├── plans/
+│   ├── CHANGELOG.md
+│   ├── contributor-guidelines.md
+│   ├── EDIT_BOUNDARY_QUICKCHECK.md
+│   ├── engineering-patterns.md
+│   ├── EVOLUTION_AND_ITEM_HISTORY.md
+│   ├── FLOWS_DEDUPE_GUARDRAILS.md
+│   ├── FLOWS_INDEX.md
+│   ├── FLOWS_RUNTIME_MAP.md
+│   ├── FLOWS_SYSTEMATIC_DEBUGGING.md
+│   ├── HOOKS_MODEL_AND_IMPLEMENTATION.md
+│   ├── INSTALLATION_HOST_CROSSWALK.md
+│   ├── INVENTORY_DATABASES.md
+│   ├── LANGUAGE_AND_REFERENCE_STANDARD.md
+│   ├── learned-context.md
+│   ├── LINK_PATHS_USAGE_WORKFLOWS_AND_MULTI_ABILITY.md
+│   ├── model-providers-free-and-byok.md
+│   ├── QWEN_CAPABILITY_REGISTRY.md
+│   ├── secrets-and-permissions.md
+│   └── SOURCE_OF_TRUTH_AND_LAYERS.md
+├── explanatory-output-style/
+│   ├── .claude-plugin/
+│   ├── 2cd88e7947b7/
+│   ├── hooks/
+│   ├── hooks-handlers/
+│   ├── latest/
+│   └── README.md
+├── extension-store/
+│   ├── rollback/
+│   ├── staging/
+│   ├── transactions/
+│   ├── lock
+│   └── state.json
+├── extensions/
+│   └── extension-enablement.json
+├── hookify/
+│   ├── .claude-plugin/
+│   ├── 2cd88e7947b7/
+│   ├── agents/
+│   ├── commands/
+│   ├── core/
+│   ├── examples/
+│   ├── hooks/
+│   ├── matchers/
+│   ├── skills/
+│   ├── utils/
+│   ├── .gitignore
+│   ├── .orphaned_at
+│   ├── .orphaned_at.from-27d2b86d72da
+│   ├── MERGE_REPORT.json
+│   └── README.md
+├── ide/
+├── insights/
+│   ├── facets/
+│   ├── insight-2026-04-11.html
+│   ├── insight-2026-04-14.html
+│   ├── insight-2026-04-16.html
+│   ├── insight-2026-05-10.html
+│   └── insight.html -> insight-2026-05-10.html
+├── integrations/
+│   └── supremepower/
+├── learning-output-style/
+│   ├── .claude-plugin/
+│   ├── 2cd88e7947b7/
+│   ├── hooks/
+│   ├── hooks-handlers/
+│   ├── .cursor-plugin.json
+│   └── README.md
+├── logs/
+├── new-hooks-system/
+│   ├── findings-and-thoughts/
+│   ├── functioning-hooks-example/
+│   ├── scripts/
+│   ├── source-materials/
+│   └── README.md
+├── plans/
+│   └── self-evolution-plan.md
+├── plugins/
+│   └── marketplaces/
+├── projects/
+│   ├── -/
+│   ├── -private-var-folders--q-2zkrcf0x05q9q0gyy05yx28w0000gn-T-fz3temp-2/
+│   ├── -Users/
+│   ├── -Users-steven/
+│   ├── -Users-steven--codex/
+│   ├── -Users-steven--cursor/
+│   ├── -Users-steven-claudemarketplaces-com/
+│   ├── -Users-steven-clean/
+│   ├── -Users-steven-diGiTaLdiVe/
+│   ├── -Users-steven-Downloads/
+│   ├── -Users-steven-github-GPTJunkie-github-io/
+│   ├── -Users-steven-ice-tracker/
+│   ├── -Users-steven-ice-tracker-v7/
+│   ├── -Users-steven-ice-tracker-v7-backend-src-modules-data-ingestion/
+│   ├── -Users-steven-iterm2/
+│   ├── -Users-steven-iterm2--qwen-superpowers/
+│   ├── -Users-steven-iterm2-claude-ecosystem--claude-projects/
+│   ├── -Users-steven-MasterxEo/
+│   ├── -Users-steven-Music-nocTurneMeLoDieS/
+│   ├── -Users-steven-my-supremepowers/
+│   ├── -Users-steven-NotebookLM/
+│   ├── -Users-steven-p-market/
+│   ├── -Users-steven-projects-avatararts-story-smith/
+│   ├── -Users-steven-PYTHON-MARKETPLACE-MASTER/
+│   ├── -Users-steven-PYTHON-MARKETPLACE-MASTER-notion-test-worker/
+│   ├── -Users-steven-pythons/
+│   ├── -Users-steven-scripts/
+│   ├── -Users-steven-Sora-Watermark-Remover/
+│   ├── -Users-steven-trader-ai/
+│   ├── -Users-steven-workspace/
+│   ├── -Volumes-Bin/
+│   ├── -Volumes-macBaks-diVinePyTHon/
+│   ├── -Volumes-SiTed/
+│   └── all_scan.csv
+├── review_2026-04-22_full/
+│   ├── content_review.jsonl
+│   ├── dedupe_flow_safe_preview.txt
+│   ├── dirs_summary.csv
+│   ├── duplicate_files_by_sha256.csv
+│   ├── duplicates_preview_grouped.txt
+│   ├── files_detailed.csv
+│   ├── manifest_all_paths.csv
+│   ├── risk_flags.csv
+│   └── SUMMARY.md
+├── rules/
+│   ├── cross-agent-integration.mdc
+│   ├── exceptional-output-system.mdc
+│   ├── learned-context.mdc
+│   └── superpowers.mdc
+├── scripts/
+│   ├── enhanced_init.sh*
+│   ├── inventory-to-sqlite*
+│   ├── qwen-backup*
+│   ├── qwen-sp*
+│   └── update.sh*
+├── security-guidance/
+│   └── 1.0.0/
+├── session-reports/
+│   ├── 2026-04-13-14-session-comprehensive-report.md
+│   └── 2026-04-13-14-system-cleanup-and-optimization.md
+├── skills/
+│   ├── agent-development/
+│   ├── automation-recommender/
+│   ├── build-mcp-app/
+│   ├── build-mcp-server/
+│   ├── build-mcpb/
+│   ├── claude-md-improver/
+│   ├── comic/
+│   ├── command-development/
+│   ├── cursor-integration/
+│   ├── devtu-fix-tool/
+│   ├── devtu-optimize-descriptions/
+│   ├── devtu-optimize-skills/
+│   ├── discord-access/
+│   ├── discord-configure/
+│   ├── ecosystem-navigation/
+│   ├── frontend-design/
+│   ├── git-ai-assistant/
+│   ├── git-ai-cursor-integration/
+│   ├── hook-development/
+│   ├── ice-tracker-integration/
+│   ├── imessage-access/
+│   ├── imessage-configure/
+│   ├── managing-ecosystem-cleanup/
+│   ├── math-olympiad/
+│   ├── mcp-integration/
+│   ├── narrative-blueprints/
+│   ├── playground/
+│   ├── plugin-settings/
+│   ├── plugin-structure/
+│   ├── self-assistance/
+│   ├── self-improvement/
+│   ├── session-report/
+│   ├── setup-tooluniverse/
+│   ├── skill-creator/
+│   ├── skill-development/
+│   ├── sora/
+│   ├── superpowers-brainstorming/
+│   ├── superpowers-dispatching-parallel-agents/
+│   ├── superpowers-ecosystem-clarity/
+│   ├── superpowers-executing-plans/
+│   ├── superpowers-finishing-a-development-branch/
+│   ├── superpowers-receiving-code-review/
+│   ├── superpowers-requesting-code-review/
+│   ├── superpowers-subagent-driven-development/
+│   ├── superpowers-systematic-debugging/
+│   ├── superpowers-test-driven-development/
+│   ├── superpowers-using-git-worktrees/
+│   ├── superpowers-using-superpowers/
+│   ├── superpowers-verification-before-completion/
+│   ├── superpowers-workflow-bootstrap/
+│   ├── superpowers-writing-plans/
+│   ├── superpowers-writing-skills/
+│   ├── systematic-debugging/
+│   ├── telegram-access/
+│   ├── telegram-configure/
+│   ├── tooluniverse/
+│   ├── tooluniverse-clinical-trial-design/
+│   ├── tooluniverse-sequence-retrieval/
+│   ├── workspace-ecosystem-audit/
+│   ├── writing-rules/
+│   ├── BROKEN_SYMLINKS_REMOVED_20260713.md
+│   ├── design-taste-frontend -> ../../.agents/skills/design-taste-frontend
+│   └── find-skills -> ../../.agents/skills/find-skills
+├── superpowers/
+│   ├── .claude-plugin/
+│   ├── .codex/
+│   ├── .github/
+│   ├── .opencode/
+│   ├── 4.2.0/
+│   ├── a98c5dfc9de0/
+│   ├── agents/
+│   ├── bin/
+│   ├── commands/
+│   ├── docs/
+│   ├── hooks/
+│   ├── lib/
+│   ├── plugins/
+│   ├── skills/
+│   ├── templates/
+│   ├── tests/
+│   ├── .gitattributes
+│   ├── .gitignore
+│   ├── .orphaned_at
+│   ├── INSTALL.md
+│   ├── 'INSTALL copy.md'
+│   ├── LICENSE
+│   ├── README.md
+│   ├── RELEASE-NOTES.md
+│   ├── superpowers-bootstrap.md
+│   └── superpowers-codex*
+├── templates/
+│   ├── git-ai-agent-system/
+│   ├── git-ai-agents/
+│   ├── git-ai-skills/
+│   └── README.md
+├── tmp/
+│   ├── 07be6d5cf758e747154de775a58bcefaac70cd210a523da9474fbfe091bf0711/
+│   ├── 6edf9276166bf731a9941b4e89176d14ecb74571a8794e066816054df7ce89b9/
+│   ├── 8bc017a2c89dd5c5f8fccbaed02e819c0d145d699855d4ee7b8246ff567c04ce/
+│   ├── 15ab5ccfd91f1ad6fae6c9828c3bcca488d340186a57add71c9eb66c47a53846/
+│   ├── 81a74aaed65dca57645ef735dd3ae33017583f33880b850f3e94b52c4e5533a6/
+│   ├── 772b8b374c34d2f73fad376dff0b2fb7581667f7059515812368e1fb4d6c29f8/
+│   ├── 906b45578b3c18e80dc72c5871cd28331db9a6bdfba7434dbe0a326735906e31/
+│   ├── 81173dd3c4485575bd6afaa5df37ddfacb16457c1828b1bd150661774ff1f2a5/
+│   ├── 58297914781798bcea65c1747a7e1986a9f039e1659fcfb67ec67663d687584b/
+│   ├── a2a0ee2c717462feb1de2f5afd59de5fd2d8ffa9eea1ee6186d639b5f2da5567/
+│   ├── a30cc3b98cc24392fa7fcd65d3f32c1f78c5a623c990097cb1cdedacc6cb3120/
+│   ├── b7bd354e747ae4c35b02bb894bbe7ae8b0b9e7e70bb45bf5ce9a0aa80e143a87/
+│   ├── d775477f1253b661d426844657709db41b56ca836a26e4914abc39b1e777bb96/
+│   ├── ec26c4ffece0bfcd251caa5802e536ceb470d0ebe3efb355027ea59209bf09e9/
+│   └── ec25193d859a7648c4134fd7d1a6c1a2bc9b4c6adbcad6b1f420f9062abfae46/
+├── todos/
+│   ├── 0ac5a356-c400-402a-a9d9-1f9f91c4be66.json
+│   ├── 0c33aea4-7bee-45ed-bada-725c0e4ddeec.json
+│   ├── 0cc53f4c-6a45-45e3-9506-db6e6540142c.json
+│   ├── 0dd9905d-c08b-4784-acdb-8f2fa0365309.json
+│   ├── 0e92b1f0-c421-456c-a6a7-f7ef112b1216.json
+│   ├── 0f9fa663-477d-4bb6-a1d9-3b80e0dda2b9.json
+│   ├── 020cf543-1f84-4942-aaa5-669737097b9b.json
+│   ├── 05551882-ac4c-4531-861c-8783549e54b4.json
+│   ├── 09206e4f-48fe-40ee-ad5f-2e3bb2f34181.json
+│   ├── 1d24fa28-72e2-473d-b5e2-9c2040b111dd.json
+│   ├── 2ee254bc-ae4c-43f6-94c9-a5497c7d1d47.json
+│   ├── 2f2e1ead-3ab9-44d1-828d-657c25dc3fe8.json
+│   ├── 2ff33e24-db3b-49df-a20d-c734df333174.json
+│   ├── 4b1c8316-d2df-4e67-a146-3606d826acec.json
+│   ├── 5a93174f-891e-4531-9b1c-7d1339baecb8.json
+│   ├── 5cf7182a-ffd2-4abf-a6ed-e0ebeb3ffa2c.json
+│   ├── 5d075f84-12be-4eaa-a0be-3afed4e569ef.json
+│   ├── 5f46bb76-4c5b-4625-8c04-f09bcc860909.json
+│   ├── 6bad3c53-457b-43ca-9d66-b7d461c43936.json
+│   ├── 7c5cd1b1-8453-4d18-a401-0d941cfe44b8.json
+│   ├── 7dd0d838-cee4-4b66-8699-571271c0b66f.json
+│   ├── 9a3af499-7ba2-4937-8909-a63b1383b4b1.json
+│   ├── 9fde6fc3-f1de-4f39-aab1-5cf65ca5cb8c.json
+│   ├── 30e8e56f-96ff-43c2-a33e-612a0e0ba85f.json
+│   ├── 40bad0a7-71fe-441a-a8cd-4bfd99c5ae81.json
+│   ├── 63f465c8-81bf-40c6-81d6-ef3faf7784b1.json
+│   ├── 72ab755f-059e-485d-9d54-1c8be8517603.json
+│   ├── 81bca729-146b-4f17-8db5-3833225c7ea4.json
+│   ├── 81f3fed9-d89b-4630-88fc-91a7ed15458c.json
+│   ├── 84adc61b-11c6-4107-8e36-0002116cb567.json
+│   ├── 84e3523c-f978-4ed8-a921-548f2f8cf504.json
+│   ├── 97b2b0a1-5817-4c6c-a7f1-1cefdb1bc39c.json
+│   ├── 98bc8ec5-ab4a-484d-b3be-4be67cf0c68f.json
+│   ├── 132b1437-dc9b-47a8-aa80-78c30d3c5691.json
+│   ├── 324ab3a2-4a96-47c2-a2f6-b26a703ba735.json
+│   ├── 765e92ab-7781-49cf-b9fd-9a61c82ae4ed.json
+│   ├── 896fcea1-6016-4911-8ba2-d6bc7c6d6b60.json
+│   ├── 952b269b-6f6f-476f-97dc-7447f1c041df.json
+│   ├── 4186c334-5f53-47c5-9eca-c6521536561b.json
+│   ├── 6231d116-4821-459d-9ec8-41902d2c16d5.json
+│   ├── 8976f870-39db-41bd-811b-b09cf21f3fdb.json
+│   ├── 9187e782-3981-4883-90b5-586a2d6d7d93.json
+│   ├── 35740c9e-4256-492b-b05c-4749c6e3bb5b.json
+│   ├── 55987f2e-52fe-409a-9551-a94d3abe0236.json
+│   ├── 360795d3-69ed-4c4e-bf50-4a0b99ad93ea.json
+│   ├── 362891f7-8350-484e-aa88-45ee696ca70d.json
+│   ├── 676453a9-75f4-4a1a-bcd8-5ed8f0f46762.json
+│   ├── 698551cc-f521-4f0f-a658-7ed93e3b73ed.json
+│   ├── 955964e9-95a4-40ce-a435-be46fa377c5e.json
+│   ├── 965825fd-9922-4482-bb81-9c51058af73b.json
+│   ├── 3880223c-3646-4231-99f9-9e60ae3bb53b.json
+│   ├── 4607515d-95d4-4cf3-a3b3-4410f03c35f1.json
+│   ├── a1fa4aba-5ab5-491e-a51a-3c6a682dcd13.json
+│   ├── a11abca6-d14f-4b32-bcfc-0bc939422044.json
+│   ├── a27e88b8-ed86-4b0b-91f2-61ac79c7cb6a.json
+│   ├── a42e1f7c-2933-40a1-b68e-867887b626fe.json
+│   ├── a77a2bc9-9c8b-4417-a422-fd300c5cee2e.json
+│   ├── acf83beb-953f-4424-b266-c4992b263f2f.json
+│   ├── ae1bced4-c07e-43e0-8655-579082616b1f.json
+│   ├── ae86d452-66ce-4000-9bd3-259bd9cd602b.json
+│   ├── aea3a160-441f-49da-b18c-914326bd7af3.json
+│   ├── af4d43d8-7c53-4530-8dba-cc5620e0c9b6.json
+│   ├── b0ab902a-231e-4bd6-97d9-91c39a7a5bf1.json
+│   ├── b6ee8808-f1fc-46d9-b9a5-cbccb476ec73.json
+│   ├── b432e090-9c1a-4ae8-8cff-38a8c9635158.json
+│   ├── b705325b-d112-44a9-bfd3-0bd1cd9d8a9a.json
+│   ├── b924750f-31ad-4468-ab41-cb1fa9388903.json
+│   ├── b3740047-a12c-46e8-8f9a-94735547aa50.json
+│   ├── bdb35c94-243e-49be-ac66-90c7ed5e2e5b.json
+│   ├── be3b3807-5d94-45a2-b56d-dca699aa1f11.json
+│   ├── c1b0c559-c077-4696-858b-0fd488349313.json
+│   ├── c4c6a857-95ae-4d30-9526-d3884413d235.json
+│   ├── c9cc7e8b-0f66-49dd-a65e-d74e78e36a53.json
+│   ├── c35952af-198f-470e-a1f7-327126562cd4.json
+│   ├── ca72e32c-e41b-4893-bb36-658c3ba4aad7.json
+│   ├── cd51239a-12bd-443b-9237-ad53850bf560.json
+│   ├── ce22cfd0-2a61-449f-a6d5-f2551a57cb6d.json
+│   ├── d8a7fffd-8788-4a54-bb53-0dcfc44b44d2.json
+│   ├── d29eee56-99a2-4b5a-bdd8-54f3b0ea27a0.json
+│   ├── d45c078f-2886-4b0f-a6ee-031fcd4929da.json
+│   ├── da6fa24a-f08b-40fd-9f29-c597e777a5eb.json
+│   ├── db3d7dc1-6da2-4e70-8f0c-e6f567891e8c.json
+│   ├── db98322e-14d5-439e-aa6e-9db3a938c219.json
+│   ├── dbaab5bc-351a-463b-b059-c0d9490d3d27.json
+│   ├── dbb2f4ae-9d44-4fe2-9dec-29444343bc41.json
+│   ├── e08f3425-77e2-4a91-b124-51dcf79547ba.json
+│   ├── e4b56d59-9b38-4927-ae68-83f4c1a1f8de.json
+│   ├── e4e1c52e-5bfd-42ef-958f-1a140ae04501.json
+│   ├── e327a947-e23f-4fcb-96aa-1899f7390845.json
+│   ├── edb931e7-4657-4e54-8582-8f2e25fb0924.json
+│   ├── eddcd320-b198-4f3b-9106-9e6bb41d2dee.json
+│   ├── ee17a8c3-76fb-47df-9e76-c36bd3ae1eec.json
+│   ├── f36e2a9b-cdfe-4002-b9a1-58972be3587c.json
+│   ├── f42e37fc-a027-40c7-9ccf-3fd41631d9d1.json
+│   ├── f5928a10-3887-4a71-bfb1-0448700a3384.json
+│   ├── fb5e5aac-9921-45a2-b148-f1307da96a04.json
+│   ├── fc762c0c-1053-4ccc-b2d0-057f163ae3fa.json
+│   ├── fe1e42ac-6ae0-4f0c-9243-fd596741feda.json
+│   └── ff458e17-0e04-433e-b5ee-12cc4ffb3e46.json
+├── .env -> /Users/steven/.env.d/llm-apis.env
+├── .gitignore
+├── brainstorm.md
+├── cleanup-manifest.csv
+├── code-reviewer.md
+├── 'docs-06-14-09 -23.csv'
+├── docs.txt
+├── ECOSYSTEM_ANALYSIS.md
+├── ecosystem_analysis_20260214_003933.json
+├── enriched-.qwen.csv
+├── FUNDING.yml
+├── get-hooked.txt
+├── google_accounts.json
+├── IMPORT_MANIFEST.md
+├── INSTALL-superpowers-codex.md
+├── INSTALL-superpowers-opencode.md
+├── installation_id
+├── INTEGRATION_SUMMARY.md
+├── Learning_Explanatory_Styles.md
+├── Logic_Flows.md
+├── Master_Recall_Index.md
+├── oauth_creds.json
+├── output-language.md
+├── PROJECT_SUMMARY.md
+├── QWEN.md
+├── QWEN_INVOKE_INDEX_BY_TYPE.md
+├── QWEN_SYSTEM_DEFINITION.md
+├── QWENb.md
+├── README.codex.md
+├── README.md
+├── README.opencode.md
+├── settings.json
+├── settings.json.backup
+├── settings.json.orig
+├── superpowers-bootstrap.md
+├── superpowers-codex*
+├── superpowers.js
+├── superpowers.zip
+├── testing.md
+├── tip_history.json
+├── Untitled.txt
+├── update.sh*
+├── usage_record.jsonl
+├── Use_Cases_And_Triggers.md
+├── welcome-back-state.json
+├── what-hooks-mean.txt
+├── Working_Principles.md
+└── write-plan.md

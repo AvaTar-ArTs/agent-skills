@@ -1,0 +1,37 @@
+{
+  "broken_links": [],
+  "known": [
+    {
+      "expected_target": "/Users/steven/.agent-skills/skills",
+      "healthy": true,
+      "is_symlink": true,
+      "path": ".claude/skills",
+      "resolved": "/Users/steven/.agent-skills/skills",
+      "target": "/Users/steven/.agent-skills/skills"
+    },
+    {
+      "expected_target": "/Users/steven/.agent-skills/agents",
+      "healthy": true,
+      "is_symlink": true,
+      "path": ".claude/agents",
+      "resolved": "/Users/steven/.agent-skills/agents",
+      "target": "/Users/steven/.agent-skills/agents"
+    },
+    {
+      "expected_target": "/Users/steven/.agent-skills/skills/using-superpowers",
+      "healthy": true,
+      "is_symlink": true,
+      "path": ".codex/superpowers",
+      "resolved": "/Users/steven/.agent-skills/skills/using-superpowers",
+      "target": "/Users/steven/.agent-skills/skills/using-superpowers"
+    },
+    {
+      "expected_target": "/Users/steven/.agent-skills/skills",
+      "healthy": true,
+      "is_symlink": true,
+      "path": ".agents/skills",
+      "resolved": "/Users/steven/.agent-skills/skills",
+      "target": "/Users/steven/.agent-skills/skills"
+    }
+  ]
+}

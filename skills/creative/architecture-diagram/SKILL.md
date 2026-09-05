@@ -10,6 +10,10 @@ metadata:
   hermes:
     tags: [architecture, diagrams, SVG, HTML, visualization, infrastructure, cloud]
     related_skills: [concept-diagrams, excalidraw]
+    related_resolution:
+      concept-diagrams: local-skill:excalidraw
+changelog:
+  - "2026-08-15: Added additive alias resolution metadata; preserved related_skills."
 ---
 
 # Architecture Diagram Skill

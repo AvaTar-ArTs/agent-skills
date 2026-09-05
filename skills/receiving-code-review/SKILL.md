@@ -1,6 +1,8 @@
 ---
 name: receiving-code-review
-description: Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation
+description: Use when receiving code-review feedback before implementing suggestions, especially when feedback is unclear or technically questionable. Verify each finding, reproduce consequential issues, and route accepted changes back through quality-regression-testing and code-review.
+changelog:
+  - "2026-08-15: Added explicit re-verification and re-review handoff for accepted feedback."
 ---
 
 # Code Review Reception

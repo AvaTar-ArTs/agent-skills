@@ -1,0 +1,18 @@
+{
+  "name": "steven-eza-home-audit-2026-08-08",
+  "type": "filesystem-inventory",
+  "status": "durable",
+  "source_root": "/Users/steven",
+  "tool": "eza",
+  "original_file_count": 21,
+  "primary_files": [
+    "home-L1-long.tree.txt",
+    "home-L2.tree.txt",
+    "home-by-size.long.txt",
+    "home-git-repos.txt"
+  ],
+  "limitations": [
+    "Snapshot data becomes stale as files change.",
+    "Directory trees describe structure, not semantic purpose."
+  ]
+}

@@ -1,0 +1,310 @@
+/Users/steven/.claude/
+├── .ccassist/
+│   └── ccassist.db
+├── .claude/
+│   └── settings.local.json
+├── .claude-code-history/
+│   └── 2026-07-09_223032_command-messageusing-superpowerscomm_83ed1fba.md
+├── .claude-manager/
+│   ├── active-sessions.json
+│   ├── session-start-tap.js*
+│   ├── statusline-inner.json
+│   ├── statusline-tap.js
+│   ├── statusline.json
+│   └── usage-history.json
+├── .claude-manager-snapshots/
+│   └── global/
+├── .codex-history/
+│   ├── 2026-04-10_221522_analyze_019e141d.md
+│   ├── 2026-04-11_051527_analyze-UsersstevenMarketMaster.git-_019d7bc7.md
+│   ├── 2026-04-11_060126_rsync--avP---remove-source-files-Volum_019d7be9.md
+│   ├── 2026-04-12_205040_skills-workflow-bootstrap-​skills-usi_019d844f.md
+│   ├── 2026-04-21_133550_review-and-help-with-dupes-and-renames_019db0dc.md
+│   ├── 2026-04-21_151852_review_019db15d.md
+│   ├── 2026-05-09_153358_Hi!-I-just-installed-Spark-CLI-on-my-Mac_019e0dfc.md
+│   ├── 2026-05-09_185914_analyze_019e0ec7.md
+│   ├── 2026-05-10_040620_Inspect-UsersstevenPYTHON_MARKETPLACE_019e10ea.md
+│   ├── 2026-05-10_043924_use-Usersstevenmy-supremepowers-and_019e10d5.md
+│   ├── 2026-06-09_211423_review-privatevarfolders_q2zkrcf0x0_019ebee5.md
+│   ├── 2026-06-10_000538_Review-SuperGPT-chatbot-codebase_019eba25.md
+│   ├── 2026-06-14_073313_codex-mcp-add-btt---url-http127.0.0.1_019ec5e7.md
+│   ├── 2026-06-14_073355_auth_019ec5e8.md
+│   ├── 2026-06-14_090008_$using-superpowers-$brainstorm-$workflow_019ec630.md
+│   ├── 2026-06-20_121722_#-Files-mentioned-by-the-user##-#-💰-_019ee5d2.md
+│   └── 2026-06-21_183219_review_019eec50.md
+├── .history/
+│   ├── .vscode/
+│   ├── test_20260513164527.html
+│   ├── test_20260513164530.html
+│   ├── test_20260513164547.html
+│   ├── test_20260513164657.html
+│   └── test_20260513164832.html
+├── .qodo/
+│   ├── agents/
+│   └── workflows/
+├── .remember/
+│   ├── logs/
+│   ├── tmp/
+│   ├── .gitignore
+│   ├── archive.md
+│   ├── now.md
+│   ├── recent.md
+│   ├── today-2026-06-14.done.md
+│   └── today-2026-06-15.md
+├── .search-index/
+│   ├── search.db
+│   └── usage.db
+├── .sixth/
+│   └── skills/
+├── .specstory/
+│   ├── cli/
+│   ├── debug/
+│   ├── history/
+│   ├── .project.json
+│   └── statistics.json
+├── .vscode/
+│   └── settings.json
+├── agents -> /Users/steven/.agent-skills/agents/
+├── agents.bak/
+│   ├── documentation/
+│   ├── skill-creator/
+│   ├── skill-installer/
+│   ├── skill-porter/
+│   ├── ai-engineer.md*
+│   ├── ask.md
+│   ├── backend-architect.md*
+│   ├── code-reviewer.md
+│   ├── context-fetcher.md*
+│   ├── date-checker.md*
+│   ├── devops-automator.md*
+│   ├── ecosystem-dev.md
+│   ├── file-creator.md*
+│   ├── frontend-developer.md*
+│   ├── git-workflow.md*
+│   ├── knowledge-fetcher.md*
+│   ├── plan.md
+│   ├── rapid-prototyper.md*
+│   ├── review.md
+│   ├── sorty.md
+│   ├── studio-coach.md*
+│   └── test-writer-fixer.md*
+├── backups/
+│   ├── .claude.json.backup.1786200740999
+│   ├── .claude.json.backup.1786201447654
+│   ├── .claude.json.backup.1786222751207
+│   ├── .claude.json.backup.1786222811820
+│   └── .claude.json.backup.1786222872793
+├── cache/
+│   ├── changelog.md
+│   └── my-closed-issues.json
+├── chat-history/
+├── chrome/
+│   └── chrome-native-host*
+├── commands/
+│   └── agmsg.md
+├── daemon/
+│   ├── dispatch/
+│   └── control.key
+├── debug/
+├── docs/
+│   └── 2026-06-15-ecosystem-audit-and-context-cost.md
+├── downloads/
+├── file-history/
+│   ├── 7c06b42c-5f14-42ca-95d6-e3f1f209ac1f/
+│   ├── 8ac2dfb2-4b32-4e40-8ed4-a2b7ae543da3/
+│   ├── 21b4f7c9-b7a4-4a9e-9d18-32ef63951992/
+│   ├── 22de0f67-d252-4cd9-80e1-221ac8c31351/
+│   ├── 26a49c54-2dfe-4eb4-a992-809410247cc8/
+│   ├── 77f0658c-0d26-429e-bc06-d6b0fc4b7557/
+│   ├── 432bb9c6-ff01-4957-b15b-fa2de74300a4/
+│   ├── 502f80c7-8a3f-4816-ba1b-5f8c82eb86d6/
+│   ├── 76396a5e-d924-4cc7-b993-7b0e190029da/
+│   └── e0533a0f-2151-433f-8c31-bd7423b9e3d0/
+├── ide/
+├── jobs/
+│   ├── 22ca2502/
+│   ├── 26e46a7f/
+│   ├── 51d9a6c8/
+│   ├── 848c6484/
+│   ├── 991674ca/
+│   ├── a4961e26/
+│   ├── d6fee4fc/
+│   ├── e2018c6c/
+│   └── pins.json
+├── memory/
+│   ├── feedback-code-history.md
+│   ├── feedback-collaboration-protocol.md
+│   ├── feedback-dry-run-preference.md
+│   ├── feedback-eza-instead-of-ls.md
+│   ├── feedback-no-overwrite.md
+│   ├── feedback-participant-not-analyst.md
+│   ├── feedback-research-lineage.md
+│   ├── mac-slowness-diagnosis.md
+│   ├── MEMORY.md
+│   ├── project-agents-cleanup-2026-07-11.md
+│   ├── project-avatararts-art-discovery.md
+│   ├── project-macbook-cleanup-2026-07.md
+│   ├── reference-coderabbit-setup.md
+│   ├── reference-engram-setup.md
+│   ├── reference-hermes-image-gen.md
+│   ├── reference-macbook-cpu-clamp.md
+│   ├── reference-mcp-scoping.md
+│   ├── reference-server-hosting.md
+│   ├── user-macbook-hardware.md
+│   ├── user-steven-brand-universe.md
+│   └── user-steven-profile.md
+├── paste-cache/
+│   ├── 0e44d81730ba5cc5.txt
+│   ├── 0209b37dd968a62c.txt
+│   ├── 04ae99e80299f812.txt
+│   ├── 05fd90a802c822b0.txt
+│   ├── 2cf1dd7e619d7eb4.txt
+│   ├── 5c7934417cc9701f.txt
+│   ├── 5df16a165955a5d6.txt
+│   ├── 8b225b52244a4f5e.txt
+│   ├── 8d3a0ab577076b92.txt
+│   ├── 71fae35eec907294.txt
+│   ├── 85d27ba2ddc37cff.txt
+│   ├── 314a6822d9ebdb8e.txt
+│   ├── 633ae3ed57ed29a2.txt
+│   ├── 3454c6a90cde96e2.txt
+│   ├── 8691e578aa046463.txt
+│   ├── 42544f787502f078.txt
+│   ├── a65eae6a78a33099.txt
+│   ├── a389ad2de5f1cd01.txt
+│   ├── ab7de15e2dea16e2.txt
+│   ├── c5cabc982e4d76fe.txt
+│   ├── c22cac950a290486.txt
+│   ├── c38f57de7ae8f243.txt
+│   ├── c807b0e764d66d9a.txt
+│   ├── c1855bdddcf84b46.txt
+│   ├── ca1e202d2941fd0c.txt
+│   ├── d017f87064091f85.txt
+│   ├── d83278ba0ebd5af4.txt
+│   └── ddc48485c1818222.txt
+├── plugins/
+│   ├── cache/
+│   ├── data/
+│   ├── marketplaces/
+│   ├── self-management/
+│   ├── .last_inuse_sweep
+│   ├── cleanup-manifest.csv
+│   ├── docs-06-21-12:38.csv
+│   ├── docs.txt
+│   ├── enriched-plugins.csv
+│   ├── installed_plugins.json
+│   ├── known_marketplaces.json
+│   ├── marketplace.json
+│   ├── plugin-catalog-cache.json
+│   └── superpowers.js
+├── projects/
+│   ├── -Users-steven/
+│   ├── -Users-steven--agent-skills/
+│   ├── -Users-steven--agents/
+│   ├── -Users-steven--claude/
+│   ├── -Users-steven--hermes/
+│   ├── -Users-steven-adventures-guild/
+│   ├── -Users-steven-CoX-mod-Adventure/
+│   ├── -Users-steven-CoX-mod-Adventure-cox-sidekick/
+│   ├── -Users-steven-Downloads-Compressed-gpt-export-renamed/
+│   ├── -Users-steven-Downloads-Compressed-MoneyPrinterPlus-main/
+│   ├── -Users-steven-gpt-to-claude/
+│   ├── -Users-steven-iterm2/
+│   ├── -Users-steven-mom-birthday/
+│   ├── -Users-steven-Music/
+│   ├── -Users-steven-Music-nocturneMelodies/
+│   ├── -Users-steven-projects-avatararts-story-smith/
+│   ├── -Users-steven-pythons-sora-water-remove-SoraWatermarkCleaner-main/
+│   ├── -Users-steven-scripts/
+│   ├── -Users-steven-sillytavern-SillyTavern/
+│   └── -Users-steven-soul-blueprint/
+├── rules/
+│   ├── context7.md
+│   └── engram.md
+├── session-env/
+│   ├── 02929e87-f4b9-4f7a-86fa-77c15cb19734/
+│   ├── 2f296d46-d6c6-4586-87da-0285b532265c/
+│   ├── 7c06b42c-5f14-42ca-95d6-e3f1f209ac1f/
+│   ├── 7e83bfcc-4751-4e74-9931-ea13e26c5526/
+│   ├── 8ac2dfb2-4b32-4e40-8ed4-a2b7ae543da3/
+│   ├── 9aa8af88-a4cd-4f63-9f8c-ca6bc37a2c15/
+│   ├── 21b4f7c9-b7a4-4a9e-9d18-32ef63951992/
+│   ├── 22de0f67-d252-4cd9-80e1-221ac8c31351/
+│   ├── 24ea0517-b461-4164-85e2-3785629d9080/
+│   ├── 26a49c54-2dfe-4eb4-a992-809410247cc8/
+│   ├── 27bd873c-97ec-4013-834f-12c11344abaa/
+│   ├── 75d12b46-d664-483b-a696-58925f15b5cf/
+│   ├── 77f0658c-0d26-429e-bc06-d6b0fc4b7557/
+│   ├── 432bb9c6-ff01-4957-b15b-fa2de74300a4/
+│   ├── 502f80c7-8a3f-4816-ba1b-5f8c82eb86d6/
+│   ├── 8061ee7d-efdd-4891-8f64-0350e813a03d/
+│   ├── 8253ed60-ce2f-476b-828c-ab42d727595e/
+│   ├── 76396a5e-d924-4cc7-b993-7b0e190029da/
+│   ├── 7901498c-fee0-4be1-9b7d-889fa8ea2578/
+│   ├── a009eb82-d19c-40fc-b2be-bf99b3303e43/
+│   ├── b3fd185b-63c0-43df-ac15-49ff48d06243/
+│   ├── b4d30abc-09a1-430d-83cb-973fffe3c586/
+│   ├── c5d707b0-d4bf-41d3-9098-f54412acd6a1/
+│   ├── c81d96df-b756-4262-8502-9d431a5f086a/
+│   ├── c971046b-5cb4-4bc4-b244-f4fc9c42756a/
+│   ├── cf869d56-fe76-4b84-89da-155d0b96b002/
+│   ├── e0533a0f-2151-433f-8c31-bd7423b9e3d0/
+│   └── f813d63c-7fda-4751-af69-ca5d75f9b097/
+├── sessions/
+├── shell-snapshots/
+│   ├── snapshot-zsh-1786139062240-an538b.sh
+│   └── snapshot-zsh-1786183224789-s5zglm.sh
+├── skills -> /Users/steven/.agent-skills/skills/
+├── skills-from-icloud/
+│   ├── active/
+│   ├── brainstorm/
+│   ├── requesting-code-review/
+│   ├── subagent-driven-development/
+│   ├── systematic-debugging/
+│   ├── test-driven-development/
+│   └── writing-plans/
+├── skills.bak/
+│   ├── active/
+│   ├── agent-development/
+│   ├── brainstorming/
+│   ├── ecosystem-clarity/
+│   ├── executing-plans/
+│   ├── eza-nav/
+│   ├── skill-creator/
+│   ├── test-driven-development/
+│   ├── using-superpowers/
+│   ├── workflow-bootstrap/
+│   ├── workspace-ecosystem-audit/
+│   └── VERSIONING_NOTES.md
+├── tasks/
+│   └── c5d707b0-d4bf-41d3-9098-f54412acd6a1/
+├── tmp/
+│   ├── claude-501/
+│   └── claude-bf14-cwd
+├── workflows/
+│   └── deep-research.js
+├── worktree/
+├── .contextstream-version
+├── .csm-state.json
+├── .cursorindexingignore
+├── .gitignore
+├── .last-cleanup
+├── .last-update-result.json
+├── 2026-06-14-064345-locate-elsewhere.txt
+├── 2026-06-14-070541-local-command-caveatcaveat-the-messages-below.txt
+├── CLAUDE.md
+├── cleanup-manifest.csv
+├── config.json
+├── GIT_AI.md
+├── history.jsonl
+├── keybindings.json
+├── plugins.zip
+├── PRINCIPLES.md
+├── RULES.md
+├── RULES.md.zip
+├── settings.json
+├── settings.local.json
+├── settings.pre-hooks.json
+├── stats-cache.json
+├── tidy-claude-json.py
+└── TIERS_AND_RANKS.md

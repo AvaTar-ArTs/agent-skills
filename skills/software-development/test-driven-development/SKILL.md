@@ -1,14 +1,16 @@
 ---
 name: test-driven-development
-description: "TDD: enforce RED-GREEN-REFACTOR, tests before code."
-version: 1.1.0
+description: "Use when implementing a feature or bug fix after planning, before writing implementation code. Enforce RED-GREEN-REFACTOR with tests first, then hand off to quality-regression-testing and verification-before-completion."
+version: 2.0.0
 author: Hermes Agent (adapted from obra/superpowers)
 license: MIT
 platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [testing, tdd, development, quality, red-green-refactor]
-    related_skills: [systematic-debugging, writing-plans, subagent-driven-development]
+    related_skills: [systematic-debugging, writing-plans, subagent-driven-development, quality-regression-testing]
+changelog:
+  - "2026-08-15: Added explicit planning prerequisite and quality-verification handoff."
 ---
 
 # Test-Driven Development (TDD)

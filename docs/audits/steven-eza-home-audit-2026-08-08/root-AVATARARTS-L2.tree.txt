@@ -1,0 +1,103 @@
+/Users/steven/AVATARARTS/
+├── .claude/
+│   └── settings.local.json
+├── archives/
+│   ├── archive/
+│   ├── archives/
+│   ├── avatararts/
+│   ├── backups/
+│   ├── deprecated/
+│   ├── disco/
+│   ├── doc-sites/
+│   ├── documents/
+│   ├── duplicates/
+│   ├── empire-git/
+│   ├── exports/
+│   ├── gptjunkie/
+│   ├── intelligent-declutter/
+│   ├── large-analysis-reports/
+│   ├── large-csv-files/
+│   ├── quantumforge_labs/
+│   ├── sorted/
+│   ├── .gitignore
+│   ├── archive_files_list.csv
+│   ├── index.html
+│   ├── migrate_code.sh*
+│   ├── migrate_docs.sh*
+│   ├── migrate_docs_empire.sh
+│   └── ⭐_EMPIRE_COMMAND_CENTER.zip
+├── assets/
+│   ├── avatararts/
+│   ├── gptjunkie/
+│   ├── playwright-captures/
+│   └── project_assets/
+├── business/
+│   ├── avatararts/
+│   ├── clients/
+│   ├── content/
+│   ├── creative/
+│   ├── gptjunkie/
+│   ├── marketing/
+│   ├── misc/
+│   ├── products/
+│   ├── publish/
+│   ├── revenue/
+│   └── upwork/
+├── code/
+│   ├── automation/
+│   ├── automations/
+│   ├── avatararts/
+│   ├── dev/
+│   ├── gptjunkie/
+│   ├── n8n/
+│   ├── notebookLM/
+│   ├── notebookLM-youtube-skill/
+│   ├── obsidian/
+│   ├── pythons/
+│   ├── research/
+│   ├── scripts/
+│   ├── sites/
+│   └── tools/
+├── data/
+│   ├── analysis/
+│   ├── avatararts/
+│   ├── comparison_reports/
+│   ├── databases/
+│   ├── gptjunkie/
+│   ├── ml_categorization_output/
+│   ├── reports/
+│   ├── COMPARISON_REPORT.json
+│   ├── DEEP_ANALYSIS_20260104_130847.json
+│   ├── INTELLIGENT_DECLUTTER_ARCHIVED_FILES.csv
+│   ├── INTELLIGENT_DECLUTTER_DETAILED.csv
+│   ├── MERGE_PLAN.json
+│   ├── profile_keywords.csv
+│   └── reorganization_report_20260103_193953.json
+├── docs/
+│   ├── avatararts/
+│   ├── command-center/
+│   ├── empire-docs/
+│   ├── gptjunkie/
+│   ├── claude-code.txt
+│   └── migration_report.log
+├── logs/
+│   ├── merge_execution.log
+│   ├── merge_to_execution.log
+│   └── reindex_analysis.log
+├── steven-chaplinski-website/
+│   ├── content/
+│   ├── src/
+│   ├── package.json
+│   └── tsconfig.json
+├── system/
+│   ├── _local_env/
+│   ├── avatararts/
+│   ├── config/
+│   ├── env/
+│   ├── gptjunkie/
+│   ├── runtime-configs/
+│   ├── duplicate_entries.txt
+│   ├── duplicate_hashes.txt
+│   ├── duplicates.txt
+│   └── master_hash_index.txt
+└── EMPIRE_SNAPSHOT_2026-07-10.csv

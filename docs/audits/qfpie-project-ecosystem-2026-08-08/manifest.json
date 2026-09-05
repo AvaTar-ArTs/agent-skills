@@ -1,0 +1,29 @@
+{
+  "name": "qfpie-project-ecosystem-2026-08-08",
+  "type": "portfolio-audit",
+  "status": "durable",
+  "source_roots": [
+    "/Users/steven/AVATARARTS",
+    "/Users/steven/Development",
+    "/Users/steven/Documents",
+    "/Users/steven/ESO",
+    "/Users/steven/MySites",
+    "/Users/steven/PYTHON_MARKETPLACE_MASTER",
+    "/Users/steven/diGiTaLdiVe",
+    "/Users/steven/pythons",
+    "/Users/steven/soul-blueprint",
+    "/Users/steven/studio",
+    "/Users/steven/workspace"
+  ],
+  "analyzer": "QF-PIE 0.1.0",
+  "projects": 1000,
+  "scan_cap_reached": true,
+  "duplicate_candidates": 527,
+  "primary_report": "portfolio_report.md",
+  "primary_inventory": "portfolio_inventory.json",
+  "limitations": [
+    "The configured 1,000-project cap was reached.",
+    "Nested components, generated folders, and cloned projects are over-counted.",
+    "Commercial scores and revenue estimates are triage signals only."
+  ]
+}

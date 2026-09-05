@@ -72,8 +72,10 @@ def run(args) -> None:
     api_key = require_env("OPENAI_API_KEY")
     base_url = os.environ.get("OPENAI_BASE_URL", "https://api.openai.com").rstrip("/")
 
-    body = json.dumps({"model": model, "prompt": prompt, "size": size, "n": 1,
-                        "response_format": "b64_json"}).encode()
+    # gpt-image-1 no longer accepts the legacy `response_format` request
+    # parameter. Its default response carries image bytes in `b64_json`; the
+    # response handler below also retains URL support for compatible endpoints.
+    body = json.dumps({"model": model, "prompt": prompt, "size": size, "n": 1}).encode()
     headers = {"Authorization": f"Bearer {api_key}", "Content-Type": "application/json",
                "User-Agent": "structured-asset-pipeline/1.0"}
 

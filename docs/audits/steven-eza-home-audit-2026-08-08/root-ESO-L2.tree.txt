@@ -1,0 +1,261 @@
+/Users/steven/ESO/
+├── .claude/
+│   ├── launch.json
+│   └── settings.local.json
+├── .codex-history/
+│   └── 2026-06-11_235036_command-messagedataanalyzecommand-m_019eba25.md
+├── .history/
+│   └── uesp-eso-build-wrapper-main/
+├── .remember/
+│   ├── logs/
+│   ├── tmp/
+│   ├── .gitignore
+│   ├── now.md
+│   └── today-2026-06-12.md
+├── .specstory/
+│   ├── cli/
+│   ├── debug/
+│   ├── history/
+│   ├── .project.json
+│   └── statistics.json
+├── AiAlley-DNA/
+│   ├── cerebellum/
+│   ├── cradle/
+│   ├── docs/
+│   ├── goals/
+│   ├── identity/
+│   ├── memory/
+│   ├── perception/
+│   ├── reflection/
+│   ├── skills/
+│   └── world/
+├── build-maker-gitbook/
+│   ├── lxn.gitbook.io/
+│   ├── static-2c.gitbook.com/
+│   ├── www.gitbook.com/
+│   └── Untitled.log
+├── docs/
+│   └── BLUEPRINT.md
+├── ESO-Build-Calculator/
+│   ├── css/
+│   ├── data/
+│   ├── js/
+│   ├── index.html
+│   └── README.md
+├── ESO-Build-Calculator-v2/
+│   ├── css/
+│   ├── data/
+│   ├── docs/
+│   ├── js/
+│   ├── tests/
+│   ├── FORGE_NOTES.md
+│   ├── index.html
+│   └── README.md
+├── ESO-Build-Calculator-v3-RN/
+│   ├── .claude/
+│   ├── .vscode/
+│   ├── assets/
+│   ├── example/
+│   ├── src/
+│   ├── .env.example
+│   ├── .gitignore
+│   ├── AGENTS.md
+│   ├── app.json
+│   ├── CLAUDE.md
+│   ├── LICENSE
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── README.md
+│   └── tsconfig.json
+├── ESO-Build-Calculator-v4-Flutter/
+│   ├── .dart_tool/
+│   ├── .gemini/
+│   ├── .idea/
+│   ├── android/
+│   ├── docs/
+│   ├── ios/
+│   ├── lib/
+│   ├── linux/
+│   ├── macos/
+│   ├── test/
+│   ├── web/
+│   ├── windows/
+│   ├── .env.example
+│   ├── .gitignore
+│   ├── .metadata
+│   ├── analysis_options.yaml
+│   ├── eso_build_calculator.iml
+│   ├── pubspec.lock
+│   ├── pubspec.yaml
+│   └── README.md
+├── ESO-Build-Editor-main/
+│   ├── .gemini/
+│   ├── _tamriel_forge_report/
+│   ├── data/
+│   ├── scripts/
+│   ├── secrets/
+│   ├── src/
+│   ├── uesp-esochardata/
+│   ├── uesp-esolog/
+│   ├── 'UESP_ESO Character Build Editor_files'/
+│   ├── .gitignore*
+│   ├── CHAT-HANDOFF.md*
+│   ├── clone_all_uesp.sh
+│   ├── docker-compose.yml*
+│   ├── docs-06-11-04:59.csv
+│   ├── docs.txt
+│   ├── DOCUMENTATION.md*
+│   ├── enriched-ESO-Build-Editor-main.csv
+│   ├── eso-build.py
+│   ├── gemini-conversation-1781179639532.json
+│   └── README.md*
+├── eso-build-o-rama/
+│   ├── .beads/
+│   ├── .github/
+│   ├── data/
+│   ├── docs/
+│   ├── eso-art/
+│   ├── output/
+│   ├── scripts/
+│   ├── src/
+│   ├── static/
+│   ├── templates/
+│   ├── tests/
+│   ├── utils/
+│   ├── .cursorrules
+│   ├── .gitignore
+│   ├── AGENTS.md
+│   ├── CHANGELOG.md
+│   ├── CLAUDE.md
+│   ├── debug_trash_consolidation.py
+│   ├── ENFORCEMENT_SETUP.md
+│   ├── FEATURE_ROLE_METRICS.md
+│   ├── generate_empty_pages.py
+│   ├── generate_social_previews.py
+│   ├── LICENSE
+│   ├── LOCAL_ENFORCEMENT.md
+│   ├── process_trial_art.py
+│   ├── README.md
+│   ├── RECENT_CHANGES.md
+│   ├── regenerate_pages.py
+│   ├── requirements.txt
+│   ├── ROLLBACK.md
+│   ├── run_dreadsail.py
+│   ├── test_full_api.py
+│   ├── test_graphics.html
+│   ├── test_integration.py
+│   ├── test_per_boss.py
+│   ├── test_rankings.py
+│   ├── test_real_api.py
+│   ├── test_real_report.py
+│   ├── test_social_previews.py
+│   ├── test_summary.md
+│   ├── test_sunspire.py
+│   ├── test_teaesz.py
+│   ├── TESTING.md
+│   ├── VERSION
+│   └── WAIT_FOR_RATE_LIMIT.md
+├── eso-buildmaker-master/
+│   ├── client/
+│   ├── middleware/
+│   ├── models/
+│   ├── routes/
+│   ├── .gitignore
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── README.md
+│   └── server.js
+├── ESO-Data-Service/
+│   ├── .github/
+│   ├── app/
+│   ├── docs/
+│   ├── scripts/
+│   ├── tests/
+│   ├── .env.example
+│   ├── .gitignore
+│   ├── docker-compose.yml
+│   ├── Dockerfile
+│   ├── pyproject.toml
+│   └── requirements.txt
+├── eso-guides-master/
+│   └── eso-guides-master/
+├── eso-live-encounterlog-sets-abilities-main/
+│   └── eso-live-encounterlog-sets-abilities-main/
+├── ESO-MCP-main/
+│   ├── CMX/
+│   ├── data/
+│   ├── docs/
+│   ├── prisma/
+│   ├── scripts/
+│   ├── src/
+│   ├── .env.example
+│   ├── .eslintrc.json
+│   ├── .gitignore
+│   ├── .mcp.json
+│   ├── .npmrc
+│   ├── .prettierrc
+│   ├── eng.traineddata
+│   ├── package.json
+│   ├── pnpm-lock.yaml
+│   ├── pnpm-workspace.yaml
+│   ├── prisma.config.ts
+│   ├── README.md
+│   └── tsconfig.json
+├── EsoMystic/
+│   ├── docs/
+│   ├── extensions/
+│   ├── plans/
+│   ├── rules/
+│   ├── src/
+│   ├── tests/
+│   ├── Archive.zip
+│   ├── CHECKPOINT_NARRATIVE.md
+│   ├── README.md
+│   ├── REFLECTION_THE_JOURNEY.md
+│   └── SHIP.md
+├── esoskillbarbuilder-main/
+│   └── esoskillbarbuilder-main/
+├── uesp-eso-build-wrapper-main/
+│   └── uesp-eso-build-wrapper-main/
+├── .cursorindexingignore
+├── .gitignore
+├── 'AI Chat Exporter Backup Automation_f654ad5e.md'
+├── BRIDGE_MAP.md
+├── build-calculator-4.zip
+├── Cross-platform-Tamriel-Trade-Center-HarvestMap-ESO-Hub-Auto-Updater-main.zip*
+├── 'deep-research-report (1).md'
+├── ESO-Build-Calculator-v2.zip
+├── 'ESO-Build-Calculator-v2 2.zip'
+├── 'ESO-Build-Calculator-v2 3.zip'
+├── 'ESO-Build-Calculator-v2 4.zip'
+├── ESO-Build-Calculator-v4-Flutter.zip
+├── ESO-Build-Calculator.zip
+├── ESO-Build-Editor-main.zip*
+├── eso-build-o-rama-main.zip*
+├── eso-buildmaker-master.zip*
+├── eso-guides-master.zip*
+├── eso-live-encounterlog-sets-abilities-main.zip*
+├── eso-lvl.json
+├── eso-lvl.md
+├── ESO-MCP-main.zip*
+├── 'ESO_Build_Planner_App (1).html'
+├── 'ESO_Build_Planner_App (1).json'
+├── 'ESO_Build_Planner_App (2).html'
+├── 'ESO_Build_Planner_App (2).json'
+├── ESO_Build_Planner_App.html
+├── ESO_Build_Planner_App.json
+├── ESO_Build_Planner_App.md
+├── ESO_ECOSYSTEM_AUDIT.md
+├── ESO_ZBS_APIcreator-master.zip*
+├── EsoMystic-og.zip
+├── esos.json
+├── esoskillbarbuilder-main.zip*
+├── "grok_Ta'agra in Elder Scrolls_ Khajiit Lore_407e8e56.md"
+├── khajiit-deep-research-report.md
+├── README.md
+├── "Ta'agra in Elder Scrolls Khajiit Lore_407e8e56.md"
+├── test-handoff.zip
+├── test.zip
+├── 'The Caravaneer.dc.html'
+├── uesp-eso-build-wrapper-main.zip*
+└── zappyscript.github.io-main.zip*

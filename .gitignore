@@ -44,3 +44,7 @@ enriched-*.csv
 docs-*.csv
 docs.txt
 chozen-land.txt
+
+# DeepTutor runtime state
+deeptutor/user/logs/
+deeptutor/user/**/*.db
