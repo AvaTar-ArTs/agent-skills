@@ -1,0 +1,42 @@
+capabilities:
+  solve:
+    temperature: 0.3
+    max_tokens: 8192
+  research:
+    temperature: 0.5
+    max_tokens: 12000
+  question:
+    temperature: 0.7
+    max_tokens: 4096
+  co_writer:
+    temperature: 0.7
+    max_tokens: 4096
+  chat:
+    temperature: 0.2
+    responding:
+      max_tokens: 8000
+    answer_now:
+      max_tokens: 8000
+    thinking:
+      max_tokens: 2000
+    observing:
+      max_tokens: 2000
+    acting:
+      max_tokens: 2000
+    react_fallback:
+      max_tokens: 1500
+tools:
+  brainstorm:
+    temperature: 0.8
+    max_tokens: 2048
+services:
+  personalization:
+    temperature: 0.5
+    max_tokens: 8192
+plugins:
+  vision_solver:
+    temperature: 0.3
+    max_tokens: 12000
+  math_animator:
+    temperature: 0.4
+    max_tokens: 12000

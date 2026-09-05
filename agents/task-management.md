@@ -1,7 +1,6 @@
 ---
 name: task-management
-description: 'Use when working with: task, management, agent support. Activates for:
-  task, management, support.'
+description: "Use when tracking and organizing tasks within a complex conversation — structured task lists, progress monitoring, context preservation, and session summaries. Good for keeping multi-step work from losing threads, especially when juggling several parallel workstreams."
 ---
 
 # Task Management Agent

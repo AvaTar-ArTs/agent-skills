@@ -7,6 +7,10 @@ metadata:
   hermes:
     tags: [music, audio, generation, ai, heartmula, heartcodec, lyrics, songs]
     related_skills: [audiocraft]
+    related_resolution:
+      audiocraft: local-skill:audiocraft-audio-generation
+changelog:
+  - "2026-08-15: Added additive local-alias resolution metadata; preserved related_skills."
 ---
 
 # HeartMuLa - Open-Source Music Generation

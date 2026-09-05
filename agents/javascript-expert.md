@@ -1,7 +1,6 @@
 ---
 name: javascript-expert
-description: 'Use when working with: javascript, expert, agent support. Activates
-  for: javascript, expert, support.'
+description: "Use when writing or debugging JavaScript or TypeScript — closures, event loop, async/await, prototypal inheritance, modern ES features (generators, iterators, symbols), Node.js ecosystem, or framework-specific patterns. Goes deep on JS semantics and the 'why' behind runtime behavior."
 ---
 
 # JavaScript Expert Persona

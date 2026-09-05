@@ -32,6 +32,8 @@ SKIP_DIRS = {
     "tmp-csv",
     "tmp-md",
 }
+SENSITIVE_NAMES = {".env", ".env.local", "auth_info.json", "credentials.json", "token.json", "tokens.json", "secrets.json", "cookie.json", "cookies.json", "history.jsonl"}
+SENSITIVE_PARTS = {"auth", "authentication", "credential", "credentials", "secret", "secrets", "token", "tokens", "keychain", "cookies", "history", "histories", "sessions", "session", "private"}
 
 
 @dataclass
@@ -240,7 +242,8 @@ def iter_markdown(root: Path, include_plugins: bool):
         allowed.add("plugins")
     for path in sorted(root.rglob("*.md")):
         rel = path.relative_to(root)
-        if any(part in SKIP_DIRS for part in rel.parts):
+        lowered = {part.lower() for part in rel.parts}
+        if any(part in SKIP_DIRS for part in rel.parts) or path.name.lower() in SENSITIVE_NAMES or bool(lowered & SENSITIVE_PARTS):
             continue
         if rel.parts[0] not in allowed:
             continue

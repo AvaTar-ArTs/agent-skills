@@ -1,0 +1,24 @@
+# Desktop Candidates
+
+- **comfyui** — 56.4/100
+- **taste-skill** — 54.5/100
+- **audiocraft** — 44.5/100
+- **image-to-code-skill** — 44.5/100
+- **imagegen-frontend-mobile** — 44.5/100
+- **imagegen-frontend-web** — 44.5/100
+- **cua-driver** — 41.3/100
+- **google-workspace** — 40.2/100
+- **setup-tooluniverse** — 39.5/100
+- **macos-computer-use** — 37.5/100
+- **claude-code** — 37.5/100
+- **build-mcp-app** — 37.5/100
+- **build-mcp-server** — 37.5/100
+- **build-mcpb** — 37.5/100
+- **design-taste-frontend** — 37.5/100
+- **llm-wiki** — 37.5/100
+- **mcp-app-development-principles** — 36.9/100
+- **stitch-skill** — 36.9/100
+- **github-auth** — 36.2/100
+- **spotify** — 36.2/100
+- **pixel-art** — 34.7/100
+- **brutalist-skill** — 34.7/100

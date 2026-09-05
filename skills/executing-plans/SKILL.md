@@ -1,6 +1,8 @@
 ---
 name: executing-plans
-description: Use when you have a written implementation plan to execute in a separate session with review checkpoints
+description: Use when an approved written implementation plan is ready to execute in a separate session with review checkpoints. Hand off from writing-plans and return evidence for quality-regression-testing and verification-before-completion.
+changelog:
+  - "2026-08-15: Clarified planning handoff and post-execution verification path."
 ---
 
 # Executing Plans

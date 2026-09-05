@@ -19,7 +19,8 @@ Use the `exec` tool to invoke DeepTutor's multi-agent research pipeline for comp
 ## Command
 
 ```bash
-deeptutor run deep_research "<topic>" --format json -l <lang> --config-json '<json>'
+DEEPTUTOR_DATA_ROOT="${DEEPTUTOR_DATA_ROOT:-/Users/steven/.agent-skills/deeptutor/data}" \
+  deeptutor run deep_research "<topic>" --format json -l <lang> --config-json '<json>'
 ```
 
 ### Config JSON Fields

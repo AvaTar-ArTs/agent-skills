@@ -1,6 +1,16 @@
 ---
 name: verification-before-completion
 description: Use when about to claim work is complete, fixed, passing, generated, exported, published, or successfully executed, before committing or creating PRs; requires fresh evidence that matches the actual claim, including tests, artifact checks, provider/job status, or release verification as appropriate
+version: 1.0.0
+author: Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [verification, quality, evidence, completion]
+    related_skills: [quality-regression-testing, code-review, finishing-a-development-branch]
+changelog:
+  - "2026-08-15: Positioned as the evidence gate before final code review and completion claims."
 ---
 
 # Verification Before Completion

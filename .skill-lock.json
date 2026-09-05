@@ -1,0 +1,69 @@
+{
+  "version": 3,
+  "skills": {
+    "find-skills": {
+      "source": "vercel-labs/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/skills.git",
+      "skillPath": "skills/find-skills/SKILL.md",
+      "skillFolderHash": "76a98a285cb0434f3d39e1a873823556330e398b",
+      "installedAt": "2026-08-08T11:02:57.762Z",
+      "updatedAt": "2026-08-08T11:02:57.762Z"
+    },
+    "hyperframes-cli": {
+      "source": "heygen-com/hyperframes",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/heygen-com/hyperframes.git",
+      "skillPath": "skills/hyperframes-cli/SKILL.md",
+      "skillFolderHash": "b862a63fdeb054cd85076fff559c60aaec050869",
+      "pluginName": "core-skills",
+      "installedAt": "2026-08-11T03:23:13.389Z",
+      "updatedAt": "2026-08-11T03:23:13.389Z"
+    },
+    "hyperframes-registry": {
+      "source": "heygen-com/hyperframes",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/heygen-com/hyperframes.git",
+      "skillPath": "skills/hyperframes-registry/SKILL.md",
+      "skillFolderHash": "c9f76496706aa566ddf6d53429cc05473b2e10fc",
+      "pluginName": "core-skills",
+      "installedAt": "2026-08-11T03:23:13.393Z",
+      "updatedAt": "2026-08-11T03:23:13.393Z"
+    },
+    "media-use": {
+      "source": "heygen-com/hyperframes",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/heygen-com/hyperframes.git",
+      "skillPath": "skills/media-use/SKILL.md",
+      "skillFolderHash": "121f654a28ed2f9582091d9305cabaefbc7730f6",
+      "pluginName": "core-skills",
+      "installedAt": "2026-08-11T03:23:13.395Z",
+      "updatedAt": "2026-08-11T03:23:13.395Z"
+    }
+  },
+  "dismissed": {
+    "findSkillsPrompt": true
+  },
+  "lastSelectedAgents": [
+    "amp",
+    "antigravity",
+    "antigravity-cli",
+    "cline",
+    "codex",
+    "cursor",
+    "deepagents",
+    "gemini-cli",
+    "github-copilot",
+    "kimi-code-cli",
+    "opencode",
+    "warp",
+    "zed",
+    "aider-desk",
+    "astrbot",
+    "claude-code",
+    "grok",
+    "hermes-agent",
+    "qwen-code",
+    "goose"
+  ]
+}

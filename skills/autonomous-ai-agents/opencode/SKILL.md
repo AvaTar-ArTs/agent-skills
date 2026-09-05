@@ -9,6 +9,10 @@ metadata:
   hermes:
     tags: [Coding-Agent, OpenCode, Autonomous, Refactoring, Code-Review]
     related_skills: [Codex, codex, hermes-agent]
+    related_resolution:
+      Codex: provider:Codex
+changelog:
+  - "2026-08-15: Added additive provider resolution metadata; preserved related_skills."
 ---
 
 # OpenCode CLI

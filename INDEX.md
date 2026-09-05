@@ -1,57 +1,54 @@
-# ~/.agent-skills - Current Runtime Index
+# agent-skills Index
 
-Last audited: 2026-08-17.
+Last audited: 2026-09-05. Detailed findings: `docs/audits/2026-08-18-agent-skills-audit.md`.
 
-This tree is the canonical local source for reusable agents and skills. The
-legacy `/Users/steven/.agents` path is maintained as a compatibility symlink to
-this directory; new runtime configuration should point directly at
-`/Users/steven/.agent-skills`.
+## Verified Inventory
 
-## At a Glance
+| Area | Current Count | Notes |
+| --- | ---: | --- |
+| `agents/` root source files | 103 | 100% paired Markdown & TOML agent definitions |
+| `agents/` active Markdown files | 218 | Excludes README and archive/project areas |
+| Active skill authorities | 325 | `SKILL.md` files under `skills/` |
+| Catalog JSON files | 12 | Validated schemas in `catalog/` |
+| Python files | 114 | Automation, analyzer, and catalog scripts |
+| Markdown files | 815+ | Documentation, guides, and skill authorities |
 
-| Area | Current count | Notes |
-|------|---------------|-------|
-| `agents/` root files | 108 | Non-hidden files directly under `agents/` |
-| `agents/` all files | 221 | Non-hidden files under all agent subdirectories |
-| `skills/` top-level directories | 97 | Non-hidden dirs; hidden `.system/` also present; no top-level skill symlinks |
-| Direct/root-visible skills | 79 | `SKILL.md` files within depth 2 |
-| Local expanded skills | 186+ | Prior audited baseline was 186; nested creative workflow additions may increase this count |
-| Symlink-followed runtime-visible skills | 186+ | Recount after runtime sync; no external skill symlink is required for runtime material |
-
-## Runtime Links
-
-Claude and Codex should resolve through the canonical `.agent-skills` tree:
+## Runtime Boundary
 
 ```text
-/Users/steven/.agents -> /Users/steven/.agent-skills
+/Users/steven/.agents/skills -> /Users/steven/.agent-skills/skills
 /Users/steven/.claude/agents -> /Users/steven/.agent-skills/agents
 /Users/steven/.claude/skills -> /Users/steven/.agent-skills/skills
 /Users/steven/.codex/agents -> /Users/steven/.agent-skills/agents
 /Users/steven/.codex/superpowers -> /Users/steven/.agent-skills/skills/using-superpowers
 ```
 
-Codex note: `/Users/steven/.codex/skills` is an existing managed directory with
-system skills, not a symlink to this tree.
+- Root agent/config files and categorized agent packs coexist under `agents/`.
+- Skill contracts are indexed by each `skills/**/SKILL.md` entry.
+- This repository is the broad authored source ecosystem.
+- Curated skills are projected into target agent environments.
+- Historical, generated, restricted, and vendored material are retained safely without automatic promotion.
 
-## Operating Notes
+## Known Issues & Operating Guidelines
 
 - Use `/Users/steven/.agent-skills` as the canonical path in new configuration.
-- Keep `/Users/steven/.agents` only as a compatibility alias for older tools.
-- Treat `skills/.system/` and `skills/skill-porter-examples/` as vendored/reference
-  material; their duplicate skill names are intentional unless promoted.
-- Treat root `agents/*.md` files as the runtime primary surface when matching by
-  filename; categorized `agents/<group>/*.md` copies are retained for organization.
-- Treat this repository as the sole active runtime. `~/my-supremepowers` is a
-  historical/upstream lab only; do not link runtime skills to it.
-- Preserve local history and generated reports unless cleanup is explicitly
-  requested.
+- Keep `/Users/steven/.agents` as a compatibility directory for older tools.
+- Treat `skills/.system/` and `skills/skill-porter-examples/` as vendored/reference material.
+- Treat root `agents/*.md` files as the runtime primary surface when matching by filename.
+- Preserve local history and generated reports.
 - Put temporary generated outputs under `tmp/`, `tmp-csv/`, or `tmp-md/`.
-- Treat cache, session, credential, and runtime-state paths as non-importable.
+
+## Generated Catalogs
+
+- [Agent catalog](catalog/agents.json)
+- [Skill catalog](catalog/skills.json)
+- [Full repository index](catalog/repository-index.json)
+- [Audit report](docs/audits/2026-08-18-agent-skills-audit.md)
+- [Changelog](docs/CHANGELOG.md)
 
 ## Workflow Architecture
 
-The shared boundary between skills, workflows, MCP/tools, provider backends, and
-durable memory is documented in `docs/SKILL_WORKFLOW_CONTRACT.md`.
+The shared boundary between skills, workflows, MCP/tools, provider backends, and durable memory is documented in `docs/SKILL_WORKFLOW_CONTRACT.md`.
 
 Preferred high-level flow:
 
@@ -66,24 +63,16 @@ user intent
   -> verification
 ```
 
-Skill routing and provider routing are deliberately separate. Provider availability
-must not bypass process/domain skill selection.
+Skill routing and provider routing are deliberately separate. Provider availability must not bypass process/domain skill selection.
 
 ## Useful Entry Points
 
-- `skills/using-superpowers/SKILL.md` - process authority for SupremePower /
-  using-superpowers requests and meta-routing across skills.
-- `skills/brainstorming/SKILL.md` - ambiguity/design gate with structured handoff
-  semantics and recognition of already-approved designs.
-- `skills/creative/music-to-video/SKILL.md` - provider-neutral song/cue to visual
-  narrative, SceneGraph/ShotManifest planning, render, continuity, edit, evaluation,
-  export, publish, and archive workflow.
-- `skills/creative/songwriting-and-ai-music/SKILL.md` - upstream songwriting and
-  AI-music craft for tracks that are not yet approved/final.
-- `skills/creative/structured-asset-pipeline/SKILL.md` - reproducible multi-unit
-  asset execution helper suitable for downstream keyframe/clip generation.
+- `skills/using-superpowers/SKILL.md` - process authority for SupremePower / using-superpowers requests and meta-routing across skills.
+- `skills/brainstorming/SKILL.md` - ambiguity/design gate with structured handoff semantics and recognition of already-approved designs.
+- `skills/creative/music-to-video/SKILL.md` - provider-neutral song/cue to visual narrative, SceneGraph/ShotManifest planning, render, continuity, edit, evaluation, export, publish, and archive workflow.
+- `skills/creative/songwriting-and-ai-music/SKILL.md` - upstream songwriting and AI-music craft for tracks that are not yet approved/final.
+- `skills/creative/structured-asset-pipeline/SKILL.md` - reproducible multi-unit asset execution helper suitable for downstream keyframe/clip generation.
 - `skills/ecosystem-intelligence/SKILL.md` - ecosystem audit and topology work.
 - `skills/cross-tool-memory/SKILL.md` - shared memory bridge workflows.
 - `skills/agmsg/SKILL.md` - cross-agent messaging workflows.
-- `docs/SKILL_WORKFLOW_CONTRACT.md` - interoperability contract for handoffs,
-  semantic capabilities, checkpoints, verification, and provider boundaries.
+- `docs/SKILL_WORKFLOW_CONTRACT.md` - interoperability contract for handoffs, semantic capabilities, checkpoints, verification, and provider boundaries.

@@ -1,6 +1,8 @@
 ---
 name: using-superpowers
 description: "Use when starting any conversation where implementation, debugging, research, creative production, or building work is expected. Symptoms: you're about to respond without checking if a skill applies, or you reached for a clarifying question, tool, provider, or generic workflow before checking the skill list."
+changelog:
+  - "2026-08-15: Confirmed as the session-level router before brainstorming, debugging, implementation, and review skills."
 ---
 
 > **Core library copy:** Same behavioral content as `skills/using-superpowers/SKILL.md` for consumers that load from `core/skills/`; includes `references/` beside this file.

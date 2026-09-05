@@ -1,6 +1,6 @@
 ---
 name: subagent-driven-development
-description: "Execute plans via delegate_task subagents (2-stage review)."
+description: "Use when executing an approved implementation plan with independent tasks via delegate_task subagents. Apply two-stage spec and quality review, then hand off the integrated result to quality-regression-testing and code-review."
 version: 1.1.0
 author: Hermes Agent (adapted from obra/superpowers)
 license: MIT
@@ -9,6 +9,8 @@ metadata:
   hermes:
     tags: [delegation, subagent, implementation, workflow, parallel]
     related_skills: [writing-plans, requesting-code-review, test-driven-development]
+changelog:
+  - "2026-08-15: Added explicit approved-plan prerequisite and final quality handoff."
 ---
 
 # Subagent-Driven Development
