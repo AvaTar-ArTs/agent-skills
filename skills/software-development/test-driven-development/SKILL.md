@@ -1,12 +1,7 @@
 ---
 name: test-driven-development
-<<<<<<< HEAD
-description: "TDD: enforce RED-GREEN-REFACTOR, tests before code."
-version: 1.1.0
-=======
 description: "Use when implementing a feature or bug fix after planning, before writing implementation code. Enforce RED-GREEN-REFACTOR with tests first, then hand off to quality-regression-testing and verification-before-completion."
 version: 2.0.0
->>>>>>> cdd0010 (Remove nested .git directories and add full project files)
 author: Hermes Agent (adapted from obra/superpowers)
 license: MIT
 platforms: [linux, macos, windows]
