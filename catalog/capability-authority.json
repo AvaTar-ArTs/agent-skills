@@ -11,7 +11,7 @@
       "cached"
     ]
   },
-  "canonical_git_commit": "db5edb8d17875ff80be337791bc80ea181da6ec0",
+  "canonical_git_commit": "f48356cca3ec63d7faefa7f31d406ddd223f4bef",
   "canonical_root": "/Users/steven/.agent-skills",
   "capabilities": [
     {
@@ -1033,168 +1033,6 @@
     },
     {
       "classification": "active",
-      "description_present": false,
-      "kind": "agent",
-      "name": "deep-learning",
-      "path": ".agent-skills/agents/deep-learning/computer-vision-specialist.md",
-      "sha256": "a84e0b28749040ae768244a6380eb8da2a4ca1b649df84bc0f276d1f315cee7e",
-      "size_bytes": 2915
-    },
-    {
-      "classification": "active",
-      "description_present": false,
-      "kind": "agent",
-      "name": "deep-learning",
-      "path": ".agent-skills/agents/deep-learning/data-labeler.md",
-      "sha256": "9b6bf24d382f87a3eaedcf98e05af2b562a6bb16b270e3f32549fa15a261ecc9",
-      "size_bytes": 2765
-    },
-    {
-      "classification": "active",
-      "description_present": false,
-      "kind": "agent",
-      "name": "deep-learning",
-      "path": ".agent-skills/agents/deep-learning/dataset-optimizer.md",
-      "sha256": "4635084ef6cf7ba71de1c60041a2a259d36f3b6cbf8c33acddaf314a406d4dfc",
-      "size_bytes": 2803
-    },
-    {
-      "classification": "active",
-      "description_present": false,
-      "kind": "agent",
-      "name": "deep-learning",
-      "path": ".agent-skills/agents/deep-learning/deployment-pipeline-builder.md",
-      "sha256": "035ff1300d5a0fc08fb41eb90687a72ec9c298928136db883d9f2f6ee7de4c0e",
-      "size_bytes": 2810
-    },
-    {
-      "classification": "active",
-      "description_present": false,
-      "kind": "agent",
-      "name": "deep-learning",
-      "path": ".agent-skills/agents/deep-learning/experiment-tracker.md",
-      "sha256": "64aa2fdcd9dd42929b5c1018372bd74d2f03d9ab3542770e6a48ed0c17a69ae9",
-      "size_bytes": 2769
-    },
-    {
-      "classification": "active",
-      "description_present": false,
-      "kind": "agent",
-      "name": "deep-learning",
-      "path": ".agent-skills/agents/deep-learning/few-shot-learning-designer.md",
-      "sha256": "fa8483a246d0611202c579c00c9faa3e88225f0c7e7b9c8eb98f5544635cfdc2",
-      "size_bytes": 2724
-    },
-    {
-      "classification": "active",
-      "description_present": false,
-      "kind": "agent",
-      "name": "deep-learning",
-      "path": ".agent-skills/agents/deep-learning/huggingface-specialist.md",
-      "sha256": "1c99386b8eebdfceb9660c164442768f07115eab2ef7b362dbd2924dec2c3948",
-      "size_bytes": 2683
-    },
-    {
-      "classification": "active",
-      "description_present": false,
-      "kind": "agent",
-      "name": "deep-learning",
-      "path": ".agent-skills/agents/deep-learning/hyperparameter-optimizer.md",
-      "sha256": "17f7af16f9968d295b1af0977a7676e7434f2804cbef9e25447e159530f18db2",
-      "size_bytes": 2557
-    },
-    {
-      "classification": "active",
-      "description_present": false,
-      "kind": "agent",
-      "name": "deep-learning",
-      "path": ".agent-skills/agents/deep-learning/ml-ops-engineer.md",
-      "sha256": "1b601a016ca2e3763f0c4abdda2e4bf6cd8109e2194b88024f0a9e308537fe08",
-      "size_bytes": 2732
-    },
-    {
-      "classification": "active",
-      "description_present": false,
-      "kind": "agent",
-      "name": "deep-learning",
-      "path": ".agent-skills/agents/deep-learning/model-evaluator.md",
-      "sha256": "9953f30ca5b7ace82dbcf0bbf524e34db629d32fe6c4e2584c63591639611f49",
-      "size_bytes": 2836
-    },
-    {
-      "classification": "active",
-      "description_present": false,
-      "kind": "agent",
-      "name": "deep-learning",
-      "path": ".agent-skills/agents/deep-learning/model-trainer.md",
-      "sha256": "dc5342457e3e2392be4d2444c2f068be8aa2940583c17e54e15a974e88af8911",
-      "size_bytes": 2695
-    },
-    {
-      "classification": "active",
-      "description_present": false,
-      "kind": "agent",
-      "name": "deep-learning",
-      "path": ".agent-skills/agents/deep-learning/neural-network-architect.md",
-      "sha256": "920680e1ddd3777c17d63c8b053c15c582051bfac815d8381c7f4bf679626b6a",
-      "size_bytes": 2769
-    },
-    {
-      "classification": "active",
-      "description_present": false,
-      "kind": "agent",
-      "name": "deep-learning",
-      "path": ".agent-skills/agents/deep-learning/nlp-specialist.md",
-      "sha256": "27bb83603ec845735fddb3eff1dec6e4114bca004b40eb8f2e5704e16a3aeec1",
-      "size_bytes": 2631
-    },
-    {
-      "classification": "active",
-      "description_present": false,
-      "kind": "agent",
-      "name": "deep-learning",
-      "path": ".agent-skills/agents/deep-learning/pytorch-expert.md",
-      "sha256": "ec83d0103468aa3044641d1870808312db0b28db0315e170d56b02936fed30a2",
-      "size_bytes": 2702
-    },
-    {
-      "classification": "active",
-      "description_present": false,
-      "kind": "agent",
-      "name": "deep-learning",
-      "path": ".agent-skills/agents/deep-learning/reinforcement-learning-engineer.md",
-      "sha256": "75dee53a39c18494cc6f26347461b5d4de63f6eadd2f081c44175c69f3adb9e3",
-      "size_bytes": 2573
-    },
-    {
-      "classification": "active",
-      "description_present": false,
-      "kind": "agent",
-      "name": "deep-learning",
-      "path": ".agent-skills/agents/deep-learning/tensorflow-expert.md",
-      "sha256": "614ab0313de57df7cfd8ff103131809f914063f71b1c12206f8525861e4cbf1e",
-      "size_bytes": 2661
-    },
-    {
-      "classification": "active",
-      "description_present": false,
-      "kind": "agent",
-      "name": "deep-learning",
-      "path": ".agent-skills/agents/deep-learning/transfer-learning-architect.md",
-      "sha256": "85d570569b14a504684bfc0ead7e4c11601d684d00a543c57a528e19b56d0622",
-      "size_bytes": 2873
-    },
-    {
-      "classification": "active",
-      "description_present": false,
-      "kind": "agent",
-      "name": "deep-learning",
-      "path": ".agent-skills/agents/deep-learning/transformer-architect.md",
-      "sha256": "069de8670538e69e2cb8eb93c8c02b69c996bf0a51d4ca7c3b9ad2c3690c797e",
-      "size_bytes": 2671
-    },
-    {
-      "classification": "active",
       "description_present": true,
       "kind": "agent",
       "name": "devops-automator",
@@ -1228,6 +1066,15 @@
       "path": ".agent-skills/agents/documentation-manager.md",
       "sha256": "7e373b9a79509c8d6035c701feff8e92f5d3d1ac9a29d1d379e2718d1a380c2f",
       "size_bytes": 10910
+    },
+    {
+      "classification": "active",
+      "description_present": true,
+      "kind": "agent",
+      "name": "documentation",
+      "path": ".agent-skills/agents/documentation.md",
+      "sha256": "aa7ddde86dfa9c4717099cf07b6e96cf0295843d32888dd0ddfc2c55c1cb2932",
+      "size_bytes": 1353
     },
     {
       "classification": "active",
@@ -2270,8 +2117,8 @@
       "kind": "skill",
       "name": "brainstorming",
       "path": ".agent-skills/skills/brainstorming/SKILL.md",
-      "sha256": "32723a5847d02bea448dcfc78da147ddab579a3648113eceb31793e7a6246e96",
-      "size_bytes": 5561
+      "sha256": "c517a17c4b442b0ec921a5f0b803dd634a7f5383fd11a3feb707fd8c8968f408",
+      "size_bytes": 11020
     },
     {
       "classification": "active",
@@ -2655,6 +2502,15 @@
       "classification": "active",
       "description_present": true,
       "kind": "skill",
+      "name": "music-to-video",
+      "path": ".agent-skills/skills/creative/music-to-video/SKILL.md",
+      "sha256": "2ba3d5a85b1d65c0995c2ed00f74098558b12fa06e1d50292a3f1a68cfc49b99",
+      "size_bytes": 14718
+    },
+    {
+      "classification": "active",
+      "description_present": true,
+      "kind": "skill",
       "name": "p5js",
       "path": ".agent-skills/skills/creative/p5js/SKILL.md",
       "sha256": "6a9722e2633ecdb3736e304f56c646258c5e777fd2c15a59c0d2b3ffa91b665a",
@@ -2711,8 +2567,8 @@
       "kind": "skill",
       "name": "structured-asset-pipeline",
       "path": ".agent-skills/skills/creative/structured-asset-pipeline/SKILL.md",
-      "sha256": "43e2e63967302527bd78229f8f0b076e65f24f9fafdb18db3f597e8c732fbe06",
-      "size_bytes": 6857
+      "sha256": "db273ebeead4fa69ed572b730f7e8e01a2c76576197a047df5b02df5c670ab20",
+      "size_bytes": 14724
     },
     {
       "classification": "active",
@@ -2729,8 +2585,8 @@
       "kind": "skill",
       "name": "cross-tool-memory",
       "path": ".agent-skills/skills/cross-tool-memory/SKILL.md",
-      "sha256": "60582717128661b6a80ccd8e3907050995cdc6b054afb31515582d2c4db1ee18",
-      "size_bytes": 2220
+      "sha256": "02a6aa3d06b22b9db22e88d59cff4243e94be1297caf6fd42e17ae851d76c48f",
+      "size_bytes": 1400
     },
     {
       "classification": "active",
@@ -2767,87 +2623,6 @@
       "path": ".agent-skills/skills/data-science/jupyter-live-kernel/SKILL.md",
       "sha256": "d93c4b4f50e66c0c074d49e43e28bf5ab87531eaa48884d0083568db827f5869",
       "size_bytes": 5285
-    },
-    {
-      "classification": "active",
-      "description_present": true,
-      "kind": "skill",
-      "name": "dataset-preparation",
-      "path": ".agent-skills/skills/deep-learning/dataset-preparation/SKILL.md",
-      "sha256": "7dc80a872e25e046dc6bd4d06e788b6c2a4f589354fa5ae168ea8ea44051c2cd",
-      "size_bytes": 3091
-    },
-    {
-      "classification": "active",
-      "description_present": true,
-      "kind": "skill",
-      "name": "experiment-tracking",
-      "path": ".agent-skills/skills/deep-learning/experiment-tracking/SKILL.md",
-      "sha256": "53004854ef3ee0fce656b6d6ea6b25352a167dc49f756f336c94018a7c3582c5",
-      "size_bytes": 2889
-    },
-    {
-      "classification": "active",
-      "description_present": true,
-      "kind": "skill",
-      "name": "hyperparameter-optimization",
-      "path": ".agent-skills/skills/deep-learning/hyperparameter-optimization/SKILL.md",
-      "sha256": "76047b93b6ed8a2716bc85dac01fac0209320425d69baf057d42cd14ce0d8231",
-      "size_bytes": 3168
-    },
-    {
-      "classification": "active",
-      "description_present": true,
-      "kind": "skill",
-      "name": "model-deployment",
-      "path": ".agent-skills/skills/deep-learning/model-deployment/SKILL.md",
-      "sha256": "382814c227ccdd6375df010739a385e3f41f66e0b870fcca19ff70e795c64b94",
-      "size_bytes": 3144
-    },
-    {
-      "classification": "active",
-      "description_present": true,
-      "kind": "skill",
-      "name": "model-evaluation",
-      "path": ".agent-skills/skills/deep-learning/model-evaluation/SKILL.md",
-      "sha256": "f5151671570a69460312045d2bbcc010843f3ab3d17cee685316141ddcebe7ae",
-      "size_bytes": 3082
-    },
-    {
-      "classification": "active",
-      "description_present": true,
-      "kind": "skill",
-      "name": "model-training-workflow",
-      "path": ".agent-skills/skills/deep-learning/model-training-workflow/SKILL.md",
-      "sha256": "9675ad22cb557956df7f08cc345cd2cb987ae4e03ad164275a0ba7e079c9095a",
-      "size_bytes": 3098
-    },
-    {
-      "classification": "active",
-      "description_present": true,
-      "kind": "skill",
-      "name": "pytorch-debugging",
-      "path": ".agent-skills/skills/deep-learning/pytorch-debugging/SKILL.md",
-      "sha256": "1909045a0e8802059cb1fcacc77e9326c99cd73d94d9a51cc90be7b583773674",
-      "size_bytes": 3024
-    },
-    {
-      "classification": "active",
-      "description_present": true,
-      "kind": "skill",
-      "name": "tensorflow-debugging",
-      "path": ".agent-skills/skills/deep-learning/tensorflow-debugging/SKILL.md",
-      "sha256": "80a809448fc15c778af5c1408919f203268488de919d84562563d501b54d7414",
-      "size_bytes": 3326
-    },
-    {
-      "classification": "active",
-      "description_present": true,
-      "kind": "skill",
-      "name": "transfer-learning-design",
-      "path": ".agent-skills/skills/deep-learning/transfer-learning-design/SKILL.md",
-      "sha256": "fc4d27b838823931c94178bdb1561701793fe88c02f54aed747508ad96ccadcd",
-      "size_bytes": 3350
     },
     {
       "classification": "active",
@@ -3485,8 +3260,8 @@
       "kind": "skill",
       "name": "innate-workflow",
       "path": ".agent-skills/skills/innate-workflow/SKILL.md",
-      "sha256": "565a18afece04f2b432aeb8bcdf8b53eaed4b7e90218797494113676452e598e",
-      "size_bytes": 1420
+      "sha256": "07ccb6557228531d11230af7c939f3f06ca757cdb8114201c7b06b6c51319f39",
+      "size_bytes": 718
     },
     {
       "classification": "active",
@@ -3721,15 +3496,6 @@
       "path": ".agent-skills/skills/music-to-video/SKILL.md",
       "sha256": "99b053cfa04200b7912a6801b06ee6ef6bd5b5b2d4f7e849b89d1f98102a71b9",
       "size_bytes": 17656
-    },
-    {
-      "classification": "active",
-      "description_present": true,
-      "kind": "skill",
-      "name": "mythic-atlas",
-      "path": ".agent-skills/skills/mythic-atlas/SKILL.md",
-      "sha256": "257dc2f773648d00e3d55c2d4f95c3a5fcd2ffc1407a1a2e6c9f9ff14907d3f2",
-      "size_bytes": 6400
     },
     {
       "classification": "active",
@@ -4063,6 +3829,51 @@
       "path": ".agent-skills/skills/research/SKILL.md",
       "sha256": "af378829f015775a3bcd65ff466826722e99359017ae6bae227ca4c9bd14049c",
       "size_bytes": 799
+    },
+    {
+      "classification": "active",
+      "description_present": true,
+      "kind": "skill",
+      "name": "arxiv",
+      "path": ".agent-skills/skills/research/arxiv/SKILL.md",
+      "sha256": "2a6073a1ad08823dbdf26be64440b54155298db38fdee52c7b0a5d1cd0cfb05d",
+      "size_bytes": 10085
+    },
+    {
+      "classification": "active",
+      "description_present": true,
+      "kind": "skill",
+      "name": "blogwatcher",
+      "path": ".agent-skills/skills/research/blogwatcher/SKILL.md",
+      "sha256": "b85be5a9b86b90287266dd142a0ae9740be926298fbcb772f56b8a4d6451bb12",
+      "size_bytes": 5111
+    },
+    {
+      "classification": "active",
+      "description_present": true,
+      "kind": "skill",
+      "name": "llm-wiki",
+      "path": ".agent-skills/skills/research/llm-wiki/SKILL.md",
+      "sha256": "eb13a2b8c654eeee8bae2d218a8131f53f199065f61c4ac29c18b8b79eb85869",
+      "size_bytes": 20113
+    },
+    {
+      "classification": "active",
+      "description_present": true,
+      "kind": "skill",
+      "name": "polymarket",
+      "path": ".agent-skills/skills/research/polymarket/SKILL.md",
+      "sha256": "becfa71e730b482c3f087c4de4071fd25f0feb475aec1293aee0b845c10fa190",
+      "size_bytes": 2985
+    },
+    {
+      "classification": "active",
+      "description_present": true,
+      "kind": "skill",
+      "name": "research-paper-writing",
+      "path": ".agent-skills/skills/research/research-paper-writing/SKILL.md",
+      "sha256": "923bc45b7138c0f8178fd091beeeca8d5dce1738356b1a686d9213221445ff68",
+      "size_bytes": 103374
     },
     {
       "classification": "active",
@@ -4403,8 +4214,8 @@
       "kind": "skill",
       "name": "test-driven-development",
       "path": ".agent-skills/skills/software-development/test-driven-development/SKILL.md",
-      "sha256": "a580936ca65428764f10c02c7f1753e5f3626d098b5ce9014f6dc7d698ce7e13",
-      "size_bytes": 20075
+      "sha256": "289d4848d4e1b44175696405d6c5a25ae783fbcfb235aea9cbfa303ce78e2e76",
+      "size_bytes": 9869
     },
     {
       "classification": "active",
@@ -4745,8 +4556,8 @@
       "kind": "skill",
       "name": "using-superpowers",
       "path": ".agent-skills/skills/using-superpowers/SKILL.md",
-      "sha256": "ac68e3b8ed2a764ac584c95c5a3e73eca5ac22ad29b7b88703d77a90139a3a1e",
-      "size_bytes": 6906
+      "sha256": "5ba009456ece829500f9393aa1e99fbc03e31444de682ba7d3e5d5ce02d0611f",
+      "size_bytes": 11484
     },
     {
       "classification": "active",
@@ -4754,8 +4565,8 @@
       "kind": "skill",
       "name": "verification-before-completion",
       "path": ".agent-skills/skills/verification-before-completion/SKILL.md",
-      "sha256": "247a1b2a51db101d13556cadf4450e84da41344df6d694df36e05bb8fe413637",
-      "size_bytes": 4564
+      "sha256": "bca9869b02cfd71f63343205c4e75ce6b74841d50a97621b81b8b21c97d3be61",
+      "size_bytes": 8311
     },
     {
       "classification": "active",
@@ -4876,15 +4687,13 @@
     }
   ],
   "counts": {
-    "active": 540
+    "active": 519
   },
-  "generated_at": "2026-08-18T06:56:31+00:00",
+  "generated_at": "2026-09-05T05:28:31+00:00",
   "home": "/Users/steven",
   "locks": {
     "authority": "/Users/steven/.agent-skills/.skill-lock.json",
-    "drift": [
-      "/Users/steven/.agents/.skill-lock.json"
-    ],
+    "drift": [],
     "files": [
       {
         "authority": true,
@@ -4920,11 +4729,13 @@
         "version": 3
       },
       {
-        "authority": false,
+        "authority": true,
         "lastSelectedAgents": [
+          "aider-desk",
           "amp",
           "antigravity",
           "antigravity-cli",
+          "astrbot",
           "claude-code",
           "cline",
           "codex",
@@ -4933,6 +4744,7 @@
           "gemini-cli",
           "github-copilot",
           "goose",
+          "grok",
           "hermes-agent",
           "kimi-code-cli",
           "opencode",
@@ -4942,6 +4754,7 @@
         ],
         "path": "/Users/steven/.agents/.skill-lock.json",
         "skills": [
+          "find-skills",
           "hyperframes-cli",
           "hyperframes-registry",
           "media-use"
@@ -4951,15 +4764,7 @@
     ]
   },
   "projections": {
-    "broken_links": [
-      ".gemini/skills/ccxt-cli",
-      ".gemini/skills/ccxt-python",
-      ".grok/marketplace-cache/13ed29d0831c181b/.gemini/skills/skills-status-2/SKILL.md",
-      ".grok/marketplace-cache/13ed29d0831c181b/.hermes/skills/claude-skills/engineering-team/status",
-      ".grok/marketplace-cache/13ed29d0831c181b/.vibe/skills/claude-skills/engineering-team/status",
-      ".opencode/skills/ccxt-cli",
-      ".opencode/skills/ccxt-python"
-    ],
+    "broken_links": [],
     "known": [
       {
         "expected_target": "/Users/steven/.agent-skills/skills",

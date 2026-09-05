@@ -1,8 +1,6 @@
 {
   "authority": "/Users/steven/.agent-skills/.skill-lock.json",
-  "drift": [
-    "/Users/steven/.agents/.skill-lock.json"
-  ],
+  "drift": [],
   "files": [
     {
       "authority": true,
@@ -38,11 +36,13 @@
       "version": 3
     },
     {
-      "authority": false,
+      "authority": true,
       "lastSelectedAgents": [
+        "aider-desk",
         "amp",
         "antigravity",
         "antigravity-cli",
+        "astrbot",
         "claude-code",
         "cline",
         "codex",
@@ -51,6 +51,7 @@
         "gemini-cli",
         "github-copilot",
         "goose",
+        "grok",
         "hermes-agent",
         "kimi-code-cli",
         "opencode",
@@ -60,6 +61,7 @@
       ],
       "path": "/Users/steven/.agents/.skill-lock.json",
       "skills": [
+        "find-skills",
         "hyperframes-cli",
         "hyperframes-registry",
         "media-use"
