@@ -3,6 +3,7 @@
 ## [Unreleased]
 
 ### Fixed — 2026-09-05
+- Created `agents/documentation.md` to achieve 100% (103/103) root agent MD/TOML pairing parity.
 - Preserved research capabilities (`skills/research/`) and updated `.gitignore` to exclude runtime state (`agent-skills-meta.csv.summary.json`, `agent-skills-meta.duplicates.csv`, `deeptutor/user/logs/deeptutor.jsonl`).
 
 ### Added — 2026-08-08
