@@ -1,6 +1,6 @@
 ---
 name: systematic-debugging
-description: "4-phase root cause debugging: understand bugs before fixing."
+description: "Use when the user reports a bug, failing test, unexpected behavior, performance regression, build failure, or integration problem. Reproduce the issue and identify the root cause before fixing; hand off to test-driven-development or quality-regression-testing afterward."
 version: 1.1.0
 author: Hermes Agent (adapted from obra/superpowers)
 license: MIT
@@ -8,7 +8,9 @@ platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [debugging, troubleshooting, problem-solving, root-cause, investigation]
-    related_skills: [test-driven-development, writing-plans, subagent-driven-development]
+    related_skills: [test-driven-development, writing-plans, subagent-driven-development, quality-regression-testing]
+changelog:
+  - "2026-08-15: Expanded trigger phrases and added explicit post-root-cause handoffs."
 ---
 
 # Systematic Debugging

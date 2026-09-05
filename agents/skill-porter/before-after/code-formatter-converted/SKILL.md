@@ -1,7 +1,9 @@
 ---
 name: code-formatter
 description: Formats code files using prettier and eslint. Use when the user wants to format code, fix linting issues, or clean up code style.
-allowed-tools: - Read - Write - Bash
+allowed-tools: [Read, Write, Bash]
+changelog:
+  - "2026-08-15: Repaired malformed frontmatter; preserved the file body."
 ---
 
 # Code Formatter Skill Automatically formats code files using industry-standard tools. ## Capabilities - Format JavaScript/TypeScript with Prettier

@@ -1,7 +1,6 @@
 ---
 name: testing-specialist
-description: 'Use when working with: testing, specialist, agent support. Activates
-  for: testing, specialist, support.'
+description: "Use when designing or improving a test strategy — choosing the right test pyramid ratio (unit/integration/E2E), risk-based prioritization, coverage targets, CI/CD test integration, or regression suite maintenance. Good for 'what should we test and how much?' questions before writing a single test."
 ---
 
 # Testing Specialist Persona

@@ -32,6 +32,8 @@ SKIP_DIRS = {
     "node_modules",
     ".pytest_cache",
 }
+SENSITIVE_NAMES = {".env", ".env.local", "auth_info.json", "credentials.json", "token.json", "tokens.json", "secrets.json", "cookie.json", "cookies.json", "history.jsonl"}
+SENSITIVE_PARTS = {"auth", "authentication", "credential", "credentials", "secret", "secrets", "token", "tokens", "keychain", "cookies", "history", "histories", "sessions", "session", "private"}
 
 
 @dataclass
@@ -161,7 +163,8 @@ def tdd_style(text: str, path: Path) -> str:
 
 
 def should_skip(path: Path) -> bool:
-    return any(part in SKIP_DIRS for part in path.parts)
+    lowered = {part.lower() for part in path.parts}
+    return any(part in SKIP_DIRS for part in path.parts) or path.name.lower() in SENSITIVE_NAMES or bool(lowered & SENSITIVE_PARTS)
 
 
 def iter_agent_files(root: Path):

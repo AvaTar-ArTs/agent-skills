@@ -1,6 +1,6 @@
 ---
 name: plugin-creator
-description: Create and scaffold plugin directories for Codex with a required `.codex-plugin/plugin.json`, optional plugin folders/files, valid manifest defaults, and personal-marketplace entries by default. Use when Codex needs to create a new personal plugin, add optional plugin structure, generate or update marketplace entries for plugin ordering and availability metadata, or update an existing local plugin during development with the CLI-driven cachebuster and reinstall flow.
+description: Create and scaffold plugin directories for Codex with a required `.codex-plugin/plugin.json`, optional plugin folders/files, validated manifest defaults, and optional personal-marketplace entries. Use when Codex needs to create a personal or repository plugin, add discoverable skills or companion structure, generate or update marketplace ordering and availability metadata, validate an existing plugin, or refresh a local plugin through the CLI-driven cachebuster and reinstall flow.
 ---
 
 # Plugin Creator
@@ -85,6 +85,7 @@ See `references/installing-and-updating.md` for the expected cachebuster and rei
   `~/plugins/<plugin-name>/`.
 - Creates plugin root at `/<parent-plugin-directory>/<plugin-name>/`.
 - Always creates `/<parent-plugin-directory>/<plugin-name>/.codex-plugin/plugin.json`.
+- Adds `skills: "./skills/"` only when `--with-skills` creates that discoverable directory.
 - Fills the manifest with the validated schema shape that the ingestion path accepts.
 - Creates or updates `~/.agents/plugins/marketplace.json` when `--with-marketplace` is set.
   - If the marketplace file does not exist yet, seed a personal marketplace root before adding the first plugin entry.
@@ -186,6 +187,7 @@ See `references/installing-and-updating.md` for the expected cachebuster and rei
 - Do not remove required structure; keep `.codex-plugin/plugin.json` present.
 - Do not leave `[TODO: ...]` placeholders in plugin manifests.
 - Keep `apps` and `mcpServers` out of `plugin.json` unless their companion files are actually created.
+- Keep `skills` out of `plugin.json` unless the `skills/` directory is actually created.
 - Omit unsupported plugin manifest fields that validation rejects, including `hooks`.
 - If creating files inside an existing plugin path, use `--force` only when overwrite is intentional.
 - Preserve any existing marketplace `interface.displayName`.
@@ -240,4 +242,10 @@ Before handing back a generated plugin, run:
 
 ```bash
 python3 scripts/validate_plugin.py <plugin-path>
+```
+
+After changing this skill's scripts or contracts, run its regression suite:
+
+```bash
+python3 -m unittest discover -s tests -p 'test_*.py' -v
 ```

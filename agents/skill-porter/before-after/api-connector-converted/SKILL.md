@@ -1,7 +1,9 @@
 ---
 name: api-connector
 description: Connect to REST APIs, manage authentication, and process responses. Use for API integration tasks.
-allowed-tools: - Read - Glob - Grep - Task - WebFetch - WebSearch - TodoWrite - AskUserQuestion - SlashCommand - Skill - NotebookEdit - BashOutput - KillShell
+allowed-tools: [Read, Glob, Grep, Task, WebFetch, WebSearch, TodoWrite, AskUserQuestion, SlashCommand, Skill, NotebookEdit, BashOutput, KillShell]
+changelog:
+  - "2026-08-15: Repaired malformed frontmatter; preserved the file body."
 ---
 
 # api-connector - Claude Code Skill Connect to REST APIs, manage authentication, and process responses. Use for API integration tasks. ## Configuration This skill requires the following environment variables: - `API_BASE_URL`: Base URL for API requests (default: https://api.example.com)

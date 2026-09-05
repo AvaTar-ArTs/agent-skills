@@ -33,6 +33,8 @@ SKIP_DIRS = {
     "tmp-csv",
     "tmp-md",
 }
+SENSITIVE_NAMES = {".env", ".env.local", "auth_info.json", "credentials.json", "token.json", "tokens.json", "secrets.json", "cookie.json", "cookies.json", "history.jsonl"}
+SENSITIVE_PARTS = {"auth", "authentication", "credential", "credentials", "secret", "secrets", "token", "tokens", "keychain", "cookies", "history", "histories", "sessions", "session", "private"}
 
 TOOL_PATTERNS = (
     "bash",
@@ -119,7 +121,9 @@ def strip_frontmatter(text: str) -> str:
 
 def iter_md_files(root: Path):
     for path in sorted(root.rglob("*.md")):
-        if any(part in SKIP_DIRS for part in path.relative_to(root).parts):
+        parts = path.relative_to(root).parts
+        lowered = {part.lower() for part in parts}
+        if any(part in SKIP_DIRS for part in parts) or path.name.lower() in SENSITIVE_NAMES or bool(lowered & SENSITIVE_PARTS):
             continue
         yield path
 

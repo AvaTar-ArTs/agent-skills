@@ -1,6 +1,6 @@
 ---
 name: writing-plans
-description: "Write implementation plans: bite-sized tasks, paths, code."
+description: "Use when an approved design or specification needs a detailed implementation plan with bite-sized tasks, exact paths, code guidance, testing commands, and verification steps. Hand off from brainstorming before execution."
 version: 1.1.0
 author: Hermes Agent (adapted from obra/superpowers)
 license: MIT
@@ -9,6 +9,8 @@ metadata:
   hermes:
     tags: [planning, design, implementation, workflow, documentation]
     related_skills: [subagent-driven-development, test-driven-development, requesting-code-review]
+changelog:
+  - "2026-08-15: Added explicit brainstorming handoff and trigger phrases for plan creation."
 ---
 
 # Writing Implementation Plans

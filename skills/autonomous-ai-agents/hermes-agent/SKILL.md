@@ -10,6 +10,10 @@ metadata:
     tags: [hermes, setup, configuration, multi-agent, spawning, cli, gateway, development]
     homepage: https://github.com/NousResearch/hermes-agent
     related_skills: [Codex, codex, opencode]
+    related_resolution:
+      Codex: provider:Codex
+changelog:
+  - "2026-08-15: Added additive provider resolution metadata; preserved related_skills."
 ---
 
 # Hermes Agent
