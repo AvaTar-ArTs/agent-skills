@@ -24,7 +24,7 @@ def setup_openai():
         print("Please set your OpenAI API key:", file=sys.stderr)
         print("  export OPENAI_API_KEY='your-key-here'", file=sys.stderr)
         sys.exit(1)
-    
+
     return OpenAI(api_key=api_key)
 
 
@@ -32,7 +32,7 @@ def cmd_create(args, client: OpenAI):
     """Create a new video generation job"""
     # Build the prompt
     prompt_parts = [args.prompt]
-    
+
     if args.use_case:
         prompt_parts.insert(0, f"Use case: {args.use_case}")
     if args.scene:
@@ -62,14 +62,14 @@ def cmd_create(args, client: OpenAI):
         prompt_parts.append(f"Constraints: {args.constraints}")
     if args.avoid:
         prompt_parts.append(f"Avoid: {args.avoid}")
-    
+
     prompt = "\n".join(prompt_parts)
-    
+
     # If we have a prompt file, use it instead
     if args.prompt_file:
         with open(args.prompt_file, 'r') as f:
             prompt = f.read().strip()
-    
+
     # Prepare parameters
     params = {
         "model": args.model,
@@ -77,30 +77,30 @@ def cmd_create(args, client: OpenAI):
         "size": args.size,
         "seconds": str(args.seconds),  # API expects string
     }
-    
+
     if args.variant:
         params["variant"] = args.variant
-    
+
     print(f"Creating video generation job...")
     print(f"Model: {args.model}")
     print(f"Size: {args.size}")
     print(f"Duration: {args.seconds} seconds")
     if not args.no_augment or args.prompt_file:
         print(f"Prompt: {prompt[:200]}{'...' if len(prompt) > 200 else ''}")
-    
+
     try:
         response = client.videos.generate(**params)
         job_id = response.id
         print(f"Job created successfully!")
         print(f"Job ID: {job_id}")
         print(f"Status: {response.status}")
-        
+
         # Save job ID if requested
         if args.save_job_id:
             with open(args.save_job_id, 'w') as f:
                 f.write(job_id)
             print(f"Job ID saved to: {args.save_job_id}")
-        
+
         # Auto-poll if requested
         if args.poll:
             cmd_poll(type('Args', (), {
@@ -111,7 +111,7 @@ def cmd_create(args, client: OpenAI):
                 'download': True,
                 'verbose': args.verbose
             })(), client)
-            
+
     except Exception as e:
         print(f"Error creating video: {e}", file=sys.stderr)
         sys.exit(1)
@@ -126,28 +126,28 @@ def cmd_remix(args, client: OpenAI):
         "size": args.size,
         "seconds": str(args.seconds),
     }
-    
+
     if args.variant:
         params["variant"] = args.variant
-    
+
     print(f"Remixing video {args.video_id}...")
     print(f"Model: {args.model}")
     print(f"Size: {args.size}")
     print(f"Duration: {args.seconds} seconds")
     print(f"Prompt: {args.prompt[:200]}{'...' if len(args.prompt) > 200 else ''}")
-    
+
     try:
         response = client.videos.generate(**params)
         job_id = response.id
         print(f"Remix job created successfully!")
         print(f"Job ID: {job_id}")
         print(f"Status: {response.status}")
-        
+
         if args.save_job_id:
             with open(args.save_job_id, 'w') as f:
                 f.write(job_id)
             print(f"Job ID saved to: {args.save_job_id}")
-            
+
         if args.poll:
             cmd_poll(type('Args', (), {
                 'job_id': job_id,
@@ -157,7 +157,7 @@ def cmd_remix(args, client: OpenAI):
                 'download': True,
                 'verbose': args.verbose
             })(), client)
-            
+
     except Exception as e:
         print(f"Error remixing video: {e}", file=sys.stderr)
         sys.exit(1)
@@ -171,10 +171,10 @@ def cmd_status(args, client: OpenAI):
         print(f"Status: {response.status}")
         print(f"Model: {response.model}")
         print(f"Created at: {response.created_at}")
-        
+
         if hasattr(response, 'error') and response.error:
             print(f"Error: {response.error}")
-            
+
         if response.status in ['completed', 'failed', 'cancelled']:
             if hasattr(response, 'video') and response.video:
                 print(f"Video URL: {response.video.url}")
@@ -182,7 +182,7 @@ def cmd_status(args, client: OpenAI):
                     print(f"Thumbnail URL: {response.video.thumbnail_url}")
                 if hasattr(response.video, 'spritesheet_url') and response.video.spritesheet_url:
                     print(f"Spritesheet URL: {response.video.spritesheet_url}")
-                    
+
     except Exception as e:
         print(f"Error retrieving job status: {e}", file=sys.stderr)
         sys.exit(1)
@@ -191,20 +191,20 @@ def cmd_status(args, client: OpenAI):
 def cmd_poll(args, client: OpenAI):
     """Poll a job until completion"""
     start_time = time.time()
-    
+
     while True:
         # Check timeout
         if args.timeout and (time.time() - start_time) > args.timeout:
             print(f"Timeout reached ({args.timeout}s)", file=sys.stderr)
             sys.exit(1)
-        
+
         try:
             response = client.videos.retrieve(args.job_id)
             status = response.status
-            
+
             if args.verbose:
                 print(f"[{time.strftime('%H:%M:%S')}] Status: {status}")
-            
+
             if status == 'completed':
                 print(f"Job completed successfully!")
                 if hasattr(response, 'video') and response.video:
@@ -223,7 +223,7 @@ def cmd_poll(args, client: OpenAI):
             else:
                 print(f"Unknown status: {status}")
                 time.sleep(args.interval)
-                
+
         except Exception as e:
             print(f"Error polling job: {e}", file=sys.stderr)
             sys.exit(1)
@@ -232,10 +232,10 @@ def cmd_poll(args, client: OpenAI):
 def download_assets(video_obj, output_dir: str, verbose: bool = False):
     """Download video and related assets"""
     import requests
-    
+
     output_path = Path(output_dir)
     output_path.mkdir(parents=True, exist_ok=True)
-    
+
     # Download video
     if hasattr(video_obj, 'url') and video_obj.url:
         if verbose:
@@ -250,7 +250,7 @@ def download_assets(video_obj, output_dir: str, verbose: bool = False):
             print(f"Video saved to: {video_file}")
         except Exception as e:
             print(f"Error downloading video: {e}", file=sys.stderr)
-    
+
     # Download thumbnail
     if hasattr(video_obj, 'thumbnail_url') and video_obj.thumbnail_url:
         if verbose:
@@ -264,7 +264,7 @@ def download_assets(video_obj, output_dir: str, verbose: bool = False):
             print(f"Thumbnail saved to: {thumb_file}")
         except Exception as e:
             print(f"Error downloading thumbnail: {e}", file=sys.stderr)
-    
+
     # Download spritesheet
     if hasattr(video_obj, 'spritesheet_url') and video_obj.spritesheet_url:
         if verbose:
@@ -298,14 +298,14 @@ def cmd_download(args, client: OpenAI):
         if response.status != 'completed':
             print(f"Job is not completed (status: {response.status})", file=sys.stderr)
             sys.exit(1)
-        
+
         if not hasattr(response, 'video') or not response.video:
             print("No video available for this job", file=sys.stderr)
             sys.exit(1)
-        
+
         print(f"Downloading assets for job {args.job_id}...")
         download_assets(response.video, args.output_dir, args.verbose)
-        
+
     except Exception as e:
         print(f"Error downloading assets: {e}", file=sys.stderr)
         sys.exit(1)
@@ -316,9 +316,9 @@ def main():
         description="Sora Video Generation CLI for Hermes Agent",
         formatter_class=argparse.RawDescriptionHelpFormatter
     )
-    
+
     subparsers = parser.add_subparsers(dest='command', help='Available commands')
-    
+
     # Create command
     create_parser = subparsers.add_parser('create', help='Create a new video')
     create_parser.add_argument('prompt', help='Text prompt for video generation')
@@ -348,7 +348,7 @@ def main():
     create_parser.add_argument('--output-dir', default='./sora-output', help='Output directory for downloads')
     create_parser.add_argument('--save-job-id', help='Save job ID to file')
     create_parser.add_argument('--verbose', '-v', action='store_true', help='Verbose output')
-    
+
     # Remix command
     remix_parser = subparsers.add_parser('remix', help='Remix an existing video')
     remix_parser.add_argument('video_id', help='ID of video to remix')
@@ -363,31 +363,31 @@ def main():
     remix_parser.add_argument('--output-dir', default='./sora-output', help='Output directory for downloads')
     remix_parser.add_argument('--save-job-id', help='Save job ID to file')
     remix_parser.add_argument('--verbose', '-v', action='store_true', help='Verbose output')
-    
+
     # Status command
     status_parser = subparsers.add_parser('status', help='Check status of a video job')
     status_parser.add_argument('job_id', help='Job ID to check')
     status_parser.add_argument('--verbose', '-v', action='store_true', help='Verbose output')
-    
+
     # List command
     list_parser = subparsers.add_parser('list', help='List recent video jobs')
     list_parser.add_argument('--limit', type=int, default=10, help='Number of jobs to show')
-    
+
     # Download command
     download_parser = subparsers.add_parser('download', help='Download assets for completed job')
     download_parser.add_argument('job_id', help='Job ID to download')
     download_parser.add_argument('--output-dir', default='./sora-output', help='Output directory for downloads')
     download_parser.add_argument('--verbose', '-v', action='store_true', help='Verbose output')
-    
+
     args = parser.parse_args()
-    
+
     if not args.command:
         parser.print_help()
         sys.exit(1)
-    
+
     # Setup OpenAI client
     client = setup_openai()
-    
+
     # Route to appropriate command handler
     if args.command == 'create':
         cmd_create(args, client)
