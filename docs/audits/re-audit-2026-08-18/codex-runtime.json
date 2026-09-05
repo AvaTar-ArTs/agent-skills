@@ -1,0 +1,27 @@
+{
+  "agents": {
+    "count": 15,
+    "duplicate_names": {},
+    "exact_duplicates": {},
+    "missing_description": [],
+    "missing_frontmatter": [],
+    "missing_name": []
+  },
+  "broken_links": [],
+  "root": "/Users/steven/.codex",
+  "skills": {
+    "count": 9,
+    "duplicate_names": {},
+    "exact_duplicates": {},
+    "missing_description": [],
+    "missing_frontmatter": [],
+    "missing_name": []
+  },
+  "top_level_skill_directories": [
+    ".system",
+    "ccassist",
+    "comic",
+    "curated",
+    "ralph-self-audit"
+  ]
+}

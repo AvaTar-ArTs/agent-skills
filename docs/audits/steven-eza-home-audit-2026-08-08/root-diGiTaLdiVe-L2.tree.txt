@@ -1,0 +1,839 @@
+/Users/steven/diGiTaLdiVe/
+├── .codex-history/
+│   ├── 2026-04-14_224510_deepdive_019e141d.md
+│   ├── 2026-04-16_130751_What-“hooks”-mean-in-this-system-In-s_019d971b.md
+│   └── 2026-05-10_044718_help-me-to-disable-uninstall-some-mcp-_019e110f.md
+├── .grok/
+│   └── settings.json
+├── agent-transcripts/
+│   ├── sessions/
+│   ├── tools/
+│   ├── INDEX.md
+│   └── README.md
+├── agent_forge/
+│   ├── apps/
+│   ├── config/
+│   ├── mcp/
+│   ├── reports/
+│   ├── scripts/
+│   ├── skills/
+│   ├── snapshots/
+│   ├── subagents/
+│   └── README.md
+├── ai_merge_auto/
+│   ├── agents/
+│   ├── contributions/
+│   ├── logs/
+│   ├── outputs/
+│   ├── source_reference -> /Users/steven/iterm2/Ai-Merge/
+│   ├── temp/
+│   ├── .gitignore
+│   ├── auto_setup.py
+│   ├── multi_modal_ai_merge_system.py
+│   └── simple_interface.py
+├── ai_merge_auto_setup/
+│   ├── agents/
+│   ├── source_reference -> /Users/steven/iterm2/Ai-Merge/
+│   ├── auto_setup.py
+│   ├── basic_usage_example.py
+│   ├── config.json
+│   ├── launch_ai_merge.py*
+│   └── multi_modal_ai_merge_system.py
+├── AiWorkFlowAlchemy/
+│   ├── ai-alchemy-index.html
+│   ├── ai-index.html
+│   └── quantumforgelabs.html
+├── AutoTagger/
+│   ├── autotagger-lite/
+│   ├── current/
+│   ├── docs/
+│   ├── output/
+│   ├── v1-original-kb/
+│   ├── v2-engine/
+│   ├── v3-dev/
+│   ├── v4-workspace/
+│   └── .cursorignore
+├── AvaTarArTs/
+│   ├── assets/
+│   ├── avatararts-mobile.html
+│   ├── avatararts-og.html
+│   ├── avatararts.html
+│   ├── clients.html
+│   ├── contact.html
+│   ├── DEPLOY.md
+│   ├── gallery.html
+│   ├── gptjunkie-mobile.html
+│   ├── gptjunkie-og.html
+│   ├── gptjunkie.html
+│   ├── index.html
+│   ├── marketplace.html
+│   ├── music.html
+│   ├── quantumforgelabs-mobile.html
+│   ├── quantumforgelabs-og.html
+│   ├── quantumforgelabs.html
+│   └── studio.html
+├── claude-code-studio-main/
+│   ├── .specstory/
+│   ├── agents/
+│   ├── commands/
+│   ├── .cursorindexingignore
+│   ├── .gitignore*
+│   ├── AGENTS.md*
+│   ├── claude-code-studio-main.zip*
+│   ├── CLAUDE.md*
+│   ├── CONTEXT_TEMPLATE.md*
+│   ├── LICENSE*
+│   ├── MCP.md*
+│   ├── PRINCIPLES.md*
+│   ├── README.md*
+│   ├── RULES.md*
+│   ├── settings.json*
+│   └── statusline-context-tracker.js*
+├── CODE_MONETIZATION_SYSTEM/
+│   ├── pythons/
+│   ├── scripts/
+│   ├── ADDITIONAL_TOOLS_MONETIZATION.md
+│   ├── AGENT_OPS_PLATFORM.md
+│   ├── CODE_SYSTEM_INDEX.md
+│   ├── COMPLETE_ECOSYSTEM_MONETIZATION.md
+│   ├── COMPLETE_FILES_MANIFEST.md
+│   ├── COMPLETE_SYSTEM_INDEX.md
+│   ├── EMAIL_LIST_STRATEGY.md
+│   ├── execution-roadmap.html
+│   ├── HYBRID_EXECUTION_ROADMAP.md
+│   ├── IMPLEMENTATION_COMPLETE_CHECKLIST.md
+│   ├── index.html
+│   ├── MARKETPLACE_ECOSYSTEM_MONETIZATION.md
+│   ├── MASTER_ACTIVATION_PLAN.md
+│   ├── MASTER_EXPORT_CONSOLIDATED.md
+│   ├── MCP_TOOLS_MARKETPLACE.md
+│   ├── PYTHONS_ACTIVATION_PLAN.md
+│   ├── QWEN_SKILLS_MONETIZATION.md
+│   ├── revenue-dashboard.html
+│   ├── SCRIPTS_ACTIVATION_PLAN.md
+│   ├── SIX_SYSTEMS_EXECUTION_ROADMAP.md
+│   ├── SORA_SAAS_LAUNCH_PLAN.md
+│   ├── STRATEGIC_BRAINSTORMING_SESSION.md
+│   ├── SUPERPOWERS_BRAINSTORMING_COMPLETE_ECOSYSTEM.md
+│   └── SYSTEM_STATUS.txt
+├── docs/
+│   └── plans/
+├── dr-adu/
+│   ├── .claude/
+│   ├── Dr_Adu_GainesvillePFS_EVOLVED/
+│   ├── Dr_Adu_GainesvillePFS_SEO_Project/
+│   ├── DrAdu-SEO-OPTIMIZED/
+│   ├── duplicate_reports/
+│   ├── analyze_dr_adu.py
+│   ├── analyze_dr_adu.py.backup_20260212_124630
+│   ├── 'CategoryAsset -Project NameEstimated Valuation -Po'
+│   ├── consolidate_dr_adu.py*
+│   ├── content.js
+│   ├── Content.xml
+│   ├── CREATE_ROOT_WEBSITE_STRUCTURE.sh*
+│   ├── dr-adu-codex.txt
+│   ├── dr-adu-ROOT_STRUCTURE_COMPLETE.md
+│   ├── dr-adu.jpg
+│   ├── dr-adu.png
+│   ├── dr-aduKey_Improvements_Made.md
+│   ├── dr-lawrence-adu-psychiatrist-with-global-impact.html
+│   ├── dr-lawrence-adu-psychiatrist-with-global-impact.md
+│   ├── 'dr-lawrence-adu-psychiatrist-with-global-impact 15.md'
+│   ├── "Dr. Adu's Website Easy to Find on Google.md"
+│   ├── 'Dr. Lawrence Adu - Professional Medical Practice Website.md'
+│   ├── 'Dr. Lawrence Adu_ Psychiatrist with Global Impact.md'
+│   ├── DR_ADU_COMPREHENSIVE_ANALYSIS_set_197_copy_977.md
+│   ├── Dr_Adu_GainesvillePFS_SEO_Project.zip
+│   ├── Dr_Adu_GainesvillePFS_SEO_Project_CONSOLIDATED.zip
+│   ├── DR_ADU_PYTHON_content_aware_analyzer_1.py
+│   ├── DR_LAWRENCE_ADU_DETAILED_RESEARCH.md
+│   ├── DR_LAWRENCE_ADU_RESEARCH_SUMMARY.md
+│   ├── dradu-CLIENT_PROJECT_DASHBOARD.html
+│   ├── dradu-COMPLETE_HTML_COMPARISON.html
+│   ├── dradu-COMPREHENSIVE_SKILLS_SERVICES_REPORT.html
+│   ├── dradu-LIVE_WEBPAGE_COMPARISON.html
+│   ├── dradu-mental-health-services.html
+│   ├── FINAL_DR_ADU_ORGANIZATION_SUMMARY.md
+│   ├── 'FINAL_DR_ADU_ORGANIZATION_SUMMARY 2.md'
+│   ├── 'FINAL_DR_ADU_ORGANIZATION_SUMMARY 3.md'
+│   ├── LawrenceAdu.pdf
+│   ├── move_dr_adu.py
+│   ├── move_dr_adu.py.backup_20260212_124630
+│   ├── needs-sorted_inventory.csv
+│   ├── needs-sorted_inventory.md
+│   ├── popup.js
+│   ├── scripts.js
+│   ├── scripts_1.js
+│   ├── setup_gainesville_site.sh*
+│   ├── sitemap.xml
+│   └── window.js
+├── Epstein/
+│   ├── epstein-ai/
+│   ├── epsteinarchivealchemist/
+│   ├── '2026-01-18 14-46-42 - OOPS! Melania Makes FATAL ERROR in Court over EPSTEIN CLAIMS - YouTube #browserExit - [dcc59721-b819-4aec-b972-e50d650f760d].json'
+│   ├── '2026-01-18 15-06-33 - (152) OOPS! Melania Makes FATAL ERROR in Court over EPSTEIN CLAIMS - YouTube #regular - [a76f963d-5507-4067-851a-714ca3055199].json'
+│   ├── '2026-01-20 20-22-30 - (187) Trump INSTANTLY TRAPPED over Epstein Files in FEDERAL COURT-!- - YouTube #regular - [dfc88798-2e10-4717-ba73-da4a23c1c697].json'
+│   ├── '2026-02-05 11-06-19 - (428) All HELL BREAKS LOOSE in UK Parliament over TRUMP and EPSTEIN - YouTube #regular - [49d85907-9270-494d-896c-f358978cdf6e].json'
+│   ├── "2026-02-12 06-38-38 - (76) 'I believe you just lied under oath'- Dem Rep- asks Bondi about Trump's mentions in Epstein files - YouTube #regular - [78ad4fce-f4d0-4fbb-a6b7-c88a28086a14].json"
+│   ├── 'ChatGPT-Epstein 3 Million Documents-Full-Chat-2026-02-13T09-34-23.html'
+│   ├── 'ChatGPT-Epstein 3 Million Documents-Full-Chat-2026-02-13T09-34-23.md'
+│   ├── conversation-epstein-emails-trump-connections-political-scandal.md
+│   ├── 'conversation-epstein-emails-trump-connections-political-scandal 1.md'
+│   ├── 'conversation-epstein-emails-trump-connections-political-scandal 2.md'
+│   ├── 'conversation-epstein-emails-trump-connections-political-scandal 3.md'
+│   ├── conversation-leaked-epstein-emails-reveal-deep-connections.md
+│   ├── 'Epstein-3-Million-Documents-2026-02-13 (1).md'
+│   ├── 'Epstein-3-Million-Documents-2026-02-13 (2).md'
+│   ├── Epstein-3-Million-Documents-2026-02-13.md
+│   ├── 'Epstein-3-Million-Documents-2026-02-13 1.md'
+│   ├── epstein-emails-trump-connections-political-scandal.html
+│   ├── epstein-emails-trump-connections-political-scandal.md
+│   ├── 'epstein-emails-trump-connections-political-scandal 1.md'
+│   ├── Epstein_3_Million_Documents.html
+│   ├── Epstein_3_Million_Documents.json
+│   ├── epstein_emails.html
+│   ├── Epstein_s_Emails_Exposed_Secrets_Lies_the_Digital_Ghost_transcript_1.txt
+│   ├── epsteinarchivealchemist_v2.zip
+│   ├── Epstein’s_Emails_Exposed_Secrets,_Lies_&_the_Digital_Ghost.mp3
+│   ├── Epstein’s_Emails_Exposed_Secrets,_Lies_&_the_Digital_Ghost.mp4
+│   ├── firebase-debug.log
+│   ├── 'JasonLeopold-epstien-twitter - dataset_twitter-scraper_2025-09-12_16-32-30-986(1).csv'
+│   ├── 'JasonLeopold-epstien-twitter - dataset_twitter-scraper_2025-09-12_16-32-30-986.csv'*
+│   ├── JasonLeopold-epstien-twitter.xlsx
+│   ├── leaked-epstein-emails-reveal-deep-connections.html
+│   ├── leaked-epstein-emails-reveal-deep-connections.md
+│   ├── leaked_epstein.html
+│   ├── leaked_epstein.md
+│   └── 'leaked_epstein 1.md'
+├── Fancy-Advanced-Med-journals/
+│   ├── tooluniverse-antibody-engineering/
+│   ├── tooluniverse-binder-discovery/
+│   ├── tooluniverse-chemical-compound-retrieval/
+│   ├── tooluniverse-clinical-trial-design/
+│   ├── tooluniverse-crispr-screen-analysis/
+│   ├── tooluniverse-disease-research/
+│   ├── tooluniverse-drug-drug-interaction/
+│   ├── tooluniverse-drug-repurposing/
+│   ├── tooluniverse-drug-research/
+│   ├── tooluniverse-expression-data-retrieval/
+│   ├── tooluniverse-infectious-disease/
+│   ├── tooluniverse-literature-deep-research/
+│   ├── tooluniverse-pharmacovigilance/
+│   ├── tooluniverse-precision-oncology/
+│   ├── tooluniverse-protein-structure-retrieval/
+│   ├── tooluniverse-protein-therapeutic-design/
+│   ├── tooluniverse-rare-disease-diagnosis/
+│   ├── tooluniverse-sdk/
+│   ├── tooluniverse-sequence-retrieval/
+│   ├── tooluniverse-structural-variant-analysis/
+│   ├── tooluniverse-target-research/
+│   └── tooluniverse-variant-interpretation/
+├── file-tracker/
+│   ├── README.md
+│   └── tracker.py
+├── fuzzy-finder/
+│   └── ff*
+├── GPTJunkie/
+│   ├── .history/
+│   ├── .qwen/
+│   ├── assets/
+│   ├── claude-config/
+│   ├── intelligent-organizer/
+│   ├── main-script/
+│   ├── projects/
+│   ├── .gitignore
+│   ├── 404-glitch.html
+│   ├── 404-minimal.html
+│   ├── 404-retro.html
+│   ├── 404.html
+│   ├── avatar-arts-gallery.html
+│   ├── avatar-arts-marketplace.html
+│   ├── avatar-arts-studio.html
+│   ├── DIRECTORY_INVENTORY.md
+│   ├── FILENAME_ANALYSIS.md
+│   ├── index-animated.html
+│   ├── index-dark-mode.html
+│   ├── index-minimal.html
+│   ├── index.html
+│   ├── REPOS.md
+│   └── REPOSITORY_ANALYSIS.md
+├── ice-tracker/
+│   ├── .claude/
+│   ├── .github/
+│   ├── agents/
+│   ├── backend/
+│   ├── docs/
+│   ├── scripts/
+│   ├── skills/
+│   ├── v1/
+│   ├── v2/
+│   ├── v3/
+│   ├── v4/
+│   ├── v5/
+│   ├── v5-works-bak/
+│   ├── v6/
+│   ├── v7/
+│   ├── v7-implementation/
+│   ├── v8/
+│   ├── v9/
+│   ├── v10/
+│   ├── 'v10 2'/
+│   ├── work-history/
+│   ├── .env.example
+│   ├── .gitignore
+│   ├── CHANGELOG.md
+│   ├── CLAUDE.md
+│   ├── ice-track.html
+│   ├── ice-tracker-v10-improved.zip
+│   ├── index.html
+│   ├── prompts.db
+│   ├── README.md
+│   └── tsconfig.json
+├── maigret-reports/
+│   ├── report_02005936@sfcollege.edu.csv
+│   ├── report_avatararts.csv
+│   ├── 'report_AvAtAr ArTs.csv'
+│   ├── report_avatararts.xmind
+│   ├── 'report_AvAtAr ArTs.xmind'
+│   ├── report_ichoake.csv
+│   ├── report_ichoake.xmind
+│   ├── report_ichoake_plain.html
+│   ├── report_info@gptjunkie.com.csv
+│   ├── report_me@avatararts.org.csv
+│   ├── report_pedees1@yahoo.com.csv
+│   ├── report_pedees1@yahoo.com_plain.html
+│   ├── report_portsigur.csv
+│   ├── report_portsigur.xmind
+│   ├── report_promptocalypse.csv
+│   ├── report_schaplinski.csv
+│   ├── report_schaplinski.xmind
+│   ├── report_sjchaplinski.csv
+│   ├── report_sjchaplinski.xmind
+│   ├── report_sjchaplinski@gmail.com.csv
+│   ├── report_sjchaplinski@gmail.com.xmind
+│   └── report_sjchaplinski@outlook.com.csv
+├── MarketMaster/
+│   ├── pages/
+│   ├── Products/
+│   ├── SELLABLE_PRODUCTS/
+│   ├── .gitignore
+│   ├── analyze-https-avatararts-org-v.md
+│   ├── files_index_20260112_203818.csv
+│   ├── fix-termenv.txt
+│   ├── index.html
+│   ├── index_64.html
+│   ├── python-script-for-image-prompt-generation.md
+│   ├── README.md
+│   ├── SCRIPTS_CATEGORIZED.csv
+│   ├── sync-google-sheets-with-ai-pipeline.md
+│   └── valentine-s-day-printify-automation-guide.md
+├── 'Master CodeSnip dev'/
+│   ├── .claude/
+│   ├── ai/
+│   ├── automation/
+│   ├── core/
+│   ├── data/
+│   ├── tools/
+│   ├── web/
+│   ├── __init__.py
+│   └── navigate.py*
+├── MasterxEo/
+│   ├── .claude/
+│   ├── api_products/
+│   ├── automation/
+│   ├── AVATARARTS/
+│   ├── AwesomeCodeTools/
+│   ├── DOCS/
+│   ├── GPTJunkie/
+│   ├── gumroad_assets/
+│   ├── INTEGRATION_TOOLS/
+│   ├── pod_empire/
+│   ├── rag_self_hosted_project/
+│   ├── REVENUE/
+│   ├── Steven-site/
+│   ├── xRoad/
+│   ├── 00_MASTER_INDEX.html
+│   ├── 2T_XX_PATHS_CHUNKS_REVIEW.md
+│   ├── 5k-csv.txt
+│   ├── 30k-paths-comparison-summary.txt
+│   ├── ACTIVATION_MASTER_PLAN.md
+│   ├── ADVANCED_ECOSYSTEM_REPORT_20260208_234618.md
+│   ├── AGENTS.md
+│   ├── "AI Outputs Hub - Steven's Digital Command Center-README copy.md"
+│   ├── 'AI Voice Agents - Gainesville -Ocala Lead Generation Suite-README.md'
+│   ├── AUTOTAGGER_OUTPUT_REVIEW.md
+│   ├── AVATARARTS_ACTIVATION_ROADMAP.md
+│   ├── AVATARARTS_COMPLETE_PROJECT_SUMMARY_AND_CELEBRATION.md
+│   ├── AVATARARTS_ECOSYSTEM_COMPLETE_TRANSFORMATION_CERTIFICATE.md
+│   ├── AVATARARTS_REVENUE_ASSET_IDENTIFICATION_COMPLETE_SUMMARY.md
+│   ├── Bangkit2023-SunSavvy-master.zip
+│   ├── BATCH2_PYTHONS_ACTIVATION_ANALYSIS.md
+│   ├── CLEAN_DOCS_CSV_REFERENCE.md
+│   ├── CODESTER_vs_GUMROAD_STRATEGY.md
+│   ├── CODSTER_INTEGRATION_SUMMARY.md
+│   ├── COMPREHENSIVE_APPENDED_ANALYSIS.html
+│   ├── COMPREHENSIVE_ASSET_INVENTORY.md
+│   ├── COMPREHENSIVE_ECOSYSTEM_ANALYSIS.md
+│   ├── consolidate_ai_products.py
+│   ├── consolidate_python_scripts_simple.py
+│   ├── content_inspection_20260208_234617.json
+│   ├── CONVERSATION_SUMMARY_FULL.md
+│   ├── DOCS_INDEX.md
+│   ├── dry_test_launch_system.sh*
+│   ├── ecosystem-coordinator.sh*
+│   ├── ECOSYSTEM_ACTIVATION_DASHBOARD.md
+│   ├── ECOSYSTEM_EVOLUTION_LAUNCH_REPORT.md
+│   ├── EMPIRE_EXPORT_20260117.zip
+│   ├── EVOLUTION_REPORT.md
+│   ├── GUMROAD_BUNDLE_1_PRODUCT_PAGE.md
+│   ├── GUMROAD_BUNDLE_STRATEGY.md
+│   ├── GUMROAD_EMAIL_LIST_STRATEGY.md
+│   ├── GUMROAD_MASTER_INDEX.md
+│   ├── GUMROAD_PHASE_3_EXECUTION_CHECKLIST.md
+│   ├── GUMROAD_PHASE_3_SUMMARY.md
+│   ├── GUMROAD_QUICK_START.txt
+│   ├── HOME_ROOT_FILES_REVIEW.md
+│   ├── IMPLEMENTATION_PLAN.md
+│   ├── IntelliHub.zip
+│   ├── 'IntelliHub 2.zip'
+│   ├── 'IntelliHub 3.zip'
+│   ├── 'IntelliHub 4.zip'
+│   ├── 'IntelliHub 5.zip'
+│   ├── INVENTORY_ANALYSIS_REPORT.md
+│   ├── LAUNCH_STRATEGY_PLAN.md
+│   ├── launch_tracker.sh*
+│   ├── local_tiered_indexing.py*
+│   ├── market-consolidationSUMMARY.txt
+│   ├── MARKETPLACE_PLATFORM_QUICK_REFERENCE.md
+│   ├── MASTER_INDEX.html
+│   ├── masterxeo-scan.zsh
+│   ├── MASTERXEO_COMPLETE_ANALYSIS_INTEGRATION_REPORT.md
+│   ├── MASTERXEO_INTEGRATION_COMPLETE.md
+│   ├── MASTERXEO_ORGANIZATION_SUCCESS.md
+│   ├── MASTERXEO_SIZE_REDUCTION_ANALYSIS.md
+│   ├── MCPHOOKER_MASTERXEO_AFTER_AUTOTAGGER.md
+│   ├── ORGANIZATION_COMPLETION_REPORT.md
+│   ├── PHASE_3_UPDATED_CODESTER_FIRST.md
+│   ├── PYTHONS_ANALYSIS_AND_IMPROVEMENTS.md
+│   ├── qwen_conversation_manager_export.zip
+│   ├── qwen_final_optimized_export.zip
+│   ├── ROOT_INDEX.md
+│   ├── run_autotagger_then_mcphooker.sh*
+│   ├── summarize_clean_docs_csv.py
+│   ├── too-many-lost.txt
+│   ├── TOP_20_MARKETPLACE_DESCRIPTIONS.txt
+│   ├── workspace.zip
+│   ├── XEO-DEO_V4.0_PROTOCOL.md
+│   ├── XeO_MARKET_DEPLOYMENT_REQUIREMENTS_MATRIX.csv
+│   ├── xRoad.zip
+│   └── ZSHRC_REVIEW_MASTERXEO_SCAN.md
+├── mcPHooker/
+│   ├── docs/
+│   ├── mcphooker-lite/
+│   ├── samples/
+│   ├── schema/
+│   ├── scripts/
+│   ├── src/
+│   ├── templates/
+│   ├── tests/
+│   ├── __init__.py
+│   └── README.md
+├── MCPServer_Config/
+│   └── mcp-config/
+├── Mockup-Automation-Script-main/
+│   ├── .gitignore*
+│   ├── auto_mockup.jsx*
+│   ├── LICENSE*
+│   └── README.md*
+├── MY-SiTes/
+│   ├── latest -> versions/0005/
+│   ├── notebooks/
+│   ├── versions/
+│   ├── index-compact.html
+│   ├── index.html
+│   ├── 'index copy.html'
+│   └── styles.css
+├── my-super-claude-code-setup/
+│   ├── agents/
+│   ├── commands/
+│   ├── templates/
+│   ├── .gitignore*
+│   ├── AGENTS.md*
+│   ├── CLAUDE.md*
+│   ├── CONTEXT_TEMPLATE.md*
+│   ├── LICENSE*
+│   ├── MCP.md*
+│   ├── PRINCIPLES.md*
+│   ├── README.md*
+│   ├── RULES.md*
+│   ├── settings.json*
+│   └── statusline-context-tracker.js*
+├── my-supremepowers/
+│   ├── .claude/
+│   ├── .githooks/
+│   ├── agents/
+│   ├── benchmarks/
+│   ├── commands/
+│   ├── core/
+│   ├── data-analysis/
+│   ├── deep-learning/
+│   ├── docs/
+│   ├── examples/
+│   ├── extensions/
+│   ├── hookify/
+│   ├── hooks/
+│   ├── integrations/
+│   ├── lib/
+│   ├── logs/
+│   ├── mcp-server/
+│   ├── new-hooks-system/
+│   ├── plans/
+│   ├── plugins/
+│   ├── policies/
+│   ├── products/
+│   ├── reports/
+│   ├── research/
+│   ├── rules/
+│   ├── scripts/
+│   ├── security-guidance/
+│   ├── skills/
+│   ├── tests/
+│   ├── web-development/
+│   ├── .gitattributes
+│   ├── .gitignore
+│   ├── .prettierrc.json
+│   ├── '2025 Q4 Deep SEO Trend Analysis .md'
+│   ├── 2026-05-11-230221-this-session-is-being-continued-from-a-previous-c.txtmysuper.md
+│   ├── activate-skills.txt
+│   ├── 'advanced intelligence.md'
+│   ├── all.csv
+│   ├── all.txt
+│   ├── ARCHITECTURE.md
+│   ├── ARCHITECTURE_DISCOVERY.md
+│   ├── CHANGELOG.md
+│   ├── CLAUDE.md
+│   ├── COMPLETION_SUMMARY.md
+│   ├── config.json
+│   ├── CONSOLIDATION_ANALYSIS.md
+│   ├── CONSOLIDATION_EXECUTIVE_SUMMARY.md
+│   ├── CONSOLIDATION_INDEX.md
+│   ├── CONSOLIDATION_SUCCESS_REPORT.md
+│   ├── CONSOLIDATION_VALIDATION_RESULTS.md
+│   ├── contents.md
+│   ├── deeppipe.md
+│   ├── docs-my-supremepowers.csv
+│   ├── docs-my-supremepowers_1.csv
+│   ├── docs-my-supremepowers_2.csv
+│   ├── docs.txt
+│   ├── DOMAIN_TEMPLATE.md
+│   ├── DOMAINS_INDEX.md
+│   ├── eslint.config.js
+│   ├── EVOLUTION_HISTORY.md
+│   ├── GEMINI-baks.md
+│   ├── gemini-extension.json
+│   ├── GEMINI.md
+│   ├── GIT_AI.md
+│   ├── GOVERNANCE.md
+│   ├── How-To.md
+│   ├── INDEX.md
+│   ├── INTEGRATION_GUIDE.md
+│   ├── jest.config.js
+│   ├── LICENSE
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── projects.json
+│   ├── qwen_settings.json
+│   ├── README.md
+│   ├── ROADMAP.md
+│   ├── superclean.md
+│   ├── supercleaner.md
+│   ├── superpowers.md
+│   ├── supremepower.bak.zip
+│   ├── tsconfig.json
+│   └── using-superpowers-paths.md
+├── n8n_workflows/
+│   ├── docs/
+│   ├── free/
+│   ├── imports/
+│   ├── premium/
+│   ├── workflows/
+│   ├── .cursorignore
+│   ├── .gitignore
+│   ├── CANONICAL_HOME.md
+│   ├── CHANGELOG.md
+│   ├── COMPLETE_SUMMARY.md
+│   ├── MASTER_N8N_LIBRARY.md
+│   ├── README.md
+│   ├── SUMMARY.md
+│   ├── TRENDINGKEYWORDS2026.md
+│   ├── WORKFLOWCREATIONGUIDE.md
+│   └── WORKSPACE_POLICY.md
+├── NeXt-Test-app/
+│   ├── knowledge/
+│   ├── my-app/
+│   ├── src/
+│   ├── test-app/
+│   ├── pyproject.toml
+│   └── README.md
+├── p-market/
+│   ├── .qwen/
+│   ├── 01-devflow-pro/
+│   ├── 01_AI_ML_PRODUCTS/
+│   ├── 02-mcp-forge/
+│   ├── 02_AUTOMATION_PRODUCTS/
+│   ├── 03-plugin-dev-toolkit/
+│   ├── 03_MEDIA_PRODUCTS/
+│   ├── 04-codecanyon-products/
+│   ├── 04_DEVELOPER_TOOLS/
+│   ├── 05-fiverr-upwork-gigs/
+│   ├── 05_WEB_PRODUCTS/
+│   ├── 06-bioinsight-platform/
+│   ├── 06_DATA_PRODUCTS/
+│   ├── 07-sorty-seo/
+│   ├── 07_MARKETING_SEO_PRODUCTS/
+│   ├── 08-superpowers-saas/
+│   ├── 08_3D_GAME_PRODUCTS/
+│   ├── 09-training-courses/
+│   ├── 09_BUSINESS_PRODUCTS/
+│   ├── '3D & Game Asset Forge'/
+│   ├── 10-gumroad-bundles/
+│   ├── 10_NFT_CRYPTO_PRODUCTS/
+│   ├── 11-consulting-packages/
+│   ├── 12-marketplace-assets/
+│   ├── 13-launch-plan/
+│   ├── 'AutoPilot Social Engine'/
+│   ├── 'BizOps Command Center'/
+│   ├── book_of_memory/
+│   ├── 'CryptoVault NFT Suite'/
+│   ├── data_exports/
+│   ├── 'DataInsight Analytics'/
+│   ├── 'DevToolkit Ultimate'/
+│   ├── docs/
+│   ├── DOCUMENTATION/
+│   ├── elasticsearch/
+│   ├── examples_snippets/
+│   ├── EXTERNAL_IMPORTS/
+│   ├── Gumroad/
+│   ├── JobResponseAi/
+│   ├── MarketMaster/
+│   ├── MARKETPLACE_LISTINGS/
+│   ├── 'MediaForge Pro'/
+│   ├── MiniForge-Setup-Optimize-script/
+│   ├── 'NeuralForge AI Suite'/
+│   ├── planning_data/
+│   ├── PROPRIETARY_PRODUCTS/
+│   ├── scan-results-2026-01-21/
+│   ├── scripts_old_versions/
+│   ├── SELLABLE_PRODUCTS/
+│   ├── SEO_OPTIMIZED_LISTINGS/
+│   ├── 'SEOMaster Pro'/
+│   ├── TOOLS_UTILITIES/
+│   ├── upWork/
+│   ├── userscripts/
+│   ├── 'WebForge Studio'/
+│   ├── whoosh-search-index/
+│   ├── xeo/
+│   ├── ⭐_EMPIRE_COMMAND_CENTER/
+│   ├── 'AI Content Creation Plan for 2026 Trends.md'
+│   ├── AIRTABLE_IMPORT.csv
+│   ├── AIRTABLE_NOTION_QUICKSTART.md
+│   ├── AIRTABLE_SETUP.md
+│   ├── BACKUP_ANALYSIS.md
+│   ├── BUILD_COMPLETE.md
+│   ├── COMPLETE_SYSTEM.md
+│   ├── cursor_marketplace_categories_and_listi.md
+│   ├── Directory_and_file_agents.md
+│   ├── elasticsearch-setup.zip
+│   ├── Elasticsearch-whoosh-baks.zip
+│   ├── 'iTerm2 Session Apr 12, 2026 at 6 -39 -06 PM.rtf'
+│   ├── MASTER_PRODUCT_CATALOG.csv
+│   ├── MIGRATION_LOG.csv
+│   ├── MIGRATION_REPORT.md
+│   ├── NOTION_IMPORT.csv
+│   ├── NOTION_SETUP.md
+│   ├── QWEN.md
+│   ├── README.md
+│   ├── sell-ready-listings-iterm.txt
+│   └── upwork.py
+├── portfolio-site/
+├── prompt-engineering-exploration/
+│   └── docs/
+├── python-ai-creative-automation/
+│   └── README.md
+├── Python-for-Ai-Automation/
+│   ├── Creative-Collection/
+│   ├── original/
+│   ├── original-v2/
+│   ├── 'Python for AI Automation The Silent Superpower Behind Your Creative Workflow.md'
+│   ├── README.md
+│   └── requirements.txt
+├── qwen-revenue-launch-kit/
+│   ├── app/
+│   ├── assets/
+│   ├── config/
+│   ├── data/
+│   ├── offers/
+│   ├── output/
+│   ├── pricing/
+│   ├── scripts/
+│   ├── templates/
+│   ├── .gitignore
+│   ├── launch-plan-30-days.md
+│   ├── Makefile
+│   ├── OPERATIONS.md
+│   ├── README.md
+│   └── requirements.txt
+├── REVENUE_ACTIVATION_SYSTEM/
+│   ├── commands/
+│   ├── guides/
+│   ├── templates/
+│   ├── trackers/
+│   ├── INDEX.md
+│   ├── README.md
+│   ├── START_HERE_REVENUE_ACTIVATION.md
+│   └── SYSTEM_COMPLETE.txt
+├── xEo-Pythia-preview/
+│   ├── .gitignore
+│   ├── ALL_PYTHON_SCRIPTS_INVENTORY.txt
+│   ├── AVATARARTS_AUTOTAG_COMPLETE_ARCHIVE.md
+│   ├── AVATARARTS_AUTOTAG_COMPLETE_HANDOFF.md
+│   ├── AVATARARTS_AUTOTAG_COMPLETE_SUMMARY.md
+│   ├── AVATARARTS_COMPLETE_HANDOFF_GUIDE.md
+│   ├── AVATARARTS_Complete_Implementation_Documentation.md
+│   ├── AVATARARTS_COMPREHENSIVE_INDEX.md
+│   ├── AVATARARTS_DATABASE_SOLUTION_SUMMARY.md
+│   ├── AVATARARTS_DEEPDIVE_ANALYSIS.md
+│   ├── AVATARARTS_DEEPDIVE_RESTORED.md
+│   ├── AVATARARTS_DIRECTORY_INDEX.md
+│   ├── AVATARARTS_ECOSYSTEM_ANALYSIS.md
+│   ├── AVATARARTS_ECOSYSTEM_DETAILED_HANDOFF.md
+│   ├── AVATARARTS_ECOSYSTEM_RESTRUCTURING_PLAN.md
+│   ├── AVATARARTS_ECOSYSTEM_SUMMARY.md
+│   ├── AVATARARTS_EVOLUTION_STRATEGY_2026.md
+│   ├── AVATARARTS_MEMORIES_SUMMARY.md
+│   ├── AVATARARTS_MONETIZATION_ANALYSIS.md
+│   ├── AVATARARTS_MONETIZATION_RESTORED.md
+│   ├── AVATARARTS_NOI_APP_COMPLETE_SUMMARY.md
+│   ├── AVATARARTS_NOI_APP_EXPORT_PACKAGE.md
+│   ├── AVATARARTS_NOI_AUTOTAG_COMPLETE_DOCUMENTATION.md
+│   ├── AVATARARTS_NOI_COMPLETE_HANDOFF_PACKAGE.md
+│   ├── AVATARARTS_TECHNICAL_CONTINUATION_GUIDE.md
+│   ├── BUSINESS_ACTIVATION_PLAN.md
+│   ├── COMPREHENSIVE_ACTIVITY_ANALYSIS.md
+│   ├── COMPREHENSIVE_ANALYSIS_SUMMARY.md
+│   ├── COMPREHENSIVE_APPENDED_ANALYSIS.md
+│   ├── COMPREHENSIVE_DOCUMENTS_ANALYSIS.md
+│   ├── COMPREHENSIVE_FINAL_ANALYSIS.md
+│   ├── COMPREHENSIVE_FINAL_ANALYSIS_RESTORED.md
+│   ├── COMPREHENSIVE_FOLDER_HIERARCHY.md
+│   ├── COMPREHENSIVE_INVENTORY_DETAILED_ANALYSIS.md
+│   ├── COMPREHENSIVE_REINDEX_2026.md
+│   ├── COMPREHENSIVE_REINDEX_RESTORED.md
+│   ├── COMPREHENSIVE_REINDEX_WITH_SUGGESTIONS_2026.md
+│   ├── daTabase_FEATURES.md
+│   ├── INIT_DIGITAL_DIVE.md
+│   ├── MASTER_PROJECT_OVERVIEW.md
+│   ├── nocTurneMeLoDieS_FEATURES.md
+│   ├── notebooklm-mcp_FEATURES.md
+│   ├── README.md
+│   └── xEo-jobs_FEATURES.md
+├── .aider.chat.history.md
+├── .aider.input.history
+├── .gitignore
+├── 90_DAY_MASTER_LAUNCH_CALENDAR.html
+├── '2025 Q4 Deep SEO Trend Analysis .md'
+├── AI_Brand_Strategy_and_Design.md
+├── all.md
+├── all_scan.csv
+├── 'audio-04-14-22 -07.csv'
+├── 'audio-04-14-23 -16.csv'
+├── 'audio-04-14-23 -20.csv'
+├── audio.txt
+├── audio_output.csv
+├── AUTOTAGGER_SYSTEM_GUIDE.md
+├── avatararts-mobile.html
+├── avatararts-og.html
+├── avatararts.html
+├── AVATARARTS_REORGANIZATION.csv
+├── AVATARARTS_REORGANIZATION.md
+├── Building-a-custom-skill---Claude-2026-02-03.md
+├── CODE_MONETIZATION_SYSTEM_REORGANIZATION.csv
+├── CODE_MONETIZATION_SYSTEM_REORGANIZATION.md
+├── COMPLETE_ACTIVATION_SYSTEMS_SUMMARY.txt
+├── COMPLETE_MISSED_ASSETS_ANALYSIS.md
+├── COMPLETE_SYSTEMS_AUDIT.md
+├── COMPLETION_PHASE_SUMMARY.md
+├── COMPREHENSIVE_DEEPREACH_ANALYSIS.md
+├── COMPREHENSIVE_DIGITAL_ECOSYSTEM_ANALYSIS.md
+├── COPY_PASTE_COMMANDS.md
+├── cursor_agent_forge_analysis.md
+├── DEEP_DIRECTORY_AUDIT_PART1.md
+├── DEEP_DIRECTORY_AUDIT_PART2.md
+├── DEEP_DIVE_DISCOVERIES_SUMMARY.md
+├── DeepTutor-main.zip*
+├── deploy_quantumforgelabs.sh
+├── DESIGN_ASSETS_MULTI_PLATFORM_DEPLOYMENT.md
+├── 'docs-04-17-04 -36.csv'
+├── 'docs-04-17-04 -45.csv'
+├── 'docs-05-15-11 -22.csv'
+├── 'docs-05-21-18 -42.csv'
+├── 'docs-06-12-22 -59.csv'
+├── docs.txt
+├── DOCS_KNOWLEDGE_HUB_GUIDE.md
+├── enriched-diGiTaLdiVe.csv
+├── ETSY_SHOP_STRATEGY.md
+├── FINAL_MASTER_SUMMARY.md
+├── FINAL_REVENUE_OPPORTUNITY_SUMMARY.md
+├── ' Full Preview — diGiTaLdiVe Ecosystem Map.md'
+├── 'Full Preview — diGiTaLdiVe Ecosystem Map.md'
+├── gemini-conversation-1776340203149.json
+├── GEMINI.md
+├── GEMINI.md.zip
+├── 'GEMINI copy.md'
+├── gptjunkie-mobile.html
+├── gptjunkie-og.html
+├── gptjunkie.html
+├── GUMROAD_BUNDLE_LAUNCH.md
+├── ICE_TRACKER_REORGANIZATION.csv
+├── ICE_TRACKER_REORGANIZATION.md
+├── image_output.csv
+├── IMMEDIATE_UPLOAD_LIST.md
+├── IN_PROGRESS_WORK_AUDIT.md
+├── ITERM2_INFRASTRUCTURE_GUIDE.md
+├── MAJOR_MISSED_ASSETS_FINAL.csv
+├── MarketMaster_all_scan.csv
+├── MASTER_PRODUCTS_INVENTORY.csv
+├── MasterxEo.zip
+├── MasterxEo_all_scan.csv
+├── MasterxEo_REORGANIZATION.csv
+├── MasterxEo_REORGANIZATION.md
+├── minimax-io.html
+├── MISSED_PRODUCTS_INVENTORY.csv
+├── model-providers-free-and-byok.md -> /Users/steven/.qwen/docs/model-providers-free-and-byok.md
+├── MULTI_PLATFORM_DESIGN_STRATEGY.csv
+├── p-market_all_scan.csv
+├── P-MARKET_REORGANIZATION.csv
+├── P-MARKET_REORGANIZATION.md
+├── PRODUCTS_MARKETPLACE_INVENTORY.csv
+├── PYTHON_MARKETPLACE_MASTER_GUIDE.md
+├── PYTHON_MARKETPLACE_MASTER_REORGANIZATION.csv
+├── PYTHON_MARKETPLACE_MASTER_REORGANIZATION.md
+├── quantumforgelabs-mobile.html
+├── quantumforgelabs-og.html
+├── quantumforgelabs.html
+├── QUICK_ACTION_CHECKLIST.md
+├── QUICK_START_CARD.txt
+├── qwen-code-export-2026-04-15T05-27-22-579Z.md
+├── qwen-code-export-2026-04-15T05-27-27-807Z.html
+├── REVENUE_TRACKER.md
+├── script.log
+├── 'SEO Strategy -handoff-complete.txt'
+├── START_HERE_REVENUE_ACTIVATION.md
+├── 'storyboard-The New Dominionism - A Visual Descent into Theocratic Power.html'
+├── 'storyboard-The New Dominionism - A Visual Descent into Theocratic Power v2.html'
+├── storyboard.html
+├── 'STRATEGIC BRAINSTORMING 3 SYSTEMS, $2.14M POTENTIAL.md'
+├── video_output.csv
+├── WEEK_1_EXECUTION_CHECKLIST.md
+├── '⏺ Full Preview — diGiTaLdiVe Ecosystem Map.md'
+└── '🚀 SUMMARY $250K–500K+ ADDITIONAL REVENUE OPPORTUNITY DISCOVERED.md'

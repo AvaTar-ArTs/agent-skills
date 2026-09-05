@@ -1,7 +1,6 @@
 ---
 name: ecosystem-learning
-description: 'Use when working with: ecosystem, learning, agent support. Activates
-  for: ecosystem, learning, support.'
+description: "Use when extracting transferable patterns from how Codex, Claude, or Cursor organize their skills, agents, and methodologies — then adapting those patterns to improve your own workflow or tooling. Good for 'what can I learn from this AI system's structure?' sessions."
 ---
 
 # Ecosystem Learning Agent

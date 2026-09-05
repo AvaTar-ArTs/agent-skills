@@ -1,0 +1,12 @@
+{
+  "title": "Local Agent-Skills Review",
+  "date": "2026-08-14",
+  "scope": "/Users/steven/.agent-skills",
+  "mode": "read-only review plus documentation",
+  "artifacts": [
+    "README.md",
+    "findings.md",
+    "manifest.json"
+  ],
+  "changes_to_existing_files": false
+}

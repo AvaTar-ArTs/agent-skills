@@ -1,0 +1,11 @@
+/Users/steven/skills/
+├── ccxt-csharp/
+│   └── SKILL.md
+├── ccxt-go/
+│   └── SKILL.md
+├── ccxt-php/
+│   └── SKILL.md
+├── ccxt-typescript/
+│   └── SKILL.md
+├── ccxt-cli -> ../../.agents/skills/ccxt-cli
+└── ccxt-python -> ../../.agents/skills/ccxt-python

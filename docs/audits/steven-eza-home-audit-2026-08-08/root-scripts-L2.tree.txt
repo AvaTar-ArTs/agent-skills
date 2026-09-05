@@ -1,0 +1,957 @@
+/Users/steven/scripts/
+├── .agents/
+│   └── skills/
+├── .aider.tags.cache.v4/
+│   ├── cache.db
+│   ├── cache.db-shm
+│   └── cache.db-wal
+├── .claude/
+│   ├── memories/
+│   ├── settings.local.human.md
+│   └── settings.local.json
+├── .codex-history/
+│   ├── 2026-04-11_191006_analyze-and-improve-Usersstevenscrip_019d7d97.md
+│   ├── 2026-05-09_130850_command-namedoctorcommand-name_019e141d.md
+│   ├── 2026-06-10_001626_Debug-updater-pro.sh-script_019eba25.md
+│   ├── 2026-07-08_181343_lets-create-ShareYou-saidintel-mac-_019f43c7.md
+│   ├── 2026-07-09_135108_scripts-git(main)-✗-.mac-cleanup-pro.s_019f4801.md
+│   ├── 2026-07-12_095222_fix-scripts-git(main)-✗-.updater-pro.s_019f5694.md
+│   └── 2026-08-07_022317_.updater-pro.sh_019fdad2.md
+├── .gemini/
+│   ├── memory/
+│   └── settings.json
+├── .qwen/
+│   ├── settings.json
+│   └── settings.json.orig
+├── .remember/
+│   ├── logs/
+│   ├── tmp/
+│   ├── .gitignore
+│   ├── now.md
+│   └── today-2026-06-14.md
+├── analysis/
+├── ARCHIVE/
+│   └── efficient-git-cleanup.sh*
+├── archive-old/
+│   ├── advanced-system-maintenance-v3.sh
+│   ├── advanced-system-maintenance-v4.sh
+│   ├── advanced-system-maintenance-v5-backup.sh
+│   ├── advanced-system-maintenance-v5-preview.sh
+│   ├── advanced-system-maintenance-v5.sh*
+│   ├── aggressive_git_cleanup.sh*
+│   ├── automated_cleanup.sh*
+│   ├── batch_optimize.sh*
+│   ├── carbon-automation-v2.sh*
+│   ├── carbon-automation-v3.sh*
+│   ├── carbon-automation.sh*
+│   ├── carbon-batch-v2.sh*
+│   ├── carbon-batch-v3.sh*
+│   ├── carbon-batch.sh*
+│   ├── carbon-render-common-v2.sh*
+│   ├── carbon_gallery.md.txt
+│   ├── carbon_image_analyze_optimize.sh*
+│   ├── check-update.sh*
+│   ├── cleanup.sh*
+│   ├── cleanup_app_integration.sh*
+│   ├── cleanup_archive_node_modules.sh*
+│   ├── cleanup_carbon_images.sh*
+│   ├── cleanup_conda_envs.sh*
+│   ├── cleanup_crontab_entry.txt
+│   ├── cleanup_duplicates.sh*
+│   ├── cleanup_home.sh*
+│   ├── cleanup_large_folders.sh*
+│   ├── cleanup_local_dirs.sh*
+│   ├── cleanup_python_conservative.sh*
+│   ├── cleanup_redundant_files.sh
+│   ├── cleanup_safe.sh*
+│   ├── cleanup_system.sh*
+│   ├── cleanup_temp_files.sh*
+│   ├── complete_content_aware_rename.sh*
+│   ├── complete_content_aware_rename_fixed.sh*
+│   ├── comprehensive_content_aware_rename.sh*
+│   ├── convert.sh*
+│   ├── convert_to_mp3s.sh*
+│   ├── convert_webm_to_mp3.sh*
+│   ├── convert_webp_advanced.sh*
+│   ├── convert_webp_to_jpeg.sh*
+│   ├── enhanced_disk_cleanup.sh*
+│   ├── evolution-updater.sh*
+│   ├── execute_all_content_aware_rename.sh*
+│   ├── execute_all_content_aware_rename_fixed.sh*
+│   ├── final-aggressive-cleanup.sh*
+│   ├── git_repository_cleanup_script.sh*
+│   ├── new_automated_cleanup.sh*
+│   ├── ollama_install.sh*
+│   ├── ollama_main_only.sh*
+│   ├── ollama_menu_1.sh*
+│   ├── ollama_prompt.sh*
+│   ├── ollama_setup_light.sh*
+│   ├── optimize_pngs.sh*
+│   ├── package_manager_cleanup.sh*
+│   ├── preview_renames.sh*
+│   ├── recursive_content_aware_rename.sh*
+│   ├── rename_10_targeted.sh*
+│   ├── rename_files.sh*
+│   ├── rename_first_10.sh*
+│   ├── rename_x27_directories.sh*
+│   ├── safe_recursive_rename.sh*
+│   ├── schedule_updates.sh*
+│   ├── setup-ai-apis.sh*
+│   ├── setup-api-keys-final.sh*
+│   ├── setup-api-keys-simple.sh*
+│   ├── setup-bun.sh*
+│   ├── setup-master-api-keys.sh*
+│   ├── setup-yarn.sh*
+│   ├── setup.sh*
+│   ├── setup_1.sh*
+│   ├── setup_ai_tools_config.sh*
+│   ├── setup_all_envs.sh*
+│   ├── setup_all_projects.sh*
+│   ├── setup_env.sh*
+│   ├── setup_grok.sh*
+│   ├── setup_home_search.sh*
+│   ├── setup_mcp_servers.sh*
+│   ├── setup_project.sh*
+│   ├── setup_python_311.sh*
+│   ├── setup_system.sh*
+│   ├── setup_uv_clean.sh*
+│   ├── setup_uv_project.sh*
+│   ├── setup_venv_project.sh*
+│   ├── setup_xsh_tool.sh*
+│   ├── sort-bak.sh*
+│   ├── sortD.sh*
+│   ├── sorty.sh*
+│   ├── update-log-20260208-193401.log
+│   ├── update-log-20260210-062953.log
+│   ├── update-log-20260210-091053.log
+│   ├── update-log-20260211-173439.log
+│   ├── update-log-20260212-121319.log
+│   ├── update-log-20260212-233600.log
+│   ├── update-log-20260410-174015.log
+│   ├── update-log-20260410-233329.log
+│   ├── update-log-20260412-121830.log
+│   ├── update_enhanced.sh*
+│   ├── update_qwen_history.sh*
+│   ├── updater.sh*
+│   └── wifi-optimize.sh*
+├── avatararts/
+│   ├── config.sh*
+│   ├── evolve.sh*
+│   ├── phase1_security.sh*
+│   ├── phase2_cleanup.sh*
+│   ├── phase3_quality.py
+│   └── phase4_verify.sh*
+├── bundles/
+│   ├── ai-ops-command-center/
+│   └── mac-maintenance-pro/
+├── CarbonCards/
+│   ├── deprecated-8QBXw81471.png
+│   ├── product-image-fY1AOpuYWA.png
+│   └── youtube-client-FgJ5CyZvxb.png
+├── clean/
+│   ├── .history/
+│   ├── audio/
+│   ├── clean -> /Users/steven/clean/
+│   ├── docs/
+│   ├── img/
+│   ├── other/
+│   ├── outputs/
+│   ├── vids/
+│   ├── all.py
+│   ├── all_for_csv.py
+│   ├── audio-04-14-21:18.csv
+│   ├── audio-04-14-21:19.csv
+│   ├── audio-04-14-23:14.csv
+│   ├── audio.py
+│   ├── audio.txt
+│   ├── back-clean.sh
+│   ├── batch-info.py
+│   ├── cleanup_and_organize.py
+│   ├── config.py
+│   ├── docs-04-14-23:19.csv
+│   ├── docs.py
+│   ├── docs.txt
+│   ├── ecosystem_scan_2026-04-14_21-21-35.csv
+│   ├── ecosystem_scan_2026-04-14_21-21-35_compare.md
+│   ├── ecosystem_scan_2026-04-14_21-22-17.csv
+│   ├── ecosystem_scan_2026-04-14_21-22-17_compare.md
+│   ├── ecosystem_scan_2026-04-14_22-05-31.csv
+│   ├── ecosystem_scan_2026-04-14_22-05-31_compare.md
+│   ├── ecosystem_scan_compare.py
+│   ├── exclude_patterns.py
+│   ├── image_data-04-14-21-20.csv
+│   ├── image_data.txt
+│   ├── img.py
+│   ├── other-04-14-21:23.csv
+│   ├── other.py
+│   ├── other.txt
+│   ├── requirements.txt
+│   ├── run.sh*
+│   ├── script.log
+│   ├── sortD.sh
+│   ├── vids-04-14-21:21.csv
+│   ├── vids.py
+│   └── vids.txt
+├── codex-agents-skills-sort-20260521/
+│   ├── agents.live.csv
+│   ├── codex_agents_skills_sorted.csv
+│   ├── skills-dup-candidate-content-review.csv
+│   ├── skills-dup-candidate-content-review.md
+│   ├── skills-dup-candidate.cleanup-trash.csv
+│   ├── skills-dup-candidate.other.csv
+│   ├── skills-dup-candidate.reference.csv
+│   ├── skills-dup-candidate.vendor-import.csv
+│   ├── skills.live-vs-nonlive-dupe-map.csv
+│   ├── skills.live.csv
+│   └── SUMMARY.md
+├── codex-cleanup-20260521/
+│   ├── agent-merge-preview/
+│   ├── batches/
+│   ├── drift-proposals/
+│   ├── my-supremepowers-compile/
+│   ├── skills-diff-review/
+│   ├── skills-start/
+│   ├── codex_basename_drift.csv
+│   ├── codex_content_compare_summary_focus.csv
+│   ├── codex_content_exact_focus.csv
+│   ├── codex_content_near_duplicates_focus.csv
+│   ├── codex_dedupe_actions.csv
+│   ├── codex_duplicate_summary.csv
+│   ├── codex_exact_duplicates.csv
+│   ├── codex_inventory.csv
+│   ├── codex_normalized_duplicates.csv
+│   └── preview_before_after_fix.md
+├── consolidation-logs/
+│   ├── update-log-20260709-134657.log
+│   ├── update-log-20260710-143429.log
+│   ├── update-log-20260712-033059.log
+│   ├── update-log-20260712-065907.log
+│   ├── update-log-20260712-094549.log
+│   ├── update-log-20260712-094948.log
+│   ├── update-log-20260713-180914.log
+│   ├── update-log-20260716-092412.log
+│   ├── update-log-20260807-014040.log
+│   ├── update-log-20260807-020424.log
+│   ├── update-log-20260807-020450.log
+│   ├── update-log-20260807-020644.log
+│   ├── update-log-20260807-020821.log
+│   ├── update-log-20260807-021030.log
+│   ├── update-log-20260807-021136.log
+│   ├── update-log-20260807-021638.log
+│   ├── update-log-20260807-021711.log
+│   ├── update-log-20260807-073725.log
+│   ├── update-log-20260807-093154.log
+│   ├── update-log-20260807-094117.log
+│   └── update-log-20260808-070808.log
+├── consolidation-suite/
+│   ├── CATEGORICAL_ANALYSIS.md
+│   ├── COMPREHENSIVE_CONSOLIDATION_PLAN.md
+│   ├── consolidation-runner.py
+│   ├── CONSOLIDATION_PLAN.md
+│   ├── CONSOLIDATION_TASKS.md
+│   ├── README.md
+│   ├── task-create-media-cli.py
+│   ├── task-delete-stubs.py
+│   └── UPDATE_CLEANUP_CONSOLIDATION_PLAN.md
+├── Docker/
+│   ├── docker-compose-start-caddy.sh*
+│   ├── docker-compose-start-minimal.sh*
+│   ├── docker-compose-start-postgres.sh*
+│   ├── docker-compose-stop-all.sh*
+│   └── docker-compose-update.sh*
+├── docs/
+│   ├── plans/
+│   ├── AGENT_SYNCHRONIZATION_PLAN.md
+│   ├── DESIGN_INTEGRATION_PLAN.md
+│   ├── RHYTHM_COMPLIANCE.md
+│   └── STORAGE_CONFIGURATION.md
+├── ecosystem-inventory/
+│   ├── 2026-05-21/
+│   └── archive/
+├── inventory/
+│   ├── analysis/
+│   ├── archive/
+│   ├── current/
+│   ├── overlays/
+│   └── specialized/
+├── iterm2_full_trees/
+│   ├── .ext_claude-ecosystem.tmp
+│   ├── fulltree__claude.txt
+│   ├── fulltree__cursor.txt
+│   ├── fulltree__gemini.txt
+│   ├── fulltree__git.txt
+│   ├── fulltree__grok.txt
+│   ├── fulltree__qodo.txt
+│   ├── fulltree__qwen.txt
+│   ├── fulltree_agent_ops.txt
+│   ├── fulltree_Ai-Merge-GitHub.txt
+│   ├── fulltree_Ai-Merge.txt
+│   ├── fulltree_claude-ecosystem.txt
+│   ├── fulltree_Codex.txt
+│   ├── fulltree_cursor-ecosystem.txt
+│   ├── fulltree_docs.txt
+│   ├── fulltree_gemini.txt
+│   ├── fulltree_harbor.txt
+│   ├── fulltree_orchestrator.txt
+│   ├── fulltree_scripts.txt
+│   ├── fulltree_superpowers-codex-product.txt
+│   ├── INDEX.md
+│   ├── manifest__claude.tsv
+│   ├── manifest__cursor.tsv
+│   ├── manifest__gemini.tsv
+│   ├── manifest__git.tsv
+│   ├── manifest__grok.tsv
+│   ├── manifest__qodo.tsv
+│   ├── manifest__qwen.tsv
+│   ├── manifest_agent_ops.tsv
+│   ├── manifest_Ai-Merge-GitHub.tsv
+│   ├── manifest_Ai-Merge.tsv
+│   ├── manifest_claude-ecosystem.tsv
+│   ├── manifest_docs.tsv
+│   ├── manifest_harbor.tsv
+│   ├── manifest_scripts.tsv
+│   ├── summary__claude.md
+│   ├── summary__cursor.md
+│   ├── summary__gemini.md
+│   ├── summary__git.md
+│   ├── summary__grok.md
+│   ├── summary__qodo.md
+│   ├── summary__qwen.md
+│   ├── summary_agent_ops.md
+│   ├── summary_Ai-Merge-GitHub.md
+│   ├── summary_Ai-Merge.md
+│   ├── summary_claude-ecosystem.md
+│   ├── summary_docs.md
+│   └── summary_scripts.md
+├── lib/
+│   ├── error_handling.sh
+│   └── logging.sh
+├── logs/
+├── optimized/
+├── reports/
+│   ├── real_scripts_remaining_rename_candidates_2026-04-22.txt
+│   ├── remaining_rename_candidates_2026-04-22.csv
+│   ├── rename_finalization_2026-04-22.md
+│   ├── rename_map_2026-04-22.txt
+│   ├── rename_net_state_2026-04-22.csv
+│   ├── script_rename_map_2026-04-22.csv
+│   └── shim_aliases_remaining_2026-04-22.txt
+├── scripts/
+│   ├── git-check-size.sh*
+│   └── git-tag-release.sh*
+├── skills-sync-report-20260521-073545/
+│   ├── qwen_vs_active.tsv
+│   ├── qwen_vs_active_diff_snippets.md
+│   ├── sp_sync_manifest.tsv
+│   ├── sp_vs_my-supremepowers.tsv
+│   └── sp_vs_my-supremepowers_diff_snippets.md
+├── supremepowers-path-audit-20260521-074249/
+│   ├── duplicate_skill_names.tsv
+│   ├── existing_paths.txt
+│   ├── input_paths.txt
+│   ├── input_paths_deduped.txt
+│   ├── missing_paths.txt
+│   ├── root_summary.tsv
+│   ├── skill_files.txt
+│   ├── skill_name_to_path.tsv
+│   └── SUMMARY.md
+├── system-report-20260520-215810/
+│   ├── 00-summary.md
+│   ├── 00-summary.txt
+│   ├── 01-system-overview.txt
+│   ├── 02-shell-environment.txt
+│   ├── 03-package-managers-and-runtimes.txt
+│   ├── 04-containers-and-dev-platforms.txt
+│   ├── 05-git-auth-tooling.txt
+│   └── 06-overall-signals.txt
+├── tests/
+│   └── test_150file-download-limit.bats
+├── utils/
+│   └── common_utils.sh
+├── x-cmd/
+│   ├── grok-diagnostics.sh*
+│   ├── grok-diagnostics_v2.sh*
+│   ├── README.md
+│   ├── SETUP_X_CMD_KEYS.sh*
+│   └── SETUP_X_CMD_KEYS_v2.sh*
+├── .aider.chat.history.md
+├── .aider.input.history
+├── .gitattributes
+├── .gitignore
+├── 150file-download-limit.sh*
+├── 300dpi.sh*
+├── 2026-06-10-001542-this-session-is-being-continued-from-a-previous-c.txt
+├── 2026-06-14-180035-this-session-is-being-continued-from-a-previous-c.txt
+├── activate.sh*
+├── add-error-handling.sh*
+├── add-logging-functions-to-scripts.sh*
+├── advanced-collect-dev-env.sh*
+├── advanced-png-optimize.sh*
+├── advanced-system-maintenance-v5-guided.sh*
+├── ADVANCED_META_CSV_GENERATION_COMPLETE.md
+├── advanced_scripts_meta_analysis_report.md
+├── advanced_scripts_meta_summary.txt
+├── AGENT_NORMALIZATION_REGISTRY.md
+├── AGENTS.md
+├── aggressive_git_cleanup.sh*
+├── ai-cli-diagnostics.sh*
+├── ai-resource-manager.sh*
+├── ai-setup-consollidation.sh*
+├── ai-tools-menu-simple.sh*
+├── ai-unified-menu.sh*
+├── ai-watchdog.sh*
+├── ai_tools_menu_simple.sh*
+├── ai_unified_menu.sh*
+├── analysis-launcher.sh*
+├── analysis-toolkit-start-here.sh*
+├── analysis_summary_2026-05-09_16-33-00.md
+├── analysis_summary_2026-05-09_16-46-37.md
+├── analysis_summary_2026-05-09_17-12-50.md
+├── analysis_summary_2026-05-09_17-14-42.md
+├── analysis_summary_2026-05-09_17-16-22.md
+├── analysis_summary_2026-05-18_07-44-54.md
+├── analysis_summary_2026-05-18_07-46-34.md
+├── analyze-clean-system-and-integrate-masterxeo.sh*
+├── analyze-drive-content.sh*
+├── analyze-folder-contents.sh*
+├── analyze-inventory.sh*
+├── analyze-local-dirs.sh*
+├── analyze-markdown-content-simple.sh*
+├── analyze-zshrc-startup-performance.sh*
+├── analyze_advanced_meta_csv.py
+├── analyze_python_scripts.py*
+├── analyze_refactoring_priority.py
+├── analyze_scripts.sh*
+├── apply-styles-and-improvements.sh*
+├── apply-zshrc-auto-venv-quick-fix.sh*
+├── archive-etsy.sh*
+├── Archive.zip
+├── audio-metadata-csv.sh*
+├── audio-metadata-with-lufs.sh*
+├── audit-package-conflicts.sh*
+├── audit-python-project.sh*
+├── audit-zshrc-environment-dependencies.sh*
+├── audit_environments.sh*
+├── auto-activate-mamba-env-by-directory.sh*
+├── auto.sh*
+├── autoclean.sh*
+├── automate-seo-optimization.sh*
+├── autotagger-launcher.sh*
+├── autotools-cleanup.sh*
+├── avatararts-content-aware-consolidation-script.sh*
+├── avatararts-packaging-script.sh*
+├── avatararts-restructure-verify.sh*
+├── avatararts-restructuring-master.sh*
+├── avatararts.sh*
+├── back-clean.sh*
+├── backup-and-clean-brew-python.sh*
+├── backup-nocturnemelodies-collection.sh*
+├── backup-nonmac-to-bakup.sh*
+├── backup_dotfiles.sh*
+├── batch-drive-analysis.sh*
+├── batch-mp3-to-mp4-with-image.sh*
+├── batch-process-mp3-files.sh*
+├── bootstrap.sh*
+├── brew_list.txt
+├── bulk-download.sh*
+├── bun_list.txt
+├── BUNDLE_STRUCTURE_SUMMARY.md
+├── capture-lag.sh*
+├── carbon-automation-v4.sh*
+├── carbon-batch-v4.sh*
+├── CARBON_CONSOLIDATION_PREVIEW.md
+├── CHANGELOG.md
+├── check-all-package-conflicts.sh*
+├── check-api-keys.sh*
+├── check-env-keys.sh*
+├── check-grok-setup.sh*
+├── check-performance.sh*
+├── check-quicklook-conflicts.sh*
+├── check_grok_setup_full.sh*
+├── chrome-lag-audit.sh*
+├── CLAUDE-code-setup.md
+├── clean-directory-names.sh*
+├── clean-global-pip.sh*
+├── cleanimg.sh*
+├── CLEANUP_SCRIPTS_COMPARISON.md
+├── clipboard-fuzzy-search.sh*
+├── clipboard-search-helpers.sh*
+├── clone-my-github-repos.sh*
+├── collect-dev-env-advanced.sh*
+├── collect-dev-env.sh*
+├── collect-dev-env0.sh*
+├── combine.sh*
+├── compare-files.sh*
+├── compare-pdfs.sh*
+├── compare-trashcats-pdfs.sh*
+├── compare_files.sh*
+├── comprehensive-home-inventory.sh*
+├── COMPREHENSIVE_ECOSYSTEM_IMPROVEMENTS_SUMMARY.md
+├── comprehensive_home_inventory.sh*
+├── COMPREHENSIVE_OPTIMIZATION_REPORT.md
+├── compress-mp4-to-1080x1920-alt.sh*
+├── compress-mp4-to-1080x1920.sh*
+├── compress-videos.sh*
+├── compress_videos.sh*
+├── configure-python-default.sh*
+├── configure_python_default.sh*
+├── consolidate-business-ecosystem.sh*
+├── consolidate-into-masterxeo.sh*
+├── consolidate-marketmaster.sh*
+├── consolidate-masterxeo-assets.sh*
+├── consolidate-masterxeo-simple.sh*
+├── consolidate-remaining-gumroad.sh*
+├── consolidate_business_ecosystem.sh*
+├── consolidate_into_masterxeo.sh*
+├── consolidate_marketmaster.sh*
+├── consolidate_remaining_gumroad.sh*
+├── CONSOLIDATED_CLEANUP_README.md
+├── CONSOLIDATED_UPDATE_README.md
+├── consolidation-ai-setup.sh*
+├── consolidation-preview.sh*
+├── consolidation-setup.sh*
+├── content-aware-rename.sh*
+├── content-quality-analyzer.sh*
+├── CONTENT_AND_CONTEXT_AWARE_ANALYSIS.md
+├── content_aware_rename.sh*
+├── content_quality_analyzer.sh*
+├── CONTEXT7_QUICK_START.md
+├── conversation-fuzzy-finder.sh*
+├── conversation_fuzzy_finder.sh*
+├── convert-avif-to-jpg.sh*
+├── convert-gallery-images-300dpi.sh*
+├── convert-tiff-to-png.sh*
+├── convert-to-mp3.sh*
+├── convert-to-static-html.sh*
+├── convert-to-webp.sh*
+├── convert-webm-list-to-mp3.sh*
+├── convert-webp-folder-to-jpeg-300dpi.sh*
+├── convert_to_mp3.sh*
+├── convert_to_webp.sh*
+├── copy-file-or-text-to-clipboard.sh*
+├── create-cleanup-csv.sh*
+├── create-comprehensive-index.sh*
+├── create-csv-snapshot.sh*
+├── create-marketplace-structures.sh*
+├── create-structure.sh*
+├── create-venv.sh*
+├── create_comprehensive_index.sh*
+├── create_marketplace_structures.sh*
+├── create_structure.sh*
+├── create_venv.sh*
+├── debug-moving-files.sh*
+├── debug_moving_files.sh*
+├── deepindex-examples.sh*
+├── deepindex_examples.sh*
+├── delete-files-from-image-path-lists.sh*
+├── demo-progress-bar.sh*
+├── deploy-quantumforgelabs.sh*
+├── deploy-to-github-legacy-20251023210156.sh*
+├── deploy-to-github.sh*
+├── deploy-to-github_20251023210156.sh*
+├── deploy-website-build-export.sh*
+├── deploy.sh*
+├── deploy_quantumforgelabs.sh*
+├── dev.sh*
+├── diff-trashcats-pdfs.sh*
+├── disk-cleanup-analysis.sh*
+├── docs-07-10-02:31.csv
+├── docs.py
+├── docs.txt
+├── DOCUMENTATION.md
+├── download-images-from-csv.sh*
+├── download-images-from-remote-csv.sh*
+├── download-new-files.sh*
+├── download_new_files.sh*
+├── downloads-cleaner.sh*
+├── downs.sh*
+├── duplicates-to-csv.sh*
+├── ecosystem-enhancer.sh*
+├── ECOSYSTEM_IMPROVEMENTS_SUMMARY.md
+├── elasticsearch-setup.sh*
+├── elasticsearch_setup.sh*
+├── ENCRYPT_SENSITIVE_ENV_FILES_README.md
+├── enhanced-cleanup.sh*
+├── enhanced-encrypt-sensitive-env-files.sh*
+├── enhanced_encrypt_sensitive_env_files.sh*
+├── enrich-inventory.sh*
+├── enriched-multi-platforms-20260521.log
+├── enriched-requested-roots-existing.txt
+├── enriched-scripts.csv
+├── EVOLVED_SCRIPTS_README.md
+├── execute-complete-ecosystem-scan.sh*
+├── execute-special-cases.sh*
+├── execute_special_cases.sh*
+├── export-iterm2-full-tree.sh*
+├── fill-api-keys.sh*
+├── fill_api_keys.sh*
+├── filter-lost-file-path-list-corrected.sh*
+├── filter-lost-file-path-list.sh*
+├── final_comprehensive_analysis.sh*
+├── final_masterxeo_organization.sh*
+├── finalize-typescript-quicklook-fix.sh*
+├── finish_business_integration.sh*
+├── fix-python.sh*
+├── fix.md
+├── fix.sh*
+├── fix_package_conflicts.sh*
+├── fix_quicklook_conflicts.sh*
+├── fix_ts_content_type.sh*
+├── fix_ts_quicklook.sh*
+├── fix_ts_quicklook_final.sh*
+├── fix_zip_preview.sh*
+├── fixer.sh*
+├── force-typescript-files-text-content-type.sh*
+├── format-project-docs-professional.sh*
+├── format_lost_files.sh*
+├── format_lost_files_corrected.sh*
+├── full-home-backup.sh*
+├── gallery_batch_process.sh*
+├── gemini-evolved.md
+├── generate-advanced-scripts-meta-csv.sh*
+├── generate-check-grok-setup-full.sh*
+├── generate-file-inventory-csv.sh*
+├── generate-home-tree-exports.sh*
+├── generate-mac-analysis-report.sh*
+├── generate-marketmaster-complete-guide.sh*
+├── generate-marketmaster-final-guide.sh*
+├── generate-masterxeo-organization-report.sh*
+├── generate-steven-website-project.sh*
+├── generate_advanced_meta_csv.py
+├── generate_csv.sh*
+├── generate_noi_static_site.py
+├── grok-cli-menu.sh*
+├── grok-full-setup-diagnostic.sh*
+├── grok-interactive.sh*
+├── grok_integration.sh*
+├── grok_menu.sh*
+├── HARBOR_ONE_PAGER.md
+├── HOME_DIR_AUDIT.md
+├── HOME_DIRECTORY_CLEANUP_README.md
+├── home_tree.sh*
+├── img-removebg.sh*
+├── implement-three-folder-home-organization.sh*
+├── implement_intuitive_organization.sh*
+├── improve_logging.sh*
+├── improve_python_ecosystem.py
+├── IMPROVEMENTS_MADE.md
+├── index-hidden-and-recent-home-files.sh*
+├── INDEX.md
+├── index_hidden_recent_files.sh*
+├── init_spend_analysis.sh*
+├── initialize-ai-resources.sh*
+├── inject_error_handling.sh*
+├── install-miniforge-brew-stack.sh*
+├── install-miniforge-default-env.sh*
+├── install-ollama-embedding-models.sh*
+├── install-ollama-general-models.sh*
+├── install-ollama-reasoning-models.sh*
+├── install-ollama-safety-models.sh*
+├── install-ollama-vision-models.sh*
+├── install-tox-command.sh*
+├── install.sh*
+├── install_dependencies.sh*
+├── install_embeddings.sh*
+├── install_general.sh*
+├── install_miniforge_brew_stack.sh*
+├── install_miniforge_default.sh*
+├── install_reasoning.sh*
+├── install_safety.sh*
+├── install_vision.sh*
+├── integrate-autotagger-mcphooker-whoosh.sh*
+├── integrate-masterxeo-into-marketmaster.sh*
+├── integrate-styles-into-projects.sh*
+├── integrate_systems.sh*
+├── iterm2_full_tree.py
+├── iterm2_full_tree.sh*
+├── iterm2_tree_summary_helper.py
+├── launch-enhanced-system-update.sh*
+├── launch-intelligent-organization-menu.sh*
+├── launch_automation.sh*
+├── lint-format-python-tree.sh*
+├── list-installed-package-managers.sh*
+├── list.sh*
+├── list_packages.sh*
+├── local-ecosystem-audit.py*
+├── 'Lyra Exporter Fetch-7.5.user.js'
+├── mac-cleanup-pro.sh*
+├── mac-cleanup-pro.sh.bak*
+├── mac-lag-audit.sh*
+├── mac-leftovers-audit.sh*
+├── mac-maintenance-technomancer.sh*
+├── mac_analyze_report.sh*
+├── mac_diag.sh*
+├── maintenance-scheduler.sh*
+├── MAINTENANCE_SCRIPTS_DOCUMENTATION.md
+├── MAINTENANCE_SCRIPTS_EXAMPLES_AND_BEST_PRACTICES.md
+├── MAINTENANCE_SCRIPTS_FEATURE_GUIDE.md
+├── Make-Content-Automation-setup.sh*
+├── make_cvs_snapshot.sh*
+├── mamba-env-activation-helper.sh*
+├── mamba-environment-manager.sh*
+├── manage-extensions.sh*
+├── manage-mcp-tokens.sh*
+├── manage-zshrc-config-profiles.sh*
+├── manage_envs.sh*
+├── map-files-into-masterxeo-framework.sh*
+├── marketmaster_complete_guide.sh*
+├── marketmaster_final_guide.sh*
+├── marketmaster_nav.sh*
+├── master-home-organization.sh*
+├── master_optimize.sh*
+├── master_script_manager.sh*
+├── masterxeo-advanced-manager.sh*
+├── masterxeo-orchestrator.sh*
+├── masterxeo-status-check.sh*
+├── masterxeo_consolidation.sh*
+├── mcp-lifecycle-manager.sh*
+├── mcp-process-manager.sh*
+├── media-organizer-install.sh*
+├── merge-and-organize-drive-content.sh*
+├── merge-diff-podcast-files.sh*
+├── merge-diff-reports.sh*
+├── merge-similar-markdown-files.sh*
+├── merge_diff_1.sh*
+├── migrate-python-envs-to-mamba.sh*
+├── move-claude-directories.sh*
+├── move-files-into-batches-1000.sh*
+├── move-marketplace-docs.sh*
+├── move-tracking-functions.sh*
+├── mp3-to-mp4-with-image.sh*
+├── mp3toMp4.sh*
+├── mp4-to-transcript-analysis-alt.sh*
+├── mp4-to-transcript-analysis.sh*
+├── mp4-transcription-pipeline.sh*
+├── mp4-txt.sh*
+├── mp4-txt_1.sh*
+├── noi_data_checker.sh*
+├── noi_data_checker_with_links.sh*
+├── noi_to_site.sh*
+├── npm-dev-server.sh*
+├── npm_list.json
+├── npm_list_global.json
+├── npx-wrapper.sh*
+├── o250.sh*
+├── oh-my-zsh.sh*
+├── ollama-model-menu.sh*
+├── open-clipboard-navigation-ui.sh*
+├── open-documents-archive-index.sh*
+├── open-marketmaster-navigation.sh*
+├── open-suno-urls-sequentially.sh*
+├── open_archive.sh*
+├── opencode-setup.sh*
+├── opentabs.sh*
+├── ORGANIZATION_COMPARISON.md
+├── ORGANIZATION_SUMMARY.md
+├── organize-brew-python.md
+├── organize-documents-by-rules.sh*
+├── organize-masterxeo-lost-files-complete.sh*
+├── organize-masterxeo-lost-files.sh*
+├── package-info-report.sh*
+├── package-inventory-report.sh*
+├── package-manager-quick-fix-commands.sh*
+├── package_info.sh*
+├── pip-reinstall-ai.sh*
+├── pip_list.txt
+├── png.sh*
+├── preview-comprehensive-inventory-report.sh*
+├── preview-consolidation-dry-run.sh*
+├── preview-three-folder-organization-plan.sh*
+├── preview_intuitive_organization.sh*
+├── print-final-filesystem-analysis-summary.sh*
+├── process-mp3-transcribe-analyze-legacy.sh*
+├── process-mp4-transcribe-analyze-create-video-v2.sh*
+├── process-music-and-create-video.sh*
+├── process_music.sh*
+├── purge-launchctl-nonapple-overrides.sh*
+├── python-env-cleanup.sh*
+├── python-toolchain-bootstrap-verify.sh*
+├── quick_searches.sh*
+├── QWEN.md
+├── read-this.txt
+├── README.md
+├── readpdf.sh*
+├── reboot-into-recovery-mode.sh*
+├── recovery.sh*
+├── recreate-venv-and-install-requirements.sh*
+├── recursive_content_aware_rename.sh*
+├── regenerate-carbon-images.sh*
+├── remove-duplicate-files-safe-phase1.sh*
+├── remove-duplicate-python-files-phase1-safe.sh*
+├── remove-duplicate-python-files-phase2-with-review.sh*
+├── remove-git-from-noncritical-projects.sh*
+├── remove-unused-python-packages.sh*
+├── reorganize_files.sh*
+├── repair-disk-with-sip-workflow.sh*
+├── repair-quicklook-plugin-symlinks.sh*
+├── repair-zip-quicklook-preview.sh*
+├── reset-quicklook-for-typescript-files.sh*
+├── resize-images-to-max-size.sh*
+├── restore-autotagger-environment-reference.sh*
+├── revert-documents-organization-from-csv.sh*
+├── rsnapreport.pl
+├── rsnapshot-diff.pl
+├── rsync-downloader.sh*
+├── rsync_icloud.sh*
+├── rsync_sitesuck.sh*
+├── run-all-static-projects.sh*
+├── run-analyze-drive-content-shortcut.sh*
+├── run-analyze-folder-contents-shortcut.sh*
+├── run-analyze-inventory-shortcut.sh*
+├── run-analyze-local-dirs-shortcut.sh*
+├── run-apply-styles-and-improvements-shortcut.sh*
+├── run-archive-etsy-shortcut.sh*
+├── run-audio-metadata-csv-shortcut.sh*
+├── run-audio-metadata-with-lufs-shortcut.sh*
+├── run-avatararts-content-aware-consolidation-shortcut.sh*
+├── run-avatararts-restructure-verify-shortcut.sh*
+├── run-avatararts-restructuring-master-shortcut.sh*
+├── run-batch-drive-analysis-shortcut.sh*
+├── run-bulk-download-shortcut.sh*
+├── run-chatgpt-agent.sh*
+├── run-clean-organizer-batch.sh*
+├── run-clipboard-fuzzy-search-shortcut.sh*
+├── run-download-images-from-csv-shortcut.sh*
+├── run-ecosystem-agent-manager.sh*
+├── run-filesystem-migration.sh*
+├── run-gallery-batch-init-build.sh*
+├── run-improvements-test-suite.sh*
+├── run-integrate-styles-into-projects-shortcut.sh*
+├── run-mac-diagnostics.sh*
+├── run-master-home-organization-shortcut.sh*
+├── run-master-optimization.sh*
+├── run-master-script-manager.sh*
+├── run-mcp-diagnostics.sh*
+├── run-multi-folder-analysis.sh*
+├── run-package-manager-quick-fix-commands-shortcut.sh*
+├── run-python-ecosystem-improvements.sh*
+├── run-rsnapshot-if-mounted.sh*
+├── run-setup-all-projects-with-styles-shortcut.sh*
+├── run-static-server.sh*
+├── run-transcribe-media-whisper-gpt-shortcut.sh*
+├── run-ultra-deep-analysis.sh*
+├── run-ultra-simple-demo-script.sh*
+├── run-volume-analysis-batch.sh*
+├── run-whisper-text-to-csv-export.sh*
+├── run.sh*
+├── safe_recursive_rename.sh*
+├── sample-dangerous-rm-script.sh*
+├── sample_script.sh*
+├── SAVED_WORK_SUMMARY.md
+├── scaffold-spend-analysis-pipeline.sh*
+├── scan-hidden-and-recent-home-files.sh*
+├── scan_divinepython.sh*
+├── script-fixer.sh*
+├── scripts.zip
+├── SCRIPTS_EXPLORATION.md
+├── SCRIPTS_FULL_INVENTORY.md
+├── SCRIPTS_INDEX.md
+├── search-file-index.sh*
+├── search-project-indexes.sh*
+├── search_files.sh*
+├── search_helpers.sh*
+├── search_projects.sh*
+├── select-ai-model-profile.sh*
+├── set-dpi.sh*
+├── setup-ai-apis.sh*
+├── setup-all-projects-with-styles.sh*
+├── setup-cleanconnect.sh*
+├── setup-consolidation.sh*
+├── setup-development-environment.sh*
+├── setup-env-d-only.sh*
+├── setup-grok-cli-aliases.sh*
+├── setup-Harbor-Aider.sh*
+├── setup-make-content-automation.sh*
+├── setup-mamba.sh*
+├── setup-ml-model-environment.sh*
+├── setup_environment.sh*
+├── setup_opencode.sh*
+├── share_mac_diagnostics.sh*
+├── shorty.sh*
+├── sign-release-packages-gpg.sh*
+├── sign_packages.sh*
+├── simple-three-folder-consolidation.sh*
+├── simple_consolidation.sh*
+├── skills-lock.json
+├── split-audio-example-files.sh*
+├── split-chat-html-assets.sh*
+├── split-tall-images-into-sections.sh*
+├── split-video-for-youtube-shorts.sh*
+├── split_iterm2_log.sh*
+├── spotlight-control.sh*
+├── standardize-script-shebang-lines.sh*
+├── start-mobile-node-server.sh*
+├── start-mobile.sh*
+├── start-suno-analytics-jupyter.sh*
+├── steven-ecosystem-audit-readonly.sh
+├── steven-home-eza-tree-readonly.sh
+├── STEVEN_DIRECTORY_ANALYSIS_SUMMARY.md
+├── sync-sftp-mirror.sh*
+├── system-maintenance.sh*
+├── system-report.sh*
+├── system-resource-governor.sh*
+├── system-updater-pro.sh*
+├── test-env-d-only.sh*
+├── test-first-10-rename-rules.sh*
+├── test-typescript-quicklook-support.sh*
+├── token_list.txt
+├── track_move.sh*
+├── transcribe-media-whisper-gpt.sh*
+├── transcribe-mp3-and-analyze.sh*
+├── transcribe.sh*
+├── tshirt.sh*
+├── uninstall-ollama-coding-models.sh*
+├── uninstall-ollama-embedding-models.sh*
+├── uninstall-ollama-general-models.sh*
+├── uninstall-ollama-reasoning-models.sh*
+├── uninstall-ollama-safety-models.sh*
+├── uninstall-ollama-vision-models.sh*
+├── update-log-20260416-164954.log
+├── update-log-20260417-042704.log
+├── update-log-20260419-124411.log
+├── update-log-20260419-165708.log
+├── update-log-20260422-144015.log
+├── update-log-20260422-145029.log
+├── update-log-20260508-151445.log
+├── update-log-20260509-125220.log
+├── update-log-20260510-124835.log
+├── update-log-20260510-195020.log
+├── update-log-20260510-212109.log
+├── update-log-20260511-144336.log
+├── update-log-20260511-205043.log
+├── update-log-20260511-231949.log
+├── update-log-20260512-163316.log
+├── update-log-20260512-204311.log
+├── update-log-20260517-223633.log
+├── update-log-20260520-225631.log
+├── update-log-20260521-041636.log
+├── update-log-20260521-042238.log
+├── update-log-20260521-172138.log
+├── update-log-20260602-080759.log
+├── update-log-20260609-232513.log
+├── update-log-20260709-004922.log
+├── update-log-20260709-005338.log
+├── update-log-20260709-005757.log
+├── update-log-20260709-012105.log
+├── updater-pro.sh*
+├── updater-pro.sh.bak*
+├── upload-dad-playlist.sh*
+├── upload.sh*
+├── upscale-images-2x-300dpi.sh*
+├── upscale-mp4-2x.sh*
+├── upscale-mp4.sh*
+├── upscale-tshirt-png-4500x5400-300dpi.sh*
+├── upscale.sh*
+├── upscaler.sh*
+├── upshort.sh*
+├── upvid.sh*
+├── verify-masterxeo-integration-links.sh*
+├── vid-resize-1080-1029upshort.sh*
+├── wav_to_mp3.sh*
+├── webm-mp3.sh*
+├── xvif-to-jpg.sh*
+├── youtube-upload-test-video.sh*
+├── ZSH_MCP_SETUP_COMPLETE.md
+├── zshrc-debug-questionnaire.sh*
+├── zshrc_config_answers.md
+└── zshrc_fixes_summary.md

@@ -10,6 +10,12 @@ metadata:
   hermes:
     tags: [Abliteration, Uncensoring, Refusal-Removal, LLM, Weight-Projection, SVD, Mechanistic-Interpretability, HuggingFace, Model-Surgery]
     related_skills: [vllm, gguf, huggingface-tokenizers]
+    related_resolution:
+      vllm: local-skill:serving-llms-vllm
+      gguf: local-skill:gguf-quantization
+      huggingface-tokenizers: external-skill:huggingface-tokenizers
+changelog:
+  - "2026-08-15: Added additive alias resolution metadata; preserved related_skills."
 ---
 
 # OBLITERATUS Skill

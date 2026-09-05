@@ -1,0 +1,43 @@
+{
+  "name": "plugin-creator-review-2026-08-08",
+  "type": "skill-review",
+  "status": "remediated",
+  "created_at": "2026-08-08",
+  "sources": [
+    "/Users/steven/.codex/skills/.system/plugin-creator/SKILL.md",
+    "/Users/steven/.codex/skills/.system/plugin-creator/scripts/create_basic_plugin.py",
+    "/Users/steven/.codex/skills/.system/plugin-creator/scripts/validate_plugin.py",
+    "/Users/steven/.codex/skills/.system/plugin-creator/references/plugin-json-spec.md"
+  ],
+  "outputs": [
+    "plugin-creator-review.md",
+    "deep-audit.md",
+    "repair-verification.md",
+    "test-results.md",
+    "test_plugin_creator_audit.py",
+    "session-export.md",
+    "session-export.json"
+  ],
+  "findings": {
+    "high": 4,
+    "medium": 5,
+    "low": 3
+  },
+  "verification": {
+    "python_compile": "passed",
+    "skill_validation": "passed",
+    "regression_probes": 7,
+    "regression_status": "passed",
+    "ruff_findings_before_repair": 13,
+    "ruff_findings_after_repair": 0,
+    "codex_regression_tests_passed": 7,
+    "agent_skills_regression_tests_passed": 7,
+    "full_directory_parity": "passed",
+    "codex_cli_version": "0.147.0"
+  },
+  "limitations": [
+    "No external services or credentials inspected.",
+    "No plugin was installed into Codex.",
+    "No external plugin was installed or marketplace configuration mutated."
+  ]
+}

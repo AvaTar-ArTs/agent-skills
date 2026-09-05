@@ -1,0 +1,235 @@
+{
+  "config": "/Users/steven/.codex/config.toml",
+  "duplicate_urls": {},
+  "schema": "codex-mcp-audit/v1",
+  "security_findings": [
+    {
+      "finding": "literal authorization-like header in config",
+      "header_names": [
+        "Authorization"
+      ],
+      "remediation": "rotate the credential and use a secret/environment mechanism",
+      "server": "engram",
+      "severity": "high"
+    },
+    {
+      "finding": "literal authorization-like header in config",
+      "header_names": [
+        "Authorization"
+      ],
+      "remediation": "rotate the credential and use a secret/environment mechanism",
+      "server": "vidIQ",
+      "severity": "high"
+    }
+  ],
+  "server_count": 10,
+  "servers": [
+    {
+      "args_count": 5,
+      "command": "docker",
+      "command_exists": false,
+      "cwd": null,
+      "enabled": false,
+      "env_names": [],
+      "header_names": [],
+      "host": null,
+      "host_resolves": null,
+      "literal_secret_headers": [],
+      "missing_env_names": [],
+      "name": "MCP_DOCKER",
+      "resolved_command": null,
+      "tools_restricted": false,
+      "transport": "stdio",
+      "url": null
+    },
+    {
+      "args_count": null,
+      "command": null,
+      "command_exists": null,
+      "cwd": null,
+      "enabled": true,
+      "env_names": [],
+      "header_names": [],
+      "host": "127.0.0.1",
+      "host_resolves": null,
+      "literal_secret_headers": [],
+      "missing_env_names": [],
+      "name": "Paste",
+      "resolved_command": null,
+      "tools_restricted": false,
+      "transport": "http",
+      "url": "http://127.0.0.1:39725/mcp"
+    },
+    {
+      "args_count": null,
+      "command": null,
+      "command_exists": null,
+      "cwd": null,
+      "enabled": false,
+      "env_names": [],
+      "header_names": [],
+      "host": "127.0.0.1",
+      "host_resolves": null,
+      "literal_secret_headers": [],
+      "missing_env_names": [],
+      "name": "ccassist",
+      "resolved_command": null,
+      "tools_restricted": false,
+      "transport": "http",
+      "url": "http://127.0.0.1:52389/mcp"
+    },
+    {
+      "args_count": 1,
+      "command": "node",
+      "command_exists": true,
+      "cwd": null,
+      "enabled": true,
+      "env_names": [
+        "CT_DATA_DIR",
+        "NODE_PATH"
+      ],
+      "header_names": [],
+      "host": null,
+      "host_resolves": null,
+      "literal_secret_headers": [],
+      "missing_env_names": [],
+      "name": "claude-terminal",
+      "resolved_command": "/usr/local/bin/node",
+      "tools_restricted": false,
+      "transport": "stdio",
+      "url": null
+    },
+    {
+      "args_count": 1,
+      "command": "./Codex Computer Use.app/Contents/SharedSupport/SkyComputerUseClient.app/Contents/MacOS/SkyComputerUseClient",
+      "command_exists": false,
+      "cwd": ".",
+      "enabled": false,
+      "env_names": [],
+      "header_names": [],
+      "host": null,
+      "host_resolves": null,
+      "literal_secret_headers": [],
+      "missing_env_names": [],
+      "name": "computer-use",
+      "resolved_command": "Codex Computer Use.app/Contents/SharedSupport/SkyComputerUseClient.app/Contents/MacOS/SkyComputerUseClient",
+      "tools_restricted": false,
+      "transport": "stdio",
+      "url": null
+    },
+    {
+      "args_count": 1,
+      "command": "/Users/steven/.local/bin/cua-driver",
+      "command_exists": true,
+      "cwd": null,
+      "enabled": true,
+      "env_names": [],
+      "header_names": [],
+      "host": null,
+      "host_resolves": null,
+      "literal_secret_headers": [],
+      "missing_env_names": [],
+      "name": "cua_driver",
+      "resolved_command": "/Users/steven/.local/bin/cua-driver",
+      "tools_restricted": true,
+      "transport": "stdio",
+      "url": null
+    },
+    {
+      "args_count": null,
+      "command": null,
+      "command_exists": null,
+      "cwd": null,
+      "enabled": true,
+      "env_names": [],
+      "header_names": [
+        "Authorization"
+      ],
+      "host": "mcp.getengram.app",
+      "host_resolves": false,
+      "literal_secret_headers": [
+        "Authorization"
+      ],
+      "missing_env_names": [],
+      "name": "engram",
+      "resolved_command": null,
+      "tools_restricted": false,
+      "transport": "http",
+      "url": "https://mcp.getengram.app/mcp"
+    },
+    {
+      "args_count": 0,
+      "command": "/Applications/ChatGPT.app/Contents/Resources/cua_node/bin/node_repl",
+      "command_exists": true,
+      "cwd": null,
+      "enabled": true,
+      "env_names": [
+        "BROWSER_USE_AVAILABLE_BACKENDS",
+        "BROWSER_USE_CODEX_APP_BUILD_FLAVOR",
+        "BROWSER_USE_CODEX_APP_VERSION",
+        "CODEX_CLI_PATH",
+        "CODEX_HOME",
+        "NODE_REPL_INSTRUCTIONS_USE_CASE_BROWSER",
+        "NODE_REPL_INSTRUCTIONS_USE_CASE_CHROME",
+        "NODE_REPL_INSTRUCTIONS_USE_CASE_COMPUTER_USE",
+        "NODE_REPL_NATIVE_PIPE_CONNECT_TIMEOUT_MS",
+        "NODE_REPL_NODE_MODULE_DIRS",
+        "NODE_REPL_NODE_PATH",
+        "NODE_REPL_TRUSTED_CODE_PATHS",
+        "NODE_REPL_TRUSTED_SERVICES"
+      ],
+      "header_names": [],
+      "host": null,
+      "host_resolves": null,
+      "literal_secret_headers": [],
+      "missing_env_names": [],
+      "name": "node_repl",
+      "resolved_command": "/Applications/ChatGPT.app/Contents/Resources/cua_node/bin/node_repl",
+      "tools_restricted": false,
+      "transport": "stdio",
+      "url": null
+    },
+    {
+      "args_count": 4,
+      "command": "npx",
+      "command_exists": true,
+      "cwd": null,
+      "enabled": true,
+      "env_names": [
+        "CLAUDE_FLOW_CWD"
+      ],
+      "header_names": [],
+      "host": null,
+      "host_resolves": null,
+      "literal_secret_headers": [],
+      "missing_env_names": [],
+      "name": "ruflo",
+      "resolved_command": "/usr/local/bin/npx",
+      "tools_restricted": false,
+      "transport": "stdio",
+      "url": null
+    },
+    {
+      "args_count": null,
+      "command": null,
+      "command_exists": null,
+      "cwd": null,
+      "enabled": true,
+      "env_names": [],
+      "header_names": [
+        "Authorization"
+      ],
+      "host": "mcp.vidiq.com",
+      "host_resolves": false,
+      "literal_secret_headers": [
+        "Authorization"
+      ],
+      "missing_env_names": [],
+      "name": "vidIQ",
+      "resolved_command": null,
+      "tools_restricted": false,
+      "transport": "http",
+      "url": "https://mcp.vidiq.com/mcp"
+    }
+  ]
+}

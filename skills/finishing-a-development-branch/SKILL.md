@@ -1,6 +1,8 @@
 ---
 name: finishing-a-development-branch
-description: Use when implementation is complete, all tests pass, and you need to decide how to integrate the work - guides completion of development work by presenting structured options for merge, PR, or cleanup
+description: Use when implementation, regression testing, verification, and code review are complete and the development branch needs an integration decision. Present structured options for merge, PR, release, or cleanup.
+changelog:
+  - "2026-08-15: Made testing, verification, and code-review completion prerequisites explicit."
 ---
 
 # Finishing a Development Branch

@@ -9,6 +9,10 @@ metadata:
   hermes:
     tags: [TouchDesigner, MCP, twozero, creative-coding, real-time-visuals, generative-art, audio-reactive, VJ, installation, GLSL]
     related_skills: [native-mcp, ascii-video, manim-video, hermes-video]
+    related_resolution:
+      hermes-video: local-skill:hyperframes
+changelog:
+  - "2026-08-15: Added additive alias resolution metadata; preserved related_skills."
 
 ---
 

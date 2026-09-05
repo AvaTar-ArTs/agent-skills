@@ -1,0 +1,314 @@
+/Users/steven/.agent-skills/
+├── .claude/
+│   └── settings.local.json
+├── .codex-history/
+├── agents/
+│   ├── 1-eng-specialist-pack/
+│   ├── 2-personal-tooled/
+│   ├── 3-contains-studio/
+│   ├── 5-misc-personal/
+│   ├── commands/
+│   ├── deep-learning/
+│   ├── documentation/
+│   ├── gemini-roles/
+│   ├── skill-creator/
+│   ├── skill-installer/
+│   ├── skill-porter/
+│   ├── agent-creation-guidance.md
+│   ├── AGENT_PATTERN_GUIDE.md
+│   ├── agents-meta.csv
+│   ├── ai-engineer.md*
+│   ├── ai-music-video-creator.md
+│   ├── ai-workflow-manager.md
+│   ├── ai-xeo.md
+│   ├── analytics-reporter.md*
+│   ├── api-specialist.md
+│   ├── api-tester.md*
+│   ├── app-store-optimizer.md*
+│   ├── ask.md
+│   ├── avatararts-organizer.md
+│   ├── backend-architect.md
+│   ├── bots.md
+│   ├── brand-guardian.md*
+│   ├── capability-atlas.md
+│   ├── cleanup-manifest.csv
+│   ├── code-review.md
+│   ├── code-reviewer.md
+│   ├── coh-modder.md
+│   ├── consolidator-agent.md
+│   ├── content-consolidator.md
+│   ├── content-creator.md*
+│   ├── content-organizer.md
+│   ├── context-fetcher.md*
+│   ├── context-handoff-compiler.md
+│   ├── context-management.md
+│   ├── conversation-analyzer.md
+│   ├── database-specialist.md
+│   ├── date-checker.md*
+│   ├── devops-automator.md*
+│   ├── devops-engineer.md
+│   ├── docs-06-21-12:39.csv
+│   ├── docs.txt
+│   ├── documentation-management.md
+│   ├── documentation-manager.md
+│   ├── ecosystem-analyzer.md
+│   ├── ecosystem-dev.md
+│   ├── ecosystem-learning.md
+│   ├── ecosystem-synergy.md
+│   ├── enriched-agents.csv
+│   ├── experiment-tracker.md*
+│   ├── feedback-synthesizer.md*
+│   ├── file-creator.md*
+│   ├── filesystem-inventory.md
+│   ├── finance-tracker.md*
+│   ├── frontend-architect.md
+│   ├── frontend-developer.md*
+│   ├── git-workflow.md*
+│   ├── growth-hacker.md*
+│   ├── ice-tracker-assistant.md
+│   ├── infrastructure-maintainer.md*
+│   ├── innate-memory-agent.md
+│   ├── instagram-curator.md*
+│   ├── integrated-evolution.md
+│   ├── iterm2-ecosystem-dev.md
+│   ├── javascript-expert.md
+│   ├── joker.md*
+│   ├── knowledge-automation-strategist.md
+│   ├── knowledge-fetcher.md*
+│   ├── legal-compliance-checker.md*
+│   ├── local-ecosystem-auditor.md
+│   ├── MANIFEST.csv
+│   ├── mobile-app-builder.md*
+│   ├── notebooklm-enhancement-advisor.md
+│   ├── openai.yaml
+│   ├── path-list-analyzer.md
+│   ├── performance-benchmarker.md*
+│   ├── performance-engineer.md
+│   ├── plan.md
+│   ├── project-launch-manager.md
+│   ├── project-shipper.md*
+│   ├── python-expert.md
+│   ├── rapid-prototyper.md*
+│   ├── README.md
+│   ├── reddit-community-builder.md*
+│   ├── revenue-optimizer.md
+│   ├── review.md
+│   ├── rule-definition.md
+│   ├── security-engineer.md
+│   ├── self-evolution.md
+│   ├── seo-keyword-analyst.md
+│   ├── sorty.md
+│   ├── sprint-prioritizer.md*
+│   ├── studio-coach.md*
+│   ├── studio-producer.md*
+│   ├── support-responder.md*
+│   ├── system-analysis.md
+│   ├── system-analyzer.md
+│   ├── system-architect.md
+│   ├── task-management.md
+│   ├── technical-writer.md
+│   ├── test-agent.md
+│   ├── test-results-analyzer.md*
+│   ├── test-writer-fixer.md*
+│   ├── testing-specialist.md
+│   ├── tiktok-strategist.md*
+│   ├── tool-evaluator.md*
+│   ├── tree-explorer.md
+│   ├── trend-researcher.md*
+│   ├── twitter-engager.md*
+│   ├── ui-designer.md*
+│   ├── ux-researcher.md*
+│   ├── visual-storyteller.md*
+│   ├── whimsy-injector.md*
+│   ├── workflow-optimizer.md*
+│   ├── workflow-orchestrator.md
+│   └── xeo-strategist.md
+├── deep-research/
+│   ├── README.md
+│   └── SKILL.md*
+├── docs/
+│   ├── imports/
+│   ├── plans/
+│   ├── AGENTS-CATALOG.md
+│   ├── ARCHITECTURE.md
+│   ├── CHANGELOG.md
+│   ├── DIRECTORIES.md
+│   ├── EVOLUTION_AND_ITEM_HISTORY.md
+│   ├── MY_SUPREMEPOWERS_CONSOLIDATION.md
+│   ├── README.md
+│   ├── SKILLS-CATALOG.md
+│   └── TDD-ADVANCED.md
+├── hooks/
+│   ├── pre-tool-autocontext.sh*
+│   └── README.md
+├── memory/
+│   ├── exports/
+│   ├── scripts/
+│   ├── README.md
+│   └── shared.sqlite
+├── scripts/
+│   ├── pipelines/
+│   ├── chatgpt-exporter-userscript.js
+│   ├── discover-ecosystem.sh*
+│   ├── export_catalog_csv.py
+│   ├── innate-context.sh*
+│   ├── inspect_md_content.py
+│   ├── README.md
+│   └── summarize_what_they_do.py
+├── skills/
+│   ├── .system/
+│   ├── agent-creation-guidance/
+│   ├── agent-development/
+│   ├── agmsg/
+│   ├── apple/
+│   ├── automation-recommender/
+│   ├── autonomous-ai-agents/
+│   ├── avalonia-port/
+│   ├── brainstorm/
+│   ├── brainstorm-modes/
+│   ├── brainstorming/
+│   ├── build-mcp-app/
+│   ├── build-mcp-server/
+│   ├── build-mcpb/
+│   ├── capability-atlas/
+│   ├── ccassist/
+│   ├── ccxt-csharp/
+│   ├── ccxt-go/
+│   ├── ccxt-php/
+│   ├── ccxt-typescript/
+│   ├── chat-history-export/
+│   ├── claude-md-improver/
+│   ├── coh-mod -> /Users/steven/CoX-mod-Adventure/coh-mod/
+│   ├── coh-mod-narrator -> /Users/steven/CoX-mod-Adventure/coh-mod-narrator/
+│   ├── coh-mod-publisher/
+│   ├── comic/
+│   ├── command-development/
+│   ├── create-agents/
+│   ├── create-skill/
+│   ├── creative/
+│   ├── cross-tool-memory/
+│   ├── cua-driver/
+│   ├── cursor-integration/
+│   ├── data-science/
+│   ├── deep-learning/
+│   ├── design-taste-frontend/
+│   ├── devops/
+│   ├── devtu-fix-tool/
+│   ├── devtu-optimize-descriptions/
+│   ├── devtu-optimize-skills/
+│   ├── discord-access/
+│   ├── discord-configure/
+│   ├── dispatching-parallel-agents/
+│   ├── dogfood/
+│   ├── dormant_archives/
+│   ├── ecosystem-clarity/
+│   ├── ecosystem-intelligence/
+│   ├── ecosystem-navigation/
+│   ├── email/
+│   ├── executing-plans/
+│   ├── eza-nav/
+│   ├── fal-image-gen/
+│   ├── find-docs/
+│   ├── find-skills/
+│   ├── finishing-a-development-branch/
+│   ├── frontend-design/
+│   ├── frontend-ux-modernizer/
+│   ├── game-forum-research/
+│   ├── gaming/
+│   ├── git-ai-assistant/
+│   ├── git-ai-cursor-integration/
+│   ├── github/
+│   ├── hermes-integration/
+│   ├── hook-development/
+│   ├── ice-tracker-integration/
+│   ├── imessage-access/
+│   ├── imessage-configure/
+│   ├── innate-workflow/
+│   ├── managing-ecosystem-cleanup/
+│   ├── math-olympiad-solver/
+│   ├── mcp/
+│   ├── mcp-app-development-principles/
+│   ├── mcp-integration/
+│   ├── media/
+│   ├── mlops/
+│   ├── mythic-atlas/
+│   ├── narrative-blueprints/
+│   ├── narrative-documentation/
+│   ├── note-taking/
+│   ├── notebooklm/
+│   ├── playground/
+│   ├── plugin-settings/
+│   ├── plugin-structure/
+│   ├── productivity/
+│   ├── receiving-code-review/
+│   ├── red-teaming/
+│   ├── research/
+│   ├── rule-definition-patterns/
+│   ├── self-assistance/
+│   ├── self-evolving-memory/
+│   ├── self-improvement/
+│   ├── session-export/
+│   ├── session-report/
+│   ├── setup-tooluniverse/
+│   ├── skill-creator/
+│   ├── skill-development/
+│   ├── skill-installer/
+│   ├── skill-porter-examples/
+│   ├── smart-home/
+│   ├── social-media/
+│   ├── software-development/
+│   ├── sora/
+│   ├── taste-skill/
+│   ├── telegram-access/
+│   ├── telegram-configure/
+│   ├── tooluniverse/
+│   ├── tooluniverse-clinical-trial-design/
+│   ├── tooluniverse-sequence-retrieval/
+│   ├── using-git-worktrees/
+│   ├── using-superpowers/
+│   ├── verification-before-completion/
+│   ├── workflow-bootstrap/
+│   ├── workspace-ecosystem-audit/
+│   ├── writing-rules/
+│   ├── writing-skills/
+│   ├── ccxt-cli -> ../../.agents/skills/ccxt-cli
+│   ├── ccxt-python -> ../../.agents/skills/ccxt-python
+│   ├── checkpoint.skill
+│   ├── docs-06-21-12:37.csv
+│   ├── docs.txt
+│   ├── README.md
+│   ├── skills-meta.csv
+│   └── VERSIONING_NOTES.md
+├── tmp/
+│   └── chozen-land.txt
+├── tmp-csv/
+│   ├── agents-catalog-CHANGELOG.md
+│   ├── agents-catalog.csv
+│   ├── md-content-index-CHANGELOG.md
+│   ├── md-content-index.csv
+│   ├── what-they-do-CHANGELOG.md
+│   └── what-they-do.csv
+├── tmp-md/
+│   ├── md-content-report.md
+│   └── what-they-do.md
+├── .gitignore
+├── .skill-lock.json
+├── agent-skills-meta.csv
+├── agents.zip
+├── agents_three_way_audit.json
+├── agents_three_way_audit.md
+├── agents_vs_agent_skills_audit.json
+├── agents_vs_agent_skills_audit.md
+├── docs-07-12-21:16.csv
+├── docs-08-08-03:48.csv
+├── docs.txt
+├── docs.zip
+├── ECOSYSTEM.md
+├── enriched-.agent-skills.csv
+├── enriched-.agents.csv
+├── INDEX.md
+├── memory.zip
+├── PATH_SCANNING_TEMPLATE.md
+├── README.md
+├── scripts.zip
+└── skills.zip

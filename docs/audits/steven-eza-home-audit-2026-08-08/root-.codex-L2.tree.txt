@@ -1,0 +1,66 @@
+/Users/steven/.codex/
+├── .tmp/
+│   ├── plugins/
+│   ├── plugins.sha
+│   └── plugins.sync.lock
+├── agents -> /Users/steven/.agent-skills/agents/
+├── cache/
+│   ├── codex_app_directory/
+│   ├── codex_apps_server_info/
+│   ├── codex_apps_tools/
+│   └── remote_plugin_catalog/
+├── generated_images/
+│   └── 019f7af9-8459-75f3-a80d-6bc0ca7a9d60/
+├── ipc/
+│   └── ipc.sock=
+├── log/
+├── mcp-oauth-locks/
+│   └── file-store.lock
+├── memories/
+│   └── cox-eso/
+├── plugins/
+│   ├── .remote-plugin-install-staging/
+│   └── cache/
+├── rules/
+│   └── default.rules
+├── sessions/
+│   └── 2026/
+├── shell_snapshots/
+│   └── 019fe32e-4562-70e1-a4b0-0ab4d73984d8.1786222888324839000.sh
+├── skills/
+│   ├── .system/
+│   ├── ccassist/
+│   └── comic/
+├── superpowers -> /Users/steven/.agent-skills/skills/using-superpowers/
+├── thread-writer-locks/
+│   ├── .coordination.lock
+│   └── 019fe32e-4562-70e1-a4b0-0ab4d73984d8.lock
+├── tmp/
+│   └── arg0/
+├── .personality_migration
+├── .sandbox_migration
+├── auth.json
+├── config.toml
+├── config.toml.ccassist-backup-2026-08-08T11-38-09-589Z
+├── goals_1.sqlite
+├── goals_1.sqlite-shm
+├── goals_1.sqlite-wal
+├── history.jsonl
+├── installation_id
+├── logs_2.sqlite
+├── logs_2.sqlite-shm
+├── logs_2.sqlite-wal
+├── memories_1.sqlite
+├── memories_1.sqlite-shm
+├── memories_1.sqlite-wal
+├── models_cache.json
+├── queue_1.sqlite
+├── queue_1.sqlite-shm
+├── queue_1.sqlite-wal
+├── state_5.sqlite
+├── state_5.sqlite-shm
+├── state_5.sqlite-wal
+├── thread_history_1.sqlite
+├── thread_history_1.sqlite-shm
+├── thread_history_1.sqlite-wal
+└── version.json

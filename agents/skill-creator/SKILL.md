@@ -1,7 +1,10 @@
 ---
 name: skill-creator
 description: Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Codex's capabilities with specialized knowledge, workflows, or tool integrations.
-metadata: short-description: Create or update a skill
+metadata:
+  short-description: Create or update a skill
+changelog:
+  - "2026-08-15: Repaired malformed frontmatter; preserved the file body."
 ---
 
 # Skill Creator This skill provides guidance for creating effective skills. ## About Skills Skills are modular, self-contained folders that extend Codex's capabilities by providing

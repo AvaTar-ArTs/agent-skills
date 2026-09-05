@@ -1,0 +1,35 @@
+# Merge Candidates
+
+- **skill-creator** ↔ **skill-creator**: 100.0% — Merge
+- **skill-installer** ↔ **skill-installer**: 100.0% — Merge
+- **skill-installer** ↔ **skill-installer**: 100.0% — Merge
+- **skill-installer** ↔ **skill-installer**: 100.0% — Merge
+- **simple-claude-skill** ↔ **simple-claude-skill**: 100.0% — Merge
+- **api-connector-converted** ↔ **api-connector-converted**: 100.0% — Merge
+- **code-formatter-converted** ↔ **code-formatter-converted**: 100.0% — Merge
+- **skill-creator** ↔ **skill-creator**: 91.0% — Merge
+- **skill-creator** ↔ **skill-creator**: 91.0% — Merge
+- **imagegen-frontend-mobile** ↔ **imagegen-frontend-web**: 89.1% — Merge
+- **taste-skill** ↔ **taste-skill**: 86.4% — Review overlap
+- **skill-porter** ↔ **skill-porter-examples**: 80.9% — Review overlap
+- **test-driven-development** ↔ **subagent-driven-development**: 80.2% — Review overlap
+- **pytorch-debugging** ↔ **tensorflow-debugging**: 79.2% — Review overlap
+- **gpt-tasteskill** ↔ **taste-skill**: 77.4% — Review overlap
+- **session-export** ↔ **session-report**: 77.0% — Review overlap
+- **ccxt-go** ↔ **ccxt-php**: 76.7% — Review overlap
+- **receiving-code-review** ↔ **requesting-code-review**: 76.6% — Review overlap
+- **setup-tooluniverse** ↔ **tooluniverse**: 76.0% — Review overlap
+- **ccxt-csharp** ↔ **ccxt-php**: 75.6% — Review overlap
+- **frontend-design** ↔ **frontend-ux-modernizer**: 75.4% — Review overlap
+- **hook-development** ↔ **skill-development**: 75.2% — Review overlap
+- **baoyu-comic** ↔ **baoyu-infographic**: 75.0% — Review overlap
+- **agent-development** ↔ **command-development**: 74.4% — Review overlap
+- **discord-access** ↔ **imessage-access**: 73.4% — Review overlap
+- **codex** ↔ **opencode**: 73.1% — Review overlap
+- **find-skills** ↔ **writing-skills**: 72.9% — Review overlap
+- **build-mcp-app** ↔ **build-mcpb**: 72.8% — Review overlap
+- **imessage-configure** ↔ **telegram-configure**: 72.8% — Review overlap
+- **ccxt-php** ↔ **ccxt-typescript**: 72.6% — Review overlap
+- **apple-notes** ↔ **apple-reminders**: 72.5% — Review overlap
+- **taste-skill** ↔ **gpt-tasteskill**: 72.4% — Review overlap
+- **skill-development** ↔ **test-driven-development**: 72.3% — Review overlap

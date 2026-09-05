@@ -1,0 +1,11 @@
+{
+  "name": "steven-home-review-2026-08-14",
+  "type": "filesystem-structure-review",
+  "status": "durable",
+  "source_root": "/Users/steven",
+  "skills_used": ["ecosystem-intelligence", "eza-nav"],
+  "prior_snapshot": "steven-eza-home-audit-2026-08-08",
+  "content_inspected": false,
+  "mutations": false,
+  "artifacts": ["README.md", "findings.md", "manifest.json"]
+}

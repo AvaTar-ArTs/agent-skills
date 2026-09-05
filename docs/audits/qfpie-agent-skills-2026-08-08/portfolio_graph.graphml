@@ -1,0 +1,1207 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d4" for="edge" attr.name="similarity" attr.type="double" />
+  <key id="d3" for="edge" attr.name="relation" attr.type="string" />
+  <key id="d2" for="node" attr.name="recommendation" attr.type="string" />
+  <key id="d1" for="node" attr.name="score" attr.type="double" />
+  <key id="d0" for="node" attr.name="path" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="skills">
+      <data key="d0">/Users/steven/.agent-skills/skills</data>
+      <data key="d1">66.0</data>
+      <data key="d2">Package next</data>
+    </node>
+    <node id=".agent-skills">
+      <data key="d0">/Users/steven/.agent-skills</data>
+      <data key="d1">63.5</data>
+      <data key="d2">Develop / merge</data>
+    </node>
+    <node id="comfyui">
+      <data key="d0">/Users/steven/.agent-skills/skills/creative/comfyui</data>
+      <data key="d1">56.4</data>
+      <data key="d2">Develop / merge</data>
+    </node>
+    <node id="taste-skill">
+      <data key="d0">/Users/steven/.agent-skills/skills/taste-skill/skills/taste-skill</data>
+      <data key="d1">34.7</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="agents">
+      <data key="d0">/Users/steven/.agent-skills/agents</data>
+      <data key="d1">50.9</data>
+      <data key="d2">Develop / merge</data>
+    </node>
+    <node id="imagegen">
+      <data key="d0">/Users/steven/.agent-skills/skills/.system/imagegen</data>
+      <data key="d1">50.3</data>
+      <data key="d2">Develop / merge</data>
+    </node>
+    <node id="devtu-fix-tool">
+      <data key="d0">/Users/steven/.agent-skills/skills/devtu-fix-tool</data>
+      <data key="d1">50.0</data>
+      <data key="d2">Develop / merge</data>
+    </node>
+    <node id="tests">
+      <data key="d0">/Users/steven/.agent-skills/skills/creative/comfyui/tests</data>
+      <data key="d1">49.4</data>
+      <data key="d2">Develop / merge</data>
+    </node>
+    <node id="ascii-video">
+      <data key="d0">/Users/steven/.agent-skills/skills/creative/ascii-video</data>
+      <data key="d1">48.3</data>
+      <data key="d2">Develop / merge</data>
+    </node>
+    <node id="automation-recommender">
+      <data key="d0">/Users/steven/.agent-skills/skills/automation-recommender</data>
+      <data key="d1">47.5</data>
+      <data key="d2">Develop / merge</data>
+    </node>
+    <node id="manim-video">
+      <data key="d0">/Users/steven/.agent-skills/skills/creative/manim-video</data>
+      <data key="d1">46.4</data>
+      <data key="d2">Develop / merge</data>
+    </node>
+    <node id="structured-asset-pipeline">
+      <data key="d0">/Users/steven/.agent-skills/skills/creative/structured-asset-pipeline</data>
+      <data key="d1">45.5</data>
+      <data key="d2">Develop / merge</data>
+    </node>
+    <node id="research-paper-writing">
+      <data key="d0">/Users/steven/.agent-skills/skills/research/research-paper-writing</data>
+      <data key="d1">45.3</data>
+      <data key="d2">Develop / merge</data>
+    </node>
+    <node id="ascii-art">
+      <data key="d0">/Users/steven/.agent-skills/skills/creative/ascii-art</data>
+      <data key="d1">44.5</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="audiocraft">
+      <data key="d0">/Users/steven/.agent-skills/skills/mlops/models/audiocraft</data>
+      <data key="d1">44.5</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="sora">
+      <data key="d0">/Users/steven/.agent-skills/skills/sora</data>
+      <data key="d1">44.5</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="brandkit">
+      <data key="d0">/Users/steven/.agent-skills/skills/taste-skill/skills/brandkit</data>
+      <data key="d1">44.5</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="image-to-code-skill">
+      <data key="d0">/Users/steven/.agent-skills/skills/taste-skill/skills/image-to-code-skill</data>
+      <data key="d1">44.5</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="imagegen-frontend-mobile">
+      <data key="d0">/Users/steven/.agent-skills/skills/taste-skill/skills/imagegen-frontend-mobile</data>
+      <data key="d1">44.5</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="imagegen-frontend-web">
+      <data key="d0">/Users/steven/.agent-skills/skills/taste-skill/skills/imagegen-frontend-web</data>
+      <data key="d1">44.5</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="skill-creator">
+      <data key="d0">/Users/steven/.agent-skills/skills/skill-creator</data>
+      <data key="d1">43.3</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="openai-docs">
+      <data key="d0">/Users/steven/.agent-skills/skills/.system/openai-docs</data>
+      <data key="d1">43.3</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="skill-porter">
+      <data key="d0">/Users/steven/.agent-skills/agents/skill-porter</data>
+      <data key="d1">43.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="skill-porter-examples">
+      <data key="d0">/Users/steven/.agent-skills/skills/skill-porter-examples</data>
+      <data key="d1">43.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="songsee">
+      <data key="d0">/Users/steven/.agent-skills/skills/media/songsee</data>
+      <data key="d1">42.5</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="skill-installer">
+      <data key="d0">/Users/steven/.agent-skills/skills/skill-installer</data>
+      <data key="d1">42.1</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="ice-tracker-integration">
+      <data key="d0">/Users/steven/.agent-skills/skills/ice-tracker-integration</data>
+      <data key="d1">42.0</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="cua-driver">
+      <data key="d0">/Users/steven/.agent-skills/skills/cua-driver</data>
+      <data key="d1">41.3</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="humanizer">
+      <data key="d0">/Users/steven/.agent-skills/skills/creative/humanizer</data>
+      <data key="d1">40.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="google-workspace">
+      <data key="d0">/Users/steven/.agent-skills/skills/productivity/google-workspace</data>
+      <data key="d1">40.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="powerpoint">
+      <data key="d0">/Users/steven/.agent-skills/skills/productivity/powerpoint</data>
+      <data key="d1">40.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="scripts">
+      <data key="d0">/Users/steven/.agent-skills/scripts</data>
+      <data key="d1">40.1</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="setup-tooluniverse">
+      <data key="d0">/Users/steven/.agent-skills/skills/setup-tooluniverse</data>
+      <data key="d1">39.5</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="workflows">
+      <data key="d0">/Users/steven/.agent-skills/skills/creative/comfyui/workflows</data>
+      <data key="d1">39.4</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="plugin-creator">
+      <data key="d0">/Users/steven/.agent-skills/skills/.system/plugin-creator</data>
+      <data key="d1">39.3</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="templates">
+      <data key="d0">/Users/steven/.agent-skills/skills/research/research-paper-writing/templates</data>
+      <data key="d1">37.7</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="memory">
+      <data key="d0">/Users/steven/.agent-skills/memory</data>
+      <data key="d1">37.5</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="macos-computer-use">
+      <data key="d0">/Users/steven/.agent-skills/skills/apple/macos-computer-use</data>
+      <data key="d1">37.5</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="claude-code">
+      <data key="d0">/Users/steven/.agent-skills/skills/autonomous-ai-agents/claude-code</data>
+      <data key="d1">37.5</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="hermes-agent">
+      <data key="d0">/Users/steven/.agent-skills/skills/autonomous-ai-agents/hermes-agent</data>
+      <data key="d1">37.5</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="build-mcp-app">
+      <data key="d0">/Users/steven/.agent-skills/skills/build-mcp-app</data>
+      <data key="d1">37.5</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="build-mcp-server">
+      <data key="d0">/Users/steven/.agent-skills/skills/build-mcp-server</data>
+      <data key="d1">37.5</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="build-mcpb">
+      <data key="d0">/Users/steven/.agent-skills/skills/build-mcpb</data>
+      <data key="d1">37.5</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="ccassist">
+      <data key="d0">/Users/steven/.agent-skills/skills/ccassist</data>
+      <data key="d1">37.5</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="create-agents">
+      <data key="d0">/Users/steven/.agent-skills/skills/create-agents</data>
+      <data key="d1">37.5</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="create-skill">
+      <data key="d0">/Users/steven/.agent-skills/skills/create-skill</data>
+      <data key="d1">37.5</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="baoyu-comic">
+      <data key="d0">/Users/steven/.agent-skills/skills/creative/baoyu-comic</data>
+      <data key="d1">37.5</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="baoyu-infographic">
+      <data key="d0">/Users/steven/.agent-skills/skills/creative/baoyu-infographic</data>
+      <data key="d1">37.5</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="claude-design">
+      <data key="d0">/Users/steven/.agent-skills/skills/creative/claude-design</data>
+      <data key="d1">37.5</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="touchdesigner-mcp">
+      <data key="d0">/Users/steven/.agent-skills/skills/creative/touchdesigner-mcp</data>
+      <data key="d1">37.5</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="model-deployment">
+      <data key="d0">/Users/steven/.agent-skills/skills/deep-learning/model-deployment</data>
+      <data key="d1">37.5</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="design-taste-frontend">
+      <data key="d0">/Users/steven/.agent-skills/skills/design-taste-frontend</data>
+      <data key="d1">37.5</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="devtu-optimize-skills">
+      <data key="d0">/Users/steven/.agent-skills/skills/devtu-optimize-skills</data>
+      <data key="d1">37.5</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="find-skills">
+      <data key="d0">/Users/steven/.agent-skills/skills/find-skills</data>
+      <data key="d1">37.5</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="github-issues">
+      <data key="d0">/Users/steven/.agent-skills/skills/github/github-issues</data>
+      <data key="d1">37.5</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="hook-development">
+      <data key="d0">/Users/steven/.agent-skills/skills/hook-development</data>
+      <data key="d1">37.5</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="obliteratus">
+      <data key="d0">/Users/steven/.agent-skills/skills/mlops/inference/obliteratus</data>
+      <data key="d1">37.5</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="vllm">
+      <data key="d0">/Users/steven/.agent-skills/skills/mlops/inference/vllm</data>
+      <data key="d1">37.5</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="notebooklm">
+      <data key="d0">/Users/steven/.agent-skills/skills/notebooklm</data>
+      <data key="d1">37.5</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="plugin-settings">
+      <data key="d0">/Users/steven/.agent-skills/skills/plugin-settings</data>
+      <data key="d1">37.5</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="plugin-structure">
+      <data key="d0">/Users/steven/.agent-skills/skills/plugin-structure</data>
+      <data key="d1">37.5</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="airtable">
+      <data key="d0">/Users/steven/.agent-skills/skills/productivity/airtable</data>
+      <data key="d1">37.5</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="linear">
+      <data key="d0">/Users/steven/.agent-skills/skills/productivity/linear</data>
+      <data key="d1">37.5</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="godmode">
+      <data key="d0">/Users/steven/.agent-skills/skills/red-teaming/godmode</data>
+      <data key="d1">37.5</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="arxiv">
+      <data key="d0">/Users/steven/.agent-skills/skills/research/arxiv</data>
+      <data key="d1">37.5</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="llm-wiki">
+      <data key="d0">/Users/steven/.agent-skills/skills/research/llm-wiki</data>
+      <data key="d1">37.5</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="session-export">
+      <data key="d0">/Users/steven/.agent-skills/skills/session-export</data>
+      <data key="d1">37.5</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="skill-development">
+      <data key="d0">/Users/steven/.agent-skills/skills/skill-development</data>
+      <data key="d1">37.5</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="test-driven-development">
+      <data key="d0">/Users/steven/.agent-skills/skills/software-development/test-driven-development</data>
+      <data key="d1">37.5</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="laziness">
+      <data key="d0">/Users/steven/.agent-skills/skills/taste-skill/research/laziness</data>
+      <data key="d1">37.5</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="gpt-tasteskill">
+      <data key="d0">/Users/steven/.agent-skills/skills/taste-skill/skills/gpt-tasteskill</data>
+      <data key="d1">37.5</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="tooluniverse">
+      <data key="d0">/Users/steven/.agent-skills/skills/tooluniverse</data>
+      <data key="d1">37.5</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="tooluniverse-clinical-trial-design">
+      <data key="d0">/Users/steven/.agent-skills/skills/tooluniverse-clinical-trial-design</data>
+      <data key="d1">37.5</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="tooluniverse-sequence-retrieval">
+      <data key="d0">/Users/steven/.agent-skills/skills/tooluniverse-sequence-retrieval</data>
+      <data key="d1">37.5</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="writing-skills">
+      <data key="d0">/Users/steven/.agent-skills/skills/writing-skills</data>
+      <data key="d1">37.5</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="ecosystem-layering">
+      <data key="d0">/Users/steven/.agent-skills/skills/autonomous-ai-agents/ecosystem-layering</data>
+      <data key="d1">36.9</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="innate-workflow">
+      <data key="d0">/Users/steven/.agent-skills/skills/innate-workflow</data>
+      <data key="d1">36.9</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="managing-ecosystem-cleanup">
+      <data key="d0">/Users/steven/.agent-skills/skills/managing-ecosystem-cleanup</data>
+      <data key="d1">36.9</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="mcp-app-development-principles">
+      <data key="d0">/Users/steven/.agent-skills/skills/mcp-app-development-principles</data>
+      <data key="d1">36.9</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="mcp-integration">
+      <data key="d0">/Users/steven/.agent-skills/skills/mcp-integration</data>
+      <data key="d1">36.9</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="native-mcp">
+      <data key="d0">/Users/steven/.agent-skills/skills/mcp/native-mcp</data>
+      <data key="d1">36.9</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="hermes-agent-skill-authoring">
+      <data key="d0">/Users/steven/.agent-skills/skills/software-development/hermes-agent-skill-authoring</data>
+      <data key="d1">36.9</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="spike">
+      <data key="d0">/Users/steven/.agent-skills/skills/software-development/spike</data>
+      <data key="d1">36.9</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="stitch-skill">
+      <data key="d0">/Users/steven/.agent-skills/skills/taste-skill/skills/stitch-skill</data>
+      <data key="d1">36.9</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="using-superpowers">
+      <data key="d0">/Users/steven/.agent-skills/skills/using-superpowers</data>
+      <data key="d1">36.9</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="deep-research">
+      <data key="d0">/Users/steven/.agent-skills/deep-research</data>
+      <data key="d1">36.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="docs">
+      <data key="d0">/Users/steven/.agent-skills/docs</data>
+      <data key="d1">36.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="agent-development">
+      <data key="d0">/Users/steven/.agent-skills/skills/agent-development</data>
+      <data key="d1">36.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="agmsg">
+      <data key="d0">/Users/steven/.agent-skills/skills/agmsg</data>
+      <data key="d1">36.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="apple-notes">
+      <data key="d0">/Users/steven/.agent-skills/skills/apple/apple-notes</data>
+      <data key="d1">36.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="apple-reminders">
+      <data key="d0">/Users/steven/.agent-skills/skills/apple/apple-reminders</data>
+      <data key="d1">36.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="findmy">
+      <data key="d0">/Users/steven/.agent-skills/skills/apple/findmy</data>
+      <data key="d1">36.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="imessage">
+      <data key="d0">/Users/steven/.agent-skills/skills/apple/imessage</data>
+      <data key="d1">36.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="codex">
+      <data key="d0">/Users/steven/.agent-skills/skills/autonomous-ai-agents/codex</data>
+      <data key="d1">36.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="opencode">
+      <data key="d0">/Users/steven/.agent-skills/skills/autonomous-ai-agents/opencode</data>
+      <data key="d1">36.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="capability-atlas">
+      <data key="d0">/Users/steven/.agent-skills/skills/capability-atlas</data>
+      <data key="d1">36.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="chat-history-export">
+      <data key="d0">/Users/steven/.agent-skills/skills/chat-history-export</data>
+      <data key="d1">36.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="claude-md-improver">
+      <data key="d0">/Users/steven/.agent-skills/skills/claude-md-improver</data>
+      <data key="d1">36.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="comic">
+      <data key="d0">/Users/steven/.agent-skills/skills/comic</data>
+      <data key="d1">36.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="command-development">
+      <data key="d0">/Users/steven/.agent-skills/skills/command-development</data>
+      <data key="d1">36.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="architecture-diagram">
+      <data key="d0">/Users/steven/.agent-skills/skills/creative/architecture-diagram</data>
+      <data key="d1">36.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="design-md">
+      <data key="d0">/Users/steven/.agent-skills/skills/creative/design-md</data>
+      <data key="d1">36.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="excalidraw">
+      <data key="d0">/Users/steven/.agent-skills/skills/creative/excalidraw</data>
+      <data key="d1">36.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="p5js">
+      <data key="d0">/Users/steven/.agent-skills/skills/creative/p5js</data>
+      <data key="d1">36.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="popular-web-designs">
+      <data key="d0">/Users/steven/.agent-skills/skills/creative/popular-web-designs</data>
+      <data key="d1">36.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="pretext">
+      <data key="d0">/Users/steven/.agent-skills/skills/creative/pretext</data>
+      <data key="d1">36.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="sketch">
+      <data key="d0">/Users/steven/.agent-skills/skills/creative/sketch</data>
+      <data key="d1">36.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="cross-tool-memory">
+      <data key="d0">/Users/steven/.agent-skills/skills/cross-tool-memory</data>
+      <data key="d1">36.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="cursor-integration">
+      <data key="d0">/Users/steven/.agent-skills/skills/cursor-integration</data>
+      <data key="d1">36.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="jupyter-live-kernel">
+      <data key="d0">/Users/steven/.agent-skills/skills/data-science/jupyter-live-kernel</data>
+      <data key="d1">36.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="dataset-preparation">
+      <data key="d0">/Users/steven/.agent-skills/skills/deep-learning/dataset-preparation</data>
+      <data key="d1">36.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="experiment-tracking">
+      <data key="d0">/Users/steven/.agent-skills/skills/deep-learning/experiment-tracking</data>
+      <data key="d1">36.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="model-training-workflow">
+      <data key="d0">/Users/steven/.agent-skills/skills/deep-learning/model-training-workflow</data>
+      <data key="d1">36.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="kanban-orchestrator">
+      <data key="d0">/Users/steven/.agent-skills/skills/devops/kanban-orchestrator</data>
+      <data key="d1">36.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="kanban-worker">
+      <data key="d0">/Users/steven/.agent-skills/skills/devops/kanban-worker</data>
+      <data key="d1">36.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="webhook-subscriptions">
+      <data key="d0">/Users/steven/.agent-skills/skills/devops/webhook-subscriptions</data>
+      <data key="d1">36.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="himalaya">
+      <data key="d0">/Users/steven/.agent-skills/skills/email/himalaya</data>
+      <data key="d1">36.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="minecraft-modpack-server">
+      <data key="d0">/Users/steven/.agent-skills/skills/gaming/minecraft-modpack-server</data>
+      <data key="d1">36.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="pokemon-player">
+      <data key="d0">/Users/steven/.agent-skills/skills/gaming/pokemon-player</data>
+      <data key="d1">36.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="git-ai-cursor-integration">
+      <data key="d0">/Users/steven/.agent-skills/skills/git-ai-cursor-integration</data>
+      <data key="d1">36.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="codebase-inspection">
+      <data key="d0">/Users/steven/.agent-skills/skills/github/codebase-inspection</data>
+      <data key="d1">36.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="github-auth">
+      <data key="d0">/Users/steven/.agent-skills/skills/github/github-auth</data>
+      <data key="d1">36.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="github-code-review">
+      <data key="d0">/Users/steven/.agent-skills/skills/github/github-code-review</data>
+      <data key="d1">36.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="github-pr-workflow">
+      <data key="d0">/Users/steven/.agent-skills/skills/github/github-pr-workflow</data>
+      <data key="d1">36.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="github-repo-management">
+      <data key="d0">/Users/steven/.agent-skills/skills/github/github-repo-management</data>
+      <data key="d1">36.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="math-olympiad-solver">
+      <data key="d0">/Users/steven/.agent-skills/skills/math-olympiad-solver</data>
+      <data key="d1">36.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="gif-search">
+      <data key="d0">/Users/steven/.agent-skills/skills/media/gif-search</data>
+      <data key="d1">36.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="spotify">
+      <data key="d0">/Users/steven/.agent-skills/skills/media/spotify</data>
+      <data key="d1">36.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="weights-and-biases">
+      <data key="d0">/Users/steven/.agent-skills/skills/mlops/evaluation/weights-and-biases</data>
+      <data key="d1">36.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="llama-cpp">
+      <data key="d0">/Users/steven/.agent-skills/skills/mlops/inference/llama-cpp</data>
+      <data key="d1">36.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="dspy">
+      <data key="d0">/Users/steven/.agent-skills/skills/mlops/research/dspy</data>
+      <data key="d1">36.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="ocr-and-documents">
+      <data key="d0">/Users/steven/.agent-skills/skills/productivity/ocr-and-documents</data>
+      <data key="d1">36.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="teams-meeting-pipeline">
+      <data key="d0">/Users/steven/.agent-skills/skills/productivity/teams-meeting-pipeline</data>
+      <data key="d1">36.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="receiving-code-review">
+      <data key="d0">/Users/steven/.agent-skills/skills/receiving-code-review</data>
+      <data key="d1">36.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="polymarket">
+      <data key="d0">/Users/steven/.agent-skills/skills/research/polymarket</data>
+      <data key="d1">36.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="rule-definition-patterns">
+      <data key="d0">/Users/steven/.agent-skills/skills/rule-definition-patterns</data>
+      <data key="d1">36.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="xurl">
+      <data key="d0">/Users/steven/.agent-skills/skills/social-media/xurl</data>
+      <data key="d1">36.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="debugging-hermes-tui-commands">
+      <data key="d0">/Users/steven/.agent-skills/skills/software-development/debugging-hermes-tui-commands</data>
+      <data key="d1">36.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="node-inspect-debugger">
+      <data key="d0">/Users/steven/.agent-skills/skills/software-development/node-inspect-debugger</data>
+      <data key="d1">36.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="plan">
+      <data key="d0">/Users/steven/.agent-skills/skills/software-development/plan</data>
+      <data key="d1">36.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="python-debugpy">
+      <data key="d0">/Users/steven/.agent-skills/skills/software-development/python-debugpy</data>
+      <data key="d1">36.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="requesting-code-review">
+      <data key="d0">/Users/steven/.agent-skills/skills/software-development/requesting-code-review</data>
+      <data key="d1">36.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="subagent-driven-development">
+      <data key="d0">/Users/steven/.agent-skills/skills/software-development/subagent-driven-development</data>
+      <data key="d1">36.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="systematic-debugging">
+      <data key="d0">/Users/steven/.agent-skills/skills/software-development/systematic-debugging</data>
+      <data key="d1">36.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="writing-plans">
+      <data key="d0">/Users/steven/.agent-skills/skills/software-development/writing-plans</data>
+      <data key="d1">36.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="soft-skill">
+      <data key="d0">/Users/steven/.agent-skills/skills/taste-skill/skills/soft-skill</data>
+      <data key="d1">36.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="using-git-worktrees">
+      <data key="d0">/Users/steven/.agent-skills/skills/using-git-worktrees</data>
+      <data key="d1">36.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="workflow-bootstrap">
+      <data key="d0">/Users/steven/.agent-skills/skills/workflow-bootstrap</data>
+      <data key="d1">36.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="workspace-ecosystem-audit">
+      <data key="d0">/Users/steven/.agent-skills/skills/workspace-ecosystem-audit</data>
+      <data key="d1">36.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="writing-rules">
+      <data key="d0">/Users/steven/.agent-skills/skills/writing-rules</data>
+      <data key="d1">36.2</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="brainstorming">
+      <data key="d0">/Users/steven/.agent-skills/skills/brainstorming</data>
+      <data key="d1">36.0</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="hooks">
+      <data key="d0">/Users/steven/.agent-skills/hooks</data>
+      <data key="d1">35.5</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="agent-creation-guidance">
+      <data key="d0">/Users/steven/.agent-skills/skills/agent-creation-guidance</data>
+      <data key="d1">35.3</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="session-report">
+      <data key="d0">/Users/steven/.agent-skills/skills/session-report</data>
+      <data key="d1">35.3</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="youtube-content">
+      <data key="d0">/Users/steven/.agent-skills/skills/media/youtube-content</data>
+      <data key="d1">35.0</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="creative-ideation">
+      <data key="d0">/Users/steven/.agent-skills/skills/creative/creative-ideation</data>
+      <data key="d1">34.7</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="pixel-art">
+      <data key="d0">/Users/steven/.agent-skills/skills/creative/pixel-art</data>
+      <data key="d1">34.7</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="devtu-optimize-descriptions">
+      <data key="d0">/Users/steven/.agent-skills/skills/devtu-optimize-descriptions</data>
+      <data key="d1">34.7</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="dogfood">
+      <data key="d0">/Users/steven/.agent-skills/skills/dogfood</data>
+      <data key="d1">34.7</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="fal-image-gen">
+      <data key="d0">/Users/steven/.agent-skills/skills/fal-image-gen</data>
+      <data key="d1">34.7</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="lm-evaluation-harness">
+      <data key="d0">/Users/steven/.agent-skills/skills/mlops/evaluation/lm-evaluation-harness</data>
+      <data key="d1">34.7</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="segment-anything">
+      <data key="d0">/Users/steven/.agent-skills/skills/mlops/models/segment-anything</data>
+      <data key="d1">34.7</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="playground">
+      <data key="d0">/Users/steven/.agent-skills/skills/playground</data>
+      <data key="d1">34.7</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="maps">
+      <data key="d0">/Users/steven/.agent-skills/skills/productivity/maps</data>
+      <data key="d1">34.7</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="nano-pdf">
+      <data key="d0">/Users/steven/.agent-skills/skills/productivity/nano-pdf</data>
+      <data key="d1">34.7</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="notion">
+      <data key="d0">/Users/steven/.agent-skills/skills/productivity/notion</data>
+      <data key="d1">34.7</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="blogwatcher">
+      <data key="d0">/Users/steven/.agent-skills/skills/research/blogwatcher</data>
+      <data key="d1">34.7</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="brutalist-skill">
+      <data key="d0">/Users/steven/.agent-skills/skills/taste-skill/skills/brutalist-skill</data>
+      <data key="d1">34.7</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="simple-claude-skill">
+      <data key="d0">/Users/steven/.agent-skills/skills/skill-porter-examples/simple-claude-skill</data>
+      <data key="d1">34.3</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="hyperparameter-optimization">
+      <data key="d0">/Users/steven/.agent-skills/skills/deep-learning/hyperparameter-optimization</data>
+      <data key="d1">34.3</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="model-evaluation">
+      <data key="d0">/Users/steven/.agent-skills/skills/deep-learning/model-evaluation</data>
+      <data key="d1">34.3</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="pytorch-debugging">
+      <data key="d0">/Users/steven/.agent-skills/skills/deep-learning/pytorch-debugging</data>
+      <data key="d1">34.3</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="tensorflow-debugging">
+      <data key="d0">/Users/steven/.agent-skills/skills/deep-learning/tensorflow-debugging</data>
+      <data key="d1">34.3</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="transfer-learning-design">
+      <data key="d0">/Users/steven/.agent-skills/skills/deep-learning/transfer-learning-design</data>
+      <data key="d1">34.3</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="dispatching-parallel-agents">
+      <data key="d0">/Users/steven/.agent-skills/skills/dispatching-parallel-agents</data>
+      <data key="d1">34.3</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="ecosystem-clarity">
+      <data key="d0">/Users/steven/.agent-skills/skills/ecosystem-clarity</data>
+      <data key="d1">34.3</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="ecosystem-intelligence">
+      <data key="d0">/Users/steven/.agent-skills/skills/ecosystem-intelligence</data>
+      <data key="d1">34.3</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="finishing-a-development-branch">
+      <data key="d0">/Users/steven/.agent-skills/skills/finishing-a-development-branch</data>
+      <data key="d1">34.3</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="hermes-integration">
+      <data key="d0">/Users/steven/.agent-skills/skills/hermes-integration</data>
+      <data key="d1">34.3</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="narrative-blueprints">
+      <data key="d0">/Users/steven/.agent-skills/skills/narrative-blueprints</data>
+      <data key="d1">34.3</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="self-evolving-memory">
+      <data key="d0">/Users/steven/.agent-skills/skills/self-evolving-memory</data>
+      <data key="d1">34.3</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="verification-before-completion">
+      <data key="d0">/Users/steven/.agent-skills/skills/verification-before-completion</data>
+      <data key="d1">34.3</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="mythic-atlas">
+      <data key="d0">/Users/steven/.agent-skills/skills/mythic-atlas</data>
+      <data key="d1">33.6</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="openhue">
+      <data key="d0">/Users/steven/.agent-skills/skills/smart-home/openhue</data>
+      <data key="d1">32.8</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="ccxt-csharp">
+      <data key="d0">/Users/steven/.agent-skills/skills/ccxt-csharp</data>
+      <data key="d1">31.9</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="ccxt-go">
+      <data key="d0">/Users/steven/.agent-skills/skills/ccxt-go</data>
+      <data key="d1">31.9</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="ccxt-php">
+      <data key="d0">/Users/steven/.agent-skills/skills/ccxt-php</data>
+      <data key="d1">31.9</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="ccxt-typescript">
+      <data key="d0">/Users/steven/.agent-skills/skills/ccxt-typescript</data>
+      <data key="d1">31.9</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="discord-configure">
+      <data key="d0">/Users/steven/.agent-skills/skills/discord-configure</data>
+      <data key="d1">31.9</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="heartmula">
+      <data key="d0">/Users/steven/.agent-skills/skills/media/heartmula</data>
+      <data key="d1">31.9</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="redesign-skill">
+      <data key="d0">/Users/steven/.agent-skills/skills/taste-skill/skills/redesign-skill</data>
+      <data key="d1">31.9</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="api-connector-converted">
+      <data key="d0">/Users/steven/.agent-skills/skills/skill-porter-examples/before-after/api-connector-converted</data>
+      <data key="d1">31.0</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="find-docs">
+      <data key="d0">/Users/steven/.agent-skills/skills/find-docs</data>
+      <data key="d1">31.0</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="huggingface-hub">
+      <data key="d0">/Users/steven/.agent-skills/skills/mlops/huggingface-hub</data>
+      <data key="d1">29.9</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="songwriting-and-ai-music">
+      <data key="d0">/Users/steven/.agent-skills/skills/creative/songwriting-and-ai-music</data>
+      <data key="d1">29.8</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="executing-plans">
+      <data key="d0">/Users/steven/.agent-skills/skills/executing-plans</data>
+      <data key="d1">29.8</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="imessage-configure">
+      <data key="d0">/Users/steven/.agent-skills/skills/imessage-configure</data>
+      <data key="d1">29.8</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="minimalist-skill">
+      <data key="d0">/Users/steven/.agent-skills/skills/taste-skill/skills/minimalist-skill</data>
+      <data key="d1">29.8</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="telegram-configure">
+      <data key="d0">/Users/steven/.agent-skills/skills/telegram-configure</data>
+      <data key="d1">29.8</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="github">
+      <data key="d0">/Users/steven/.agent-skills/skills/github</data>
+      <data key="d1">27.8</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="research">
+      <data key="d0">/Users/steven/.agent-skills/skills/taste-skill/research</data>
+      <data key="d1">15.8</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="narrative-documentation">
+      <data key="d0">/Users/steven/.agent-skills/skills/narrative-documentation</data>
+      <data key="d1">24.1</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="brainstorm">
+      <data key="d0">/Users/steven/.agent-skills/skills/brainstorm</data>
+      <data key="d1">20.0</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="ecosystem-navigation">
+      <data key="d0">/Users/steven/.agent-skills/skills/ecosystem-navigation</data>
+      <data key="d1">20.0</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="frontend-design">
+      <data key="d0">/Users/steven/.agent-skills/skills/frontend-design</data>
+      <data key="d1">20.0</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="frontend-ux-modernizer">
+      <data key="d0">/Users/steven/.agent-skills/skills/frontend-ux-modernizer</data>
+      <data key="d1">20.0</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="self-assistance">
+      <data key="d0">/Users/steven/.agent-skills/skills/self-assistance</data>
+      <data key="d1">19.0</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="code-formatter-converted">
+      <data key="d0">/Users/steven/.agent-skills/skills/skill-porter-examples/before-after/code-formatter-converted</data>
+      <data key="d1">17.9</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="apple">
+      <data key="d0">/Users/steven/.agent-skills/skills/apple</data>
+      <data key="d1">17.9</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="discord-access">
+      <data key="d0">/Users/steven/.agent-skills/skills/discord-access</data>
+      <data key="d1">17.9</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="eza-nav">
+      <data key="d0">/Users/steven/.agent-skills/skills/eza-nav</data>
+      <data key="d1">17.9</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="git-ai-assistant">
+      <data key="d0">/Users/steven/.agent-skills/skills/git-ai-assistant</data>
+      <data key="d1">17.9</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="imessage-access">
+      <data key="d0">/Users/steven/.agent-skills/skills/imessage-access</data>
+      <data key="d1">17.9</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="obsidian">
+      <data key="d0">/Users/steven/.agent-skills/skills/note-taking/obsidian</data>
+      <data key="d1">17.9</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="self-improvement">
+      <data key="d0">/Users/steven/.agent-skills/skills/self-improvement</data>
+      <data key="d1">17.9</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="output-skill">
+      <data key="d0">/Users/steven/.agent-skills/skills/taste-skill/skills/output-skill</data>
+      <data key="d1">17.9</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <node id="telegram-access">
+      <data key="d0">/Users/steven/.agent-skills/skills/telegram-access</data>
+      <data key="d1">17.9</data>
+      <data key="d2">Archive or incubate</data>
+    </node>
+    <edge source="taste-skill" target="taste-skill">
+      <data key="d3">duplicate</data>
+      <data key="d4">86.4</data>
+    </edge>
+    <edge source="taste-skill" target="gpt-tasteskill">
+      <data key="d3">duplicate</data>
+      <data key="d4">72.4</data>
+    </edge>
+    <edge source="imagegen-frontend-mobile" target="imagegen-frontend-web">
+      <data key="d3">duplicate</data>
+      <data key="d4">89.1</data>
+    </edge>
+    <edge source="skill-creator" target="skill-creator">
+      <data key="d3">duplicate</data>
+      <data key="d4">91.0</data>
+    </edge>
+    <edge source="skill-porter" target="skill-porter-examples">
+      <data key="d3">duplicate</data>
+      <data key="d4">80.9</data>
+    </edge>
+    <edge source="skill-installer" target="skill-installer">
+      <data key="d3">duplicate</data>
+      <data key="d4">100.0</data>
+    </edge>
+    <edge source="setup-tooluniverse" target="tooluniverse">
+      <data key="d3">duplicate</data>
+      <data key="d4">76.0</data>
+    </edge>
+    <edge source="build-mcp-app" target="build-mcpb">
+      <data key="d3">duplicate</data>
+      <data key="d4">72.8</data>
+    </edge>
+    <edge source="baoyu-comic" target="baoyu-infographic">
+      <data key="d3">duplicate</data>
+      <data key="d4">75.0</data>
+    </edge>
+    <edge source="find-skills" target="writing-skills">
+      <data key="d3">duplicate</data>
+      <data key="d4">72.9</data>
+    </edge>
+    <edge source="hook-development" target="skill-development">
+      <data key="d3">duplicate</data>
+      <data key="d4">75.2</data>
+    </edge>
+    <edge source="session-export" target="session-report">
+      <data key="d3">duplicate</data>
+      <data key="d4">77.0</data>
+    </edge>
+    <edge source="skill-development" target="test-driven-development">
+      <data key="d3">duplicate</data>
+      <data key="d4">72.3</data>
+    </edge>
+    <edge source="test-driven-development" target="subagent-driven-development">
+      <data key="d3">duplicate</data>
+      <data key="d4">80.2</data>
+    </edge>
+    <edge source="agent-development" target="command-development">
+      <data key="d3">duplicate</data>
+      <data key="d4">74.4</data>
+    </edge>
+    <edge source="apple-notes" target="apple-reminders">
+      <data key="d3">duplicate</data>
+      <data key="d4">72.5</data>
+    </edge>
+    <edge source="codex" target="opencode">
+      <data key="d3">duplicate</data>
+      <data key="d4">73.1</data>
+    </edge>
+    <edge source="receiving-code-review" target="requesting-code-review">
+      <data key="d3">duplicate</data>
+      <data key="d4">76.6</data>
+    </edge>
+    <edge source="simple-claude-skill" target="simple-claude-skill">
+      <data key="d3">duplicate</data>
+      <data key="d4">100.0</data>
+    </edge>
+    <edge source="pytorch-debugging" target="tensorflow-debugging">
+      <data key="d3">duplicate</data>
+      <data key="d4">79.2</data>
+    </edge>
+    <edge source="ccxt-csharp" target="ccxt-php">
+      <data key="d3">duplicate</data>
+      <data key="d4">75.6</data>
+    </edge>
+    <edge source="ccxt-go" target="ccxt-php">
+      <data key="d3">duplicate</data>
+      <data key="d4">76.7</data>
+    </edge>
+    <edge source="ccxt-php" target="ccxt-typescript">
+      <data key="d3">duplicate</data>
+      <data key="d4">72.6</data>
+    </edge>
+    <edge source="api-connector-converted" target="api-connector-converted">
+      <data key="d3">duplicate</data>
+      <data key="d4">100.0</data>
+    </edge>
+    <edge source="imessage-configure" target="telegram-configure">
+      <data key="d3">duplicate</data>
+      <data key="d4">72.8</data>
+    </edge>
+    <edge source="frontend-design" target="frontend-ux-modernizer">
+      <data key="d3">duplicate</data>
+      <data key="d4">75.4</data>
+    </edge>
+    <edge source="code-formatter-converted" target="code-formatter-converted">
+      <data key="d3">duplicate</data>
+      <data key="d4">100.0</data>
+    </edge>
+    <edge source="discord-access" target="imessage-access">
+      <data key="d3">duplicate</data>
+      <data key="d4">73.4</data>
+    </edge>
+  </graph>
+</graphml>

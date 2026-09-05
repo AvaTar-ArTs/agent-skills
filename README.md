@@ -2,9 +2,10 @@
 
 Local agent and skill workspace for reusable AI workflows.
 
-This is the canonical local source for reusable agents and skills. The legacy
-`/Users/steven/.agents` path is kept as a compatibility symlink only; new
+This is the canonical local source for reusable agents and skills. New
 configuration should point directly at `/Users/steven/.agent-skills`.
+`/Users/steven/.agents` is currently a compatibility directory whose
+`skills` entry points here; it is not itself a symlink.
 
 This repository is a living working set. Prefer additive changes, staged outputs,
 and changelogs over destructive cleanup. CSVs are treated as living tables: rows
@@ -23,13 +24,20 @@ changelog beside the CSV.
 
 ## Current Runtime Surface
 
-Last audited: 2026-07-15.
+Last audited: 2026-08-18. See
+`docs/audits/local-agent-skills-review-2026-08-18.md` for scope and findings.
 
-- `agents/`: 108 non-hidden root agent/config files; 221 non-hidden files total.
-- `skills/`: 97 non-hidden top-level directories plus hidden `.system/`; no top-level skill symlinks.
-- Direct/root-visible skills: 79 `SKILL.md` files within depth 2.
-- Local expanded skills: 186 `SKILL.md` files.
-- Symlink-followed runtime-visible skills: 186 `SKILL.md` files.
+- `agents/`: 218 Markdown files in the active tree (excluding README and
+  non-source archive/project areas); 103 are directly under `agents/`.
+- `skills/` plus `deep-research/`: 311 `SKILL.md` files in the active tree.
+- Skill metadata: all 311 active skill files have frontmatter with `name` and
+  `description` fields.
+- Agent metadata: 34 Markdown files are reference/legacy material without
+  frontmatter; `agents/test-agent.md` is the one runtime-like file missing a
+  description.
+- Duplicate names need taxonomy work: 22 skill-name collisions and 70
+  agent-name collisions; many are intentional categorized copies, but they
+  should be explicitly marked as aliases, references, or runtime primaries.
 
 Claude and Codex should consume this tree directly:
 
@@ -38,11 +46,21 @@ Claude and Codex should consume this tree directly:
 - `/Users/steven/.codex/agents -> /Users/steven/.agent-skills/agents`
 - `/Users/steven/.codex/superpowers -> /Users/steven/.agent-skills/skills/using-superpowers`
 
+The repository-local `.claude/skills/` compatibility links are currently
+broken and are not the same as the healthy host-level
+`/Users/steven/.claude/skills` link. Repair or remove those 25 links before
+using the repository-local Claude configuration.
+
 Codex note: `/Users/steven/.codex/skills` is an existing managed directory with
 system skills, not a symlink to this tree.
 
 `INDEX.md` is the broader generated overview. This README is the short entry
 point for the repository.
+
+The home-wide capability inventory is in
+`docs/audits/home-capability-audit-2026-08-18.md` and its companion JSON/CSV
+files. It is intentionally broader than the canonical runtime index and
+includes host projections, project-local copies, backups, and caches.
 
 ## Inspection Scripts
 
@@ -52,6 +70,7 @@ Run scripts from the repository root:
 python scripts/export_catalog_csv.py
 python scripts/summarize_what_they_do.py
 python scripts/inspect_md_content.py
+python scripts/audit_runtime.py --pretty
 ```
 
 Outputs are staged locally:
