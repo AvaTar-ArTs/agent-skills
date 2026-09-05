@@ -1,0 +1,17 @@
+{
+  "name": "qfpie-agent-skills-2026-08-08",
+  "type": "portfolio-audit",
+  "status": "durable",
+  "source_roots": [
+    "/Users/steven/.agent-skills"
+  ],
+  "analyzer": "QF-PIE 0.1.0",
+  "projects": 226,
+  "duplicate_candidates": 33,
+  "primary_report": "portfolio_report.md",
+  "primary_inventory": "portfolio_inventory.json",
+  "limitations": [
+    "Deterministic marker and content classification is not deep semantic proof.",
+    "Duplicate candidates require source-level confirmation before merging."
+  ]
+}

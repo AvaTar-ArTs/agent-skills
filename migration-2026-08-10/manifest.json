@@ -1,0 +1,603 @@
+{
+  "generated": "2026-08-10",
+  "operation": "invert-at-root: move real dirs .agents/skills -> .agent-skills/skills; .agents/skills becomes symlink",
+  "canonical_symlinks": [
+    {
+      "name": "ai-video-generation",
+      "canonical_link": "/Users/steven/.agent-skills/skills/ai-video-generation",
+      "link_target_raw": "../../.agents/skills/ai-video-generation",
+      "link_target_resolved": "/Users/steven/.agents/skills/ai-video-generation",
+      "target_exists": false,
+      "points_into_legacy": true,
+      "link_inode": 212078684
+    },
+    {
+      "name": "audiocraft-audio-generation",
+      "canonical_link": "/Users/steven/.agent-skills/skills/audiocraft-audio-generation",
+      "link_target_raw": "../../.agents/skills/audiocraft-audio-generation",
+      "link_target_resolved": "/Users/steven/.agents/skills/audiocraft-audio-generation",
+      "target_exists": true,
+      "points_into_legacy": true,
+      "link_inode": 212426238
+    },
+    {
+      "name": "axolotl",
+      "canonical_link": "/Users/steven/.agent-skills/skills/axolotl",
+      "link_target_raw": "../../.agents/skills/axolotl",
+      "link_target_resolved": "/Users/steven/.agents/skills/axolotl",
+      "target_exists": true,
+      "points_into_legacy": true,
+      "link_inode": 212426354
+    },
+    {
+      "name": "blackbox",
+      "canonical_link": "/Users/steven/.agent-skills/skills/blackbox",
+      "link_target_raw": "../../.agents/skills/blackbox",
+      "link_target_resolved": "/Users/steven/.agents/skills/blackbox",
+      "target_exists": true,
+      "points_into_legacy": true,
+      "link_inode": 212426406
+    },
+    {
+      "name": "ccxt-cli",
+      "canonical_link": "/Users/steven/.agent-skills/skills/ccxt-cli",
+      "link_target_raw": "../../.agents/skills/ccxt-cli",
+      "link_target_resolved": "/Users/steven/.agents/skills/ccxt-cli",
+      "target_exists": false,
+      "points_into_legacy": true,
+      "link_inode": 210976620
+    },
+    {
+      "name": "ccxt-python",
+      "canonical_link": "/Users/steven/.agent-skills/skills/ccxt-python",
+      "link_target_raw": "../../.agents/skills/ccxt-python",
+      "link_target_resolved": "/Users/steven/.agents/skills/ccxt-python",
+      "target_exists": false,
+      "points_into_legacy": true,
+      "link_inode": 210976613
+    },
+    {
+      "name": "chroma",
+      "canonical_link": "/Users/steven/.agent-skills/skills/chroma",
+      "link_target_raw": "../../.agents/skills/chroma",
+      "link_target_resolved": "/Users/steven/.agents/skills/chroma",
+      "target_exists": true,
+      "points_into_legacy": true,
+      "link_inode": 212426471
+    },
+    {
+      "name": "claude-code",
+      "canonical_link": "/Users/steven/.agent-skills/skills/claude-code",
+      "link_target_raw": "../../.agents/skills/claude-code",
+      "link_target_resolved": "/Users/steven/.agents/skills/claude-code",
+      "target_exists": true,
+      "points_into_legacy": true,
+      "link_inode": 212426514
+    },
+    {
+      "name": "clip",
+      "canonical_link": "/Users/steven/.agent-skills/skills/clip",
+      "link_target_raw": "../../.agents/skills/clip",
+      "link_target_resolved": "/Users/steven/.agents/skills/clip",
+      "target_exists": true,
+      "points_into_legacy": true,
+      "link_inode": 212426579
+    },
+    {
+      "name": "code-review",
+      "canonical_link": "/Users/steven/.agent-skills/skills/code-review",
+      "link_target_raw": "../../.agents/skills/code-review",
+      "link_target_resolved": "/Users/steven/.agents/skills/code-review",
+      "target_exists": true,
+      "points_into_legacy": true,
+      "link_inode": 212426622
+    },
+    {
+      "name": "codebase-inspection",
+      "canonical_link": "/Users/steven/.agent-skills/skills/codebase-inspection",
+      "link_target_raw": "../../.agents/skills/codebase-inspection",
+      "link_target_resolved": "/Users/steven/.agents/skills/codebase-inspection",
+      "target_exists": true,
+      "points_into_legacy": true,
+      "link_inode": 212426659
+    },
+    {
+      "name": "codex",
+      "canonical_link": "/Users/steven/.agent-skills/skills/codex",
+      "link_target_raw": "../../.agents/skills/codex",
+      "link_target_resolved": "/Users/steven/.agents/skills/codex",
+      "target_exists": true,
+      "points_into_legacy": true,
+      "link_inode": 212426696
+    },
+    {
+      "name": "coh-mod",
+      "canonical_link": "/Users/steven/.agent-skills/skills/coh-mod",
+      "link_target_raw": "/Users/steven/CoX-mod-Adventure/coh-mod",
+      "link_target_resolved": "/Users/steven/CoX-mod-Adventure/coh-mod",
+      "target_exists": true,
+      "points_into_legacy": false,
+      "link_inode": 207394068
+    },
+    {
+      "name": "coh-mod-narrator",
+      "canonical_link": "/Users/steven/.agent-skills/skills/coh-mod-narrator",
+      "link_target_raw": "/Users/steven/CoX-mod-Adventure/coh-mod-narrator",
+      "link_target_resolved": "/Users/steven/CoX-mod-Adventure/coh-mod-narrator",
+      "target_exists": true,
+      "points_into_legacy": false,
+      "link_inode": 207394069
+    },
+    {
+      "name": "distributed-llm-pretraining-torchtitan",
+      "canonical_link": "/Users/steven/.agent-skills/skills/distributed-llm-pretraining-torchtitan",
+      "link_target_raw": "../../.agents/skills/distributed-llm-pretraining-torchtitan",
+      "link_target_resolved": "/Users/steven/.agents/skills/distributed-llm-pretraining-torchtitan",
+      "target_exists": true,
+      "points_into_legacy": true,
+      "link_inode": 212426803
+    },
+    {
+      "name": "dogfood",
+      "canonical_link": "/Users/steven/.agent-skills/skills/dogfood",
+      "link_target_raw": "../../.agents/skills/dogfood",
+      "link_target_resolved": "/Users/steven/.agents/skills/dogfood",
+      "target_exists": true,
+      "points_into_legacy": true,
+      "link_inode": 212426911
+    },
+    {
+      "name": "dspy",
+      "canonical_link": "/Users/steven/.agent-skills/skills/dspy",
+      "link_target_raw": "../../.agents/skills/dspy",
+      "link_target_resolved": "/Users/steven/.agents/skills/dspy",
+      "target_exists": true,
+      "points_into_legacy": true,
+      "link_inode": 212427016
+    },
+    {
+      "name": "duckduckgo-search",
+      "canonical_link": "/Users/steven/.agent-skills/skills/duckduckgo-search",
+      "link_target_raw": "../../.agents/skills/duckduckgo-search",
+      "link_target_resolved": "/Users/steven/.agents/skills/duckduckgo-search",
+      "target_exists": true,
+      "points_into_legacy": true,
+      "link_inode": 212427093
+    },
+    {
+      "name": "evaluating-llms-harness",
+      "canonical_link": "/Users/steven/.agent-skills/skills/evaluating-llms-harness",
+      "link_target_raw": "../../.agents/skills/evaluating-llms-harness",
+      "link_target_resolved": "/Users/steven/.agents/skills/evaluating-llms-harness",
+      "target_exists": true,
+      "points_into_legacy": true,
+      "link_inode": 212427206
+    },
+    {
+      "name": "fine-tuning-with-trl",
+      "canonical_link": "/Users/steven/.agent-skills/skills/fine-tuning-with-trl",
+      "link_target_raw": "../../.agents/skills/fine-tuning-with-trl",
+      "link_target_resolved": "/Users/steven/.agents/skills/fine-tuning-with-trl",
+      "target_exists": true,
+      "points_into_legacy": true,
+      "link_inode": 212427328
+    },
+    {
+      "name": "gguf-quantization",
+      "canonical_link": "/Users/steven/.agent-skills/skills/gguf-quantization",
+      "link_target_raw": "../../.agents/skills/gguf-quantization",
+      "link_target_resolved": "/Users/steven/.agents/skills/gguf-quantization",
+      "target_exists": true,
+      "points_into_legacy": true,
+      "link_inode": 212427422
+    },
+    {
+      "name": "heartmula",
+      "canonical_link": "/Users/steven/.agent-skills/skills/heartmula",
+      "link_target_raw": "../../.agents/skills/heartmula",
+      "link_target_resolved": "/Users/steven/.agents/skills/heartmula",
+      "target_exists": true,
+      "points_into_legacy": true,
+      "link_inode": 212427468
+    },
+    {
+      "name": "hermes-agent-spawning",
+      "canonical_link": "/Users/steven/.agent-skills/skills/hermes-agent-spawning",
+      "link_target_raw": "../../.agents/skills/hermes-agent-spawning",
+      "link_target_resolved": "/Users/steven/.agents/skills/hermes-agent-spawning",
+      "target_exists": true,
+      "points_into_legacy": true,
+      "link_inode": 212427506
+    },
+    {
+      "name": "instructor",
+      "canonical_link": "/Users/steven/.agent-skills/skills/instructor",
+      "link_target_raw": "../../.agents/skills/instructor",
+      "link_target_resolved": "/Users/steven/.agents/skills/instructor",
+      "target_exists": true,
+      "points_into_legacy": true,
+      "link_inode": 212427600
+    },
+    {
+      "name": "llava",
+      "canonical_link": "/Users/steven/.agent-skills/skills/llava",
+      "link_target_raw": "../../.agents/skills/llava",
+      "link_target_resolved": "/Users/steven/.agents/skills/llava",
+      "target_exists": true,
+      "points_into_legacy": true,
+      "link_inode": 212427677
+    },
+    {
+      "name": "mcporter",
+      "canonical_link": "/Users/steven/.agent-skills/skills/mcporter",
+      "link_target_raw": "../../.agents/skills/mcporter",
+      "link_target_resolved": "/Users/steven/.agents/skills/mcporter",
+      "target_exists": true,
+      "points_into_legacy": true,
+      "link_inode": 212427720
+    },
+    {
+      "name": "ml-paper-writing",
+      "canonical_link": "/Users/steven/.agent-skills/skills/ml-paper-writing",
+      "link_target_raw": "../../.agents/skills/ml-paper-writing",
+      "link_target_resolved": "/Users/steven/.agents/skills/ml-paper-writing",
+      "target_exists": true,
+      "points_into_legacy": true,
+      "link_inode": 212428569
+    },
+    {
+      "name": "nano-pdf",
+      "canonical_link": "/Users/steven/.agent-skills/skills/nano-pdf",
+      "link_target_raw": "../../.agents/skills/nano-pdf",
+      "link_target_resolved": "/Users/steven/.agents/skills/nano-pdf",
+      "target_exists": true,
+      "points_into_legacy": true,
+      "link_inode": 212428780
+    },
+    {
+      "name": "native-mcp",
+      "canonical_link": "/Users/steven/.agent-skills/skills/native-mcp",
+      "link_target_raw": "../../.agents/skills/native-mcp",
+      "link_target_resolved": "/Users/steven/.agents/skills/native-mcp",
+      "target_exists": true,
+      "points_into_legacy": true,
+      "link_inode": 212428817
+    },
+    {
+      "name": "notion",
+      "canonical_link": "/Users/steven/.agent-skills/skills/notion",
+      "link_target_raw": "../../.agents/skills/notion",
+      "link_target_resolved": "/Users/steven/.agents/skills/notion",
+      "target_exists": true,
+      "points_into_legacy": true,
+      "link_inode": 212428882
+    },
+    {
+      "name": "obsidian",
+      "canonical_link": "/Users/steven/.agent-skills/skills/obsidian",
+      "link_target_raw": "../../.agents/skills/obsidian",
+      "link_target_resolved": "/Users/steven/.agents/skills/obsidian",
+      "target_exists": true,
+      "points_into_legacy": true,
+      "link_inode": 212428925
+    },
+    {
+      "name": "ocr-and-documents",
+      "canonical_link": "/Users/steven/.agent-skills/skills/ocr-and-documents",
+      "link_target_raw": "../../.agents/skills/ocr-and-documents",
+      "link_target_resolved": "/Users/steven/.agents/skills/ocr-and-documents",
+      "target_exists": true,
+      "points_into_legacy": true,
+      "link_inode": 212429018
+    },
+    {
+      "name": "requesting-code-review",
+      "canonical_link": "/Users/steven/.agent-skills/skills/requesting-code-review",
+      "link_target_raw": "../../.agents/skills/requesting-code-review",
+      "link_target_resolved": "/Users/steven/.agents/skills/requesting-code-review",
+      "target_exists": true,
+      "points_into_legacy": true,
+      "link_inode": 212429067
+    },
+    {
+      "name": "songsee",
+      "canonical_link": "/Users/steven/.agent-skills/skills/songsee",
+      "link_target_raw": "../../.agents/skills/songsee",
+      "link_target_resolved": "/Users/steven/.agents/skills/songsee",
+      "target_exists": true,
+      "points_into_legacy": true,
+      "link_inode": 212422191
+    },
+    {
+      "name": "stable-diffusion-image-generation",
+      "canonical_link": "/Users/steven/.agent-skills/skills/stable-diffusion-image-generation",
+      "link_target_raw": "../../.agents/skills/stable-diffusion-image-generation",
+      "link_target_resolved": "/Users/steven/.agents/skills/stable-diffusion-image-generation",
+      "target_exists": true,
+      "points_into_legacy": true,
+      "link_inode": 212429180
+    },
+    {
+      "name": "subagent-driven-development",
+      "canonical_link": "/Users/steven/.agent-skills/skills/subagent-driven-development",
+      "link_target_raw": "../../.agents/skills/subagent-driven-development",
+      "link_target_resolved": "/Users/steven/.agents/skills/subagent-driven-development",
+      "target_exists": true,
+      "points_into_legacy": true,
+      "link_inode": 212429226
+    },
+    {
+      "name": "test-driven-development",
+      "canonical_link": "/Users/steven/.agent-skills/skills/test-driven-development",
+      "link_target_raw": "../../.agents/skills/test-driven-development",
+      "link_target_resolved": "/Users/steven/.agents/skills/test-driven-development",
+      "target_exists": true,
+      "points_into_legacy": true,
+      "link_inode": 212429263
+    },
+    {
+      "name": "whisper",
+      "canonical_link": "/Users/steven/.agent-skills/skills/whisper",
+      "link_target_raw": "../../.agents/skills/whisper",
+      "link_target_resolved": "/Users/steven/.agents/skills/whisper",
+      "target_exists": true,
+      "points_into_legacy": true,
+      "link_inode": 212429328
+    },
+    {
+      "name": "writing-plans",
+      "canonical_link": "/Users/steven/.agent-skills/skills/writing-plans",
+      "link_target_raw": "../../.agents/skills/writing-plans",
+      "link_target_resolved": "/Users/steven/.agents/skills/writing-plans",
+      "target_exists": true,
+      "points_into_legacy": true,
+      "link_inode": 212429371
+    }
+  ],
+  "legacy_entries": [
+    {
+      "name": "audiocraft-audio-generation",
+      "path": "/Users/steven/.agents/skills/audiocraft-audio-generation",
+      "is_symlink": false,
+      "inode": 212426250,
+      "child_count": 4
+    },
+    {
+      "name": "axolotl",
+      "path": "/Users/steven/.agents/skills/axolotl",
+      "is_symlink": false,
+      "inode": 212426370,
+      "child_count": 6
+    },
+    {
+      "name": "blackbox",
+      "path": "/Users/steven/.agents/skills/blackbox",
+      "is_symlink": false,
+      "inode": 212426412,
+      "child_count": 1
+    },
+    {
+      "name": "chroma",
+      "path": "/Users/steven/.agents/skills/chroma",
+      "is_symlink": false,
+      "inode": 212426481,
+      "child_count": 3
+    },
+    {
+      "name": "claude-code",
+      "path": "/Users/steven/.agents/skills/claude-code",
+      "is_symlink": false,
+      "inode": 212426520,
+      "child_count": 1
+    },
+    {
+      "name": "clip",
+      "path": "/Users/steven/.agents/skills/clip",
+      "is_symlink": false,
+      "inode": 212426589,
+      "child_count": 3
+    },
+    {
+      "name": "code-review",
+      "path": "/Users/steven/.agents/skills/code-review",
+      "is_symlink": false,
+      "inode": 212426628,
+      "child_count": 1
+    },
+    {
+      "name": "codebase-inspection",
+      "path": "/Users/steven/.agents/skills/codebase-inspection",
+      "is_symlink": false,
+      "inode": 212426665,
+      "child_count": 1
+    },
+    {
+      "name": "codex",
+      "path": "/Users/steven/.agents/skills/codex",
+      "is_symlink": false,
+      "inode": 212426702,
+      "child_count": 1
+    },
+    {
+      "name": "distributed-llm-pretraining-torchtitan",
+      "path": "/Users/steven/.agents/skills/distributed-llm-pretraining-torchtitan",
+      "is_symlink": false,
+      "inode": 212426819,
+      "child_count": 6
+    },
+    {
+      "name": "dogfood",
+      "path": "/Users/steven/.agents/skills/dogfood",
+      "is_symlink": false,
+      "inode": 212426925,
+      "child_count": 5
+    },
+    {
+      "name": "dspy",
+      "path": "/Users/steven/.agents/skills/dspy",
+      "is_symlink": false,
+      "inode": 212427030,
+      "child_count": 5
+    },
+    {
+      "name": "duckduckgo-search",
+      "path": "/Users/steven/.agents/skills/duckduckgo-search",
+      "is_symlink": false,
+      "inode": 212427103,
+      "child_count": 3
+    },
+    {
+      "name": "evaluating-llms-harness",
+      "path": "/Users/steven/.agents/skills/evaluating-llms-harness",
+      "is_symlink": false,
+      "inode": 212427222,
+      "child_count": 6
+    },
+    {
+      "name": "fine-tuning-with-trl",
+      "path": "/Users/steven/.agents/skills/fine-tuning-with-trl",
+      "is_symlink": false,
+      "inode": 212427344,
+      "child_count": 6
+    },
+    {
+      "name": "gguf-quantization",
+      "path": "/Users/steven/.agents/skills/gguf-quantization",
+      "is_symlink": false,
+      "inode": 212427434,
+      "child_count": 4
+    },
+    {
+      "name": "heartmula",
+      "path": "/Users/steven/.agents/skills/heartmula",
+      "is_symlink": false,
+      "inode": 212427474,
+      "child_count": 1
+    },
+    {
+      "name": "hermes-agent-spawning",
+      "path": "/Users/steven/.agents/skills/hermes-agent-spawning",
+      "is_symlink": false,
+      "inode": 212427512,
+      "child_count": 1
+    },
+    {
+      "name": "instructor",
+      "path": "/Users/steven/.agents/skills/instructor",
+      "is_symlink": false,
+      "inode": 212427614,
+      "child_count": 5
+    },
+    {
+      "name": "llava",
+      "path": "/Users/steven/.agents/skills/llava",
+      "is_symlink": false,
+      "inode": 212427687,
+      "child_count": 3
+    },
+    {
+      "name": "mcporter",
+      "path": "/Users/steven/.agents/skills/mcporter",
+      "is_symlink": false,
+      "inode": 212427726,
+      "child_count": 1
+    },
+    {
+      "name": "ml-paper-writing",
+      "path": "/Users/steven/.agents/skills/ml-paper-writing",
+      "is_symlink": false,
+      "inode": 212428691,
+      "child_count": 59
+    },
+    {
+      "name": "nano-pdf",
+      "path": "/Users/steven/.agents/skills/nano-pdf",
+      "is_symlink": false,
+      "inode": 212428786,
+      "child_count": 1
+    },
+    {
+      "name": "native-mcp",
+      "path": "/Users/steven/.agents/skills/native-mcp",
+      "is_symlink": false,
+      "inode": 212428823,
+      "child_count": 1
+    },
+    {
+      "name": "notion",
+      "path": "/Users/steven/.agents/skills/notion",
+      "is_symlink": false,
+      "inode": 212428892,
+      "child_count": 3
+    },
+    {
+      "name": "obsidian",
+      "path": "/Users/steven/.agents/skills/obsidian",
+      "is_symlink": false,
+      "inode": 212428931,
+      "child_count": 1
+    },
+    {
+      "name": "ocr-and-documents",
+      "path": "/Users/steven/.agents/skills/ocr-and-documents",
+      "is_symlink": false,
+      "inode": 212429032,
+      "child_count": 5
+    },
+    {
+      "name": "requesting-code-review",
+      "path": "/Users/steven/.agents/skills/requesting-code-review",
+      "is_symlink": false,
+      "inode": 212429073,
+      "child_count": 1
+    },
+    {
+      "name": "songsee",
+      "path": "/Users/steven/.agents/skills/songsee",
+      "is_symlink": false,
+      "inode": 212429108,
+      "child_count": 1
+    },
+    {
+      "name": "stable-diffusion-image-generation",
+      "path": "/Users/steven/.agents/skills/stable-diffusion-image-generation",
+      "is_symlink": false,
+      "inode": 212429192,
+      "child_count": 4
+    },
+    {
+      "name": "subagent-driven-development",
+      "path": "/Users/steven/.agents/skills/subagent-driven-development",
+      "is_symlink": false,
+      "inode": 212429232,
+      "child_count": 1
+    },
+    {
+      "name": "test-driven-development",
+      "path": "/Users/steven/.agents/skills/test-driven-development",
+      "is_symlink": false,
+      "inode": 212429269,
+      "child_count": 1
+    },
+    {
+      "name": "whisper",
+      "path": "/Users/steven/.agents/skills/whisper",
+      "is_symlink": false,
+      "inode": 212429338,
+      "child_count": 3
+    },
+    {
+      "name": "writing-plans",
+      "path": "/Users/steven/.agents/skills/writing-plans",
+      "is_symlink": false,
+      "inode": 212429377,
+      "child_count": 1
+    }
+  ],
+  "counts": {
+    "canonical_symlinks_total": 39,
+    "into_legacy": 37,
+    "dangling": 3,
+    "legacy_real_dirs": 34
+  }
+}

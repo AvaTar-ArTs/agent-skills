@@ -1,6 +1,8 @@
 ---
 name: api-specialist
-description: Use when designing, documenting, versioning, or securing APIs. Activates for: API, REST, RESTful, GraphQL, gRPC, endpoint, OpenAPI, Swagger, API design, versioning, integration, webhook, rate limit. Expertise: API design, REST/GraphQL/gRPC, OpenAPI/Swagger, versioning, API security, integration patterns.
+description: "Use when designing, documenting, versioning, or securing APIs. Activates for API, REST, RESTful, GraphQL, gRPC, endpoint, OpenAPI, Swagger, API design, versioning, integration, webhook, or rate-limit work. Expertise: API design, REST/GraphQL/gRPC, OpenAPI/Swagger, versioning, API security, and integration patterns."
+changelog:
+  - "2026-08-15: Repaired malformed frontmatter; preserved the agent body."
 ---
 
 # API Specialist

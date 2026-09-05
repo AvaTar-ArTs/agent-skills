@@ -1,0 +1,11 @@
+{
+  "name": "chatgpt-export-html-review-2026-08-14",
+  "type": "html-export-structure-review",
+  "source_root": "/Users/steven/Downloads/chatgpt-export-html (1)",
+  "file_count": 25,
+  "approximate_size": "230M",
+  "skills_used": ["eza-nav", "codebase-inspection"],
+  "content_inspected": "metadata and structural markers only",
+  "mutations": false,
+  "artifacts": ["README.md", "findings.md", "manifest.json"]
+}

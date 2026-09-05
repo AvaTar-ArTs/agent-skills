@@ -1,0 +1,2808 @@
+{
+  "capabilities": [],
+  "classification": "projected",
+  "generated_at": "2026-08-18T07:53:36+00:00",
+  "roots": [
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/.aider-desk/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.claude/.qodo/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/.claude/.sixth/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.claude/agents.bak/skill-creator/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.claude/agents.bak/skill-installer/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 3,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.claude/skills.bak/skill-creator/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.codeium/windsurf/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/.tmp/marketplaces/agentsys/.kiro/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 27,
+      "frontmatter_count": 27,
+      "kind": "skill",
+      "path": "/Users/steven/.codex/.tmp/marketplaces/agentsys/.kiro/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.codex/.tmp/marketplaces/agentsys/meta/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 2,
+      "frontmatter_count": 2,
+      "kind": "skill",
+      "path": "/Users/steven/.codex/.tmp/marketplaces/claude-plugins-official/external_plugins/discord/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 2,
+      "frontmatter_count": 2,
+      "kind": "skill",
+      "path": "/Users/steven/.codex/.tmp/marketplaces/claude-plugins-official/external_plugins/imessage/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 2,
+      "frontmatter_count": 2,
+      "kind": "skill",
+      "path": "/Users/steven/.codex/.tmp/marketplaces/claude-plugins-official/external_plugins/telegram/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 15,
+      "frontmatter_count": 15,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 8,
+      "frontmatter_count": 8,
+      "kind": "skill",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/canva/13.0.1/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/coderabbit/1.1.4/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/coderabbit/1.1.4/skills/coderabbit-review/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 18,
+      "frontmatter_count": 18,
+      "kind": "skill",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/data-analytics/0.2.8-13ceeea1f599/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/data-analytics/0.2.8-13ceeea1f599/skills/analyze-data-quality/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/data-analytics/0.2.8-13ceeea1f599/skills/build-dashboard/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/data-analytics/0.2.8-13ceeea1f599/skills/build-report/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/data-analytics/0.2.8-13ceeea1f599/skills/build-report/report-to-google-doc/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/data-analytics/0.2.8-13ceeea1f599/skills/build-report/report-to-google-slides/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/data-analytics/0.2.8-13ceeea1f599/skills/build-report/report-to-pdf/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/data-analytics/0.2.8-13ceeea1f599/skills/create-data-context/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/data-analytics/0.2.8-13ceeea1f599/skills/design-kpis/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/data-analytics/0.2.8-13ceeea1f599/skills/gather-business-context/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/data-analytics/0.2.8-13ceeea1f599/skills/index/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/data-analytics/0.2.8-13ceeea1f599/skills/jupyter-notebooks/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/data-analytics/0.2.8-13ceeea1f599/skills/kpi-reporting/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/data-analytics/0.2.8-13ceeea1f599/skills/market-sizing/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/data-analytics/0.2.8-13ceeea1f599/skills/metric-diagnostics/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/data-analytics/0.2.8-13ceeea1f599/skills/product-business-analysis/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/data-analytics/0.2.8-13ceeea1f599/skills/validate-data/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/data-analytics/0.2.8-13ceeea1f599/skills/visualize-data/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 4,
+      "frontmatter_count": 4,
+      "kind": "skill",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/github/0.1.8-2841cf9749ae/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/github/0.1.8-2841cf9749ae/skills/gh-address-comments/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/github/0.1.8-2841cf9749ae/skills/gh-fix-ci/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/github/0.1.8-2841cf9749ae/skills/github/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/github/0.1.8-2841cf9749ae/skills/yeet/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/gmail/0.1.8/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/gmail/0.1.8/skills/gmail/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 5,
+      "frontmatter_count": 5,
+      "kind": "skill",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/google-drive/0.1.11/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/google-drive/0.1.11/skills/google-docs/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/google-drive/0.1.11/skills/google-drive/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/google-drive/0.1.11/skills/google-drive-comments/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/google-drive/0.1.11/skills/google-sheets/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/google-drive/0.1.11/skills/google-slides/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 11,
+      "frontmatter_count": 11,
+      "kind": "skill",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/hugging-face/1.0.0/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/hugging-face/1.0.0/skills/cli/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/hugging-face/1.0.0/skills/community-evals/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/hugging-face/1.0.0/skills/datasets/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/hugging-face/1.0.0/skills/gradio/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/hugging-face/1.0.0/skills/jobs/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/hugging-face/1.0.0/skills/llm-trainer/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/hugging-face/1.0.0/skills/paper-publisher/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/hugging-face/1.0.0/skills/papers/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/hugging-face/1.0.0/skills/trackio/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/hugging-face/1.0.0/skills/transformers.js/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/hugging-face/1.0.0/skills/vision-trainer/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/linkedin-animated-infographics/3.2.2/.agents/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/linkedin-animated-infographics/3.2.2/.agents/skills/linkedin-animated-infographics/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/linkedin-animated-infographics/3.2.2/.claude/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/linkedin-animated-infographics/3.2.2/.codex/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 16,
+      "frontmatter_count": 16,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/linkedin-animated-infographics/3.2.2/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 13,
+      "frontmatter_count": 13,
+      "kind": "skill",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/linkedin-animated-infographics/3.2.2/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/notion/0.1.7/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 4,
+      "frontmatter_count": 4,
+      "kind": "skill",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/notion/0.1.7/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/notion/0.1.7/skills/notion-knowledge-capture/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/notion/0.1.7/skills/notion-meeting-intelligence/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/notion/0.1.7/skills/notion-research-documentation/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/notion/0.1.7/skills/notion-spec-to-implementation/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 5,
+      "frontmatter_count": 5,
+      "kind": "skill",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/openai-developers/1.2.3/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/openai-developers/1.2.3/skills/agents-sdk/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/openai-developers/1.2.3/skills/build-chatgpt-app/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/openai-developers/1.2.3/skills/openai-api-troubleshooting/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/openai-developers/1.2.3/skills/openai-platform-api-key/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 20,
+      "frontmatter_count": 20,
+      "kind": "skill",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/openai-templates/0.1.1/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/openai-templates/0.1.1/skills/artifact-template-analytics-dashboard/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/openai-templates/0.1.1/skills/artifact-template-business-review/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/openai-templates/0.1.1/skills/artifact-template-design-report/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/openai-templates/0.1.1/skills/artifact-template-experiment-analysis/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/openai-templates/0.1.1/skills/artifact-template-financial-budget/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/openai-templates/0.1.1/skills/artifact-template-investment-committee-memo/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/openai-templates/0.1.1/skills/artifact-template-legal-memorandum/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/openai-templates/0.1.1/skills/artifact-template-market-trends-report/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/openai-templates/0.1.1/skills/artifact-template-minimal-letterhead/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/openai-templates/0.1.1/skills/artifact-template-operating-calendar/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/openai-templates/0.1.1/skills/artifact-template-operating-review/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/openai-templates/0.1.1/skills/artifact-template-project-kickoff/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/openai-templates/0.1.1/skills/artifact-template-project-tracker/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/openai-templates/0.1.1/skills/artifact-template-sales-pipeline/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/openai-templates/0.1.1/skills/artifact-template-simple-dark-mode/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/openai-templates/0.1.1/skills/artifact-template-simple-light-mode/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/openai-templates/0.1.1/skills/artifact-template-strategy-memorandum/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/openai-templates/0.1.1/skills/artifact-template-system-design/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/openai-templates/0.1.1/skills/artifact-template-team-alignment/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/openai-templates/0.1.1/skills/artifact-template-three-statement-forecast/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/plugin-management/0.1.0/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 2,
+      "frontmatter_count": 2,
+      "kind": "skill",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/supabase/1.0.0/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 3,
+      "frontmatter_count": 3,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/vercel/0.21.4/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 53,
+      "frontmatter_count": 53,
+      "kind": "skill",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/vercel/0.21.4/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/vercel/0.21.4/skills/agent-browser/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/vercel/0.21.4/skills/agent-browser-verify/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/vercel/0.21.4/skills/ai-elements/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/vercel/0.21.4/skills/ai-gateway/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/vercel/0.21.4/skills/ai-generation-persistence/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/vercel/0.21.4/skills/ai-sdk/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/vercel/0.21.4/skills/auth/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/vercel/0.21.4/skills/bootstrap/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/vercel/0.21.4/skills/cdn-caching/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/vercel/0.21.4/skills/chat-sdk/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/vercel/0.21.4/skills/cms/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/vercel/0.21.4/skills/cron-jobs/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/vercel/0.21.4/skills/deployments-cicd/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/vercel/0.21.4/skills/email/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/vercel/0.21.4/skills/env-vars/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/vercel/0.21.4/skills/eve/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/vercel/0.21.4/skills/geist/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/vercel/0.21.4/skills/geistdocs/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/vercel/0.21.4/skills/investigation-mode/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/vercel/0.21.4/skills/json-render/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/vercel/0.21.4/skills/knowledge-update/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/vercel/0.21.4/skills/micro/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/vercel/0.21.4/skills/microfrontends/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/vercel/0.21.4/skills/ncc/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/vercel/0.21.4/skills/next-cache-components/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/vercel/0.21.4/skills/next-forge/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/vercel/0.21.4/skills/next-upgrade/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/vercel/0.21.4/skills/nextjs/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/vercel/0.21.4/skills/observability/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/vercel/0.21.4/skills/payments/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/vercel/0.21.4/skills/react-best-practices/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/vercel/0.21.4/skills/routing-middleware/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/vercel/0.21.4/skills/runtime-cache/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/vercel/0.21.4/skills/satori/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/vercel/0.21.4/skills/shadcn/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/vercel/0.21.4/skills/sign-in-with-vercel/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/vercel/0.21.4/skills/swr/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/vercel/0.21.4/skills/turbopack/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/vercel/0.21.4/skills/turborepo/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/vercel/0.21.4/skills/v0-dev/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/vercel/0.21.4/skills/vercel-agent/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/vercel/0.21.4/skills/vercel-api/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/vercel/0.21.4/skills/vercel-cli/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/vercel/0.21.4/skills/vercel-connect/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/vercel/0.21.4/skills/vercel-firewall/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/vercel/0.21.4/skills/vercel-flags/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/vercel/0.21.4/skills/vercel-functions/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/vercel/0.21.4/skills/vercel-queues/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/vercel/0.21.4/skills/vercel-sandbox/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/vercel/0.21.4/skills/vercel-services/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/vercel/0.21.4/skills/vercel-storage/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/vercel/0.21.4/skills/verification/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/plugin-cache-quarantine-20260815/vercel/0.21.4/skills/workflow/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 9,
+      "frontmatter_count": 9,
+      "kind": "skill",
+      "path": "/Users/steven/.codex/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/skills/.system/imagegen/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/skills/.system/openai-docs/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/skills/.system/plugin-creator/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/skills/.system/review-agent/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/skills/.system/skill-creator/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.codex/skills/.system/skill-installer/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 2,
+      "frontmatter_count": 2,
+      "kind": "skill",
+      "path": "/Users/steven/.copilot/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 34,
+      "frontmatter_count": 30,
+      "kind": "agent",
+      "path": "/Users/steven/.cursor/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 2,
+      "frontmatter_count": 2,
+      "kind": "agent",
+      "path": "/Users/steven/.cursor/extensions/esbenp.prettier-vscode-12.4.0-universal/.claude/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 2,
+      "frontmatter_count": 2,
+      "kind": "skill",
+      "path": "/Users/steven/.cursor/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 14,
+      "frontmatter_count": 14,
+      "kind": "agent",
+      "path": "/Users/steven/.gemini/.history/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/.gemini/.sixth/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.gemini/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.gemini/antigravity/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 3,
+      "frontmatter_count": 3,
+      "kind": "skill",
+      "path": "/Users/steven/.gemini/antigravity-cli/builtin/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/.gemini/antigravity-cli/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.gemini/extensions/code-review/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 5,
+      "frontmatter_count": 5,
+      "kind": "skill",
+      "path": "/Users/steven/.gemini/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/.gemini/supremepower/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/.gemini/supremepower/commands/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 13,
+      "frontmatter_count": 13,
+      "kind": "agent",
+      "path": "/Users/steven/.gemini/supremepower/core/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 13,
+      "frontmatter_count": 13,
+      "kind": "skill",
+      "path": "/Users/steven/.gemini/supremepower/core/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 13,
+      "frontmatter_count": 13,
+      "kind": "skill",
+      "path": "/Users/steven/.gemini/supremepower/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.gemini/supremepower/tests/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/.gemini/supremepower/tests/fixtures/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.gemini/tmp/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.grok/.qodo/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 3,
+      "frontmatter_count": 3,
+      "kind": "agent",
+      "path": "/Users/steven/.grok/bundled/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 21,
+      "frontmatter_count": 21,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/bundled/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/.codex/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 435,
+      "frontmatter_count": 433,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/.gemini/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/.hermes/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/.vibe/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 35,
+      "frontmatter_count": 33,
+      "kind": "agent",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 5,
+      "frontmatter_count": 5,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/business-growth/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/business-operations/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 7,
+      "frontmatter_count": 7,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/business-operations/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/c-level-advisor/arquiteto-de-empresa/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/c-level-advisor/arquiteto-de-empresa/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 13,
+      "frontmatter_count": 13,
+      "kind": "agent",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/c-level-advisor/c-level-agents/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 22,
+      "frontmatter_count": 22,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/c-level-advisor/c-level-agents/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/c-level-advisor/chief-ai-officer-advisor/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/c-level-advisor/chief-customer-officer-advisor/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/c-level-advisor/chief-data-officer-advisor/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/c-level-advisor/executive-mentor/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 6,
+      "frontmatter_count": 6,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/c-level-advisor/executive-mentor/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/c-level-advisor/general-counsel-advisor/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 34,
+      "frontmatter_count": 34,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/c-level-advisor/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/c-level-advisor/vpe-advisor/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/commercial/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 8,
+      "frontmatter_count": 8,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/commercial/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 8,
+      "frontmatter_count": 8,
+      "kind": "agent",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/compliance-os/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 9,
+      "frontmatter_count": 9,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/compliance-os/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 94,
+      "frontmatter_count": 94,
+      "kind": "agent",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/docs/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/docs/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/engineering/agent-harness/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/engineering/agent-harness/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/engineering/agenthub/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 8,
+      "frontmatter_count": 8,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/engineering/agenthub/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/engineering/autoresearch-agent/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 6,
+      "frontmatter_count": 6,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/engineering/autoresearch-agent/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/engineering/behuman/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/engineering/caveman/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/engineering/caveman/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/engineering/chaos-engineering/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/engineering/claude-coach/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/engineering/claude-coach/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/engineering/code-tour/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/engineering/collab-proof/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/engineering/data-quality-auditor/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/engineering/demo-video/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/engineering/docker-development/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/engineering/feature-flags-architect/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/engineering/grill-me/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/engineering/grill-me/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/engineering/grill-with-docs/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/engineering/grill-with-docs/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/engineering/handoff/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/engineering/handoff/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/engineering/helm-chart-builder/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/engineering/karpathy-coder/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/engineering/karpathy-coder/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/engineering/kubernetes-operator/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/engineering/llm-cost-optimizer/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 3,
+      "frontmatter_count": 3,
+      "kind": "agent",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/engineering/llm-wiki/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/engineering/llm-wiki/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/engineering/prompt-governance/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/engineering/security-guidance/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/engineering/skillopt-sleep/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 39,
+      "frontmatter_count": 38,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/engineering/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/engineering/slo-architect/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/engineering/statistical-analyst/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/engineering/terraform-patterns/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/engineering/universal-scraping-architect/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/engineering/universal-scraping-architect/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/engineering/workflow-builder/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/engineering/workflow-builder/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/engineering/write-a-skill/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/engineering/write-a-skill/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/engineering/zero-hallucination-coder/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/engineering-team/a11y-audit/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/engineering-team/google-workspace-cli/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 3,
+      "frontmatter_count": 3,
+      "kind": "agent",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/engineering-team/playwright-pro/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 10,
+      "frontmatter_count": 10,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/engineering-team/playwright-pro/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 2,
+      "frontmatter_count": 2,
+      "kind": "agent",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/engineering-team/self-improving-agent/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 6,
+      "frontmatter_count": 6,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/engineering-team/self-improving-agent/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 33,
+      "frontmatter_count": 33,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/engineering-team/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/engineering-team/snowflake-development/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/finance/business-investment-advisor/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 3,
+      "frontmatter_count": 3,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/finance/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/loop-library/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/markdown-html/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 5,
+      "frontmatter_count": 5,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/markdown-html/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/marketing/landing/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/marketing/landing/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 47,
+      "frontmatter_count": 47,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/marketing-skill/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/marketing-skill/video-content-strategist/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/product-team/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/product-team/agile-product-owner/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/product-team/apple-hig-expert/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/product-team/code-to-prd/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/product-team/research-summarizer/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 13,
+      "frontmatter_count": 13,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/product-team/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/productivity/andreessen/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/productivity/andreessen/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/productivity/capture/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/productivity/capture/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/productivity/deep-work/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/productivity/deep-work/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 2,
+      "frontmatter_count": 2,
+      "kind": "agent",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/productivity/email/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 2,
+      "frontmatter_count": 2,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/productivity/email/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/productivity/fable-goal/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/productivity/handoff/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/productivity/handoff/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/productivity/meetings/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/productivity/meetings/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/productivity/reflect/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/productivity/reflect/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/productivity/roast/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/productivity/roast/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/productivity/weekly-review/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/productivity/weekly-review/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/project-management/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 9,
+      "frontmatter_count": 9,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/project-management/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/ra-qm-team/compliance-team-eu-ai-act/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/ra-qm-team/compliance-team-iso42001/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 17,
+      "frontmatter_count": 17,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/ra-qm-team/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/research/deep-research/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/research/deep-research/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/research/dossier/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/research/dossier/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/research/grants/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/research/grants/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/research/litreview/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/research/litreview/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/research/notebooklm/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/research/notebooklm/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/research/patent/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/research/patent/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/research/pulse/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/research/pulse/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/research/research/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/research/research/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/research/syllabus/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/research/syllabus/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/research-ops/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 5,
+      "frontmatter_count": 5,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/13ed29d0831c181b/research-ops/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 2,
+      "frontmatter_count": 2,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/783232b622f8182e/external_plugins/discord/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 2,
+      "frontmatter_count": 2,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/783232b622f8182e/external_plugins/imessage/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 2,
+      "frontmatter_count": 2,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/783232b622f8182e/external_plugins/telegram/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 3,
+      "frontmatter_count": 3,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/c6b314fa671daf8c/external_plugins/neon/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.grok/marketplace-cache/d9b858f3b834e604/.kiro/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 27,
+      "frontmatter_count": 27,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/d9b858f3b834e604/.kiro/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/marketplace-cache/d9b858f3b834e604/meta/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 9,
+      "frontmatter_count": 9,
+      "kind": "skill",
+      "path": "/Users/steven/.grok/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 45,
+      "frontmatter_count": 33,
+      "kind": "agent",
+      "path": "/Users/steven/.qwen/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/.qwen/code-reviewer/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.qwen/code-reviewer/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/.qwen/coderabbit/1.0.0/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.qwen/coderabbit/1.0.0/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/.qwen/hookify/2cd88e7947b7/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.qwen/hookify/2cd88e7947b7/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/.qwen/hookify/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.qwen/hookify/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/.qwen/integrations/supremepower/commands/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 16,
+      "frontmatter_count": 16,
+      "kind": "skill",
+      "path": "/Users/steven/.qwen/integrations/supremepower/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 60,
+      "frontmatter_count": 60,
+      "kind": "skill",
+      "path": "/Users/steven/.qwen/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/.qwen/superpowers/4.2.0/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 14,
+      "frontmatter_count": 14,
+      "kind": "skill",
+      "path": "/Users/steven/.qwen/superpowers/4.2.0/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 14,
+      "frontmatter_count": 14,
+      "kind": "skill",
+      "path": "/Users/steven/.qwen/superpowers/a98c5dfc9de0/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/.qwen/superpowers/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 77,
+      "frontmatter_count": 72,
+      "kind": "skill",
+      "path": "/Users/steven/.qwen/superpowers/skills",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.qwen/superpowers/skills/skill-creator/agents",
+      "symlink": false
+    },
+    {
+      "classification": "projected",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.qwen/superpowers/skills/skill-installer/agents",
+      "symlink": false
+    }
+  ],
+  "schema": "capability-index/v1"
+}

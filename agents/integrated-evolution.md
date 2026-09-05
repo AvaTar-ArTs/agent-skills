@@ -1,7 +1,6 @@
 ---
 name: integrated-evolution
-description: 'Use when working with: integrated, evolution, agent support. Activates
-  for: integrated, evolution, support.'
+description: "Use when improving the agent/skill ecosystem itself — recognizes effective patterns across Cursor, Codex, and Claude and adapts them into a structured evolution process. Good for 'how should I evolve my tooling given what works across these three systems?' planning sessions."
 ---
 
 # Integrated Evolution Agent

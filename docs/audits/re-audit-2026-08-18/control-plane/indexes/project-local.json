@@ -1,0 +1,3136 @@
+{
+  "capabilities": [],
+  "classification": "project-local",
+  "generated_at": "2026-08-18T07:53:36+00:00",
+  "roots": [
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/.astrbot/data/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.cline/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/.config/devin/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/.config/opencode/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 99,
+      "frontmatter_count": 99,
+      "kind": "agent",
+      "path": "/Users/steven/.config/poolside/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 4,
+      "frontmatter_count": 4,
+      "kind": "skill",
+      "path": "/Users/steven/.config/poolside/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.desktop-commander/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/.factory/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.hermes/hermes-agent/apps/desktop/src/app/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/.hermes/hermes-agent/apps/desktop/src/app/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 82,
+      "frontmatter_count": 82,
+      "kind": "skill",
+      "path": "/Users/steven/.hermes/hermes-agent/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/.hermes/hermes-agent/tests/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/.hermes/hermes-agent/website/docs/user-guide/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/.hermes/hermes-agent/website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/.hermes/hermes-agent/website/src/pages/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 144,
+      "frontmatter_count": 144,
+      "kind": "skill",
+      "path": "/Users/steven/.hermes/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/.inferencesh/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.kimi/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.kimi-code/sessions/wd_github_3ba194663f40/session_59203823-30fb-4051-9504-1da23cdf0aad/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.kimi-code/sessions/wd_github_3ba194663f40/session_6675b8a9-0ff4-488c-8098-f47b5827ed41/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.kimi-code/sessions/wd_nocturnemelodies_15ab5ccfd91f/session_2ba17dfa-ddec-4966-a5a1-f0960db4c6c4/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.local/lib/python3.12/site-packages/anthropic/resources/beta/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/.local/lib/python3.12/site-packages/anthropic/resources/beta/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.local/lib/python3.12/site-packages/anthropic/types/beta/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/.local/lib/python3.12/site-packages/anthropic/types/beta/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.local/lib/python3.12/site-packages/elevenlabs/conversational_ai/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/.local/lib/python3.12/site-packages/openai/resources/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/.local/lib/python3.12/site-packages/openai/types/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.local/lib/python3.12/site-packages/transformers/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.local/share/uv/tools/mini-agent/lib/python3.14/site-packages/anthropic/resources/beta/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/.local/share/uv/tools/mini-agent/lib/python3.14/site-packages/anthropic/resources/beta/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.local/share/uv/tools/mini-agent/lib/python3.14/site-packages/anthropic/types/beta/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/.local/share/uv/tools/mini-agent/lib/python3.14/site-packages/anthropic/types/beta/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/.local/share/uv/tools/mini-agent/lib/python3.14/site-packages/openai/resources/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/.local/share/uv/tools/mini-agent/lib/python3.14/site-packages/openai/types/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 3,
+      "frontmatter_count": 3,
+      "kind": "skill",
+      "path": "/Users/steven/.local/share/uv/tools/playwright/lib/python3.14/site-packages/playwright/driver/package/lib/tools/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 4,
+      "frontmatter_count": 4,
+      "kind": "skill",
+      "path": "/Users/steven/.opencode/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/.pi/agent/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.qoder/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.qodo/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/.vscode/agent-plugins/github.com/github/awesome-copilot/.github/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 202,
+      "frontmatter_count": 202,
+      "kind": "agent",
+      "path": "/Users/steven/.vscode/agent-plugins/github.com/github/awesome-copilot/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 295,
+      "frontmatter_count": 295,
+      "kind": "skill",
+      "path": "/Users/steven/.vscode/agent-plugins/github.com/github/awesome-copilot/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 5,
+      "frontmatter_count": 5,
+      "kind": "agent",
+      "path": "/Users/steven/.vscode/agent-plugins/github.com/microsoft/skills-for-fabric/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 31,
+      "frontmatter_count": 31,
+      "kind": "skill",
+      "path": "/Users/steven/.vscode/agent-plugins/github.com/microsoft/skills-for-fabric/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 2,
+      "frontmatter_count": 2,
+      "kind": "agent",
+      "path": "/Users/steven/.vscode/extensions/esbenp.prettier-vscode-12.4.0/.claude/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 6,
+      "frontmatter_count": 6,
+      "kind": "skill",
+      "path": "/Users/steven/.vscode/extensions/github.vscode-pull-request-github-0.156.0/src/lm/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 6,
+      "frontmatter_count": 6,
+      "kind": "skill",
+      "path": "/Users/steven/.vscode/extensions/github.vscode-pull-request-github-0.162.0/src/lm/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 1,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/.vscode/extensions/mikesoft.vscode-super-cli-1.11.1/media/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 4,
+      "frontmatter_count": 4,
+      "kind": "skill",
+      "path": "/Users/steven/.vscode/extensions/ms-python.vscode-pylance-2026.3.1/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 2,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/.vscode/extensions/vscjava.vscode-java-dependency-0.27.6/resources/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/AVATARARTS/code/automations/PageLM-main/backend/src/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/AVATARARTS/code/automations/SurfSense-main/surfsense_backend/app/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/AVATARARTS/code/automations/open-video-overview-main/src/mastra/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/AVATARARTS/system/runtime-configs/qwen/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/AgentAlchemy/src/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 2,
+      "frontmatter_count": 2,
+      "kind": "skill",
+      "path": "/Users/steven/CoX-mod-Adventure/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/Desktop/.sixth/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/Documents/ObsidianVault/xEo/gemini-scribe/Skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/Downloads/Compressed/openviktor-main/apps/bot/src/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/ESO/AiAlley-DNA/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/ESO/EsoMystic/extensions/supremepower/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/ESO/EsoMystic/extensions/supremepower/commands/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 13,
+      "frontmatter_count": 13,
+      "kind": "agent",
+      "path": "/Users/steven/ESO/EsoMystic/extensions/supremepower/core/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 13,
+      "frontmatter_count": 13,
+      "kind": "skill",
+      "path": "/Users/steven/ESO/EsoMystic/extensions/supremepower/core/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 77,
+      "frontmatter_count": 71,
+      "kind": "skill",
+      "path": "/Users/steven/ESO/EsoMystic/extensions/supremepower/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/ESO/EsoMystic/extensions/supremepower/skills/skill-creator/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/ESO/EsoMystic/extensions/supremepower/skills/skill-installer/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/ESO/EsoMystic/extensions/supremepower/tests/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/ESO/EsoMystic/extensions/supremepower/tests/fixtures/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/Guides/instant-revenue/v3/READY-TO-SHIP/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 22,
+      "frontmatter_count": 22,
+      "kind": "skill",
+      "path": "/Users/steven/Music/ACCOS-CreativeAI-Music-Engine/.agents/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 4,
+      "frontmatter_count": 4,
+      "kind": "skill",
+      "path": "/Users/steven/Music/nocturneMelodies/.agents/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 25,
+      "frontmatter_count": 25,
+      "kind": "skill",
+      "path": "/Users/steven/Music/nocturneMelodies/heavyframes/.agents/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/Music/nocturneMelodies/heavyframes/.agents/skills/hyperframes-keyframes/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 3,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/Music/nocturneMelodies/heavyframes/.agents/skills/motion-graphics/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/Music/nocturneMelodies/heavyframes/.claude/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 1,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/Music/nocturneMelodies/research/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/MySites/.sixth/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 5,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/PYTHON_MARKETPLACE_MASTER/My-Deep-Proprietary/deeptutor/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/PYTHON_MARKETPLACE_MASTER/My-Deep-Proprietary/deeptutor/agents/math_animator/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/PYTHON_MARKETPLACE_MASTER/My-Deep-Proprietary/deeptutor/agents/question/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/PYTHON_MARKETPLACE_MASTER/My-Deep-Proprietary/deeptutor/agents/research/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/PYTHON_MARKETPLACE_MASTER/My-Deep-Proprietary/deeptutor/agents/solve/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/PYTHON_MARKETPLACE_MASTER/My-Deep-Proprietary/deeptutor/agents/visualize/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/PYTHON_MARKETPLACE_MASTER/My-Deep-Proprietary/deeptutor/book/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 13,
+      "frontmatter_count": 13,
+      "kind": "skill",
+      "path": "/Users/steven/PYTHON_MARKETPLACE_MASTER/My-Deep-Proprietary/deeptutor/tutorbot/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 5,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/PYTHON_MARKETPLACE_MASTER/My-Deep-Proprietary/deeptutor-mimic/deeptutor/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/PYTHON_MARKETPLACE_MASTER/My-Deep-Proprietary/deeptutor-mimic/deeptutor/agents/math_animator/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/PYTHON_MARKETPLACE_MASTER/My-Deep-Proprietary/deeptutor-mimic/deeptutor/agents/question/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/PYTHON_MARKETPLACE_MASTER/My-Deep-Proprietary/deeptutor-mimic/deeptutor/agents/research/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/PYTHON_MARKETPLACE_MASTER/My-Deep-Proprietary/deeptutor-mimic/deeptutor/agents/solve/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/PYTHON_MARKETPLACE_MASTER/My-Deep-Proprietary/deeptutor-mimic/deeptutor/agents/visualize/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/PYTHON_MARKETPLACE_MASTER/My-Deep-Proprietary/deeptutor-mimic/deeptutor/book/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 13,
+      "frontmatter_count": 13,
+      "kind": "skill",
+      "path": "/Users/steven/PYTHON_MARKETPLACE_MASTER/My-Deep-Proprietary/deeptutor-mimic/deeptutor/tutorbot/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/PYTHON_MARKETPLACE_MASTER/My-Deep-Proprietary/deeptutor-mimic/tests/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/PYTHON_MARKETPLACE_MASTER/My-Deep-Proprietary/deeptutor-mimic/web/app/(utility)/space/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/PYTHON_MARKETPLACE_MASTER/My-Deep-Proprietary/deeptutor-mimic/web/app/(workspace)/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/PYTHON_MARKETPLACE_MASTER/My-Deep-Proprietary/tests/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/PYTHON_MARKETPLACE_MASTER/My-Deep-Proprietary/web/app/(utility)/space/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/PYTHON_MARKETPLACE_MASTER/My-Deep-Proprietary/web/app/(workspace)/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/PYTHON_MARKETPLACE_MASTER/RELEASES/GAP_PRODUCTS/ai_ready_packager/.qodo/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/PYTHON_MARKETPLACE_MASTER/RELEASES/GAP_PRODUCTS/ai_ready_packager/.sixth/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 62,
+      "frontmatter_count": 47,
+      "kind": "agent",
+      "path": "/Users/steven/PYTHON_MARKETPLACE_MASTER/SupremePowers/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/PYTHON_MARKETPLACE_MASTER/SupremePowers/commands/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 13,
+      "frontmatter_count": 13,
+      "kind": "agent",
+      "path": "/Users/steven/PYTHON_MARKETPLACE_MASTER/SupremePowers/core/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 16,
+      "frontmatter_count": 16,
+      "kind": "skill",
+      "path": "/Users/steven/PYTHON_MARKETPLACE_MASTER/SupremePowers/core/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 1,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/PYTHON_MARKETPLACE_MASTER/SupremePowers/data-analysis/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 1,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/PYTHON_MARKETPLACE_MASTER/SupremePowers/data-analysis/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 18,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/PYTHON_MARKETPLACE_MASTER/SupremePowers/deep-learning/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 9,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/PYTHON_MARKETPLACE_MASTER/SupremePowers/deep-learning/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/PYTHON_MARKETPLACE_MASTER/SupremePowers/docs/integrations/qwen-supremepower/commands/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/PYTHON_MARKETPLACE_MASTER/SupremePowers/docs/integrations/supremepower/commands/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/PYTHON_MARKETPLACE_MASTER/SupremePowers/extensions/code-review/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/PYTHON_MARKETPLACE_MASTER/SupremePowers/extensions/supremepower/commands/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/PYTHON_MARKETPLACE_MASTER/SupremePowers/extensions/supremepower/tests/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/PYTHON_MARKETPLACE_MASTER/SupremePowers/extensions/supremepower/tests/fixtures/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/PYTHON_MARKETPLACE_MASTER/SupremePowers/hookify/2cd88e7947b7/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/PYTHON_MARKETPLACE_MASTER/SupremePowers/hookify/2cd88e7947b7/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/PYTHON_MARKETPLACE_MASTER/SupremePowers/integrations/supremepower/commands/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 8,
+      "frontmatter_count": 8,
+      "kind": "skill",
+      "path": "/Users/steven/PYTHON_MARKETPLACE_MASTER/SupremePowers/integrations/supremepower/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 70,
+      "frontmatter_count": 70,
+      "kind": "skill",
+      "path": "/Users/steven/PYTHON_MARKETPLACE_MASTER/SupremePowers/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/PYTHON_MARKETPLACE_MASTER/SupremePowers/superpowers/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 13,
+      "frontmatter_count": 13,
+      "kind": "agent",
+      "path": "/Users/steven/PYTHON_MARKETPLACE_MASTER/SupremePowers/superpowers/core/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 16,
+      "frontmatter_count": 16,
+      "kind": "skill",
+      "path": "/Users/steven/PYTHON_MARKETPLACE_MASTER/SupremePowers/superpowers/core/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 16,
+      "frontmatter_count": 16,
+      "kind": "skill",
+      "path": "/Users/steven/PYTHON_MARKETPLACE_MASTER/SupremePowers/superpowers/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/PYTHON_MARKETPLACE_MASTER/SupremePowers/tests/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/PYTHON_MARKETPLACE_MASTER/SupremePowers/tests/fixtures/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 3,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/PYTHON_MARKETPLACE_MASTER/SupremePowers/web-development/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 1,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/PYTHON_MARKETPLACE_MASTER/SupremePowers/web-development/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 134,
+      "frontmatter_count": 87,
+      "kind": "agent",
+      "path": "/Users/steven/Pictures/ideoGram/Sora-aLt/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 25,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/Pictures/ideoGram/Sora-aLt/agents/__MACOSX/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/Pictures/ideoGram/Sora-aLt/agents/__MACOSX/agents/skill-creator/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/Pictures/ideoGram/Sora-aLt/agents/__MACOSX/agents/skill-installer/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 109,
+      "frontmatter_count": 87,
+      "kind": "agent",
+      "path": "/Users/steven/Pictures/ideoGram/Sora-aLt/agents/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/Pictures/ideoGram/Sora-aLt/agents/agents/skill-creator/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/Pictures/ideoGram/Sora-aLt/agents/agents/skill-installer/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 15,
+      "frontmatter_count": 15,
+      "kind": "skill",
+      "path": "/Users/steven/Pictures/ideoGram/Sora-aLt/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/Steven-Chaplinski-Pro/.claude/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/adventures_guild/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 187,
+      "frontmatter_count": 170,
+      "kind": "agent",
+      "path": "/Users/steven/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/agents/skill-creator/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/agents/skill-installer/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/avatararts.org/my-supremepowers/extensions/supremepower/commands/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/comic/choTaku-main/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/comic/choTaku-main/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/comic/origin-story-main/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/diGiTaLdiVe/MasterxEo/AwesomeCodeTools/ai_tools/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 5,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/diGiTaLdiVe/agent_forge/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/diGiTaLdiVe/ai_merge_auto/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/diGiTaLdiVe/ai_merge_auto_setup/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 44,
+      "frontmatter_count": 42,
+      "kind": "agent",
+      "path": "/Users/steven/diGiTaLdiVe/claude-code-studio-main/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 1,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/diGiTaLdiVe/ice-tracker/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 1,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/diGiTaLdiVe/ice-tracker/docs/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/diGiTaLdiVe/ice-tracker/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 44,
+      "frontmatter_count": 42,
+      "kind": "agent",
+      "path": "/Users/steven/diGiTaLdiVe/my-super-claude-code-setup/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/diGiTaLdiVe/my-super-claude-code-setup/templates/barebones/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/diGiTaLdiVe/my-super-claude-code-setup/templates/barebones/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 62,
+      "frontmatter_count": 47,
+      "kind": "agent",
+      "path": "/Users/steven/diGiTaLdiVe/my-supremepowers/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/diGiTaLdiVe/my-supremepowers/commands/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 1,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/diGiTaLdiVe/my-supremepowers/data-analysis/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 1,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/diGiTaLdiVe/my-supremepowers/data-analysis/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 18,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/diGiTaLdiVe/my-supremepowers/deep-learning/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 9,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/diGiTaLdiVe/my-supremepowers/deep-learning/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/diGiTaLdiVe/my-supremepowers/docs/integrations/supremepower/commands/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/diGiTaLdiVe/my-supremepowers/extensions/code-review/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/diGiTaLdiVe/my-supremepowers/extensions/supremepower/commands/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/diGiTaLdiVe/my-supremepowers/extensions/supremepower/tests/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/diGiTaLdiVe/my-supremepowers/extensions/supremepower/tests/fixtures/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/diGiTaLdiVe/my-supremepowers/hookify/2cd88e7947b7/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/diGiTaLdiVe/my-supremepowers/hookify/2cd88e7947b7/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/diGiTaLdiVe/my-supremepowers/integrations/supremepower/commands/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 8,
+      "frontmatter_count": 8,
+      "kind": "skill",
+      "path": "/Users/steven/diGiTaLdiVe/my-supremepowers/integrations/supremepower/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 70,
+      "frontmatter_count": 70,
+      "kind": "skill",
+      "path": "/Users/steven/diGiTaLdiVe/my-supremepowers/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/diGiTaLdiVe/my-supremepowers/tests/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/diGiTaLdiVe/my-supremepowers/tests/fixtures/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 3,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/diGiTaLdiVe/my-supremepowers/web-development/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 1,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/diGiTaLdiVe/my-supremepowers/web-development/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 16,
+      "frontmatter_count": 16,
+      "kind": "skill",
+      "path": "/Users/steven/diGiTaLdiVe/p-market/01-devflow-pro/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 3,
+      "frontmatter_count": 3,
+      "kind": "skill",
+      "path": "/Users/steven/diGiTaLdiVe/p-market/02-mcp-forge/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 8,
+      "frontmatter_count": 8,
+      "kind": "skill",
+      "path": "/Users/steven/diGiTaLdiVe/p-market/03-plugin-dev-toolkit/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 5,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/diGiTaLdiVe/p-market/EXTERNAL_IMPORTS/agent_forge/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/diGiTaLdiVe/p-market/EXTERNAL_IMPORTS/ai-merge-auto/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/diGiTaLdiVe/p-market/EXTERNAL_IMPORTS/claudemarketplaces/app/api/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/diGiTaLdiVe/p-market/EXTERNAL_IMPORTS/claudemarketplaces/app/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/from-icloud/AI-Trader-main/AI-Trader-main/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 5,
+      "frontmatter_count": 5,
+      "kind": "skill",
+      "path": "/Users/steven/github/.agents/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 5,
+      "frontmatter_count": 5,
+      "kind": "skill",
+      "path": "/Users/steven/github/02_media_processing/.agents/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 15,
+      "frontmatter_count": 15,
+      "kind": "skill",
+      "path": "/Users/steven/github/Mini-Agent/mini_agent/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 2,
+      "frontmatter_count": 2,
+      "kind": "agent",
+      "path": "/Users/steven/github/awesome-claude-plugins/agent-sdk-dev/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/github/awesome-claude-plugins/artifacts-builder/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/github/awesome-claude-plugins/backend-architect/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/github/awesome-claude-plugins/canvas-design/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/github/awesome-claude-plugins/changelog-generator/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/github/awesome-claude-plugins/debugger/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/github/awesome-claude-plugins/developer-growth-analysis/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/github/awesome-claude-plugins/frontend-design/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/github/awesome-claude-plugins/frontend-developer/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/github/awesome-claude-plugins/mcp-builder/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 6,
+      "frontmatter_count": 6,
+      "kind": "agent",
+      "path": "/Users/steven/github/awesome-claude-plugins/perf/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 8,
+      "frontmatter_count": 8,
+      "kind": "skill",
+      "path": "/Users/steven/github/awesome-claude-plugins/perf/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/github/awesome-claude-plugins/senior-frontend/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 7,
+      "frontmatter_count": 7,
+      "kind": "skill",
+      "path": "/Users/steven/github/awesome-claude-plugins/skill-bus/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/github/awesome-claude-plugins/test-writer-fixer/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/github/awesome-claude-plugins/theme-factory/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 17,
+      "frontmatter_count": 17,
+      "kind": "skill",
+      "path": "/Users/steven/github/ccxt/.agents/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/github/ccxt/.claude/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 6,
+      "frontmatter_count": 6,
+      "kind": "skill",
+      "path": "/Users/steven/github/ccxt/.claude/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/github/html-anything/docs/screenshots/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/github/html-anything/html-anything/docs/screenshots/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/github/html-anything/html-anything/next/src/app/api/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/github/html-anything/html-anything/next/src/lib/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/github/html-anything/html-anything/next/src/lib/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 81,
+      "frontmatter_count": 81,
+      "kind": "skill",
+      "path": "/Users/steven/github/html-anything/html-anything/next/src/lib/templates/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/github/html-anything/next/src/app/api/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/github/html-anything/next/src/lib/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/github/html-anything/next/src/lib/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 81,
+      "frontmatter_count": 81,
+      "kind": "skill",
+      "path": "/Users/steven/github/html-anything/next/src/lib/templates/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/github/my-powers/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/github/my-powers/commands/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 13,
+      "frontmatter_count": 13,
+      "kind": "agent",
+      "path": "/Users/steven/github/my-powers/core/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 16,
+      "frontmatter_count": 16,
+      "kind": "skill",
+      "path": "/Users/steven/github/my-powers/core/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/github/my-powers/docs/integrations/qwen-supremepower/commands/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 16,
+      "frontmatter_count": 16,
+      "kind": "skill",
+      "path": "/Users/steven/github/my-powers/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/github/my-powers/superpowers/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 13,
+      "frontmatter_count": 13,
+      "kind": "agent",
+      "path": "/Users/steven/github/my-powers/superpowers/core/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 16,
+      "frontmatter_count": 16,
+      "kind": "skill",
+      "path": "/Users/steven/github/my-powers/superpowers/core/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 16,
+      "frontmatter_count": 16,
+      "kind": "skill",
+      "path": "/Users/steven/github/my-powers/superpowers/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/github/my-powers/tests/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/github/my-powers/tests/fixtures/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/github/obsidian-plugins/obsidian-terminal/.agents/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/github/obsidian-plugins/obsidian-terminal/.agents/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/github/sage/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/github/sage/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/grok/.qodo/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/hermes-agent-self-evolution/datasets/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/hermes-agent-self-evolution/evolution/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/hermes-agent-self-evolution/tests/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 3,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/ideo-mcp/.package-stage/complete/CreativeOS-MCP/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 2,
+      "frontmatter_count": 2,
+      "kind": "skill",
+      "path": "/Users/steven/ideo-mcp/.package-stage/complete/vendors/sandraschi-suno-mcp/.cursor/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/ideo-mcp/.package-stage/complete/vendors/sandraschi-suno-mcp/src/suno_mcp/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 3,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/ideo-mcp/.package-stage/creativeos-core/CreativeOS-MCP/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 2,
+      "frontmatter_count": 2,
+      "kind": "skill",
+      "path": "/Users/steven/ideo-mcp/.package-stage/suno-adapters/vendors/sandraschi-suno-mcp/.cursor/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/ideo-mcp/.package-stage/suno-adapters/vendors/sandraschi-suno-mcp/src/suno_mcp/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 3,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/ideo-mcp/CreativeOS-MCP/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 2,
+      "frontmatter_count": 2,
+      "kind": "skill",
+      "path": "/Users/steven/ideo-mcp/vendors/sandraschi-suno-mcp/.cursor/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/ideo-mcp/vendors/sandraschi-suno-mcp/src/suno_mcp/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 7,
+      "frontmatter_count": 6,
+      "kind": "agent",
+      "path": "/Users/steven/iterm2/.qwen/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/iterm2/.qwen/code-reviewer/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/iterm2/.qwen/code-reviewer/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/iterm2/.qwen/hookify/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/iterm2/.qwen/hookify/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 1,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/iterm2/.qwen/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/iterm2/.qwen/superpowers/4.2.0/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 14,
+      "frontmatter_count": 14,
+      "kind": "skill",
+      "path": "/Users/steven/iterm2/.qwen/superpowers/4.2.0/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 14,
+      "frontmatter_count": 14,
+      "kind": "skill",
+      "path": "/Users/steven/iterm2/.qwen/superpowers/a98c5dfc9de0/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/iterm2/.qwen/superpowers/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 14,
+      "frontmatter_count": 14,
+      "kind": "skill",
+      "path": "/Users/steven/iterm2/.qwen/superpowers/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 20,
+      "frontmatter_count": 20,
+      "kind": "skill",
+      "path": "/Users/steven/iterm2/Codex/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/iterm2/Codex/skills/.system/skill-creator/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/iterm2/Codex/skills/.system/skill-installer/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/iterm2/Codex/skills/skill-creator/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/iterm2/Codex/skills/skill-installer/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/iterm2/Codex/skills/workspace-ecosystem-audit/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 14,
+      "frontmatter_count": 14,
+      "kind": "skill",
+      "path": "/Users/steven/iterm2/Codex/superpowers/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 38,
+      "frontmatter_count": 34,
+      "kind": "agent",
+      "path": "/Users/steven/iterm2/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 14,
+      "frontmatter_count": 14,
+      "kind": "skill",
+      "path": "/Users/steven/iterm2/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/iterm2/superpowers/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 14,
+      "frontmatter_count": 14,
+      "kind": "skill",
+      "path": "/Users/steven/iterm2/superpowers/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/kimi/.qodo/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/openAI-Templates/0.1.1/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/openAI-Templates/0.1.1/skills/artifact-template-analytics-dashboard/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/openAI-Templates/0.1.1/skills/artifact-template-business-review/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/openAI-Templates/0.1.1/skills/artifact-template-design-report/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/openAI-Templates/0.1.1/skills/artifact-template-experiment-analysis/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/openAI-Templates/0.1.1/skills/artifact-template-financial-budget/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/openAI-Templates/0.1.1/skills/artifact-template-investment-committee-memo/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/openAI-Templates/0.1.1/skills/artifact-template-legal-memorandum/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/openAI-Templates/0.1.1/skills/artifact-template-market-trends-report/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/openAI-Templates/0.1.1/skills/artifact-template-minimal-letterhead/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/openAI-Templates/0.1.1/skills/artifact-template-operating-calendar/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/openAI-Templates/0.1.1/skills/artifact-template-operating-review/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/openAI-Templates/0.1.1/skills/artifact-template-project-kickoff/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/openAI-Templates/0.1.1/skills/artifact-template-project-tracker/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/openAI-Templates/0.1.1/skills/artifact-template-sales-pipeline/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/openAI-Templates/0.1.1/skills/artifact-template-simple-dark-mode/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/openAI-Templates/0.1.1/skills/artifact-template-simple-light-mode/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/openAI-Templates/0.1.1/skills/artifact-template-strategy-memorandum/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/openAI-Templates/0.1.1/skills/artifact-template-system-design/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/openAI-Templates/0.1.1/skills/artifact-template-team-alignment/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/openAI-Templates/0.1.1/skills/artifact-template-three-statement-forecast/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/opencode/.qodo/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/opencode/.sixth/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/pythons/OpusReMixClIp/_sources/gen2_consolidation_superseded/pipeline_fixed/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/pythons/OpusReMixClIp/_sources/opus-clip-evolution/pipeline/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/pythons/opus-clip-evolution/pipeline/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/sanwan.ai-LOBsTER-Diary/sanwan.ai/en/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/sanwan.ai-LOBsTER-Diary/sanwan.ai/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 12,
+      "frontmatter_count": 12,
+      "kind": "skill",
+      "path": "/Users/steven/scripts/.agents/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 4,
+      "frontmatter_count": 4,
+      "kind": "skill",
+      "path": "/Users/steven/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 1,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/skills.sh/ai-sdk.dev/docs/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/skills.sh/www.skills.sh/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/skills.sh/www.skills.sh/agentspace-so/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/skills.sh/www.skills.sh/anthropics/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/skills.sh/www.skills.sh/apollographql/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/skills.sh/www.skills.sh/astronomer/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/skills.sh/www.skills.sh/axiomhq/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/skills.sh/www.skills.sh/base/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/skills.sh/www.skills.sh/better-auth/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/skills.sh/www.skills.sh/browser-act/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/skills.sh/www.skills.sh/browserbase/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/skills.sh/www.skills.sh/clerk/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/skills.sh/www.skills.sh/cloudflare/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/skills.sh/www.skills.sh/cloudflare/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/skills.sh/www.skills.sh/coderabbitai/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/skills.sh/www.skills.sh/contentful/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/skills.sh/www.skills.sh/dagster-io/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/skills.sh/www.skills.sh/dart-lang/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/skills.sh/www.skills.sh/deepgram/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/skills.sh/www.skills.sh/denoland/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/skills.sh/www.skills.sh/depot/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/skills.sh/www.skills.sh/dimillian/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/skills.sh/www.skills.sh/elevenlabs/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/skills.sh/www.skills.sh/elevenlabs/skills/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/skills.sh/www.skills.sh/emilkowalski/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/skills.sh/www.skills.sh/encoredev/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/skills.sh/www.skills.sh/expo/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/skills.sh/www.skills.sh/factory-ai/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/skills.sh/www.skills.sh/firebase/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/skills.sh/www.skills.sh/firecrawl/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/skills.sh/www.skills.sh/flutter/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/skills.sh/www.skills.sh/genkit-ai/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/skills.sh/www.skills.sh/getsentry/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/skills.sh/www.skills.sh/google/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/skills.sh/www.skills.sh/heygen-com/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/skills.sh/www.skills.sh/higgsfield-ai/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/skills.sh/www.skills.sh/huggingface/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/skills.sh/www.skills.sh/inference-sh/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/skills.sh/www.skills.sh/inference-sh/skills/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/skills.sh/www.skills.sh/jpoehnelt/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/skills.sh/www.skills.sh/juliusbrussee/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/skills.sh/www.skills.sh/langfuse/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/skills.sh/www.skills.sh/magentosh/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/skills.sh/www.skills.sh/makenotion/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/skills.sh/www.skills.sh/mastra-ai/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/skills.sh/www.skills.sh/mattpocock/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/skills.sh/www.skills.sh/mcp-use/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/skills.sh/www.skills.sh/microsoft/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/skills.sh/www.skills.sh/n8n-io/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/skills.sh/www.skills.sh/nvidia/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/skills.sh/www.skills.sh/openai/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/skills.sh/www.skills.sh/pbakaus/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/skills.sh/www.skills.sh/pinecone-io/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/skills.sh/www.skills.sh/planetscale/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/skills.sh/www.skills.sh/posthog/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/skills.sh/www.skills.sh/prisma/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/skills.sh/www.skills.sh/qdrant/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/skills.sh/www.skills.sh/remotion-dev/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/skills.sh/www.skills.sh/rivet-dev/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/skills.sh/www.skills.sh/runwayml/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/skills.sh/www.skills.sh/semgrep/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/skills.sh/www.skills.sh/sentdm/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/skills.sh/www.skills.sh/skills-collective/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/skills.sh/www.skills.sh/tavily-ai/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/skills.sh/www.skills.sh/triggerdotdev/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/skills.sh/www.skills.sh/triggerdotdev/skills/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/skills.sh/www.skills.sh/upstash/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/skills.sh/www.skills.sh/vercel-labs/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/skills.sh/www.skills.sh/wix/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/skills.sh/www.skills.sh/wshobson/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/tmp/zij3oup9_recovered/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 72,
+      "frontmatter_count": 52,
+      "kind": "agent",
+      "path": "/Users/steven/tmp/zij3oup9_recovered/my-supremepowers/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 13,
+      "frontmatter_count": 13,
+      "kind": "agent",
+      "path": "/Users/steven/tmp/zij3oup9_recovered/my-supremepowers/core/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 16,
+      "frontmatter_count": 16,
+      "kind": "skill",
+      "path": "/Users/steven/tmp/zij3oup9_recovered/my-supremepowers/core/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/tmp/zij3oup9_recovered/my-supremepowers/docs/integrations/supremepower/commands/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "skill",
+      "path": "/Users/steven/tmp/zij3oup9_recovered/my-supremepowers/extensions/code-review/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 50,
+      "frontmatter_count": 38,
+      "kind": "agent",
+      "path": "/Users/steven/tmp/zij3oup9_recovered/my-supremepowers/extensions/supremepower/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/tmp/zij3oup9_recovered/my-supremepowers/extensions/supremepower/commands/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 50,
+      "frontmatter_count": 38,
+      "kind": "agent",
+      "path": "/Users/steven/tmp/zij3oup9_recovered/my-supremepowers/extensions/supremepower/core/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 63,
+      "frontmatter_count": 63,
+      "kind": "skill",
+      "path": "/Users/steven/tmp/zij3oup9_recovered/my-supremepowers/extensions/supremepower/core/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 63,
+      "frontmatter_count": 63,
+      "kind": "skill",
+      "path": "/Users/steven/tmp/zij3oup9_recovered/my-supremepowers/extensions/supremepower/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/tmp/zij3oup9_recovered/my-supremepowers/extensions/supremepower/tests/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/tmp/zij3oup9_recovered/my-supremepowers/extensions/supremepower/tests/fixtures/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/tmp/zij3oup9_recovered/my-supremepowers/integrations/supremepower/commands/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 8,
+      "frontmatter_count": 8,
+      "kind": "skill",
+      "path": "/Users/steven/tmp/zij3oup9_recovered/my-supremepowers/integrations/supremepower/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/tmp/zij3oup9_recovered/my-supremepowers/tests/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/tmp/zij3oup9_recovered/my-supremepowers/tests/fixtures/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "skill",
+      "path": "/Users/steven/tmp/zij3oup9_recovered/skills",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 0,
+      "frontmatter_count": 0,
+      "kind": "agent",
+      "path": "/Users/steven/vibehackers.io/zapier.com/agents",
+      "symlink": false
+    },
+    {
+      "classification": "project-local",
+      "file_count": 1,
+      "frontmatter_count": 1,
+      "kind": "agent",
+      "path": "/Users/steven/vid-gen/agents",
+      "symlink": false
+    }
+  ],
+  "schema": "capability-index/v1"
+}

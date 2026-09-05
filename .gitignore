@@ -20,8 +20,13 @@ conversation-export*.json
 gemini-conversation-*.json
 *-this-session-is-being-continued-from-*
 
-# Archives — kept on disk, not in git
+# Archives and point-in-time safety copies are kept locally, not in git.
 *.zip
+backups/
+backup/
+*.bak
+*.backup
+*.backup_*
 
 # Virtual environment
 .venv/
@@ -39,3 +44,7 @@ enriched-*.csv
 docs-*.csv
 docs.txt
 chozen-land.txt
+
+# DeepTutor runtime state
+deeptutor/user/logs/
+deeptutor/user/**/*.db

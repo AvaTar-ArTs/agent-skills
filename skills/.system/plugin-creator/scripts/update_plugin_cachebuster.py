@@ -5,13 +5,21 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import re
 import sys
+import tempfile
 from datetime import datetime, timezone
 from pathlib import Path
 
-
 CACHEBUSTER_PREFIX = "codex"
+SEMVER_BASE_RE = re.compile(
+    r"^(0|[1-9]\d*)\."
+    r"(0|[1-9]\d*)\."
+    r"(0|[1-9]\d*)"
+    r"(?:-(?:0|[1-9]\d*|\d*[A-Za-z-][0-9A-Za-z-]*)(?:\."
+    r"(?:0|[1-9]\d*|\d*[A-Za-z-][0-9A-Za-z-]*))*)?$"
+)
 
 
 def parse_args() -> argparse.Namespace:
@@ -38,10 +46,15 @@ def main() -> None:
     version = manifest.get("version")
     if not isinstance(version, str) or not version.strip():
         raise ValueError(f"{manifest_path} must contain a non-empty string 'version'.")
+    version_prefix = version.split("+", 1)[0]
+    if SEMVER_BASE_RE.fullmatch(version_prefix) is None:
+        raise ValueError(
+            f"{manifest_path} version '{version}' must have a strict semver base before '+'"
+        )
     cachebuster = sanitize_cachebuster(args.cachebuster or default_cachebuster())
     next_version = with_cachebuster(version, cachebuster)
     manifest["version"] = next_version
-    manifest_path.write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
+    write_manifest_atomic(manifest_path, manifest)
 
     print(f"Updated plugin version: {version} -> {next_version}")
 
@@ -51,8 +64,31 @@ def load_manifest(manifest_path: Path) -> dict[str, object]:
         raise FileNotFoundError(f"missing manifest: {manifest_path}")
     payload = json.loads(manifest_path.read_text(encoding="utf-8"))
     if not isinstance(payload, dict):
-        raise ValueError(f"{manifest_path} must contain a JSON object.")
+        raise TypeError(f"{manifest_path} must contain a JSON object.")
     return payload
+
+
+def write_manifest_atomic(manifest_path: Path, manifest: dict[str, object]) -> None:
+    existing_mode = manifest_path.stat().st_mode & 0o777
+    file_descriptor, temporary_name = tempfile.mkstemp(
+        dir=manifest_path.parent,
+        prefix=f".{manifest_path.name}.",
+        suffix=".tmp",
+    )
+    temporary_path = Path(temporary_name)
+    try:
+        with os.fdopen(file_descriptor, "w", encoding="utf-8") as handle:
+            json.dump(manifest, handle, indent=2)
+            handle.write("\n")
+            handle.flush()
+            os.fsync(handle.fileno())
+        temporary_path.chmod(existing_mode)
+        os.replace(temporary_path, manifest_path)
+    except Exception:
+        temporary_path.unlink(missing_ok=True)
+        raise
+
+
 def sanitize_cachebuster(value: str) -> str:
     sanitized = re.sub(r"[^a-z0-9-]+", "-", value.strip().lower())
     sanitized = re.sub(r"-{2,}", "-", sanitized).strip("-")
@@ -73,6 +109,6 @@ def with_cachebuster(version: str, cachebuster: str) -> str:
 if __name__ == "__main__":
     try:
         main()
-    except Exception as err:  # noqa: BLE001 - CLI should surface a single clear message.
+    except Exception as err:
         print(str(err), file=sys.stderr)
         raise SystemExit(1) from err

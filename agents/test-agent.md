@@ -1,5 +1,6 @@
 ---
 name: test-agent
+description: Use for validating agent discovery, metadata parsing, and lightweight test-agent behavior.
 expertise:
   - Testing
   - Quality assurance

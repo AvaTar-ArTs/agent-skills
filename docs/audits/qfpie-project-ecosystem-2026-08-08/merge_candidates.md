@@ -1,0 +1,529 @@
+# Merge Candidates
+
+- **axolotl-main** ↔ **axolotl-main**: 100.0% — Merge
+- **tools** ↔ **tools**: 100.0% — Merge
+- **documentation** ↔ **documentation**: 100.0% — Merge
+- **vibrant-chaplygin** ↔ **vibrant-chaplygin**: 100.0% — Merge
+- **supremepower** ↔ **supremepower**: 100.0% — Merge
+- **docs** ↔ **docs**: 100.0% — Merge
+- **pyt** ↔ **pyt**: 100.0% — Merge
+- **csv_schema_diff** ↔ **csv_schema_diff**: 100.0% — Merge
+- **csv_schema_diff** ↔ **csv_schema_diff**: 100.0% — Merge
+- **mcPHooker** ↔ **mcPHooker**: 100.0% — Merge
+- **ai-voice-agents** ↔ **ai-voice-agents**: 100.0% — Merge
+- **remove-bg-cli** ↔ **remove-bg-cli**: 100.0% — Merge
+- **AUTOMATION_BOTS** ↔ **AUTOMATION_BOTS**: 100.0% — Merge
+- **AUTOMATION_BOTS** ↔ **AUTOMATION_BOTS**: 100.0% — Merge
+- **AUTOMATION_BOTS** ↔ **AUTOMATION_BOTS**: 100.0% — Merge
+- **llm_orchestration** ↔ **llm_orchestration**: 100.0% — Merge
+- **llm_orchestration** ↔ **llm_orchestration**: 100.0% — Merge
+- **llm_orchestration** ↔ **llm_orchestration**: 100.0% — Merge
+- **web_apps** ↔ **web_apps**: 100.0% — Merge
+- **csv_schema_diff** ↔ **csv_schema_diff**: 100.0% — Merge
+- **2T-Xx-python_image_upscaling** ↔ **2T-Xx-python_image_upscaling**: 100.0% — Merge
+- **2T-Xx-python_image_upscaling** ↔ **2T-Xx-python_image_upscaling**: 100.0% — Merge
+- **2T-Xx-python_image_upscaling** ↔ **2T-Xx-python_image_upscaling**: 100.0% — Merge
+- **BUSINESS_heavenlyHands_intelligent-organization-system** ↔ **BUSINESS_heavenlyHands_intelligent-organization-system**: 100.0% — Merge
+- **LLM_Course_Engineers_Handbook_Cover** ↔ **LLM_Course_Engineers_Handbook_Cover**: 100.0% — Merge
+- **utilities** ↔ **utilities**: 100.0% — Merge
+- **advanced-systems** ↔ **advanced-systems**: 100.0% — Merge
+- **advanced-systems** ↔ **advanced-systems**: 100.0% — Merge
+- **advanced-systems** ↔ **advanced-systems**: 100.0% — Merge
+- **tooluniverse-clinical-trial-design** ↔ **tooluniverse-clinical-trial-design**: 100.0% — Merge
+- **llm_prompt_batch** ↔ **llm_prompt_batch**: 100.0% — Merge
+- **llm_prompt_batch** ↔ **llm_prompt_batch**: 100.0% — Merge
+- **suno-scraper-typescript** ↔ **suno-scraper-typescript**: 100.0% — Merge
+- **suno-scraper-typescript** ↔ **suno-scraper-typescript**: 100.0% — Merge
+- **suno-scraper-typescript** ↔ **suno-scraper-typescript**: 100.0% — Merge
+- **suno-scraper-typescript** ↔ **suno-scraper-typescript**: 100.0% — Merge
+- **suno-scraper-typescript** ↔ **suno-scraper-typescript**: 100.0% — Merge
+- **suno-scraper-typescript** ↔ **suno-scraper-typescript**: 100.0% — Merge
+- **db_schemas** ↔ **db_schemas**: 100.0% — Merge
+- **agents** ↔ **agents**: 100.0% — Merge
+- **DATA_UTILITIES** ↔ **DATA_UTILITIES**: 100.0% — Merge
+- **DATA_UTILITIES** ↔ **DATA_UTILITIES**: 100.0% — Merge
+- **DATA_UTILITIES** ↔ **DATA_UTILITIES**: 100.0% — Merge
+- **.runpod** ↔ **.runpod**: 100.0% — Merge
+- **.runpod** ↔ **.runpod**: 100.0% — Merge
+- **examples** ↔ **examples**: 100.0% — Merge
+- **examples** ↔ **examples**: 100.0% — Merge
+- **examples** ↔ **examples**: 100.0% — Merge
+- **examples** ↔ **examples**: 100.0% — Merge
+- **examples** ↔ **examples**: 100.0% — Merge
+- **codester** ↔ **CODESTER**: 100.0% — Merge
+- **codester** ↔ **codester**: 100.0% — Merge
+- **fiverr** ↔ **FIVERR**: 100.0% — Merge
+- **fiverr** ↔ **fiverr**: 100.0% — Merge
+- **gumroad** ↔ **GUMROAD**: 100.0% — Merge
+- **gumroad** ↔ **gumroad**: 100.0% — Merge
+- **sellfy** ↔ **sellfy**: 100.0% — Merge
+- **sellfy** ↔ **SELLFY**: 100.0% — Merge
+- **upwork** ↔ **upwork**: 100.0% — Merge
+- **upwork** ↔ **UPWORK**: 100.0% — Merge
+- **examples** ↔ **examples**: 100.0% — Merge
+- **CODESTER** ↔ **codester**: 100.0% — Merge
+- **FIVERR** ↔ **fiverr**: 100.0% — Merge
+- **GUMROAD** ↔ **gumroad**: 100.0% — Merge
+- **sellfy** ↔ **SELLFY**: 100.0% — Merge
+- **upwork** ↔ **UPWORK**: 100.0% — Merge
+- **.runpod** ↔ **.runpod**: 100.0% — Merge
+- **aeo-optimizer-pro** ↔ **aeo-optimizer-pro**: 100.0% — Merge
+- **Twitch-Streamer-GPT-main** ↔ **Twitch-Streamer-GPT-main**: 100.0% — Merge
+- **Twitch-Streamer-GPT-main** ↔ **Twitch-Streamer-GPT-main**: 100.0% — Merge
+- **Twitch-Streamer-GPT-main** ↔ **Twitch-Streamer-GPT-main**: 100.0% — Merge
+- **Twitch-Streamer-GPT-main** ↔ **Twitch-Streamer-GPT-main**: 100.0% — Merge
+- **Twitch-Streamer-GPT-main** ↔ **Twitch-Streamer-GPT-main**: 100.0% — Merge
+- **Twitch-Streamer-GPT-main** ↔ **Twitch-Streamer-GPT-main**: 100.0% — Merge
+- **Twitch-Streamer-GPT-main** ↔ **Twitch-Streamer-GPT-main**: 100.0% — Merge
+- **DATA_UTILITIES_data-analyzer** ↔ **DATA_UTILITIES_data-analyzer**: 100.0% — Merge
+- **DATA_UTILITIES_data-analyzer** ↔ **DATA_UTILITIES_data-analyzer**: 100.0% — Merge
+- **Twitch-Streamer-GPT-main** ↔ **Twitch-Streamer-GPT-main**: 100.0% — Merge
+- **Twitch-Streamer-GPT-main** ↔ **Twitch-Streamer-GPT-main**: 100.0% — Merge
+- **DATA_UTILITIES_data-analyzer** ↔ **DATA_UTILITIES_data-analyzer**: 100.0% — Merge
+- **Twitch-Streamer-GPT-main** ↔ **Twitch-Streamer-GPT-main**: 100.0% — Merge
+- **voice_speech** ↔ **voice_speech**: 100.0% — Merge
+- **csv_safe_merge** ↔ **csv_safe_merge**: 100.0% — Merge
+- **csv_safe_merge** ↔ **csv_safe_merge**: 100.0% — Merge
+- **v4-workspace** ↔ **v4-workspace**: 100.0% — Merge
+- **transcribe** ↔ **transcribe**: 100.0% — Merge
+- **ai-usage-analytics** ↔ **ai-usage-analytics**: 100.0% — Merge
+- **image_tools** ↔ **image_tools**: 100.0% — Merge
+- **n8n_workflows** ↔ **n8n_workflows**: 100.0% — Merge
+- **ai_platform** ↔ **ai_platform**: 100.0% — Merge
+- **ai_platform** ↔ **ai_platform**: 100.0% — Merge
+- **ai_project** ↔ **ai_project**: 100.0% — Merge
+- **ai_project** ↔ **ai_project**: 100.0% — Merge
+- **multi_purpose_ai** ↔ **multi_purpose_ai**: 100.0% — Merge
+- **multi_purpose_ai** ↔ **multi_purpose_ai**: 100.0% — Merge
+- **ai_platform** ↔ **ai_platform**: 100.0% — Merge
+- **ai_project** ↔ **ai_project**: 100.0% — Merge
+- **multi_purpose_ai** ↔ **multi_purpose_ai**: 100.0% — Merge
+- **MCP-SERVER-STARTER-KIT** ↔ **mcp-server-starter-kit**: 100.0% — Merge
+- **suno-to-google-sheets** ↔ **suno-to-google-sheets**: 100.0% — Merge
+- **suno-to-google-sheets** ↔ **suno-to-google-sheets**: 100.0% — Merge
+- **suno-to-google-sheets** ↔ **suno-to-google-sheets**: 100.0% — Merge
+- **suno-to-google-sheets** ↔ **suno-to-google-sheets**: 100.0% — Merge
+- **suno-to-google-sheets** ↔ **suno-to-google-sheets**: 100.0% — Merge
+- **suno-to-google-sheets** ↔ **suno-to-google-sheets**: 100.0% — Merge
+- **suno-to-google-sheets** ↔ **suno-to-google-sheets**: 100.0% — Merge
+- **suno-to-google-sheets** ↔ **suno-to-google-sheets**: 100.0% — Merge
+- **suno-to-google-sheets** ↔ **suno-to-google-sheets**: 100.0% — Merge
+- **suno-to-google-sheets** ↔ **suno-to-google-sheets**: 100.0% — Merge
+- **clean** ↔ **clean**: 100.0% — Merge
+- **llm_prompt_batch** ↔ **llm_prompt_batch**: 100.0% — Merge
+- **ai-comic-factory-main** ↔ **ai-comic-factory-main**: 100.0% — Merge
+- **mcphooker-lite** ↔ **mcphooker-lite**: 100.0% — Merge
+- **07_lite_utilities** ↔ **07_lite_utilities**: 100.0% — Merge
+- **frontend** ↔ **frontend**: 100.0% — Merge
+- **devtu-optimize-skills** ↔ **devtu-optimize-skills**: 100.0% — Merge
+- **tooluniverse** ↔ **tooluniverse**: 100.0% — Merge
+- **tooluniverse-sequence-retrieval** ↔ **tooluniverse-sequence-retrieval**: 100.0% — Merge
+- **build-mcp-app** ↔ **build-mcp-app**: 100.0% — Merge
+- **build-mcp-server** ↔ **build-mcp-server**: 100.0% — Merge
+- **build-mcpb** ↔ **build-mcpb**: 100.0% — Merge
+- **writing-skills** ↔ **writing-skills**: 100.0% — Merge
+- **writing-skills** ↔ **writing-skills**: 100.0% — Merge
+- **hook-development** ↔ **hook-development**: 100.0% — Merge
+- **plugin-settings** ↔ **plugin-settings**: 100.0% — Merge
+- **plugin-structure** ↔ **plugin-structure**: 100.0% — Merge
+- **skill-creator** ↔ **skill-creator**: 100.0% — Merge
+- **skill-development** ↔ **skill-development**: 100.0% — Merge
+- **writing-skills** ↔ **writing-skills**: 100.0% — Merge
+- **ai_collection** ↔ **ai_collection**: 100.0% — Merge
+- **ai_collection** ↔ **ai_collection**: 100.0% — Merge
+- **crew_ai** ↔ **crew_ai**: 100.0% — Merge
+- **crew_ai** ↔ **crew_ai**: 100.0% — Merge
+- **ai_collection** ↔ **ai_collection**: 100.0% — Merge
+- **crew_ai** ↔ **crew_ai**: 100.0% — Merge
+- **music_audio_gen** ↔ **music_audio_gen**: 100.0% — Merge
+- **video_tools** ↔ **video_tools**: 100.0% — Merge
+- **video_tools** ↔ **VIDEO_TOOLS**: 100.0% — Merge
+- **video_tools** ↔ **VIDEO_TOOLS**: 100.0% — Merge
+- **spicetify-themes** ↔ **spicetify-themes**: 100.0% — Merge
+- **spicetify-themes** ↔ **spicetify-themes**: 100.0% — Merge
+- **spicetify-themes** ↔ **spicetify-themes**: 100.0% — Merge
+- **mcp-integration** ↔ **mcp-integration**: 100.0% — Merge
+- **MarkD** ↔ **MarkD**: 100.0% — Merge
+- **workflow** ↔ **workflow**: 100.0% — Merge
+- **agent-development** ↔ **agent-development**: 100.0% — Merge
+- **command-development** ↔ **command-development**: 100.0% — Merge
+- **requesting-code-review** ↔ **requesting-code-review**: 100.0% — Merge
+- **requesting-code-review** ↔ **requesting-code-review**: 100.0% — Merge
+- **using-git-worktrees** ↔ **using-git-worktrees**: 100.0% — Merge
+- **using-git-worktrees** ↔ **using-git-worktrees**: 100.0% — Merge
+- **requesting-code-review** ↔ **requesting-code-review**: 100.0% — Merge
+- **using-git-worktrees** ↔ **using-git-worktrees**: 100.0% — Merge
+- **workflow-bootstrap** ↔ **workflow-bootstrap**: 100.0% — Merge
+- **MULTI-AGENT-SKILL-PACK** ↔ **multi-agent-skill-pack**: 100.0% — Merge
+- **public** ↔ **public**: 100.0% — Merge
+- **public** ↔ **public**: 100.0% — Merge
+- **public** ↔ **public**: 100.0% — Merge
+- **public** ↔ **public**: 100.0% — Merge
+- **public** ↔ **public**: 100.0% — Merge
+- **public** ↔ **public**: 100.0% — Merge
+- **public** ↔ **public**: 100.0% — Merge
+- **ai-comic-factory-main_public_favicon** ↔ **ai-comic-factory-main_public_favicon**: 100.0% — Merge
+- **subagent-driven-development** ↔ **subagent-driven-development**: 100.0% — Merge
+- **subagent-driven-development** ↔ **subagent-driven-development**: 100.0% — Merge
+- **subagent-driven-development** ↔ **subagent-driven-development**: 100.0% — Merge
+- **04_pythons_projects** ↔ **04_pythons_projects**: 100.0% — Merge
+- **token_budget_estimator** ↔ **token_budget_estimator**: 100.0% — Merge
+- **token_budget_estimator** ↔ **token_budget_estimator**: 100.0% — Merge
+- **test-driven-development** ↔ **test-driven-development**: 100.0% — Merge
+- **dispatching-parallel-agents** ↔ **dispatching-parallel-agents**: 100.0% — Merge
+- **dispatching-parallel-agents** ↔ **dispatching-parallel-agents**: 100.0% — Merge
+- **finishing-a-development-branch** ↔ **finishing-a-development-branch**: 100.0% — Merge
+- **finishing-a-development-branch** ↔ **finishing-a-development-branch**: 100.0% — Merge
+- **dispatching-parallel-agents** ↔ **dispatching-parallel-agents**: 100.0% — Merge
+- **ecosystem-clarity** ↔ **ecosystem-clarity**: 100.0% — Merge
+- **finishing-a-development-branch** ↔ **finishing-a-development-branch**: 100.0% — Merge
+- **verification-before-completion** ↔ **verification-before-completion**: 100.0% — Merge
+- **writing-plans** ↔ **writing-plans**: 100.0% — Merge
+- **csv_safe_merge** ↔ **csv_safe_merge**: 100.0% — Merge
+- **TG-MegaBot** ↔ **TG-MegaBot**: 100.0% — Merge
+- **newly_added** ↔ **newly_added**: 100.0% — Merge
+- **newly_added** ↔ **newly_added**: 100.0% — Merge
+- **newly_added** ↔ **newly_added**: 100.0% — Merge
+- **content_generation** ↔ **content_generation**: 100.0% — Merge
+- **content_generation** ↔ **content_generation**: 100.0% — Merge
+- **niche_markets** ↔ **niche_markets**: 100.0% — Merge
+- **content_generation** ↔ **content_generation**: 100.0% — Merge
+- **llm_training_framework** ↔ **llm_training_framework**: 100.0% — Merge
+- **llm_training_framework** ↔ **llm_training_framework**: 100.0% — Merge
+- **llm_training_framework** ↔ **llm_training_framework**: 100.0% — Merge
+- **public** ↔ **public**: 100.0% — Merge
+- **public** ↔ **public**: 100.0% — Merge
+- **public** ↔ **public**: 100.0% — Merge
+- **public** ↔ **public**: 100.0% — Merge
+- **public** ↔ **public**: 100.0% — Merge
+- **public** ↔ **public**: 100.0% — Merge
+- **_analysis** ↔ **_analysis**: 100.0% — Merge
+- **3d_tools** ↔ **3d_tools**: 100.0% — Merge
+- **multi_llm_systems** ↔ **multi_llm_systems**: 100.0% — Merge
+- **seo_tools** ↔ **seo_tools**: 100.0% — Merge
+- **YT-Comment-Bot-master** ↔ **YT-Comment-Bot-master**: 100.0% — Merge
+- **executing-plans** ↔ **executing-plans**: 100.0% — Merge
+- **botty** ↔ **botty**: 100.0% — Merge
+- **botty** ↔ **botty**: 100.0% — Merge
+- **botty** ↔ **botty**: 100.0% — Merge
+- **token_budget_estimator** ↔ **token_budget_estimator**: 100.0% — Merge
+- **trend-analyzer-free** ↔ **trend-analyzer-free**: 100.0% — Merge
+- **trend-analyzer-pro** ↔ **trend-analyzer-pro**: 100.0% — Merge
+- **public** ↔ **public**: 100.0% — Merge
+- **public** ↔ **public**: 100.0% — Merge
+- **public** ↔ **public**: 100.0% — Merge
+- **public** ↔ **public**: 100.0% — Merge
+- **public** ↔ **public**: 100.0% — Merge
+- **crm_tools** ↔ **crm_tools**: 100.0% — Merge
+- **image_prompts** ↔ **image_prompts**: 100.0% — Merge
+- **image_prompts** ↔ **IMAGE_PROMPTS**: 100.0% — Merge
+- **nft_tools** ↔ **nft_tools**: 100.0% — Merge
+- **nft_tools** ↔ **NFT_TOOLS**: 100.0% — Merge
+- **nft_tools** ↔ **NFT_TOOLS**: 100.0% — Merge
+- **image_prompts** ↔ **IMAGE_PROMPTS**: 100.0% — Merge
+- **01_marketmaster_doc_bundle** ↔ **01_marketmaster_doc_bundle**: 100.0% — Merge
+- **05_userscripts_curated** ↔ **05_userscripts_curated**: 100.0% — Merge
+- **directory_tree_csv** ↔ **directory_tree_csv**: 100.0% — Merge
+- **directory_tree_csv** ↔ **directory_tree_csv**: 100.0% — Merge
+- **public** ↔ **public**: 100.0% — Merge
+- **public** ↔ **public**: 100.0% — Merge
+- **public** ↔ **public**: 100.0% — Merge
+- **public** ↔ **public**: 100.0% — Merge
+- **public** ↔ **public**: 100.0% — Merge
+- **public** ↔ **public**: 100.0% — Merge
+- **public** ↔ **public**: 100.0% — Merge
+- **public** ↔ **public**: 100.0% — Merge
+- **public** ↔ **public**: 100.0% — Merge
+- **public** ↔ **public**: 100.0% — Merge
+- **receiving-code-review** ↔ **receiving-code-review**: 100.0% — Merge
+- **receiving-code-review** ↔ **receiving-code-review**: 100.0% — Merge
+- **receiving-code-review** ↔ **receiving-code-review**: 100.0% — Merge
+- **systematic-debugging** ↔ **systematic-debugging**: 100.0% — Merge
+- **shell_scripts** ↔ **shell_scripts**: 100.0% — Merge
+- **avatararts_site** ↔ **avatararts_site**: 100.0% — Merge
+- **09_seller_gap_scanner** ↔ **09_seller_gap_scanner**: 100.0% — Merge
+- **yi-34B-chat** ↔ **yi-34B-chat**: 100.0% — Merge
+- **brainstorming** ↔ **brainstorming**: 100.0% — Merge
+- **06_gallery_variants** ↔ **06_gallery_variants**: 100.0% — Merge
+- **free** ↔ **free**: 100.0% — Merge
+- **fabric-prompt-toolkit** ↔ **fabric-prompt-toolkit**: 100.0% — Merge
+- **directory_tree_csv** ↔ **directory_tree_csv**: 100.0% — Merge
+- **examples** ↔ **examples**: 100.0% — Merge
+- **code-llama** ↔ **code-llama**: 100.0% — Merge
+- **llama-2** ↔ **llama-2**: 100.0% — Merge
+- **stablelm-2** ↔ **stablelm-2**: 100.0% — Merge
+- **devtools** ↔ **devtools**: 100.0% — Merge
+- **devtools** ↔ **devtools**: 100.0% — Merge
+- **analysis_tools** ↔ **analysis_tools**: 100.0% — Merge
+- **crypto_tools** ↔ **crypto_tools**: 100.0% — Merge
+- **crypto_tools** ↔ **CRYPTO_TOOLS**: 100.0% — Merge
+- **crypto_tools** ↔ **CRYPTO_TOOLS**: 100.0% — Merge
+- **devtools** ↔ **devtools**: 100.0% — Merge
+- **documentation** ↔ **documentation**: 96.7% — Merge
+- **documentation** ↔ **documentation**: 96.7% — Merge
+- **axolotl-main** ↔ **axolotl-main**: 95.0% — Merge
+- **axolotl-main** ↔ **axolotl-main**: 95.0% — Merge
+- **devtu-fix-tool** ↔ **devtu-fix-tool**: 95.0% — Merge
+- **MarketMaster** ↔ **MarketMaster**: 95.0% — Merge
+- **devtu-optimize-descriptions** ↔ **devtu-optimize-descriptions**: 95.0% — Merge
+- **setup-tooluniverse** ↔ **setup-tooluniverse**: 94.5% — Merge
+- **ai_agents** ↔ **ai_agents**: 94.0% — Merge
+- **niche_markets** ↔ **niche-market**: 91.6% — Merge
+- **niche_markets** ↔ **niche-market**: 91.6% — Merge
+- **eso-analyzer-linux-installer-new** ↔ **eso-analyzer-windows-installer-new**: 91.5% — Merge
+- **eso-analyzer-macos-installer-new** ↔ **eso-analyzer-windows-installer-new**: 91.5% — Merge
+- **obsidian-git** ↔ **Obsidianite**: 90.9% — Merge
+- **ainews-source-extractor-master** ↔ **ainews-source-extractor**: 90.8% — Merge
+- **trend-analyzer-free** ↔ **trend-analyzer-pro**: 90.5% — Merge
+- **trend-analyzer-free** ↔ **trend-analyzer-pro**: 90.5% — Merge
+- **trend-analyzer-pro** ↔ **trend-analyzer-free**: 90.5% — Merge
+- **trend-analyzer-free** ↔ **trend-analyzer-pro**: 90.5% — Merge
+- **sora** ↔ **sora**: 90.0% — Merge
+- **02-mcp-forge** ↔ **02-mcp-forge**: 90.0% — Merge
+- **voice_speech** ↔ **voice_speech**: 90.0% — Merge
+- **voice_speech** ↔ **voice_speech**: 90.0% — Merge
+- **.beads** ↔ **.beads**: 90.0% — Merge
+- **brainstorming** ↔ **brainstorming**: 90.0% — Merge
+- **brainstorming** ↔ **brainstorming**: 90.0% — Merge
+- **multi_llm_systems** ↔ **multi_llm_systems**: 90.0% — Merge
+- **multi_llm_systems** ↔ **multi_llm_systems**: 90.0% — Merge
+- **music_audio_gen** ↔ **MUSIC_AUDIO**: 89.2% — Merge
+- **music_audio_gen** ↔ **MUSIC_AUDIO**: 89.2% — Merge
+- **obsidian-linter** ↔ **Obsidianite**: 89.2% — Merge
+- **eso-analyzer-linux-installer-new** ↔ **eso-analyzer-macos-installer-new**: 89.1% — Merge
+- **ai_agents** ↔ **ai_agents**: 88.0% — Merge
+- **DeMark-World** ↔ **DeMark-World-main**: 87.9% — Review overlap
+- **obsidian-hider** ↔ **obsidian-linter**: 87.9% — Review overlap
+- **SupremePowers** ↔ **supremepower**: 87.2% — Review overlap
+- **SupremePowers** ↔ **supremepower**: 87.2% — Review overlap
+- **automation** ↔ **automation**: 87.1% — Review overlap
+- **obsidian-git** ↔ **obsidian-linter**: 87.0% — Review overlap
+- **obsidian-importer** ↔ **obsidian-linter**: 86.9% — Review overlap
+- **notebooklm-py-main** ↔ **notebooklm-mcp-main**: 86.8% — Review overlap
+- **SupremePowers** ↔ **my-supremepowers**: 86.1% — Review overlap
+- **obsidian-hider** ↔ **Obsidianite**: 86.0% — Review overlap
+- **avatararts** ↔ **avatararts_site**: 86.0% — Review overlap
+- **avatararts** ↔ **avatararts_site**: 86.0% — Review overlap
+- **notebooklm-mcp-main** ↔ **notebooklm-mcp-secure-main**: 85.4% — Review overlap
+- **ai_agents** ↔ **ai_agents**: 85.0% — Review overlap
+- **guides** ↔ **guides**: 85.0% — Review overlap
+- **docs** ↔ **docs**: 85.0% — Review overlap
+- **clean** ↔ **clean**: 85.0% — Review overlap
+- **clean** ↔ **clean**: 85.0% — Review overlap
+- **using-superpowers** ↔ **using-superpowers**: 85.0% — Review overlap
+- **obsidian-importer** ↔ **Obsidianite**: 85.0% — Review overlap
+- **obsidian-hider** ↔ **obsidian-importer**: 84.2% — Review overlap
+- **03-media-processing** ↔ **media_processing**: 84.0% — Review overlap
+- **automations** ↔ **automation**: 83.8% — Review overlap
+- **db_schemas** ↔ **DATABASE_SCHEMAS**: 83.8% — Review overlap
+- **db_schemas** ↔ **DATABASE_SCHEMAS**: 83.8% — Review overlap
+- **obsidian-git** ↔ **obsidian-hider**: 83.8% — Review overlap
+- **obsidian-hider** ↔ **obsidian-icon-folder**: 83.5% — Review overlap
+- **obsidian-markmind** ↔ **obsidian-mind-map**: 83.5% — Review overlap
+- **automations** ↔ **automation**: 83.3% — Review overlap
+- **obsidian-citation-plugin** ↔ **obsidian-excalidraw-plugin**: 83.2% — Review overlap
+- **obsidian-git** ↔ **obsidian-importer**: 83.1% — Review overlap
+- **cleanconnect-pro** ↔ **cleanconnect-complete**: 83.0% — Review overlap
+- **automation** ↔ **automation**: 82.9% — Review overlap
+- **premium** ↔ **premium**: 82.9% — Review overlap
+- **obsidian-linter** ↔ **obsidian-livesync**: 82.5% — Review overlap
+- **tooluniverse-disease-research** ↔ **tooluniverse-target-research**: 82.2% — Review overlap
+- **obsidian-enhancing-mindmap** ↔ **obsidian-mind-map**: 82.1% — Review overlap
+- **notebooklm-py-main** ↔ **notebooklm-kit-main**: 82.0% — Review overlap
+- **automation** ↔ **automation**: 82.0% — Review overlap
+- **obsidian-icon-folder** ↔ **obsidian-linter**: 82.0% — Review overlap
+- **obsidian-git** ↔ **obsidian42-brat**: 81.9% — Review overlap
+- **tooluniverse-literature-deep-research** ↔ **tooluniverse-disease-research**: 81.4% — Review overlap
+- **original** ↔ **original-v2**: 81.4% — Review overlap
+- **marketing_suite** ↔ **MARKETING_TOOLS**: 81.3% — Review overlap
+- **smart-connections** ↔ **smart-context**: 81.3% — Review overlap
+- **tools** ↔ **tools**: 81.2% — Review overlap
+- **tools** ↔ **tools**: 81.2% — Review overlap
+- **deeptutor-mimic** ↔ **deeptutor-mimic**: 80.9% — Review overlap
+- **DIY-Podcast-Generator-main** ↔ **AI-podcast-generator-main**: 80.9% — Review overlap
+- **obsidian-file-color** ↔ **obsidian-hider**: 80.9% — Review overlap
+- **notebooklm-kit-main** ↔ **notebooklm-mcp-main**: 80.4% — Review overlap
+- **notebooklm-py-main** ↔ **notebooklm-mcp-secure-main**: 80.3% — Review overlap
+- **obsidian-file-color** ↔ **obsidian-icon-folder**: 80.3% — Review overlap
+- **examples** ↔ **examples**: 80.0% — Review overlap
+- **examples** ↔ **examples**: 80.0% — Review overlap
+- **examples** ↔ **examples**: 80.0% — Review overlap
+- **examples** ↔ **examples**: 80.0% — Review overlap
+- **tooluniverse-sdk** ↔ **tooluniverse**: 80.0% — Review overlap
+- **tooluniverse-sdk** ↔ **tooluniverse**: 80.0% — Review overlap
+- **obsidian-livesync** ↔ **Obsidianite**: 80.0% — Review overlap
+- **obsidian-admonition** ↔ **obsidian-git**: 79.7% — Review overlap
+- **obsidian-hider** ↔ **obsidian-livesync**: 79.7% — Review overlap
+- **obsidian-hider** ↔ **obsidian-markmind**: 79.7% — Review overlap
+- **obsidian-hider** ↔ **obsidian-mind-map**: 79.7% — Review overlap
+- **automations** ↔ **automation**: 79.5% — Review overlap
+- **docs-sphinx** ↔ **sphinx**: 79.4% — Review overlap
+- **3d_tools** ↔ **3D_MODELS**: 79.4% — Review overlap
+- **3d_tools** ↔ **nft_tools**: 79.4% — Review overlap
+- **3d_tools** ↔ **nft_tools**: 79.4% — Review overlap
+- **3d_tools** ↔ **NFT_TOOLS**: 79.4% — Review overlap
+- **3d_tools** ↔ **3D_MODELS**: 79.4% — Review overlap
+- **3d_tools** ↔ **nft_tools**: 79.4% — Review overlap
+- **3d_tools** ↔ **nft_tools**: 79.4% — Review overlap
+- **3d_tools** ↔ **NFT_TOOLS**: 79.4% — Review overlap
+- **obsidian-file-color** ↔ **obsidian-linter**: 79.4% — Review overlap
+- **obsidian-importer** ↔ **obsidian-mind-map**: 79.4% — Review overlap
+- **pytorch-debugging** ↔ **tensorflow-debugging**: 79.2% — Review overlap
+- **obsidian-icon-folder** ↔ **obsidian-importer**: 79.2% — Review overlap
+- **Dr_Adu_GainesvillePFS_EVOLVED** ↔ **Dr_Adu_GainesvillePFS_SEO_Project**: 79.0% — Review overlap
+- **tooluniverse-binder-discovery** ↔ **tooluniverse-infectious-disease**: 79.0% — Review overlap
+- **tooluniverse-drug-research** ↔ **tooluniverse-target-research**: 78.9% — Review overlap
+- **code-emitter** ↔ **code-styler**: 78.7% — Review overlap
+- **docs** ↔ **docs**: 78.6% — Review overlap
+- **docs** ↔ **docs**: 78.6% — Review overlap
+- **tooluniverse-disease-research** ↔ **tooluniverse-drug-research**: 78.5% — Review overlap
+- **obsidian42-brat** ↔ **Obsidianite**: 78.5% — Review overlap
+- **smart-chatgpt** ↔ **smart-context**: 78.5% — Review overlap
+- **obsidian-git** ↔ **obsidian-livesync**: 78.3% — Review overlap
+- **obsidian-git** ↔ **obsidian-markmind**: 78.3% — Review overlap
+- **obsidian-git** ↔ **obsidian-mind-map**: 78.3% — Review overlap
+- **obsidian-hider** ↔ **obsidian42-brat**: 78.3% — Review overlap
+- **notebookllama-main** ↔ **notebooklm-mcp-main**: 78.2% — Review overlap
+- **obsidian-importer** ↔ **obsidian42-brat**: 78.1% — Review overlap
+- **obsidian-linter** ↔ **obsidian-markmind**: 78.1% — Review overlap
+- **obsidian-linter** ↔ **obsidian-mind-map**: 78.1% — Review overlap
+- **automations** ↔ **AUTOMATION_BOTS**: 78.0% — Review overlap
+- **automations** ↔ **AUTOMATION_BOTS**: 78.0% — Review overlap
+- **automations** ↔ **AUTOMATION_BOTS**: 78.0% — Review overlap
+- **obsidian-advanced-uri** ↔ **obsidian-hider**: 78.0% — Review overlap
+- **notebook-cat-main** ↔ **Simli_NotebookLM-main**: 77.9% — Review overlap
+- **math-olympiad** ↔ **math-olympiad-solver**: 77.7% — Review overlap
+- **avatararts** ↔ **avatararts**: 77.5% — Review overlap
+- **tools** ↔ **ai_tools**: 77.2% — Review overlap
+- **tools** ↔ **ai_tools**: 77.2% — Review overlap
+- **cleanconnect-pro** ↔ **cleanconnect-pro-enhanced**: 77.1% — Review overlap
+- **tooluniverse-expression-data-retrieval** ↔ **tooluniverse-sequence-retrieval**: 76.8% — Review overlap
+- **tooluniverse-expression-data-retrieval** ↔ **tooluniverse-sequence-retrieval**: 76.8% — Review overlap
+- **tooluniverse-literature-deep-research** ↔ **tooluniverse-drug-research**: 76.7% — Review overlap
+- **obsidian-admonition** ↔ **obsidian-importer**: 76.7% — Review overlap
+- **obsidian-admonition** ↔ **Obsidianite**: 76.7% — Review overlap
+- **obsidian-advanced-uri** ↔ **obsidian-linter**: 76.7% — Review overlap
+- **obsidian-file-color** ↔ **obsidian-importer**: 76.7% — Review overlap
+- **obsidian-file-color** ↔ **obsidian-livesync**: 76.7% — Review overlap
+- **obsidian-file-color** ↔ **Obsidianite**: 76.7% — Review overlap
+- **obsidian-linter** ↔ **obsidian-plugin-update-tracker**: 76.7% — Review overlap
+- **obsidian-linter** ↔ **obsidian42-brat**: 76.7% — Review overlap
+- **smart-composer** ↔ **smart-context**: 76.7% — Review overlap
+- **Black** ↔ **OLED.Black**: 76.7% — Review overlap
+- **notebooklm-kit-main** ↔ **Local-NotebookLM-main**: 76.5% — Review overlap
+- **automation** ↔ **05-ai-automation**: 76.3% — Review overlap
+- **tooluniverse-literature-deep-research** ↔ **tooluniverse-target-research**: 76.3% — Review overlap
+- **media_processing** ↔ **03_MEDIA_PROCESSING**: 76.0% — Review overlap
+- **AUTOMATION_BOTS** ↔ **automation**: 76.0% — Review overlap
+- **AUTOMATION_BOTS** ↔ **automation**: 76.0% — Review overlap
+- **AUTOMATION_BOTS** ↔ **automation**: 76.0% — Review overlap
+- **MarketMaster** ↔ **marketmaster**: 76.0% — Review overlap
+- **docs** ↔ **DOCS**: 76.0% — Review overlap
+- **setup-tooluniverse** ↔ **tooluniverse**: 76.0% — Review overlap
+- **setup-tooluniverse** ↔ **tooluniverse**: 76.0% — Review overlap
+- **docs** ↔ **DOCS**: 76.0% — Review overlap
+- **obsidian-citation-plugin** ↔ **obsidian-admonition**: 75.6% — Review overlap
+- **obsidian-enhancing-mindmap** ↔ **obsidian-markmind**: 75.6% — Review overlap
+- **obsidian-admonition** ↔ **obsidian-advanced-uri**: 75.5% — Review overlap
+- **Obsidian_Plugin_Bridge** ↔ **obsidian-linter**: 75.4% — Review overlap
+- **obsidian-icon-folder** ↔ **obsidian-markmind**: 75.4% — Review overlap
+- **obsidian-icon-folder** ↔ **obsidian-mind-map**: 75.4% — Review overlap
+- **marketplace** ↔ **creative-ai-marketplace**: 75.3% — Review overlap
+- **obsidian-admonition** ↔ **obsidian-linter**: 75.3% — Review overlap
+- **obsidian-admonition** ↔ **obsidian42-brat**: 75.3% — Review overlap
+- **obsidian-importer** ↔ **obsidian-livesync**: 75.3% — Review overlap
+- **obsidian-livesync** ↔ **obsidian-markmind**: 75.3% — Review overlap
+- **obsidian-livesync** ↔ **obsidian-mind-map**: 75.3% — Review overlap
+- **hook-development** ↔ **skill-development**: 75.2% — Review overlap
+- **hook-development** ↔ **skill-development**: 75.2% — Review overlap
+- **skill-development** ↔ **hook-development**: 75.2% — Review overlap
+- **hook-development** ↔ **skill-development**: 75.2% — Review overlap
+- **obsidian-file-color** ↔ **obsidian-git**: 75.2% — Review overlap
+- **obsidian-icon-folder** ↔ **Obsidianite**: 75.2% — Review overlap
+- **smart-composer** ↔ **smart-connections**: 75.2% — Review overlap
+- **MarketMaster** ↔ **marketmaster**: 75.0% — Review overlap
+- **v10** ↔ **v10 2**: 75.0% — Review overlap
+- **obsidian-enhancing-mindmap** ↔ **obsidian-filename-heading-sync**: 75.0% — Review overlap
+- **obsidian-markmind** ↔ **Obsidianite**: 75.0% — Review overlap
+- **obsidian-mind-map** ↔ **Obsidianite**: 75.0% — Review overlap
+- **automation** ↔ **AUTOMATION_BOTS**: 74.8% — Review overlap
+- **automation** ↔ **AUTOMATION_BOTS**: 74.8% — Review overlap
+- **automation** ↔ **AUTOMATION_BOTS**: 74.8% — Review overlap
+- **notebooklm-kit-main** ↔ **notebooklm-skill-master**: 74.8% — Review overlap
+- **Local-NotebookLM-main** ↔ **automated-notebooklm-main**: 74.8% — Review overlap
+- **obsidian-filename-heading-sync** ↔ **obsidian-livesync**: 74.7% — Review overlap
+- **notebooklm-py-main** ↔ **automated-notebooklm-main**: 74.6% — Review overlap
+- **obsidian-citation-plugin** ↔ **obsidian-icon-folder**: 74.5% — Review overlap
+- **agent_orchestration** ↔ **llm_orchestration**: 74.4% — Review overlap
+- **agent_orchestration** ↔ **llm_orchestration**: 74.4% — Review overlap
+- **agent_orchestration** ↔ **llm_orchestration**: 74.4% — Review overlap
+- **agent-development** ↔ **command-development**: 74.4% — Review overlap
+- **agent-development** ↔ **command-development**: 74.4% — Review overlap
+- **command-development** ↔ **agent-development**: 74.4% — Review overlap
+- **agent-development** ↔ **command-development**: 74.4% — Review overlap
+- **n8n** ↔ **n8n**: 74.3% — Review overlap
+- **aeo-optimizer-pro** ↔ **10-seo-repo-optimizer**: 74.2% — Review overlap
+- **aeo-optimizer-pro** ↔ **10-seo-repo-optimizer**: 74.2% — Review overlap
+- **obsidian-advanced-uri** ↔ **obsidian-livesync**: 74.2% — Review overlap
+- **obsidian-advanced-uri** ↔ **obsidian-mind-map**: 74.2% — Review overlap
+- **obsidian-linter** ↔ **obsidian-style-settings**: 74.2% — Review overlap
+- **docs** ↔ **docs**: 73.8% — Review overlap
+- **docs** ↔ **DOCS**: 73.8% — Review overlap
+- **docs** ↔ **docs**: 73.8% — Review overlap
+- **docs** ↔ **DOCS**: 73.8% — Review overlap
+- **SoraCleaner** ↔ **clean**: 73.8% — Review overlap
+- **tooluniverse-drug-drug-interaction** ↔ **tooluniverse-drug-research**: 73.8% — Review overlap
+- **obsidian-git** ↔ **obsidian-icon-folder**: 73.8% — Review overlap
+- **obsidian-markmind** ↔ **obsidian42-brat**: 73.8% — Review overlap
+- **obsidian-mind-map** ↔ **obsidian42-brat**: 73.8% — Review overlap
+- **git_info** ↔ **GIT_REPO**: 73.8% — Review overlap
+- **03-plugin-dev-toolkit** ↔ **03-plugin-dev**: 73.5% — Review overlap
+- **notebooklm-mcp-main** ↔ **automated-notebooklm-main**: 73.4% — Review overlap
+- **discord-access** ↔ **imessage-access**: 73.4% — Review overlap
+- **notebooklm-py-main** ↔ **notebookllama-main**: 73.3% — Review overlap
+- **supremepower** ↔ **my-supremepowers**: 73.3% — Review overlap
+- **my-supremepowers** ↔ **supremepower**: 73.3% — Review overlap
+- **agents** ↔ **ai_agents**: 73.1% — Review overlap
+- **agents** ↔ **ai_agents**: 73.1% — Review overlap
+- **obsidian-citation-plugin** ↔ **obsidian-linter**: 73.1% — Review overlap
+- **Obsidian_Plugin_Bridge** ↔ **obsidian-plugin-update-tracker**: 73.1% — Review overlap
+- **obsidian-admonition** ↔ **obsidian-icon-folder**: 73.1% — Review overlap
+- **smart-composer** ↔ **smart-lookup**: 73.1% — Review overlap
+- **claude-code-studio-main** ↔ **my-super-claude-code-setup**: 72.9% — Review overlap
+- **obsidian-file-color** ↔ **obsidian-filename-heading-sync**: 72.9% — Review overlap
+- **build-mcp-app** ↔ **build-mcpb**: 72.8% — Review overlap
+- **build-mcp-app** ↔ **build-mcpb**: 72.8% — Review overlap
+- **build-mcpb** ↔ **build-mcp-app**: 72.8% — Review overlap
+- **build-mcp-app** ↔ **build-mcpb**: 72.8% — Review overlap
+- **imessage-configure** ↔ **telegram-configure**: 72.8% — Review overlap
+- **obsidian-citation-plugin** ↔ **obsidian-git**: 72.8% — Review overlap
+- **Obsidian_Plugin_Bridge** ↔ **obsidian-hider**: 72.8% — Review overlap
+- **obsidian-admonition** ↔ **obsidian-markmind**: 72.8% — Review overlap
+- **obsidian-file-color** ↔ **obsidian-mind-map**: 72.8% — Review overlap
+- **notebooklm-kit-main** ↔ **automated-notebooklm-main**: 72.7% — Review overlap
+- **03-media-processing** ↔ **03_MEDIA_PROCESSING**: 72.6% — Review overlap
+- **linear-mcp** ↔ **websearch-mcp**: 72.6% — Review overlap
+- **obsidian-citation-plugin** ↔ **Obsidian_Plugin_Bridge**: 72.6% — Review overlap
+- **ComicBook-AI-main** ↔ **Comicfy.ai-main**: 72.5% — Review overlap
+- **setup-tooluniverse** ↔ **tooluniverse**: 72.4% — Review overlap
+- **setup-tooluniverse** ↔ **tooluniverse**: 72.4% — Review overlap
+- **qwen-revenue-launch-kit** ↔ **launch-kit**: 72.4% — Review overlap
+- **Obsidian_Plugin_Bridge** ↔ **Obsidianite**: 72.4% — Review overlap
+- **obsidian-admonition** ↔ **obsidian-hider**: 72.4% — Review overlap
+- **obsidian-advanced-uri** ↔ **obsidian-git**: 72.4% — Review overlap
+- **obsidian-excalidraw-plugin** ↔ **obsidian-markmind**: 72.3% — Review overlap
+- **obsidian-filename-heading-sync** ↔ **obsidian-style-settings**: 72.3% — Review overlap
+- **agent-development** ↔ **subagent-driven-development**: 72.1% — Review overlap
+- **agent-development** ↔ **subagent-driven-development**: 72.1% — Review overlap
+- **agent-development** ↔ **subagent-driven-development**: 72.1% — Review overlap
+- **agent-development** ↔ **subagent-driven-development**: 72.1% — Review overlap
+- **agent-development** ↔ **subagent-driven-development**: 72.1% — Review overlap
+- **agent-development** ↔ **subagent-driven-development**: 72.1% — Review overlap
+- **AUTOMATION_BOTS** ↔ **automation_ecosystem**: 72.0% — Review overlap
+- **AUTOMATION_BOTS** ↔ **automation_ecosystem**: 72.0% — Review overlap
+- **AUTOMATION_BOTS** ↔ **automation_ecosystem**: 72.0% — Review overlap
+- **linear-mcp** ↔ **notion-mcp**: 72.0% — Review overlap
+- **obsidian-citation-plugin** ↔ **obsidian-enhancing-mindmap**: 72.0% — Review overlap
+- **obsidian-excalidraw-plugin** ↔ **obsidian-hider**: 72.0% — Review overlap
+- **obsidian-icon-folder** ↔ **obsidian-plugin-update-tracker**: 72.0% — Review overlap
+- **obsidian-livesync** ↔ **obsidian-style-settings**: 72.0% — Review overlap

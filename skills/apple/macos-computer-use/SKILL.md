@@ -12,6 +12,10 @@ metadata:
     tags: [computer-use, macos, desktop, automation, gui]
     category: desktop
     related_skills: [browser]
+    related_resolution:
+      browser: runtime-tool:browser
+changelog:
+  - "2026-08-15: Added additive resolution metadata; preserved related_skills."
 ---
 
 # macOS Computer Use (universal, any-model)

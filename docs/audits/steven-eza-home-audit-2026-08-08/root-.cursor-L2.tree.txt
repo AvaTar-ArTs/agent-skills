@@ -1,0 +1,507 @@
+/Users/steven/.cursor/
+├── agents/
+│   ├── context-management/
+│   ├── documentation/
+│   ├── ecosystem-learning/
+│   ├── ecosystem-synergy/
+│   ├── find-docs/
+│   ├── ice-tracker-assistant/
+│   ├── integrated-evolution/
+│   ├── self-evolution/
+│   ├── task-management/
+│   ├── ai-workflow-manager.html
+│   ├── ai-workflow-manager.md
+│   ├── ai-xeo.md
+│   ├── Archive.zip
+│   ├── avatararts-organizer.html
+│   ├── avatararts-organizer.md
+│   ├── bots.md
+│   ├── code-reviewer.md
+│   ├── content-consolidator.html
+│   ├── content-consolidator.md
+│   ├── context-handoff-compiler.md
+│   ├── context-management.md
+│   ├── documentation-manager.html
+│   ├── documentation-manager.md
+│   ├── documentation.md
+│   ├── ecosystem-analyzer.md
+│   ├── ecosystem-learning.md
+│   ├── ecosystem-synergy.md
+│   ├── filesystem-inventory.md
+│   ├── git-ai-agent.sh*
+│   ├── integrated-evolution.md
+│   ├── notebooklm-enhancement-advisor.md
+│   ├── path-list-analyzer.md
+│   ├── revenue-optimizer.html
+│   ├── revenue-optimizer.md
+│   ├── self-evolution-plan.md
+│   ├── self-evolution.md
+│   ├── SUBAGENT_QUICK_REFERENCE.md
+│   ├── SUBAGENTS_GUIDE.md
+│   ├── task-management.md
+│   ├── tree-explorer.md
+│   ├── xeo-strategist.html
+│   └── xeo-strategist.md
+├── ai-tracking/
+│   └── ai-code-tracking.db
+├── chats/
+│   ├── 0fa3fd57b12f5bd2b3b489302da7dcda/
+│   ├── 1f32e78a93b5f97beebe015fc66706c7/
+│   ├── 5b65759a4ea62bf665e0e32b058db968/
+│   ├── 8d675fa073c84c81c8c92a5fc225f44d/
+│   ├── 9a9cd8bcca07c23dd20ae2aa4d708e64/
+│   ├── 39f3abf7c858dcd71104fd6c17f9d77b/
+│   ├── 221b19ff13a2d0cb05e0c6e75ca021b9/
+│   ├── 550e2fa3a50d6ff28143bc21a0e08ce4/
+│   ├── 708b5a8a7815796e1db4dd06863ecdc2/
+│   ├── 975ff45b9194bc50ac704c7efcd955f4/
+│   ├── 1547cfa9919ecd59ca143be176037082/
+│   ├── 56618e7c3a104608caa488255a25be69/
+│   ├── 300268792172a64d6774bb4d2430f409/
+│   ├── c7802d7c298e0224bfb088cd3074530a/
+│   └── cde05b7671e320809c2dfab99bd9b378/
+├── cli/
+│   ├── serve-web-key-half
+│   ├── tunnel-stable.lock
+│   └── versions.json
+├── commands/
+├── data/
+│   ├── project-identities.json
+│   └── project-references.json
+├── docs/
+│   ├── docs/
+│   ├── exports/
+│   ├── plans/
+│   ├── AGENT_CAPABILITIES_CLARIFICATION.md
+│   ├── CHANGELOG.md
+│   ├── conversation-link-map.md
+│   ├── conversation-patterns-and-predictive-methods.md
+│   ├── CURSOR_CHEATSHEET.md
+│   ├── CURSOR_HOME_VS_CURSOR_ECOSYSTEM_COMPARISON.md
+│   ├── CURSOR_SYSTEM_SUMMARY_AND_EVOLUTION.md
+│   ├── ECOSYSTEM_ANALYSIS_COMPREHENSION.md
+│   ├── EXPLAIN_AND_CLARIFY_EVERYTHING.md
+│   ├── I_WANT_TO_DO_X_INVOKE_THIS.md
+│   ├── INVOKE_INDEX_BY_TYPE.md
+│   ├── LANGUAGE_AND_REFERENCE_STANDARD.md
+│   ├── learned-context.md
+│   ├── LINK_PATHS_USAGE_WORKFLOWS_AND_MULTI_ABILITY.md
+│   ├── LOGIC_FLOWS_AND_DIAGRAMS.md
+│   ├── MASTER_RECALL_INDEX.md
+│   ├── OUTPUT_STYLE_LEARNING_AND_EXPLANATORY.md
+│   ├── qwen-superpowers-4.2.0-reference.md
+│   ├── QWEN_LEARNING_AND_CURSOR_DIFFERENCES.md
+│   ├── review-2026-02-13-cursor-and-settings.md
+│   ├── self-improvement-assessment-2026-02-13.md
+│   ├── SKILLS_CURSOR_AND_PATHS_COMPARISON.md
+│   ├── SYSTEM_DEFINITION.md
+│   ├── USE_CASES_AND_TRIGGERS.md
+│   └── WORKING_PRINCIPLES.md
+├── extensions/
+│   ├── agsoft.claude-history-viewer-0.6.6-universal/
+│   ├── amerey.blackplusplus-1.0.11-universal/
+│   ├── andrepimenta.claude-code-chat-2.2.0-universal/
+│   ├── anthropic.claude-code-2.1.226-darwin-x64/
+│   ├── anysphere.cursorpyright-1.0.12/
+│   ├── breaking-brake.cc-wf-studio-3.36.0-universal/
+│   ├── claudius.classic-terminal-0.0.6-universal/
+│   ├── codeandstuff.vscode-navigate-edit-history-1.6.3-universal/
+│   ├── donjayamanne.githistory-0.6.20-universal/
+│   ├── es6kr.claude-sessions-0.4.12-universal/
+│   ├── esbenp.prettier-vscode-12.4.0-universal/
+│   ├── guodongsun.vscode-git-cruise-0.2.6-universal/
+│   ├── hiztam.codex-history-viewer-2.9.1-universal/
+│   ├── huntertran.auto-markdown-toc-3.0.12-universal/
+│   ├── jaeger.codex-opener-1.0.1-universal/
+│   ├── jitrak-dev.cursor-export-1.3.0-darwin-x64/
+│   ├── lang2hong.githd-2.5.6-universal/
+│   ├── magicstack.magicpython-1.1.1-universal/
+│   ├── matt-rudge.auto-open-preview-panel-0.0.6-universal/
+│   ├── mechatroner.rainbow-csv-3.24.1-universal/
+│   ├── mermaidchart.vscode-mermaid-chart-2.7.5-universal/
+│   ├── mikesoft.vscode-codex-cli-launcher-0.1.9-universal/
+│   ├── mikoz.black-py-1.0.4-universal/
+│   ├── ms-python.black-formatter-2025.2.0-universal/
+│   ├── ms-python.debugpy-2026.6.0-darwin-x64/
+│   ├── ms-python.python-2025.6.1-darwin-x64/
+│   ├── ms-vscode.live-server-0.4.18-universal/
+│   ├── myoontyee.claude-code-exporter-0.8.16-universal/
+│   ├── nguyenngoclong.terminal-keeper-1.2.1-universal/
+│   ├── nskha.perplexity-vscode-0.8.61-universal/
+│   ├── openai.chatgpt-26.803.41515-darwin-x64/
+│   ├── peterbulyaki.claude-automator-0.1.1-universal/
+│   ├── project-accelerate.shared-state-store-0.0.2-universal/
+│   ├── repreng.csv-1.3.0-universal/
+│   ├── rockuen.cli-launcher-for-claude-3.5.0-universal/
+│   ├── saoudrizwan.claude-dev-4.1.6-universal/
+│   ├── shengsuan-cloud.cline-shengsuan-3.89.3-universal/
+│   ├── solomonkinard.search-history-0.0.2-universal/
+│   ├── specstory.specstory-vscode-2.0.0-universal/
+│   ├── techer.open-in-browser-2.0.0-universal/
+│   ├── vishalguptax.claude-manager-2.8.1-universal/
+│   ├── waderyan.gitblame-13.1.0-universal/
+│   ├── xyz.local-history-1.8.1-universal/
+│   ├── yzhang.markdown-all-in-one-3.6.2-universal/
+│   ├── .obsolete
+│   └── extensions.json
+├── MERGE_BACKUP_20260411_025502/
+│   ├── agents/
+│   ├── cli/
+│   ├── commands/
+│   ├── data/
+│   ├── docs/
+│   ├── hooks/
+│   ├── MERGE_BACKUP_20260411_025502/
+│   ├── plugins/
+│   ├── projects/
+│   ├── rules/
+│   ├── scripts/
+│   ├── skills/
+│   ├── skills-cursor/
+│   ├── _insert_inquiry.py
+│   ├── agent-cli-state.json
+│   ├── argv.json
+│   ├── CHATS_INVENTORY.csv
+│   ├── CHATS_INVENTORY.md
+│   ├── check-before-symlink.sh
+│   ├── cli-config.json
+│   ├── cli-config.json.bad
+│   ├── code-analyzer-design.md
+│   ├── code-analyzer-poc.sh*
+│   ├── code-analyzer-roadmap.md
+│   ├── CURSOR_HOME_REFERENCE.md
+│   ├── CURSOR_INVENTORY.csv
+│   ├── CURSOR_INVENTORY.md
+│   ├── CURSOR_UPGRADE_DEDUPE_REPORT.md
+│   ├── DEEPDIVE_REPORT.csv
+│   ├── DEEPDIVE_REPORT.md
+│   ├── DEEPDIVE_REPORT_EXTRA.csv
+│   ├── 'docs-02-12-14 -52.csv'
+│   ├── ecosystem_analysis_20260214_004025.json
+│   ├── enhanced-code-analyzer-design.md
+│   ├── ENVIRONMENT_REVIEW.md
+│   ├── FINAL_INTEGRATION_SUMMARY.md
+│   ├── GIT_AI.md
+│   ├── hooks.json
+│   ├── ide_state.json
+│   ├── in-use-paths.md
+│   ├── learned-implement.md
+│   ├── mcp.json
+│   ├── move-to-dotcursor.sh
+│   ├── projects-metadata.json
+│   ├── prompt_history.json
+│   ├── qwen-ecosystem-map.md
+│   ├── README.md
+│   ├── reference-resources-inventory.csv
+│   ├── reference-resources-inventory.md
+│   ├── update.sh*
+│   └── WHEN_SERENA_UNAVAILABLE.md
+├── PHASE_3_ANALYSIS/
+│   ├── ARCHITECTURE_RATIONALE.md
+│   ├── CLEANUP_EXECUTION_REPORT.md
+│   ├── COMPREHENSIVE_INTELLIGENCE_REPORT.md
+│   ├── CONSOLIDATION_SUMMARY.md
+│   ├── CRITICAL_SCRIPTS.txt
+│   ├── DEPENDENCY_RAW.tsv
+│   ├── DOMAIN_ANALYSIS.txt
+│   ├── DOMAIN_DISTRIBUTION.txt
+│   ├── EXTENDED_CONSOLIDATION_REPORT.md
+│   ├── FINAL_CONSOLIDATION_SUMMARY.md
+│   ├── MYSTERY_DIRECTORIES_ANALYSIS.md
+│   ├── OTHER_BY_TOPDIR.txt
+│   ├── OTHER_SCRIPTS_BREAKDOWN.txt
+│   ├── SAMPLE_OTHER_SCRIPTS.txt
+│   ├── SCRIPT_INVENTORY.tsv
+│   └── USER_SCRIPT_CATEGORIES.txt
+├── plugins/
+│   ├── cache/
+│   └── local/
+├── projects/
+│   ├── 1775890019396/
+│   ├── 1775949109457/
+│   ├── 1775983736202/
+│   ├── 1776011795014/
+│   ├── 1776042687200/
+│   ├── 1776131786686/
+│   ├── 1776132628909/
+│   ├── 1776134450518/
+│   ├── 1776135946336/
+│   ├── 1776140992458/
+│   ├── 1776168789731/
+│   ├── 1776170446091/
+│   ├── 1776173879982/
+│   ├── 1776187978746/
+│   ├── 1776215717461/
+│   ├── 1776224571783/
+│   ├── 1776225605935/
+│   ├── 1776226945938/
+│   ├── 1776236403993/
+│   ├── 1776236919070/
+│   ├── 1776238788521/
+│   ├── 1776238844854/
+│   ├── 1776300021452/
+│   ├── 1776303007589/
+│   ├── 1776334709128/
+│   ├── 1776353772770/
+│   ├── 1776361017405/
+│   ├── 1776627043487/
+│   ├── 1776717301255/
+│   ├── 1776727825156/
+│   ├── 1776729872353/
+│   ├── 1776785430356/
+│   ├── 1776785443797/
+│   ├── 1778378680977/
+│   ├── 1778394963944/
+│   ├── 1778402906228/
+│   ├── 1778442784019/
+│   ├── 1778780057046/
+│   ├── 1778780746667/
+│   ├── 1779136604497/
+│   ├── 1779168393199/
+│   ├── 1779187709104/
+│   ├── 1782000857875/
+│   ├── 1783975758723/
+│   ├── 1783976685619/
+│   ├── 1783976745929/
+│   ├── 1783977476508/
+│   ├── 1783977935671/
+│   ├── 1784010360672/
+│   ├── 1786106992503/
+│   ├── 1786107295052/
+│   ├── 1786165891719/
+│   ├── empty-window/
+│   ├── private-var-folders-q-2zkrcf0x05q9q0gyy05yx28w0000gn-T-fz3temp-2/
+│   ├── Users/
+│   ├── Users-steven/
+│   ├── Users-steven-archive-exploration/
+│   ├── Users-steven-AutoTagger/
+│   ├── Users-steven-claude/
+│   ├── Users-steven-clean/
+│   ├── Users-steven-cline/
+│   ├── Users-steven-CoX-mod-Adventure/
+│   ├── Users-steven-diGiTaLdiVe/
+│   ├── Users-steven-diGiTaLdiVe-claude-code-studio-main/
+│   ├── Users-steven-diGiTaLdiVe-MasterxEo-REVENUE/
+│   ├── Users-steven-Documents-github-my-supremepowers/
+│   ├── Users-steven-Downloads-Compressed-DeepTutor-main/
+│   ├── Users-steven-Downloads-Compressed-DeMark-World-portable-intel-mac-fixed/
+│   ├── Users-steven-Downloads-Compressed-drive-download-20260411T144449Z-3-001/
+│   ├── Users-steven-Downloads-Compressed-MoneyPrinterPlus-main/
+│   ├── Users-steven-dr-adu/
+│   ├── Users-steven-ESO/
+│   ├── Users-steven-gemini/
+│   ├── Users-steven-gemini-extensions-supremepower-codex/
+│   ├── Users-steven-github-AvaTar-ArTs-github-io/
+│   ├── Users-steven-github-GPTJunkie-github-io/
+│   ├── Users-steven-github-iina-develop/
+│   ├── Users-steven-github-supergpt-export-pdf-templates/
+│   ├── Users-steven-hermes/
+│   ├── Users-steven-iterm2/
+│   ├── Users-steven-iterm2-tmp-2af2b3b0-7652-4af7-b5a9-48e4c1911163/
+│   ├── Users-steven-iterm2-tmp-3b485672-bd88-4424-8732-c87bfd75f538/
+│   ├── Users-steven-iterm2-tmp-57d54ff9-3bd7-450b-b4ab-b6d644c768dc/
+│   ├── Users-steven-iterm2-tmp-74ee4c1c-2b5f-4436-a731-773ef8d78507/
+│   ├── Users-steven-iterm2-tmp-2158c201-a4d3-481d-8e81-c45478714512/
+│   ├── Users-steven-iterm2-tmp-36019e9c-d6de-4398-a778-2383429fa67b/
+│   ├── Users-steven-iterm2-tmp-35848703-ebee-4610-8e19-6264b37119d8/
+│   ├── Users-steven-iterm2-tmp-60282072-32fc-45cc-9724-e76d63cc4ce9/
+│   ├── Users-steven-iterm2-tmp-a5d7a442-deef-4b0c-b24b-8732d6ad72b3/
+│   ├── Users-steven-iterm2-tmp-acfc56fb-62fa-4473-9a72-9cb0588de4d2/
+│   ├── Users-steven-iterm2-tmp-b42e5210-9940-4d40-bb94-1cbf683f5992/
+│   ├── Users-steven-iterm2-tmp-c5f3de75-f1e8-4090-be03-3ba3f1fd2d4a/
+│   ├── Users-steven-iterm2-tmp-d9d891fe-08a7-45b7-88b1-764aad6b57ce/
+│   ├── Users-steven-iterm2-tmp-e791fc8e-cfc2-424d-9628-59ab389476cf/
+│   ├── Users-steven-Library-Application-Support-Cursor-Workspaces-1775985111245-workspace-json/
+│   ├── Users-steven-Library-Application-Support-Cursor-Workspaces-1776369990767-workspace-json/
+│   ├── Users-steven-Library-Application-Support-Cursor-Workspaces-1776730296705-workspace-json/
+│   ├── Users-steven-Library-Mobile-Documents-com-apple-Cloud-a2985a5/
+│   ├── Users-steven-Library-Mobile-Documents-com-apple-CloudDocs-Alfred-Alfred-alfredpreferences-workflows-user-workflow-FF2C99E3-CCE8-4116-AF18-90A6D8D2B64D/
+│   ├── Users-steven-Music-nocturneMelodies/
+│   ├── Users-steven-my-supremepowers/
+│   ├── Users-steven-NotebookLM/
+│   ├── Users-steven-p-market/
+│   ├── Users-steven-projects-avatararts-story-smith/
+│   ├── Users-steven-python-marketplace-inventory/
+│   ├── Users-steven-PYTHON-MARKETPLACE-MASTER/
+│   ├── Users-steven-PYTHON-MARKETPLACE-MASTER-DeepTutor-main/
+│   ├── Users-steven-PYTHON-MARKETPLACE-MASTER-DeepTutor-main-data-user-workspace-book/
+│   ├── Users-steven-PYTHON-MARKETPLACE-MASTER-MY-SETUP/
+│   ├── Users-steven-pythons/
+│   ├── Users-steven-pythons-sora-water-remove/
+│   ├── Users-steven-pythons-sora-water-remove-sora-cleaner-suite-v0-2/
+│   ├── Users-steven-pythons-sora-water-remove-SoraCleaner-updated/
+│   ├── Users-steven-pythons-sora-water-remove-SoraWatermarkCleaner-main/
+│   ├── Users-steven-qwen/
+│   ├── Users-steven-scripts/
+│   ├── Users-steven-Sora-2-Video-Watermark-Remover/
+│   ├── Users-steven-sora-vid-gen/
+│   ├── Users-steven-Sora-Watermark-Remover/
+│   ├── Users-steven-Sora-Watermark-Remover-SoraWatermarkCleaner-main/
+│   ├── Users-steven-superpower/
+│   ├── Users-steven-supremepower/
+│   ├── Users-steven-supremepowers/
+│   ├── Users-steven-upWork/
+│   ├── Users-steven-userscripts/
+│   ├── Users-steven-Whop-market/
+│   ├── var-folders-q-2zkrcf0x05q9q0gyy05yx28w0000gn-T-001495db-414a-4998-8a0d-d739856730d0/
+│   ├── var-folders-q-2zkrcf0x05q9q0gyy05yx28w0000gn-T-039b8c2d-3ee3-49c3-9723-6fecc1b3f668/
+│   ├── var-folders-q-2zkrcf0x05q9q0gyy05yx28w0000gn-T-08c80c90-cafd-46f0-be5f-cb3f960e5d6a/
+│   ├── var-folders-q-2zkrcf0x05q9q0gyy05yx28w0000gn-T-0980c785-a448-4631-bd85-055b823aa44c/
+│   ├── var-folders-q-2zkrcf0x05q9q0gyy05yx28w0000gn-T-1dd3f38c-c391-4581-bfcb-2de99e64ed3c/
+│   ├── var-folders-q-2zkrcf0x05q9q0gyy05yx28w0000gn-T-1f69c277-0164-43d6-9313-5f647ca27b30/
+│   ├── var-folders-q-2zkrcf0x05q9q0gyy05yx28w0000gn-T-2e0f77b8-054a-493d-b434-cafbed550e61/
+│   ├── var-folders-q-2zkrcf0x05q9q0gyy05yx28w0000gn-T-3bbcb536-1390-4afb-9608-e29536e01fb4/
+│   ├── var-folders-q-2zkrcf0x05q9q0gyy05yx28w0000gn-T-5c37b5cc-d2ee-4616-b73e-d8e1edb5cb9d/
+│   ├── var-folders-q-2zkrcf0x05q9q0gyy05yx28w0000gn-T-6b40556a-32c5-4747-999b-6abe63c09b2f/
+│   ├── var-folders-q-2zkrcf0x05q9q0gyy05yx28w0000gn-T-6d9420a4-af2e-4719-b69e-d79d7646350e/
+│   ├── var-folders-q-2zkrcf0x05q9q0gyy05yx28w0000gn-T-7b94ad3d-1794-414e-a3f7-5ae1780f306c/
+│   ├── var-folders-q-2zkrcf0x05q9q0gyy05yx28w0000gn-T-7ea55407-1da9-45dd-806d-f39f1291fe1f/
+│   ├── var-folders-q-2zkrcf0x05q9q0gyy05yx28w0000gn-T-7ec9252b-d5e6-405e-825e-9e6ea31a6e21/
+│   ├── var-folders-q-2zkrcf0x05q9q0gyy05yx28w0000gn-T-20f92774-fe91-497b-9a18-282bd27a4921/
+│   ├── var-folders-q-2zkrcf0x05q9q0gyy05yx28w0000gn-T-68c3f659-10e1-4c66-ab49-cb7f16c592e8/
+│   ├── var-folders-q-2zkrcf0x05q9q0gyy05yx28w0000gn-T-82cd8c70-be90-4f06-9a50-12350763ef0f/
+│   ├── var-folders-q-2zkrcf0x05q9q0gyy05yx28w0000gn-T-82d68e4f-7d54-43b0-8133-54172da6c344/
+│   ├── var-folders-q-2zkrcf0x05q9q0gyy05yx28w0000gn-T-123c25c0-8233-4d43-b1a6-dff679d3c61d/
+│   ├── var-folders-q-2zkrcf0x05q9q0gyy05yx28w0000gn-T-528a34a1-6d20-4b07-a776-71b8417cac83/
+│   ├── var-folders-q-2zkrcf0x05q9q0gyy05yx28w0000gn-T-533b3f42-0227-45d6-9607-f89ac3748fef/
+│   ├── var-folders-q-2zkrcf0x05q9q0gyy05yx28w0000gn-T-786edf31-6632-4346-8d77-15db221a307c/
+│   ├── var-folders-q-2zkrcf0x05q9q0gyy05yx28w0000gn-T-7305ac4c-3c7e-49ab-82e8-1122d14f0dcc/
+│   ├── var-folders-q-2zkrcf0x05q9q0gyy05yx28w0000gn-T-15635c32-38fc-44d3-8caf-6d79e2864ee7/
+│   ├── var-folders-q-2zkrcf0x05q9q0gyy05yx28w0000gn-T-239281a7-c071-4e91-8a88-029544494123/
+│   ├── var-folders-q-2zkrcf0x05q9q0gyy05yx28w0000gn-T-9362581b-4153-4571-b002-03ebcb23b763/
+│   ├── var-folders-q-2zkrcf0x05q9q0gyy05yx28w0000gn-T-10709581-7eaa-439d-8b64-47409b3de2c9/
+│   ├── var-folders-q-2zkrcf0x05q9q0gyy05yx28w0000gn-T-18629697-fe57-4b55-bfcf-640e300e743b/
+│   ├── var-folders-q-2zkrcf0x05q9q0gyy05yx28w0000gn-T-58236648-5616-4e32-9348-175f53294a0f/
+│   ├── var-folders-q-2zkrcf0x05q9q0gyy05yx28w0000gn-T-a033a52b-6e88-4046-b54b-bc5ed2452de4/
+│   ├── var-folders-q-2zkrcf0x05q9q0gyy05yx28w0000gn-T-a39bedf7-0f59-4d90-a115-e4b2e115a63e/
+│   ├── var-folders-q-2zkrcf0x05q9q0gyy05yx28w0000gn-T-a245211c-0255-4dc3-81cb-ca90d9effb02/
+│   ├── var-folders-q-2zkrcf0x05q9q0gyy05yx28w0000gn-T-abd58d26-f542-47fd-84f2-4b3d2a94cd6b/
+│   ├── var-folders-q-2zkrcf0x05q9q0gyy05yx28w0000gn-T-ae581127-c6f5-4000-91f2-880a66527434/
+│   ├── var-folders-q-2zkrcf0x05q9q0gyy05yx28w0000gn-T-af4cf258-1033-47dc-a707-4c39dd658ae6/
+│   ├── var-folders-q-2zkrcf0x05q9q0gyy05yx28w0000gn-T-b0ea06b2-46b8-48b2-81b5-25f23f154ef2/
+│   ├── var-folders-q-2zkrcf0x05q9q0gyy05yx28w0000gn-T-b4b5dce7-0433-4e27-a447-c6039f28ed9a/
+│   ├── var-folders-q-2zkrcf0x05q9q0gyy05yx28w0000gn-T-b6eb0ed5-42ae-4236-868e-91695cd8ad81/
+│   ├── var-folders-q-2zkrcf0x05q9q0gyy05yx28w0000gn-T-b39e82eb-c0d3-4d13-9ee8-b53ed0961093/
+│   ├── var-folders-q-2zkrcf0x05q9q0gyy05yx28w0000gn-T-b6893655-fac2-48f2-8af0-b5d652c0d61f/
+│   ├── var-folders-q-2zkrcf0x05q9q0gyy05yx28w0000gn-T-c5632ea2-0373-4bba-b454-8f7b678c5577/
+│   ├── var-folders-q-2zkrcf0x05q9q0gyy05yx28w0000gn-T-c4781818-eea4-4744-bf40-45bdefb399f9/
+│   ├── var-folders-q-2zkrcf0x05q9q0gyy05yx28w0000gn-T-d7f4eeba-3f74-4968-902f-2f5a59c03499/
+│   ├── var-folders-q-2zkrcf0x05q9q0gyy05yx28w0000gn-T-d21fb124-ef26-4374-a67d-7c0984c45155/
+│   ├── var-folders-q-2zkrcf0x05q9q0gyy05yx28w0000gn-T-d56fe58f-39d1-4b26-9e17-f45042e10122/
+│   ├── var-folders-q-2zkrcf0x05q9q0gyy05yx28w0000gn-T-dbc61bda-a837-426f-999c-d02cddd729ee/
+│   ├── var-folders-q-2zkrcf0x05q9q0gyy05yx28w0000gn-T-e002b2b0-f8c9-4a2b-9609-25833cb3e4eb/
+│   ├── var-folders-q-2zkrcf0x05q9q0gyy05yx28w0000gn-T-e3f4dc95-902a-44fd-9a8b-85c296681ac8/
+│   ├── var-folders-q-2zkrcf0x05q9q0gyy05yx28w0000gn-T-e5cf817b-626b-47f1-98cb-901981002e39/
+│   ├── var-folders-q-2zkrcf0x05q9q0gyy05yx28w0000gn-T-e5d80471-9764-4c8c-bd0e-0b03334c37c3/
+│   ├── var-folders-q-2zkrcf0x05q9q0gyy05yx28w0000gn-T-e6f5f45e-45cc-4b43-8f9c-296207b985f8/
+│   ├── var-folders-q-2zkrcf0x05q9q0gyy05yx28w0000gn-T-e9aa70f5-10d6-4449-858b-5ada9baf4cdc/
+│   ├── var-folders-q-2zkrcf0x05q9q0gyy05yx28w0000gn-T-f4b0bad1-9acb-4412-9ec7-c372c6031b5e/
+│   ├── Volumes-macBaks/
+│   ├── Volumes-macBaks-diVinePyTHon-ARCHIVE-web-marketplace-upWork-AEO-SEO-AvaTar-ArTs-Unsorted-Files-from-Mac-assets/
+│   ├── .agent-data-cleanup-2026-08-07
+│   └── .agent-data-cleanup-2026-08-08
+├── rules/
+│   ├── context7.mdc
+│   ├── cross-agent-integration.mdc
+│   ├── exceptional-output-system.mdc
+│   ├── learned-context.mdc
+│   └── superpowers.mdc
+├── scripts/
+│   ├── delete-unused-projects.sh
+│   ├── extract-project-identities.py
+│   ├── final-cleanup.sh
+│   ├── fix-docs-unicode.py
+│   ├── flatten-from-max-depth.sh
+│   ├── generate-metadata-index.py*
+│   ├── generate-supremepower-skills.py
+│   ├── remove-obsolete-extensions.sh
+│   ├── rename-to-canonical.sh
+│   ├── scan-project-references.py
+│   └── update.sh*
+├── skills/
+│   ├── _broken_symlinks_backup_20260520_213608/
+│   ├── brainstorming -> /Users/steven/.agent-skills/skills/brainstorm/
+│   ├── comic/
+│   ├── dispatching-parallel-agents -> /Users/steven/.agent-skills/skills/dispatching-parallel-agents/
+│   ├── ecosystem-clarity -> /Users/steven/.agent-skills/skills/ecosystem-clarity/
+│   ├── executing-plans -> /Users/steven/.agent-skills/skills/executing-plans/
+│   ├── find-docs/
+│   ├── finishing-a-development-branch -> /Users/steven/.agent-skills/skills/finishing-a-development-branch/
+│   ├── receiving-code-review -> /Users/steven/.agent-skills/skills/receiving-code-review/
+│   ├── requesting-code-review -> /Users/steven/.agent-skills/skills/software-development/requesting-code-review/
+│   ├── subagent-driven-development -> /Users/steven/.agent-skills/skills/software-development/subagent-driven-development/
+│   ├── systematic-debugging -> /Users/steven/.agent-skills/skills/software-development/systematic-debugging/
+│   ├── test-driven-development -> /Users/steven/.agent-skills/skills/software-development/test-driven-development/
+│   ├── using-git-worktrees -> /Users/steven/.agent-skills/skills/using-git-worktrees/
+│   ├── using-superpowers -> /Users/steven/.agent-skills/skills/using-superpowers/
+│   ├── verification-before-completion -> /Users/steven/.agent-skills/skills/verification-before-completion/
+│   ├── workflow-bootstrap -> /Users/steven/.agent-skills/skills/workflow-bootstrap/
+│   ├── writing-plans -> /Users/steven/.agent-skills/skills/software-development/writing-plans/
+│   └── writing-skills -> /Users/steven/.agent-skills/skills/writing-skills/
+├── skills-cursor/
+│   ├── automate/
+│   ├── autopilot/
+│   ├── canvas/
+│   ├── create-hook/
+│   ├── create-rule/
+│   ├── create-skill/
+│   ├── create-subagent/
+│   ├── loop/
+│   ├── migrate-to-skills/
+│   ├── onboard/
+│   ├── rename-chat/
+│   ├── review/
+│   ├── review-bugbot/
+│   ├── review-security/
+│   ├── sdk/
+│   ├── shell/
+│   ├── split-to-prs/
+│   ├── statusline/
+│   ├── update-cli-config/
+│   ├── update-cursor-settings/
+│   └── .sync-manifest.json
+├── .gitignore
+├── _insert_inquiry.py
+├── agent-cli-state.json
+├── argv.json
+├── CHAT_MEMORY.md
+├── CHATS_INVENTORY.csv
+├── CHATS_INVENTORY.md
+├── check-before-symlink.sh
+├── cli-config.json
+├── cli-config.json.bad
+├── code-analyzer-design.md
+├── code-analyzer-poc.sh*
+├── code-analyzer-roadmap.md
+├── CURSOR_HOME_REFERENCE.md
+├── CURSOR_INVENTORY.csv
+├── CURSOR_INVENTORY.md
+├── CURSOR_UPGRADE_DEDUPE_REPORT.md
+├── DEEPDIVE_REPORT.csv
+├── DEEPDIVE_REPORT.md
+├── DEEPDIVE_REPORT_EXTRA.csv
+├── 'docs-02-12-14 -52.csv'
+├── ecosystem_analysis_20260214_004025.json
+├── enhanced-code-analyzer-design.md
+├── enriched-.cursor.csv
+├── ENVIRONMENT_REVIEW.md
+├── FINAL_INTEGRATION_SUMMARY.md
+├── GIT_AI.md
+├── hooks.json
+├── ide_state.json
+├── in-use-paths.md
+├── learned-implement.md
+├── mcp.json
+├── mcp.json.ccassist-backup-2026-08-08T11-38-09-592Z
+├── move-to-dotcursor.sh
+├── paths_missing_in_current.txt
+├── paths_new_since_saved.txt
+├── projects-metadata.json
+├── prompt_history.json
+├── qwen-ecosystem-map.md
+├── README.md
+├── reference-resources-inventory.csv
+├── reference-resources-inventory.md
+├── statsig-cache.json
+├── update.sh*
+└── WHEN_SERENA_UNAVAILABLE.md
