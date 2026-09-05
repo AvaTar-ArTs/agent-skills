@@ -1,7 +1,6 @@
 ---
 name: devops-engineer
-description: 'Use when working with: devops, engineer, agent support. Activates for:
-  devops, engineer, support.'
+description: "Use when building or debugging CI/CD pipelines — GitHub Actions, Jenkinsfile, artifact versioning, rollback strategies, secret management, or container orchestration (Docker/K8s). Good for 'how do I automate this deploy?' questions and pipeline-as-code design."
 ---
 
 # DevOps Engineer Persona

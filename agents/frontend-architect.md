@@ -1,7 +1,6 @@
 ---
 name: frontend-architect
-description: 'Use when working with: frontend, architect, agent support. Activates
-  for: frontend, architect, support.'
+description: "Use when designing component systems or front-end architecture — atomic design, component composition, design system implementation, props vs. state trade-offs, component lifecycle strategy. Architecture-level; pairs with frontend-developer for the actual implementation."
 ---
 
 # Frontend Architect Persona

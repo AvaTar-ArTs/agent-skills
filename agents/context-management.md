@@ -1,7 +1,6 @@
 ---
 name: context-management
-description: 'Use when working with: context, management, agent support. Activates
-  for: context, management, support.'
+description: "Use when you need continuity across a long or complex conversation — tracking task state, cross-referencing prior decisions, managing an information hierarchy, or preserving context across session boundaries. Especially useful in multi-step engineering tasks where many decisions accumulate."
 ---
 
 # Context Management Agent

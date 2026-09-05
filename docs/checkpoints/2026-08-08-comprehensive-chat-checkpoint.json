@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-08-08",
+  "title": "Comprehensive Chat Checkpoint",
+  "status": "active",
+  "mission": "Maintain a discoverable, self-correcting, cross-tool ecosystem for skills, agents, audits, memory, and project artifacts.",
+  "completed": {
+    "ecosystem_audit": true,
+    "github_initial_push": true,
+    "plugin_creator_audit": true,
+    "plugin_creator_remediation": true,
+    "qfpie_environment_repair": true,
+    "ralph_self_audit_installation": true
+  },
+  "verification": {
+    "github_commit": "c426e747162886dfeb4adbb6c8221f3f49ccb9e2",
+    "github_branch": "main",
+    "plugin_creator_directory_parity": "passed",
+    "plugin_creator_tests_combined": 14,
+    "plugin_creator_ruff_findings": 0,
+    "qfpie_tests": 2
+  },
+  "canonical_paths": {
+    "audit_catalog": "/Users/steven/.agent-skills/docs/AUDITS-CATALOG.md",
+    "codex_plugin_creator": "/Users/steven/.codex/skills/.system/plugin-creator",
+    "cross_tool_memory": "/Users/steven/.agent-skills/memory/shared.sqlite",
+    "ecosystem": "/Users/steven/.agent-skills/ECOSYSTEM.md",
+    "mcp_project": "/Users/steven/create-mcp-to-sell",
+    "plugin_creator_audit": "/Users/steven/.agent-skills/docs/audits/plugin-creator-review-2026-08-08",
+    "shared_plugin_creator": "/Users/steven/.agent-skills/skills/.system/plugin-creator"
+  },
+  "priorities": [
+    "Resolve the missing ~/.agents compatibility alias and personal marketplace convention.",
+    "Reauthenticate GitHub CLI.",
+    "Review broad Codex trust and persistent command approvals.",
+    "Continue the my-mcp-creator product roadmap."
+  ],
+  "promoted_audits": [
+    "/Users/steven/.agent-skills/docs/audits/qfpie-agent-skills-2026-08-08",
+    "/Users/steven/.agent-skills/docs/audits/qfpie-project-ecosystem-2026-08-08",
+    "/Users/steven/.agent-skills/docs/audits/steven-eza-home-audit-2026-08-08"
+  ],
+  "discovery_rule": "Skills must live under discoverable /skills/ trees with trigger-relevant SKILL.md metadata; agents, caches, temp files, exports, and docs are not installed skills."
+}

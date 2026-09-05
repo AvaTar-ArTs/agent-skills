@@ -5,10 +5,12 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import re
+import shutil
+import tempfile
 from pathlib import Path
 from typing import Any
-
 
 MAX_PLUGIN_NAME_LENGTH = 64
 DEFAULT_INSTALL_POLICY = "AVAILABLE"
@@ -49,11 +51,22 @@ def validate_marketplace_name(marketplace_name: str) -> None:
         )
 
 
+def validate_category(category: str) -> None:
+    if not category.strip():
+        raise ValueError("Marketplace category must be a non-empty string.")
+
+
 def display_name_from_plugin_name(plugin_name: str) -> str:
     return " ".join(part.capitalize() for part in re.split(r"[-_]+", plugin_name))
 
 
-def build_plugin_json(plugin_name: str, *, with_mcp: bool, with_apps: bool) -> dict[str, Any]:
+def build_plugin_json(
+    plugin_name: str,
+    *,
+    with_skills: bool,
+    with_mcp: bool,
+    with_apps: bool,
+) -> dict[str, Any]:
     display_name = display_name_from_plugin_name(plugin_name)
     payload: dict[str, Any] = {
         "name": plugin_name,
@@ -62,7 +75,6 @@ def build_plugin_json(plugin_name: str, *, with_mcp: bool, with_apps: bool) -> d
         "author": {
             "name": "Local developer",
         },
-        "skills": "./skills/",
         "interface": {
             "displayName": display_name,
             "shortDescription": f"Use {display_name} in Codex.",
@@ -73,6 +85,8 @@ def build_plugin_json(plugin_name: str, *, with_mcp: bool, with_apps: bool) -> d
             "defaultPrompt": f"Help me use {display_name}.",
         },
     }
+    if with_skills:
+        payload["skills"] = "./skills/"
     if with_mcp:
         payload["mcpServers"] = "./.mcp.json"
     if with_apps:
@@ -101,7 +115,7 @@ def build_marketplace_entry(
 
 
 def load_json(path: Path) -> dict[str, Any]:
-    with path.open() as handle:
+    with path.open(encoding="utf-8") as handle:
         return json.load(handle)
 
 
@@ -121,7 +135,7 @@ def validate_marketplace_interface(payload: dict[str, Any]) -> None:
         raise ValueError("marketplace.json field 'interface' must be an object.")
 
 
-def update_marketplace_json(
+def prepare_marketplace_json(
     marketplace_path: Path,
     marketplace_name: str | None,
     plugin_name: str,
@@ -129,31 +143,30 @@ def update_marketplace_json(
     auth_policy: str,
     category: str,
     force: bool,
-) -> None:
+) -> dict[str, Any]:
     if marketplace_path.exists():
         payload = load_json(marketplace_path)
     else:
         payload = build_default_marketplace(marketplace_name or DEFAULT_MARKETPLACE_NAME)
 
     if not isinstance(payload, dict):
-        raise ValueError(f"{marketplace_path} must contain a JSON object.")
+        raise TypeError(f"{marketplace_path} must contain a JSON object.")
 
     validate_marketplace_interface(payload)
 
     existing_marketplace_name = payload.get("name")
-    if marketplace_name is not None:
-        if not isinstance(existing_marketplace_name, str) or not existing_marketplace_name.strip():
-            raise ValueError(f"{marketplace_path} must contain a non-empty string 'name'.")
-        if existing_marketplace_name != marketplace_name:
-            raise ValueError(
-                f"{marketplace_path} already uses marketplace name "
-                f"'{existing_marketplace_name}'. Create a new marketplace file to use "
-                f"'{marketplace_name}' instead."
-            )
+    if not isinstance(existing_marketplace_name, str) or not existing_marketplace_name.strip():
+        raise ValueError(f"{marketplace_path} must contain a non-empty string 'name'.")
+    if marketplace_name is not None and existing_marketplace_name != marketplace_name:
+        raise ValueError(
+            f"{marketplace_path} already uses marketplace name "
+            f"'{existing_marketplace_name}'. Create a new marketplace file to use "
+            f"'{marketplace_name}' instead."
+        )
 
     plugins = payload.setdefault("plugins", [])
     if not isinstance(plugins, list):
-        raise ValueError(f"{marketplace_path} field 'plugins' must be an array.")
+        raise TypeError(f"{marketplace_path} field 'plugins' must be an array.")
 
     new_entry = build_marketplace_entry(plugin_name, install_policy, auth_policy, category)
 
@@ -169,25 +182,37 @@ def update_marketplace_json(
     else:
         plugins.append(new_entry)
 
-    write_json(marketplace_path, payload, force=True)
+    return payload
 
 
 def write_json(path: Path, data: dict, force: bool) -> None:
     if path.exists() and not force:
         raise FileExistsError(f"{path} already exists. Use --force to overwrite.")
     path.parent.mkdir(parents=True, exist_ok=True)
-    with path.open("w") as handle:
-        json.dump(data, handle, indent=2)
-        handle.write("\n")
+    existing_mode = path.stat().st_mode & 0o777 if path.exists() else 0o644
+    file_descriptor, temporary_name = tempfile.mkstemp(
+        dir=path.parent,
+        prefix=f".{path.name}.",
+        suffix=".tmp",
+    )
+    temporary_path = Path(temporary_name)
+    try:
+        with os.fdopen(file_descriptor, "w", encoding="utf-8") as handle:
+            json.dump(data, handle, indent=2)
+            handle.write("\n")
+            handle.flush()
+            os.fsync(handle.fileno())
+        temporary_path.chmod(existing_mode)
+        os.replace(temporary_path, path)
+    except Exception:
+        temporary_path.unlink(missing_ok=True)
+        raise
 
 
 def create_stub_file(path: Path, payload: dict, force: bool) -> None:
     if path.exists() and not force:
         return
-    path.parent.mkdir(parents=True, exist_ok=True)
-    with path.open("w") as handle:
-        json.dump(payload, handle, indent=2)
-        handle.write("\n")
+    write_json(path, payload, force=force)
 
 
 def parse_args() -> argparse.Namespace:
@@ -261,50 +286,23 @@ def main() -> None:
     if plugin_name != raw_plugin_name:
         print(f"Note: Normalized plugin name from '{raw_plugin_name}' to '{plugin_name}'.")
     validate_plugin_name(plugin_name)
+    validate_category(args.category)
     marketplace_name = None
     if args.marketplace_name is not None:
         marketplace_name = args.marketplace_name.strip()
         validate_marketplace_name(marketplace_name)
 
-    plugin_root = (Path(args.path).expanduser().resolve() / plugin_name)
-    plugin_root.mkdir(parents=True, exist_ok=True)
-
+    plugin_root = Path(args.path).expanduser().resolve() / plugin_name
+    plugin_root_existed = plugin_root.exists()
     plugin_json_path = plugin_root / ".codex-plugin" / "plugin.json"
-    write_json(
-        plugin_json_path,
-        build_plugin_json(plugin_name, with_mcp=args.with_mcp, with_apps=args.with_apps),
-        args.force,
-    )
+    if plugin_json_path.exists() and not args.force:
+        raise FileExistsError(f"{plugin_json_path} already exists. Use --force to overwrite.")
 
-    optional_directories = {
-        "skills": args.with_skills,
-        "hooks": args.with_hooks,
-        "scripts": args.with_scripts,
-        "assets": args.with_assets,
-    }
-    for folder, enabled in optional_directories.items():
-        if enabled:
-            (plugin_root / folder).mkdir(parents=True, exist_ok=True)
-
-    if args.with_mcp:
-        create_stub_file(
-            plugin_root / ".mcp.json",
-            {"mcpServers": {}},
-            args.force,
-        )
-
-    if args.with_apps:
-        create_stub_file(
-            plugin_root / ".app.json",
-            {
-                "apps": {},
-            },
-            args.force,
-        )
-
+    marketplace_path = None
+    marketplace_payload = None
     if args.with_marketplace:
         marketplace_path = Path(args.marketplace_path).expanduser().resolve()
-        update_marketplace_json(
+        marketplace_payload = prepare_marketplace_json(
             marketplace_path,
             marketplace_name,
             plugin_name,
@@ -313,6 +311,52 @@ def main() -> None:
             args.category,
             args.force,
         )
+
+    try:
+        plugin_root.mkdir(parents=True, exist_ok=True)
+        write_json(
+            plugin_json_path,
+            build_plugin_json(
+                plugin_name,
+                with_skills=args.with_skills,
+                with_mcp=args.with_mcp,
+                with_apps=args.with_apps,
+            ),
+            args.force,
+        )
+
+        optional_directories = {
+            "skills": args.with_skills,
+            "hooks": args.with_hooks,
+            "scripts": args.with_scripts,
+            "assets": args.with_assets,
+        }
+        for folder, enabled in optional_directories.items():
+            if enabled:
+                (plugin_root / folder).mkdir(parents=True, exist_ok=True)
+
+        if args.with_mcp:
+            create_stub_file(
+                plugin_root / ".mcp.json",
+                {"mcpServers": {}},
+                args.force,
+            )
+
+        if args.with_apps:
+            create_stub_file(
+                plugin_root / ".app.json",
+                {
+                    "apps": {},
+                },
+                args.force,
+            )
+
+        if marketplace_path is not None and marketplace_payload is not None:
+            write_json(marketplace_path, marketplace_payload, force=True)
+    except Exception:
+        if not plugin_root_existed and plugin_root.exists():
+            shutil.rmtree(plugin_root)
+        raise
 
     print(f"Created plugin scaffold: {plugin_root}")
     print(f"plugin manifest: {plugin_json_path}")

@@ -1,7 +1,6 @@
 ---
 name: tree-explorer
-description: 'Use when working with: tree, explorer, agent support. Activates for:
-  tree, explorer, support.'
+description: Use when you need to understand what's inside a directory — file counts, size breakdown by extension, largest files, or a full recursive path manifest. Generates fulltree listings, TSV manifests, and summary .md files. Reuses iterm2_full_tree.sh and iterm2_tree_summary.sh when available. Good for any "what's in there?" question before reorganizing or auditing a folder.
 ---
 
 You are a tree-explorer subagent focused on understanding and summarizing directory contents.

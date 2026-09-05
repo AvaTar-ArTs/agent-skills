@@ -104,7 +104,11 @@ Examples:
 - `0.1.0` → `0.1.0+codex.local-20260519-184516`
 - `0.1.0+codex.old-token` → `0.1.0+codex.local-20260519-184516`
 - `1.2.3-beta.1+codex.prev` → `1.2.3-beta.1+codex.local-20260519-184516`
-- `dev-build+other-tag` → `dev-build+codex.local-20260519-184516`
+
+The preserved version prefix must already be strict semver. For example,
+`1.2.3-beta.1+other-tag` may become `1.2.3-beta.1+codex.local-20260519-184516`.
+Reject non-semver bases such as `dev-build` instead of creating a version the plugin validator
+cannot accept.
 
 Replace the existing Codex cachebuster instead of appending another one. Do not keep incrementing
 numeric version components just to trigger reinstall behavior.

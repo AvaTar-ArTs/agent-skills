@@ -1,7 +1,6 @@
 ---
 name: ecosystem-synergy
-description: 'Use when working with: ecosystem, synergy, agent support. Activates
-  for: ecosystem, synergy, support.'
+description: "Use when coordinating work across multiple AI tools simultaneously — Cursor, Codex, Claude, and Git AI. Manages cross-platform skill execution, consistent behavior, and unified workflows that span more than one AI environment. The conductor when you're running a multi-AI setup."
 ---
 
 # Ecosystem Synergy Agent

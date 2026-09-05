@@ -1,0 +1,45 @@
+{
+  "broken_links": [
+    ".gemini/skills/ccxt-cli",
+    ".gemini/skills/ccxt-python",
+    ".grok/marketplace-cache/13ed29d0831c181b/.gemini/skills/skills-status-2/SKILL.md",
+    ".grok/marketplace-cache/13ed29d0831c181b/.hermes/skills/claude-skills/engineering-team/status",
+    ".grok/marketplace-cache/13ed29d0831c181b/.vibe/skills/claude-skills/engineering-team/status",
+    ".opencode/skills/ccxt-cli",
+    ".opencode/skills/ccxt-python"
+  ],
+  "known": [
+    {
+      "expected_target": "/Users/steven/.agent-skills/skills",
+      "healthy": true,
+      "is_symlink": true,
+      "path": ".claude/skills",
+      "resolved": "/Users/steven/.agent-skills/skills",
+      "target": "/Users/steven/.agent-skills/skills"
+    },
+    {
+      "expected_target": "/Users/steven/.agent-skills/agents",
+      "healthy": true,
+      "is_symlink": true,
+      "path": ".claude/agents",
+      "resolved": "/Users/steven/.agent-skills/agents",
+      "target": "/Users/steven/.agent-skills/agents"
+    },
+    {
+      "expected_target": "/Users/steven/.agent-skills/skills/using-superpowers",
+      "healthy": true,
+      "is_symlink": true,
+      "path": ".codex/superpowers",
+      "resolved": "/Users/steven/.agent-skills/skills/using-superpowers",
+      "target": "/Users/steven/.agent-skills/skills/using-superpowers"
+    },
+    {
+      "expected_target": "/Users/steven/.agent-skills/skills",
+      "healthy": true,
+      "is_symlink": true,
+      "path": ".agents/skills",
+      "resolved": "/Users/steven/.agent-skills/skills",
+      "target": "/Users/steven/.agent-skills/skills"
+    }
+  ]
+}

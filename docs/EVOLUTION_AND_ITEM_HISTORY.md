@@ -17,3 +17,9 @@
 - Added skill symlinks (brainstorming, agent-creation-guidance)  
 - Created music-agent-pipeline.sh
 
+## 2026-09-05 Session: Research Skill Integration & Runtime Exclusions
+- Preserved research capabilities (`skills/research/`) including arXiv, Blogwatcher, LLM Wiki, Polymarket, and Research Paper Writing templates.
+- Updated `.gitignore` to exclude runtime state artifacts (`agent-skills-meta.csv.summary.json`, `agent-skills-meta.duplicates.csv`, deep tutor logs).
+- Created `agents/documentation.md` to complete 103/103 100% root MD/TOML agent pair coverage.
+- Committed and pushed to branch `repair/integrate-agent-skills` (PR #4).
+

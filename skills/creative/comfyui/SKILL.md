@@ -24,7 +24,11 @@ metadata:
       - generative-ai
       - video-generation
     related_skills: [stable-diffusion-image-generation, image_gen]
+    related_resolution:
+      image_gen: runtime-tool:image_gen
     category: creative
+changelog:
+  - "2026-08-15: Added additive runtime-tool resolution metadata; preserved related_skills."
 ---
 
 # ComfyUI
