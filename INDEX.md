@@ -1,6 +1,6 @@
 # agent-skills Index
 
-Last audited: 2026-09-05. Detailed findings: `docs/audits/2026-08-18-agent-skills-audit.md`.
+Last audited: 2026-09-11. Topology: `docs/audits/2026-09-11-agents-vs-agent-skills.md`. Detailed findings: `docs/audits/2026-08-18-agent-skills-audit.md`.
 
 ## Verified Inventory
 
@@ -22,6 +22,8 @@ Last audited: 2026-09-05. Detailed findings: `docs/audits/2026-08-18-agent-skill
 /Users/steven/.codex/agents -> /Users/steven/.agent-skills/agents
 /Users/steven/.codex/superpowers -> /Users/steven/.agent-skills/skills/using-superpowers
 ```
+
+Restored 2026-09-11: `~/.agents/skills` is again a directory symlink (npx `skills` door). Pre-symlink copy kept at `~/.agents/skills.bak-2026-09-11-pre-symlink`. 23 content-diff skill names were not merged; live path is canonical. `npx`-only skills copied in: `ci-cd-and-automation`, `mcp-builder`, `webapp-testing`.
 
 - Root agent/config files and categorized agent packs coexist under `agents/`.
 - Skill contracts are indexed by each `skills/**/SKILL.md` entry.
