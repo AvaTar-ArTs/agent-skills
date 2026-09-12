@@ -8,6 +8,8 @@
 - Enhanced `hooks/pre-tool-autocontext.sh` with fail-open guardrails, bounded input parsing, and safe SQLite query escaping.
 - Updated `skills/workflow-bootstrap/SKILL.md` and `skills/create-skill/SKILL.md` to document current canonical topology (`~/.agent-skills`) and npx door symlink (`~/.agents/skills`).
 - Synchronized design tokens in `skills/canvas/sdk/canvas-tokens.d.ts` and `skills/canvas/sdk/ui-primitives.d.ts`.
+- Restructured repository root layout: moved 24 loose audit CSV/JSON dumps and static ZIP snapshots into dedicated `snapshots/historical-audits/` and `snapshots/archives/`.
+- Promoted `deep-research` into canonical `skills/deep-research/SKILL.md` for immediate discovery and workspace projection via `~/.agents/skills/deep-research/`.
 
 ### Fixed — 2026-09-12
 - Repaired `skills/video-breakdown/SKILL.md` frontmatter by adding missing `description` property for progressive disclosure discovery.

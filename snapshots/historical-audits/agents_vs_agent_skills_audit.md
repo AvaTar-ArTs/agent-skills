@@ -3,8 +3,8 @@
 Generated: 2026-07-12T11:32:00
 
 ## Scope
-- Source/reference tree: `/Users/steven/.agents`
-- Active comparison tree: `/Users/steven/.agent-skills`
+- Source/reference tree: `~/.agents`
+- Active comparison tree: `~/.agent-skills`
 - Method: full file traversal, SHA-256 content hashes, relative path comparison, moved-file detection by hash, and metadata/content heuristics for text frontmatter.
 - No files were modified.
 

@@ -29,5 +29,7 @@
 - Resolved missing YAML frontmatter description in `skills/video-breakdown/SKILL.md` achieving 100% valid frontmatter across 521 skills.
 - Enhanced `hooks/pre-tool-autocontext.sh` fail-open guardrails and memory retrieval robustness.
 - Updated `skills/workflow-bootstrap/SKILL.md` topology map to reflect `~/.agents/skills` universal store symlink and canonical authoring boundaries.
+- Reorganized repository root: sequestered 24 historical audit dumps, CSVs, and archive ZIPs into `snapshots/` (`snapshots/historical-audits/` and `snapshots/archives/`).
+- Promoted `deep-research` to canonical `skills/deep-research/SKILL.md` with active workspace projection.
 
 

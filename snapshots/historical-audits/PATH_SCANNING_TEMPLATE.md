@@ -9,12 +9,12 @@ Use this pattern when you are scanning a folder and want temporary output to sta
 
 ## Examples
 
-- `/Users/steven/MySites` -> `[MySites]`
-- `/Users/steven/MySites/tmp` -> `[MySites]/tmp`
-- `/Users/steven/NotebookLM-AutoMated` -> `[NotebookLM-AutoMated]`
-- `/Users/steven/NotebookLM-AutoMated/tmp` -> `[NotebookLM-AutoMated]/tmp`
-- `/Users/steven/.agent-skills` -> `[.agent-skills]`
-- `/Users/steven/.agent-skills/tmp` -> `[.agent-skills]/tmp`
+- `~/MySites` -> `[MySites]`
+- `~/MySites/tmp` -> `[MySites]/tmp`
+- `~/NotebookLM-AutoMated` -> `[NotebookLM-AutoMated]`
+- `~/NotebookLM-AutoMated/tmp` -> `[NotebookLM-AutoMated]/tmp`
+- `~/.agent-skills` -> `[.agent-skills]`
+- `~/.agent-skills/tmp` -> `[.agent-skills]/tmp`
 
 ## Working Rule
 
