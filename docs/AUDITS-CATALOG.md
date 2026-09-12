@@ -4,6 +4,8 @@ Durable audit outputs are stored under `~/.agent-skills/docs/audits/` and should
 
 ## Entries
 
+- [Local agent ecosystem deep-dive — 2026-09-12](audits/2026-09-12-agent-ecosystem-deepdive/README.md) — Current topology, canonical skill/agent surfaces, Hermes toolsets/MCP, runtime risks, parity drift, and ranked recommendations.
+
 - [Workspace ecosystem audit — 2026-09-11](audits/2026-09-11-workspace-ecosystem/README.md) — Structural no-follow scan of `~/.agents` through `~/.hermes`. Skill `inventory.py` missing. Only Claude skills/agents symlink to canonical. Codex==.Codex same inode. Hotspots: Codex sqlite, Grok installers, Claude ccassist.db.
 - [Agents vs agent-skills topology — 2026-09-11](audits/2026-09-11-agents-vs-agent-skills.md) — `~/.agents` is a real 45M tree, not a symlink to canonical. 199 identical `SKILL.md` hashes, 23 content diffs, 3 agents-only skills. CSV: `index-agents-vs-agent-skills-skills-2026-09-11.csv`.
 - [Plugin Creator Deep Audit and Remediation — 2026-08-08](audits/plugin-creator-review-2026-08-08/README.md) — Full source/mirror parity, Codex CLI integration, scaffolding, marketplace paths, validation, rollback, cachebuster behavior, security, seven regression probes, and verified repairs in both `/skills/` trees.

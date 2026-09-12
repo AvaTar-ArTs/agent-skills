@@ -1,50 +1,57 @@
 ---
 name: workflow-bootstrap
-description: Defines mandatory workflows and where Supremepower/Gemini capabilities live. Use when starting creative work, multi-step implementation, or when the user asks how skills and agents are organized. Ensures brainstorm before coding and plan-before-implement discipline.
+description: Defines mandatory workflows and where skills/agents live on this machine. Use when starting creative work, multi-step implementation, or when the user asks how skills and agents are organized. Ensures brainstorm before coding and plan-before-implement discipline.
 ---
 
-> **Supremepower:** Enhanced from Cursor workflow bootstrap. Same methodology; skills loaded via the extension.
+# Workflow Bootstrap
 
-# Supremepower Workflow Bootstrap
+Canonical library: **`~/.agent-skills`**. Skills: **`~/.agent-skills/skills/<name>/SKILL.md`**. Agents: **`~/.agent-skills/agents/`**.
 
-## Where things live (this environment)
+`~/.supremepower` is **not** present. Do not load or write there.
 
-| Type | Path | Scope |
-|------|------|--------|
-| Custom skills | ~/.supremepower/skills/<name>/SKILL.md | Generated from Cursor-enhanced superpowers; load via extension |
-| Custom agents | ~/.supremepower/agents/ | Per config.json; extension may use bundled agents if empty |
-| Bundled skills/commands | Extension (e.g. /plan, /brainstorm, /implement, /tdd, /debug, /sp:*) | Use extension UI or commands to invoke |
+## Where things live (this machine, 2026-09-11)
 
-Config: ~/.supremepower/config.json (customSkillsPath, customAgentsPath).
+| Type | Path | Kind |
+|------|------|------|
+| Canonical skills | `~/.agent-skills/skills/<name>/SKILL.md` | **real** git tree |
+| Canonical agents | `~/.agent-skills/agents/` | **real** |
+| `npx skills` door | `~/.agents/skills` | **symlink →** `~/.agent-skills/skills` |
+| `npx` lockfile | `~/.agents/.skill-lock.json` | stays beside the door |
+| Claude | `~/.claude/skills`, `~/.claude/agents` | **symlink →** canonical |
+| Codex `superpowers` | `~/.codex/superpowers` | **symlink →** `using-superpowers` |
+| Codex / Cursor / Gemini / Qwen / Hermes / Grok `skills/` | under each `~/.<host>/` | often **real copies** — do not edit as source |
+| Superpowers port source | `~/iterm2/superpowers/skills/` | real, not the runtime library |
+| `~/.supremepower` | — | **missing** |
+
+If `~/.agents/skills` is a real directory again, restore the symlink. Do not `rm -rf` it; `mv` aside, then `ln -s`. Prefer copying new skills **into canonical**, not `npx add` into `~/.agents` (that has replaced the door).
 
 ## Mandatory workflows
 
-**Before creative work (features, components, behavior changes):**
-1. Use the **brainstorming** skill to explore intent, requirements, and design.
-2. Document the design (e.g. docs/plans/YYYY-MM-DD-<topic>-design.md).
-3. Only then move to implementation.
+**Before creative work (features, components, behavior, video, new skill packs):**
+1. Use **brainstorming** to explore intent, requirements, and design.
+2. Document the design (e.g. `~/.agent-skills/docs/plans/YYYY-MM-DD-<topic>-design.md`).
+3. Only then implement or spend generation credits.
 
 **Before multi-step implementation:**
-1. Use the **writing-plans** skill to produce a bite-sized implementation plan.
-2. Save to docs/plans/YYYY-MM-DD-<feature>.md.
-3. Optionally use **using-git-worktrees** for an isolated branch before executing.
-4. Use **executing-plans** (or **subagent-driven-development** if tasks are independent and in-session) to run the plan with review checkpoints.
+1. Use **writing-plans** for a bite-sized plan.
+2. Save under `docs/plans/YYYY-MM-DD-<feature>.md` (canonical repo or the project).
+3. Optionally **using-git-worktrees** for an isolated branch.
+4. Use **executing-plans** (or **subagent-driven-development** if tasks are independent) with review checkpoints.
 
-**After a major project step:**
-- Use code review (e.g. **requesting-code-review** / **receiving-code-review**) against the plan and standards.
+**After a major step:**
+- **requesting-code-review** / **receiving-code-review** against the plan.
 
 ## Skill chain
 
-- **brainstorming** -> design doc -> **writing-plans** -> plan doc -> **executing-plans** (or **subagent-driven-development**) -> **finishing-a-development-branch**.
-- **requesting-code-review** / **receiving-code-review** when a chunk is done.
-- **test-driven-development**: during implementation (red-green-refactor); **using-git-worktrees**: when starting isolated branch work.
-- **systematic-debugging**: before any fix; **verification-before-completion**: before any completion claim.
-- **dispatching-parallel-agents**: when 2+ independent problems; **writing-skills**: TDD for authoring skills.
+- **brainstorming** → design doc → **writing-plans** → plan doc → **executing-plans** (or **subagent-driven-development**) → **finishing-a-development-branch**.
+- **test-driven-development** during implementation; **using-git-worktrees** when isolating a branch.
+- **systematic-debugging** before any fix; **verification-before-completion** before any completion claim.
+- **dispatching-parallel-agents** when 2+ independent problems; **writing-skills** when authoring skills.
 
 ## When a skill applies
 
-If a task matches a skill description, use that skill. Do not skip mandatory workflows (brainstorm before coding; plan before multi-step implementation).
+If a task matches a skill description, use that skill. Do not skip mandatory workflows (brainstorm before coding or expensive I2V; plan before multi-step implementation).
 
 ## Cross-ecosystem
 
-This set is generated from canonical superpowers at `~/iterm2/superpowers/skills/` and propagated for local use. For how Supremepower ties to Cursor, Qwen, and Codex, use the **ecosystem-clarity** skill when available.
+For how Claude, Codex, Cursor, Gemini, Qwen, Grok, and `npx` relate, use **ecosystem-clarity** (still stale on `~/.supremepower` until that skill is updated the same way). Source of truth for *paths* is this file plus `~/.agent-skills/INDEX.md`.

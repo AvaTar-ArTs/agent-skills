@@ -33,6 +33,7 @@ backup/
 
 # Temp plugin installs
 temp_local_*/
+.tmp-skill-fetch/
 
 # Local generated review/staging outputs
 tmp/

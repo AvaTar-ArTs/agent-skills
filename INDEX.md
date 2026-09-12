@@ -1,6 +1,6 @@
 # agent-skills Index
 
-Last audited: 2026-09-11. Topology: `docs/audits/2026-09-11-agents-vs-agent-skills.md`. Detailed findings: `docs/audits/2026-08-18-agent-skills-audit.md`.
+Last audited: 2026-09-12. Deep dive: `docs/audits/2026-09-12-agent-ecosystem-deepdive/README.md`. Topology: `docs/audits/2026-09-11-agents-vs-agent-skills.md`. Detailed findings: `docs/audits/2026-08-18-agent-skills-audit.md`.
 
 ## Verified Inventory
 

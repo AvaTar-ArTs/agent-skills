@@ -2,6 +2,16 @@
 
 ## [Unreleased]
 
+### Added / Enhanced — 2026-09-12
+- Completed and indexed local agent ecosystem deep-dive audit (`docs/audits/2026-09-12-agent-ecosystem-deepdive/`) with drift ledger, surface inventory, and Hermes control-plane risk analysis.
+- Staged and verified ~34 media & AI generative skills including `seedance-2-5-*`, `kling-studio`, `eachlabs-*`, `audiomind`, `video-overlay`, `video-upscaler`, and `wan-2-7`.
+- Enhanced `hooks/pre-tool-autocontext.sh` with fail-open guardrails, bounded input parsing, and safe SQLite query escaping.
+- Updated `skills/workflow-bootstrap/SKILL.md` and `skills/create-skill/SKILL.md` to document current canonical topology (`~/.agent-skills`) and npx door symlink (`~/.agents/skills`).
+- Synchronized design tokens in `skills/canvas/sdk/canvas-tokens.d.ts` and `skills/canvas/sdk/ui-primitives.d.ts`.
+
+### Fixed — 2026-09-12
+- Repaired `skills/video-breakdown/SKILL.md` frontmatter by adding missing `description` property for progressive disclosure discovery.
+
 ### Fixed — 2026-09-05
 - Created `agents/documentation.md` to achieve 100% (103/103) root agent MD/TOML pairing parity.
 - Preserved research capabilities (`skills/research/`) and updated `.gitignore` to exclude runtime state (`agent-skills-meta.csv.summary.json`, `agent-skills-meta.duplicates.csv`, `deeptutor/user/logs/deeptutor.jsonl`).
