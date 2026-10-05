@@ -23,3 +23,8 @@
 - Created `agents/documentation.md` to complete 103/103 100% root MD/TOML agent pair coverage.
 - Committed and pushed to branch `repair/integrate-agent-skills` (PR #4).
 
+## 2026-10-05 Session: Lineage, Restore, and Self-Evaluation
+- Established `AvaTar-ArTs/agent-skills` as canonical; `AvaTar-ArTs/.Agent-skills` is a 1,049/1,050-file subset (blob-hash comparison).
+- Restored 69 support files for 11 skills from `.Agent-skills@5dc4c75`; previously absent from both repositories.
+- Recorded six self-evaluation items (S1–S6), including the new rule: deletion reviews must scan prose as well as code for references into the deleted tree.
+- Checkpoint: [2026-10-05 Lineage and Restore](checkpoints/2026-10-05-agent-skills-lineage-and-restore.md).
