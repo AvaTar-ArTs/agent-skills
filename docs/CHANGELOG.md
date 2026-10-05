@@ -3,7 +3,7 @@
 ## [Unreleased]
 
 ### Fixed — 2026-10-05
-- Restored 69 missing support files (`references/`, `examples/`, `templates/`, `scripts/`) for 11 skills: build-mcp-server, hook-development, playground, agent-development, automation-recommender, build-mcp-app, mcp-integration, build-mcpb, claude-md-improver, command-development, plugin-settings. Source: `AvaTar-ArTs/.Agent-skills@5dc4c75` (`plugins/claude-plugins-official/`), byte-identical; all 45 SKILL.md references now resolve.
+- Restored 69 missing support files (`references/`, `examples/`, `templates/`, `scripts/`) for 11 skills: build-mcp-server, hook-development, playground, agent-development, automation-recommender, build-mcp-app, mcp-integration, build-mcpb, claude-md-improver, command-development, plugin-settings. Source: `AvaTar-ArTs/.Agent-skills@5dc4c75` (`plugins/claude-plugins-official/`); 66 of 69 identical to current upstream `anthropics/claude-plugins-official@d182ca4`, and the 3 revised upstream `mcp-integration` files (plus the matching `SKILL.md` line) were taken from upstream. All 45 SKILL.md references resolve.
 
 ### Added — 2026-10-05
 - Lineage and restore checkpoint with chronological change log, checkpoints, and self-evaluation: `docs/checkpoints/2026-10-05-agent-skills-lineage-and-restore.md` (+ JSON). Records that `.Agent-skills` is a superseded subset of this repository and that its history must be kept as provenance.

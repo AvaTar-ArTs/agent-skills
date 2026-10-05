@@ -93,6 +93,20 @@ Each entry records the request, the action, the result and its verification. The
 - **Not restored:** SKILL.md files were left untouched. Their text has diverged from the originals through the rename and later edits.
 - **Record:** wrote this checkpoint, its JSON companion, a catalog entry, a CHANGELOG entry and an evolution-history entry.
 
+### C14 · 2026-10-05 · user challenge: "matches the original" does not mean current
+- **Challenge:** the files had most likely been amended, extended or improved since that snapshot. C13 had only proved fidelity to one July snapshot.
+- **Checked three possibilities:**
+  1. **Improved copies elsewhere in the ecosystem:** none. No other copy exists anywhere in `agent-skills`; the files that share names belong to unrelated skills.
+  2. **Removed on purpose:** no. Full `agent-skills` history (47 commits) shows that each of the 11 skills was added once, in `e63d23c` (2026-07-15), with only its `SKILL.md`. No support file was ever added or deleted, and no `SKILL.md` has changed since.
+  3. **Newer upstream versions:** compared against `anthropics/claude-plugins-official@d182ca4` (2026-10-02). 66 of the 69 files are identical to current upstream. 3 `mcp-integration` files were revised upstream: a real `mcp.asana.com/sse` endpoint was replaced by a placeholder.
+- **Action:**
+  - Took upstream's versions of those 3 files.
+  - Applied the same placeholder fix to the one matching line in `skills/mcp-integration/SKILL.md`.
+- **Found:** the `SKILL.md` files were amended before either repository existed. `.Agent-skills@1c08218` (2026-07-09) and the `agent-skills` import contain identical blobs, so the edits were made on the local host and git does not record them.
+  - Two of the skills, `mcp-integration` and `plugin-settings`, carry a deliberate "Generalization Notes" section that frames them as host-neutral.
+  - The restored support files are host-specific, with about 456 Claude mentions.
+  - Whether the support files were left out on purpose cannot be determined from git. Either way, the `SKILL.md` files still cite them, so that generalization was incomplete.
+
 ## Checkpoints — verified state at each turning point
 
 | ID | After | Verified state | Open at that moment |
@@ -101,7 +115,8 @@ Each entry records the request, the action, the result and its verification. The
 | K2 | C7 | Docs fix merged into `.Agent-skills` main (`d596efd`) | Whether `.Agent-skills` is the right place to invest |
 | K3 | C8 | Full defect inventory of `.Agent-skills`; C1's "safe" conclusion overturned | Which repository is canonical |
 | K4 | C10 | `agent-skills` is canonical; `.Agent-skills` is a 1,049/1,050 subset; `5dc4c75` is the only source for 69 files | Whether push access to `agent-skills` would be granted |
-| K5 | C13 | 69 files restored and verified in `agent-skills` on `claude/serene-rubin-uonphz` | Review and merge; remaining defects re-measured against `agent-skills` |
+| K5 | C13 | 69 files restored and verified against the July snapshot | Whether the snapshot is current (raised by the user) |
+| K6 | C14 | 66 of 69 files identical to current upstream; 3 updated to upstream; no deliberate removal in git history | Policy for host-specific support files under the host-neutral SKILL.md files |
 
 ## Self-evaluation
 
@@ -137,8 +152,24 @@ Each item follows the self-improvement contract: observed failure, then one focu
 - **Change:** use a real CSV parser for CSV data.
 - **Verified:** the counts were re-run with Python's `csv` module in the same step.
 
+### S7 — Fidelity was reported as if it were currency
+- **Failure (C13):** "byte-identical to the original" was presented as the verification. It proved only that the copy was exact. It did not prove that the source was current, that no improved version existed, or that the files fit the amended `SKILL.md` files. The user caught this.
+- **Change:** a restore or copy now gets three checks:
+  1. **Lineage:** is there a newer or amended version anywhere, including upstream?
+  2. **Intent:** was the content removed on purpose? Check history.
+  3. **Fit:** does it still match what now references it?
+  Verification claims must name which of these were checked.
+- **Verified:** applied in C14. It found 3 upstream revisions, ruled out deliberate removal within git, and surfaced the generalization mismatch.
+
 ## Unresolved — keep visible, do not resolve silently
 
+0. **Host-specific support files under host-neutral skills:**
+   - `mcp-integration` and `plugin-settings` declare themselves general, but their restored references and examples are Claude Code-specific.
+   - Options:
+     - Keep them as upstream-faithful references, and have each `SKILL.md` label them as Claude Code-specific.
+     - Generalize the support files to match their `SKILL.md`.
+     - Drop the citations and the files.
+   - Needs the user's decision.
 1. **Claude→Codex rename:** some of it is deliberate (this is a Codex-facing tree) and some is damage (`Codex.ai`, `Codex Sonnet`, the `claude-code` skill now named `Codex` beside `codex`). The restored support files keep their original Claude wording (`${CLAUDE_PLUGIN_ROOT}`, `~/.claude`), while their SKILL.md files use Codex wording. That inconsistency is deliberate for now and needs a decision.
 2. **Duplicates:** 67 duplicated agent names were measured in `.Agent-skills`. The 33 differing pairs need a choice of canonical copy.
 3. **Defects not yet re-measured here:** findings C8.2–C8.6 were measured on `.Agent-skills`. Re-run them against `agent-skills` before fixing.
@@ -159,4 +190,5 @@ Each item follows the self-improvement contract: observed failure, then one focu
 - This checkpoint: `docs/checkpoints/2026-10-05-agent-skills-lineage-and-restore.md`
 - JSON companion: `docs/checkpoints/2026-10-05-agent-skills-lineage-and-restore.json`
 - Indexed in: `docs/CHECKPOINTS-CATALOG.md`, `docs/CHANGELOG.md`, `docs/EVOLUTION_AND_ITEM_HISTORY.md`
-- Restore commit: `d3dcf51` on `claude/serene-rubin-uonphz`
+- Restore commit: `d3dcf51` on `claude/serene-rubin-uonphz`; upstream refresh in the follow-up commit on the same branch
+- Upstream compared: `anthropics/claude-plugins-official@d182ca4` (2026-10-02)
