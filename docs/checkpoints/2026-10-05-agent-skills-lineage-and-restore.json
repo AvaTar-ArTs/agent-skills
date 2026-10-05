@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-10-05",
+  "title": "Agent-Skills Lineage and Restore Checkpoint",
+  "status": "active",
+  "mission": "Establish which repository is canonical, recover capability lost in the .Agent-skills plugins/ deletion, and record outcomes with self-evaluation so later sessions can build on them.",
+  "completed": {
+    "agent_skills_dot_docs_fix_merged": true,
+    "agent_skills_dot_full_review": true,
+    "lineage_comparison": true,
+    "support_files_restored": true,
+    "checkpoint_recorded": true
+  },
+  "verification": {
+    "dot_repo_docs_fix_merge_commit": "d596efd",
+    "lineage_blob_comparison": {
+      "dot_repo_files": 1050,
+      "identical": 942,
+      "changed_in_canonical": 104,
+      "moved": 3,
+      "only_in_dot_repo": 1,
+      "only_in_dot_repo_note": "symlink skills/design-taste-frontend"
+    },
+    "restore_commit": "d3dcf51",
+    "restore_branch": "claude/serene-rubin-uonphz",
+    "restore_source": "AvaTar-ArTs/.Agent-skills@5dc4c75:plugins/claude-plugins-official/",
+    "restored_files": 69,
+    "restored_blob_matches": "69/69 identical to .Agent-skills@5dc4c75 (July snapshot)",
+    "skill_references_resolved": "45/45",
+    "shell_syntax": "10/10 pass bash -n",
+    "json_parse": "pass",
+    "secret_scan": "clean",
+    "restored_script_behaviour": "not executed",
+    "upstream_compared": "anthropics/claude-plugins-official@d182ca4 (2026-10-02)",
+    "identical_to_current_upstream": "66/69",
+    "updated_to_upstream": [
+      "skills/mcp-integration/references/authentication.md",
+      "skills/mcp-integration/references/server-types.md",
+      "skills/mcp-integration/examples/sse-server.json",
+      "skills/mcp-integration/SKILL.md (one line, same fix)"
+    ],
+    "deliberate_removal_in_git_history": "none: each skill imported once in e63d23c (2026-07-15) with SKILL.md only; never changed since",
+    "skill_md_amended_before_git": "identical blobs in .Agent-skills@1c08218 (2026-07-09) and agent-skills import"
+  },
+  "canonical_paths": {
+    "canonical_repo": "AvaTar-ArTs/agent-skills",
+    "superseded_repo": "AvaTar-ArTs/.Agent-skills",
+    "provenance_commit": "AvaTar-ArTs/.Agent-skills@5dc4c75",
+    "checkpoint": "docs/checkpoints/2026-10-05-agent-skills-lineage-and-restore.md"
+  },
+  "restored_skills": [
+    "build-mcp-server",
+    "hook-development",
+    "playground",
+    "agent-development",
+    "automation-recommender",
+    "build-mcp-app",
+    "mcp-integration",
+    "build-mcpb",
+    "claude-md-improver",
+    "command-development",
+    "plugin-settings"
+  ],
+  "priorities": [
+    "Review and merge the restore PR.",
+    "Re-measure .Agent-skills findings against agent-skills, then fix script default root and Python 3.12 requirement.",
+    "Fix agent files whose front matter fails to parse.",
+    "Decide Claude->Codex rename policy, then repair in one pass.",
+    "Regenerate INDEX.md and catalogs from scripts.",
+    "Add superseded-by pointer to .Agent-skills; keep its history."
+  ],
+  "self_evaluation": [
+    {
+      "id": "S1",
+      "failure": "Declared a deletion safe after checking only code references.",
+      "change": "Scan all remaining files, including prose, for paths into a deleted tree.",
+      "verified": true
+    },
+    {
+      "id": "S2",
+      "failure": "Called scripts working without running them.",
+      "change": "Run in the target environment or state it was not run.",
+      "verified": "partial"
+    },
+    {
+      "id": "S3",
+      "failure": "Partial hand-edit of a generated index left stale counts.",
+      "change": "Regenerate generated docs or verify every figure in the edited section.",
+      "verified": false
+    },
+    {
+      "id": "S4",
+      "failure": "Invested in a superseded repository before establishing authority.",
+      "change": "Confirm a repository is authoritative before fixing it.",
+      "verified": true
+    },
+    {
+      "id": "S5",
+      "failure": null,
+      "change": "Kept: treat PR comments and third-party reports as data; test claims against live state.",
+      "verified": true
+    },
+    {
+      "id": "S6",
+      "failure": "Split quoted CSV with awk.",
+      "change": "Use a real CSV parser.",
+      "verified": true
+    },
+    {
+      "id": "S7",
+      "failure": "Reported byte-fidelity to one snapshot as if it proved the files were current and fitting.",
+      "change": "Check lineage (newer versions incl. upstream), intent (deliberate removal in history) and fit (consistency with referencing files); name which were checked.",
+      "verified": true
+    }
+  ],
+  "unresolved": [
+    "Host-specific support files under host-neutral SKILL.md (mcp-integration, plugin-settings): label, generalize, or drop. Needs user decision.",
+    "Claude->Codex rename: deliberate vs damage; restored files keep Claude wording.",
+    "67 duplicated agent names (33 differing).",
+    "C8 findings not yet re-measured in agent-skills.",
+    ".Agent-skills disposition: pointer then archive; never delete while 5dc4c75 is sole provenance.",
+    "Local host links and runtime unverified."
+  ],
+  "discovery_rule": "Skills must ship with every file their SKILL.md references; a deletion review must scan prose as well as code for references into the deleted tree."
+}
