@@ -2,6 +2,12 @@
 
 ## [Unreleased]
 
+### Fixed — 2026-10-05
+- Restored 69 missing support files (`references/`, `examples/`, `templates/`, `scripts/`) for 11 skills: build-mcp-server, hook-development, playground, agent-development, automation-recommender, build-mcp-app, mcp-integration, build-mcpb, claude-md-improver, command-development, plugin-settings. Source: `AvaTar-ArTs/.Agent-skills@5dc4c75` (`plugins/claude-plugins-official/`); 66 of 69 identical to current upstream `anthropics/claude-plugins-official@d182ca4`, and the 3 revised upstream `mcp-integration` files (plus the matching `SKILL.md` line) were taken from upstream. All 45 SKILL.md references resolve.
+
+### Added — 2026-10-05
+- Lineage and restore checkpoint with chronological change log, checkpoints, and self-evaluation: `docs/checkpoints/2026-10-05-agent-skills-lineage-and-restore.md` (+ JSON). Records that `.Agent-skills` is a superseded subset of this repository and that its history must be kept as provenance.
+
 ### Added / Enhanced — 2026-09-12
 - Completed and indexed local agent ecosystem deep-dive audit (`docs/audits/2026-09-12-agent-ecosystem-deepdive/`) with drift ledger, surface inventory, and Hermes control-plane risk analysis.
 - Staged and verified ~34 media & AI generative skills including `seedance-2-5-*`, `kling-studio`, `eachlabs-*`, `audiomind`, `video-overlay`, `video-upscaler`, and `wan-2-7`.

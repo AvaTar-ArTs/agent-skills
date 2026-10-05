@@ -23,6 +23,12 @@
 - Created `agents/documentation.md` to complete 103/103 100% root MD/TOML agent pair coverage.
 - Committed and pushed to branch `repair/integrate-agent-skills` (PR #4).
 
+## 2026-10-05 Session: Lineage, Restore, and Self-Evaluation
+- Established `AvaTar-ArTs/agent-skills` as canonical; `AvaTar-ArTs/.Agent-skills` is a 1,049/1,050-file subset (blob-hash comparison).
+- Restored 69 support files for 11 skills from `.Agent-skills@5dc4c75`; previously absent from both repositories.
+- Recorded six self-evaluation items (S1–S6), including the new rule: deletion reviews must scan prose as well as code for references into the deleted tree.
+- Checkpoint: [2026-10-05 Lineage and Restore](checkpoints/2026-10-05-agent-skills-lineage-and-restore.md).
+
 ## 2026-09-12 Session: Ecosystem Deep Dive, Capability Consolidation & Frontmatter Parity
 - Completed and indexed local agent ecosystem deep dive audit (`docs/audits/2026-09-12-agent-ecosystem-deepdive/`).
 - Staged and verified ~34 media & generative AI skills into canonical `skills/` tree (`seedance-*`, `kling-studio`, `eachlabs-*`, `audiomind`, `video-overlay`, `video-upscaler`, etc.).
@@ -31,5 +37,3 @@
 - Updated `skills/workflow-bootstrap/SKILL.md` topology map to reflect `~/.agents/skills` universal store symlink and canonical authoring boundaries.
 - Reorganized repository root: sequestered 24 historical audit dumps, CSVs, and archive ZIPs into `snapshots/` (`snapshots/historical-audits/` and `snapshots/archives/`).
 - Promoted `deep-research` to canonical `skills/deep-research/SKILL.md` with active workspace projection.
-
-
