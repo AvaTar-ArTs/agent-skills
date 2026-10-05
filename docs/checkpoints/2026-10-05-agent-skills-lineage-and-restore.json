@@ -25,12 +25,22 @@
     "restore_branch": "claude/serene-rubin-uonphz",
     "restore_source": "AvaTar-ArTs/.Agent-skills@5dc4c75:plugins/claude-plugins-official/",
     "restored_files": 69,
-    "restored_blob_matches": "69/69",
+    "restored_blob_matches": "69/69 identical to .Agent-skills@5dc4c75 (July snapshot)",
     "skill_references_resolved": "45/45",
     "shell_syntax": "10/10 pass bash -n",
     "json_parse": "pass",
     "secret_scan": "clean",
-    "restored_script_behaviour": "not executed"
+    "restored_script_behaviour": "not executed",
+    "upstream_compared": "anthropics/claude-plugins-official@d182ca4 (2026-10-02)",
+    "identical_to_current_upstream": "66/69",
+    "updated_to_upstream": [
+      "skills/mcp-integration/references/authentication.md",
+      "skills/mcp-integration/references/server-types.md",
+      "skills/mcp-integration/examples/sse-server.json",
+      "skills/mcp-integration/SKILL.md (one line, same fix)"
+    ],
+    "deliberate_removal_in_git_history": "none: each skill imported once in e63d23c (2026-07-15) with SKILL.md only; never changed since",
+    "skill_md_amended_before_git": "identical blobs in .Agent-skills@1c08218 (2026-07-09) and agent-skills import"
   },
   "canonical_paths": {
     "canonical_repo": "AvaTar-ArTs/agent-skills",
@@ -95,9 +105,16 @@
       "failure": "Split quoted CSV with awk.",
       "change": "Use a real CSV parser.",
       "verified": true
+    },
+    {
+      "id": "S7",
+      "failure": "Reported byte-fidelity to one snapshot as if it proved the files were current and fitting.",
+      "change": "Check lineage (newer versions incl. upstream), intent (deliberate removal in history) and fit (consistency with referencing files); name which were checked.",
+      "verified": true
     }
   ],
   "unresolved": [
+    "Host-specific support files under host-neutral SKILL.md (mcp-integration, plugin-settings): label, generalize, or drop. Needs user decision.",
     "Claude->Codex rename: deliberate vs damage; restored files keep Claude wording.",
     "67 duplicated agent names (33 differing).",
     "C8 findings not yet re-measured in agent-skills.",
