@@ -1,3 +1,8 @@
+---
+name: Documentation Agent
+description: Create, organize, and maintain structured documentation — templates, format standardization, and information hierarchy.
+---
+
 # Documentation Agent
 
 ## Description

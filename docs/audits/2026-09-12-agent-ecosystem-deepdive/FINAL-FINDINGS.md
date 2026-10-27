@@ -90,6 +90,26 @@ Not established:
 - whether every configured Hermes toolset is runtime-enabled;
 - behavioral parity between same-name skills.
 
+## Workspace duplicate-candidate refinement
+
+The supplied Supremepowers/workspace classification is directionally correct and should be adopted as a triage policy, with one measurement caveat: the recommended absolute-path rescan covered only `iterm2/{agents,skills,commands}` plus `~/.agent-skills`; it did not cover the whole workspace or every named candidate directory.
+
+The rescan produced 9,195 rows, 3,661 duplicate groups, and 8,020 duplicate rows. It found only 40 workspace agent files, 50 workspace skills, and 13 workspace commands because most capability records came from `~/.agent-skills`. Therefore, absence from this rescan is not evidence that a workspace candidate does not exist.
+
+Targeted path-preserving checks confirmed:
+
+- `rules.json`: two identical 560,333-byte files inside the same Agnix plugin release, likely a bundled knowledge/rules duplication; preserve until package layout and loader references are checked.
+- `multi_modal_ai_merge_system.py`: two byte-identical 35,334-byte copies in `Ai-Merge-GitHub/` and `Ai-Merge-System/`, plus a distinct 35,372-byte `Ai-Merge/` variant; this is a provenance/branch-lineage question, not safe deduplication.
+- `rest_request.py`: 30 identical copies under `Codex/.tmp/plugins/.../life-science-research`; this is strongly consistent with generated or vendored plugin packaging and belongs in the runtime/generated exclusion boundary unless provenance proves otherwise.
+
+Adopt these operational classes:
+
+- **Human review:** `Ai-Merge-*`, `rules/`, `agnix-rules/`, `knowledge-base/`, authored `agents/`, `scripts/`, `tools/`, `tests/`, and `mcp/`.
+- **Preserve unless proven obsolete:** versioned docs, resources, knowledge bundles, third-party trees, package/vendor directories, and `META-INF/`.
+- **Exclude from cleanup:** session history, archives, `.tmp`, generated/SSR output, terminal-update state, and IPC/runtime directories.
+
+This supports the repository-boundary conclusion: `~/iterm2` is a private control-plane workspace containing portable capability renderings, independent repositories, generated/vendor material, and private runtime evidence—not one canonical source repository.
+
 ## Final decision
 
 **No cleanup, merge, deletion, backup restoration, MCP installation, or security-setting change is justified solely by this audit.** The ecosystem is sufficiently mapped to proceed safely with a small verification phase:

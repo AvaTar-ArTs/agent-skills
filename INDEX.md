@@ -1,35 +1,34 @@
 # agent-skills Index
 
-Last audited: 2026-09-12. Deep dive: `docs/audits/2026-09-12-agent-ecosystem-deepdive/README.md`. Topology: `docs/audits/2026-09-11-agents-vs-agent-skills.md`. Detailed findings: `docs/audits/2026-08-18-agent-skills-audit.md`.
+Last audited: **2026-10-05**. Deep dive: `docs/audits/2026-09-12-agent-ecosystem-deepdive/README.md`. Topology: `docs/audits/2026-09-11-agents-vs-agent-skills.md`. Session synthesis: `tmp-md/2026-10-05-agents-skills-synthesis.md`.
 
 ## Verified Inventory
 
 | Area | Current Count | Notes |
 | --- | ---: | --- |
-| `agents/` root source files | 103 | 100% paired Markdown & TOML agent definitions |
-| `agents/` active Markdown files | 218 | Excludes README and archive/project areas |
-| Active skill authorities | 325 | `SKILL.md` files under `skills/` |
+| `agents/` root paired defs | 109 | Paired Markdown & TOML (live set) |
+| `agents/_incoming/` packs | 22 | Quarantined untracked category packs (2026-10-05) |
+| `skills/` `SKILL.md` | ~599 | Full canonical tree including nested packs |
+| `skills/` top-level dirs | ~343 | Includes packs, archives relocated out where noted |
+| `active-skills/` projection | ~299 tops / ~338 `SKILL.md` | Symlink projection into `skills/` (rebuilt 2026-10-05) |
 | Catalog JSON files | 12 | Validated schemas in `catalog/` |
-| Python files | 114 | Automation, analyzer, and catalog scripts |
-| Markdown files | 815+ | Documentation, guides, and skill authorities |
 
 ## Runtime Boundary
 
 ```text
 /Users/steven/.agents/skills -> /Users/steven/.agent-skills/skills
 /Users/steven/.claude/agents -> /Users/steven/.agent-skills/agents
-/Users/steven/.claude/skills -> /Users/steven/.agent-skills/skills
-/Users/steven/.codex/agents -> /Users/steven/.agent-skills/agents
+/Users/steven/.claude/skills -> /Users/steven/.agent-skills/active-skills
 /Users/steven/.codex/superpowers -> /Users/steven/.agent-skills/skills/using-superpowers
 ```
 
-Restored 2026-09-11: `~/.agents/skills` is again a directory symlink (npx `skills` door). Pre-symlink copy kept at `~/.agents/skills.bak-2026-09-11-pre-symlink`. 23 content-diff skill names were not merged; live path is canonical. `npx`-only skills copied in: `ci-cd-and-automation`, `mcp-builder`, `webapp-testing`.
+Notes (2026-10-05):
 
-- Root agent/config files and categorized agent packs coexist under `agents/`.
-- Skill contracts are indexed by each `skills/**/SKILL.md` entry.
-- This repository is the broad authored source ecosystem.
-- Curated skills are projected into target agent environments.
-- Historical, generated, restricted, and vendored material are retained safely without automatic promotion.
+- `~/.agents/skills` remains the npx `skills` door into the full canonical library.
+- Claude uses **`active-skills/`** (symlink projection), not the full `skills/` tree.
+- `~/.codex/agents` is a flat mirror, not a directory symlink to `agents/`.
+- Numbered agent packs are historical; see `agents/ARCHIVE-PACKS.md`.
+- Reclaim backups + restore commands: `backups/cleanup-manifest-2026-10-05.csv`.
 
 ## Known Issues & Operating Guidelines
 

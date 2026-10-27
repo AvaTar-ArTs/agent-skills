@@ -1,6 +1,9 @@
 ---
 name: review
-description: Review code changes with the Bugbot or Security Review subagent.
+# v1 description (preserved 2026-10-03):
+#   Review code changes with the Bugbot or Security Review subagent.
+# v1: description: Dispatcher: asks whether you want Bugbot or Security Review, then routes to review-bugbot or review-security.
+description: "Dispatcher: asks whether you want Bugbot or Security Review, then routes to review-bugbot or review-security."
 disable-model-invocation: true
 ---
 # Review

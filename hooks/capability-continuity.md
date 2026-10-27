@@ -40,6 +40,16 @@ Shared Grok workflows belong in `~/.agent-skills/workflows/`; `~/.grok/workflows
 
 When evidence changes a premise, revisit dependent conclusions and remedies. Apply durable improvements at their existing shared source, preserving rationale and marking obsolete claims superseded. Runtime memory may point to that source but must not be the only home for shared behavior. Resume verified work instead of repeating it. Demonstrate learning in the next action; distinguish saved guidance, configured hooks, and observed runtime execution.
 
+## Checkpoint hook — intent, evidence, runtime reach
+
+**Intent.** `post-tool-capability-checkpoint.sh` (canonical at `~/.agent-skills/hooks/post-tool-capability-checkpoint.sh`) is the continuity *mechanism* behind this file. On SessionStart and UserPromptSubmit it injects a route-once instruction (deduce the goal, invoke one matching skill or flow, classify once against the trigger indexes). On PostToolUse it acts only on shell-failure signals ("command not found", exit 141/SIGPIPE) and returns eza/fzf/rg candidates. It is a nudge toward selecting the right capability and recovering from a missing one — it is not a recall store and not a task executor.
+
+**Evidence (2026-10-11).** Registered in `~/.codex/hooks.json` on SessionStart, UserPromptSubmit and PostToolUse. `~/.codex/hooks` is a symlink to `~/.agent-skills/hooks`, so the running script and the canonical script are the same file (`-ef`, one inode). Claude Code does **not** register this script: `~/.claude/settings.json` runs `cc-status`, `discover-first.sh` and `route-once.sh` instead. The PreToolUse export branch that exists in the script is registered by no host and is inert.
+
+**Runtime reach — configuration is not execution.** The script fires in the Codex runtime. It does **not** fire in the OpenCode runtime: there is no OpenCode hook registration and `~/.config/opencode/plugins` is empty. In OpenCode these continuity rules arrive a different way — the user-level `AGENTS.md`, loaded as an instruction file, points at this document. So "the hook is configured" and "the hook ran in front of me" are different claims; say which one you are making.
+
+**Lesson (2026-10-11).** A continuity mechanism is a means, not the deliverable. Before opening a new artifact or wiring a new hook, finish or explicitly park the open review and say which one you did. Record, per change, its intent, its evidence, and whether it actually influences the runtime in front of you — those three are not interchangeable.
+
 ## Preserve the next starting point
 
 At a meaningful handoff, update the existing task checkpoint with the result, supporting

@@ -1,6 +1,9 @@
 ---
 slug: muapi-music-video
-name: muapi-music-video
+# v1 name (preserved 2026-10-03): muapi-music-video
+# renamed to match its directory so discovery, invocation and the name
+# shown in the skill listing all agree.
+name: samurai-music-video
 version: "1.0.0"
 description: Build a short music video from a song theme — N keyframes, animate each, generate matching music.
 acceptLicenseTerms: true

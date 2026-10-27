@@ -1,5 +1,8 @@
 ---
-name: AudioMind
+# v1 name (preserved 2026-10-03): AudioMind
+# renamed to match its directory so discovery, invocation and the name
+# shown in the skill listing all agree.
+name: audiomind
 version: 3.0.0
 author: "wells"
 emoji: "🎙️"

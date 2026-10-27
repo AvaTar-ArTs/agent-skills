@@ -1,3 +1,8 @@
+---
+name: Context Management
+description: Maintain and organize conversation context — tracking, information hierarchy, cross-reference linking, and session continuity.
+---
+
 # Context Management Agent
 
 ## Description

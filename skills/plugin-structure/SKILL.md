@@ -1,6 +1,13 @@
 ---
 name: plugin-structure
-description: This skill should be used when the user asks to "create a plugin", "scaffold a plugin", "understand plugin structure", "organize plugin components", "set up plugin.json", "use ${CLAUDE_PLUGIN_ROOT}", "add commands/agents/skills/hooks", "configure auto-discovery", or needs guidance on plugin directory layout, manifest configuration, component organization, file naming conventions, or Codex plugin architecture best practices.
+# v1 description (preserved 2026-10-03):
+#   This skill should be used when the user asks to "create a plugin", "scaffold a plugin", 
+#   "understand plugin structure", "organize plugin components", "set up plugin.json", "use 
+#   ${CLAUDE_PLUGIN_ROOT}", "add commands/agents/skills/hooks", "configure auto-discovery", or 
+#   needs guidance on plugin directory layout, manifest configuration, component organization, 
+#   file naming conventions, or Codex plugin architecture best practices.
+# v1: description: Directory layout, plugin.json manifest, ${CLAUDE_PLUGIN_ROOT}, auto-discovery, and where commands/agents/skills/hooks belong. Triggers: "scaffold a plugin".
+description: "Directory layout, plugin.json manifest, ${CLAUDE_PLUGIN_ROOT}, auto-discovery, and where commands/agents/skills/hooks belong. Triggers: \"scaffold a plugin\"."
 version: 0.1.0
 ---
 

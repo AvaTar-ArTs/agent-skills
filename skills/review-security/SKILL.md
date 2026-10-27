@@ -1,6 +1,8 @@
 ---
 name: review-security
-description: Review code changes with Security Review subagent.
+# v1 description (preserved 2026-10-03):
+#   Review code changes with Security Review subagent.
+description: Vulnerability pass over a diff — injection, auth, secrets, unsafe deserialisation — via the Security Review subagent.
 ---
 # Review Security
 

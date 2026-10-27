@@ -1,3 +1,8 @@
+---
+name: API Connector (Gemini)
+description: Gemini CLI extension for REST API calls — GET/POST/PUT/DELETE with auth headers, retry logic, and response caching.
+---
+
 # API Connector - Gemini CLI Extension Connect to REST APIs, manage authentication, and process responses. ## Features - Make GET, POST, PUT, DELETE requests
 
 - Automatic authentication header management

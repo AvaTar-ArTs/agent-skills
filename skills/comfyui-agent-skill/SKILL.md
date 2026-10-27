@@ -1,9 +1,16 @@
 ---
-name: comfyui-agent-skill-mie
-description: >
-  Agent skill for running registered ComfyUI workflows through a stable CLI.
-  Supports image, video, music, and speech generation on a local or trusted self-hosted
-  ComfyUI server (default http://127.0.0.1:8188). Registered workflows only.
+# v1 name (preserved 2026-10-03): comfyui-agent-skill-mie
+# renamed to match its directory so discovery, invocation and the name
+# shown in the skill listing all agree.
+name: comfyui-agent-skill
+# v1 description (preserved 2026-10-03, replaced with content-first wording):
+#   Agent skill for running registered ComfyUI workflows through a stable CLI. Supports image, 
+#   video, music, and speech generation on a local or trusted self-hosted ComfyUI server 
+#   (default http://127.0.0.1:8188). Registered workflows only.
+# v2 description (preserved 2026-10-03, superseded: its opening repeated the name):
+#   ComfyUI workflow runner: image, video, music and speech generation through a stable CLI 
+#   against a local or self-hosted server (127.0.0.1:8188). Registered workflows only.
+description: Registered workflows only, run through a stable CLI against a local or self-hosted server (127.0.0.1:8188). Covers image, video, music and speech generation.
 ---
 
 # comfyui-agent-skill-mie

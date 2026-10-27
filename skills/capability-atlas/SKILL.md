@@ -1,6 +1,12 @@
 ---
 name: capability-atlas
-description: This skill should be used when the user asks to "map a capability across hosts", "translate a skill to Gemini, Qwen, Codex, or Cursor", "build a universal capability matrix", "mirror an agent or skill into ~/.gemini", "preserve behavior while renaming or repackaging", or wants a self-evolution loop that keeps capability parity across renderings.
+# v1 description (preserved 2026-10-03):
+#   This skill should be used when the user asks to "map a capability across hosts", "translate 
+#   a skill to Gemini, Qwen, Codex, or Cursor", "build a universal capability matrix", "mirror 
+#   an agent or skill into ~/.gemini", "preserve behavior while renaming or repackaging", or 
+#   wants a self-evolution loop that keeps capability parity across renderings.
+# v1: description: Cross-host translation: mirror a capability into ~/.gemini, Qwen, Codex or Cursor, preserve behavior while repackaging, build a parity matrix, run a self-evolution loop.
+description: "Cross-host translation: mirror a capability into ~/.gemini, Qwen, Codex or Cursor, preserve behavior while repackaging, build a parity matrix, run a self-evolution loop."
 ---
 
 # Capability Atlas

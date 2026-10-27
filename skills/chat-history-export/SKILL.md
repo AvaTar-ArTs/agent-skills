@@ -1,6 +1,6 @@
 ---
 name: chat-history-export
-description: Export, search, list, or inspect local AI conversation history from session JSON. Use when asked what was worked on before, to preserve substantial sessions, to search past Poolside/Claude/Codex sessions, or before major workspace changes that need a durable markdown/JSON record.
+description: Export, search, list, or inspect local AI conversation history from session JSON. Use when asked what was worked on before, to preserve a quit/resume session by ID, to preserve substantial sessions, to search past Poolside/Claude/Codex sessions, or before major workspace changes that need a durable markdown/JSON record.
 ---
 
 # Chat History Export
@@ -18,8 +18,8 @@ Poolside trajectories store `session.start`, `session.input`, and `turn.output` 
 ## Workflow
 
 1. Prefer the bundled script over undocumented shell aliases.
-2. Run with `--dry-run` before a broad export if the user only asked for review or inventory.
-3. Export into `~/.config/poolside/chat-history` (or tool-specific directory) unless the user gives a different output directory.
+2. Choose the smallest useful scope: use `--session <id-or-filter> --resume-id <resume-id>` for a quit/resume handoff; use unrestricted export only when the user explicitly asks for history. Inventory first with `list` / `latest` / `export --dry-run`, then inspect existing dumps per `~/.agent-skills/hooks/capability-continuity.md`.
+3. Export into `~/.config/poolside/chat-history` (or tool-specific directory) only after that named dest.
 4. Treat `secrets.json` and provider settings as sensitive runtime state; never export or quote those files.
 
 ## Commands
@@ -69,6 +69,7 @@ python3 scripts/export_chat_history.py search "workspace cleanup"
 --dry-run               # Preview exports without writing files
 --format md|json|auto    # Output format (default: auto → markdown)
 --session <filter>      # Target specific session by session_id or filename substring
+--resume-id <id>        # Record the quit/resume identifier in the targeted export
 ```
 
 ## Examples
@@ -83,6 +84,10 @@ python3 scripts/export_chat_history.py list --tool pool
 
 ```bash
 python3 scripts/export_chat_history.py export --tool pool --session 019f5b57
+
+# Export one quit/resume session
+python3 scripts/export_chat_history.py export --tool claude \
+  --session <session-id> --resume-id <resume-id> --format md
 ```
 
 ### Work with Claude Code history

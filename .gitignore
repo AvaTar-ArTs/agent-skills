@@ -49,3 +49,16 @@ chozen-land.txt
 # DeepTutor runtime state
 deeptutor/user/logs/
 deeptutor/user/**/*.db
+
+# Ruflo local secrets and runtime data
+.env
+.env.local
+.env.*.local
+.claude-flow/data/
+.claude-flow/logs/
+.claude-flow/sessions/
+
+# Codex local configuration
+.codex/
+# Claude Flow runtime data
+# Environment variables

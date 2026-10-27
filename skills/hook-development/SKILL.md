@@ -1,6 +1,15 @@
 ---
 name: hook-development
-description: This skill should be used when the user asks to "create a hook", "add a PreToolUse/PostToolUse/Stop hook", "validate tool use", "implement prompt-based hooks", "use ${CLAUDE_PLUGIN_ROOT}", "set up event-driven automation", "block dangerous commands", or mentions hook events (PreToolUse, PostToolUse, Stop, SubagentStop, SessionStart, SessionEnd, UserPromptSubmit, PreCompact, Notification). Provides comprehensive guidance for creating and implementing Codex plugin hooks with focus on advanced prompt-based hooks API.
+# v1 description (preserved 2026-10-03):
+#   This skill should be used when the user asks to "create a hook", "add a 
+#   PreToolUse/PostToolUse/Stop hook", "validate tool use", "implement prompt-based hooks", 
+#   "use ${CLAUDE_PLUGIN_ROOT}", "set up event-driven automation", "block dangerous commands", 
+#   or mentions hook events (PreToolUse, PostToolUse, Stop, SubagentStop, SessionStart, 
+#   SessionEnd, UserPromptSubmit, PreCompact, Notification). Provides comprehensive guidance 
+#   for creating and implementing Codex plugin hooks with focus on advanced prompt-based hooks 
+#   API.
+# v1: description: PreToolUse / PostToolUse / Stop / SubagentStop / SessionStart events: validate or block tool use, prompt-based checks, ${CLAUDE_PLUGIN_ROOT}, event-driven automation.
+description: "PreToolUse / PostToolUse / Stop / SubagentStop / SessionStart events: validate or block tool use, prompt-based checks, ${CLAUDE_PLUGIN_ROOT}, event-driven automation."
 version: 0.1.0
 ---
 

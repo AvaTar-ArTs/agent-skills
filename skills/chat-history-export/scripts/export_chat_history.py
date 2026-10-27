@@ -230,7 +230,7 @@ def output_path(out: Path, meta: dict[str, Any], messages_doc: dict[str, Any], m
     return out / f"{date}_{safe_slug(str(session_id), 'session')}_{safe_slug(str(title))}.{ext}"
 
 
-def render_markdown(meta: dict[str, Any], messages_doc: dict[str, Any], messages: list[dict[str, Any]]) -> str:
+def render_markdown(meta: dict[str, Any], messages_doc: dict[str, Any], messages: list[dict[str, Any]], resume_id: str | None = None) -> str:
     session_id = meta.get("session_id") or messages_doc.get("sessionId") or ""
     title = meta.get("metadata", {}).get("title") or meta.get("prompt") or first_user_text(messages) or session_id
     lines = [
@@ -239,6 +239,7 @@ def render_markdown(meta: dict[str, Any], messages_doc: dict[str, Any], messages
         "## Metadata",
         "",
         f"- Session: `{session_id}`",
+        f"- Resume ID: `{resume_id}`" if resume_id else "",
         f"- Source: `{meta.get('source', '')}`",
         f"- Status: `{meta.get('status', '')}`",
         f"- Started: `{meta.get('started_at', '')}`",
@@ -271,11 +272,12 @@ def render_markdown(meta: dict[str, Any], messages_doc: dict[str, Any], messages
     return "\n".join(lines).rstrip() + "\n"
 
 
-def render_json(meta: dict[str, Any], messages_doc: dict[str, Any], messages: list[dict[str, Any]]) -> str:
+def render_json(meta: dict[str, Any], messages_doc: dict[str, Any], messages: list[dict[str, Any]], resume_id: str | None = None) -> str:
     """Render session as formatted JSON."""
     output = {
         "metadata": {
             "session_id": meta.get("session_id") or messages_doc.get("sessionId"),
+            "resume_id": resume_id,
             "source": meta.get("source", ""),
             "status": meta.get("status", ""),
             "started_at": meta.get("started_at", ""),
@@ -380,7 +382,8 @@ def cmd_export(args: argparse.Namespace) -> int:
         messages = messages_doc.get("messages", [])
         ext = args.format if args.format != "auto" else "md"
         target = output_path(out, meta, messages_doc, messages, ext, tool_hint)
-        content = render_markdown(meta, messages_doc, messages) if ext == "md" else render_json(meta, messages_doc, messages)
+        resume_id = args.resume_id or sid if args.resume_id else None
+        content = render_markdown(meta, messages_doc, messages, resume_id) if ext == "md" else render_json(meta, messages_doc, messages, resume_id)
         if args.dry_run:
             print(f"WOULD {sid} -> {target}")
         else:
@@ -447,6 +450,7 @@ def build_parser() -> argparse.ArgumentParser:
             p.add_argument("--force", action="store_true", help="Force re-export even if already exported")
             p.add_argument("--format", choices=["md", "json", "auto"], default="auto", help="Output format (md=markdown, json=json, auto=detect)")
             p.add_argument("--session", help="Filter to specific session by session_id or directory name substring")
+            p.add_argument("--resume-id", help="Attach the quit/resume identifier to the targeted export")
             p.set_defaults(func=cmd_export)
         elif name == "search":
             p.add_argument("query", help="Search string to find in session content")

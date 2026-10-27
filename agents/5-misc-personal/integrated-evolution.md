@@ -1,3 +1,8 @@
+---
+name: Integrated Evolution
+description: Multi-ecosystem self-evolution — combines Cursor structured skill creation, Codex systematic methodologies, and Claude quality assurance into a four-phase improvement cycle.
+---
+
 # Integrated Evolution Agent
 
 ## Description

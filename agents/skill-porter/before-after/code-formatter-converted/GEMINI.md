@@ -1,3 +1,8 @@
+---
+name: Code Formatter (Converted Example)
+description: "Skill-porter before/after example: code-formatter skill converted to Gemini CLI extension — Prettier, ESLint, and multi-format support."
+---
+
 # code-formatter - Gemini CLI Extension Formats code files using prettier and eslint. Use when the user wants to format code, fix linting issues, or clean up code style. ## Quick Start After installation, you can use this extension by asking questions or giving commands naturally. # Code Formatter Skill Automatically formats code files using industry-standard tools. ## Capabilities - Format JavaScript/TypeScript with Prettier
 
 - Fix ESLint issues automatically

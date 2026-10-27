@@ -1,6 +1,8 @@
 ---
 name: review-bugbot
-description: Review code changes with Bugbot subagent.
+# v1 description (preserved 2026-10-03):
+#   Review code changes with Bugbot subagent.
+description: Correctness and defect pass over a diff, run through the Bugbot subagent.
 ---
 # Review Bugbot
 

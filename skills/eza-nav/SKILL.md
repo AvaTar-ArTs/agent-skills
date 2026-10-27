@@ -6,7 +6,7 @@ creator: AvaTarArTs.org / github.com/AvaTar-ArTs / Steven
 
 # eza-nav
 
-Use this skill for all directory and file listing needs. `eza` is installed at `/usr/local/bin/eza` and provides advanced features over `ls`.
+Use this skill for all directory and file listing needs. Resolve `eza` with `command -v eza` (do not hardcode `/usr/local/bin/eza`). On this machine that is MacPorts `/opt/local/bin/eza`.
 
 ## Usage
 

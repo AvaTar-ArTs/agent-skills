@@ -4,6 +4,14 @@ Durable audit outputs are stored under `~/.agent-skills/docs/audits/` and should
 
 ## Entries
 
+- [Home workspace overview — 2026-10-13](audits/2026-10-13-home-workspace-overview/README.md) — Read-only, Eza-guided map of the broader home workspace, project evidence relevant to DEV.to, one-time storage snapshot, and verification/privacy limitations.
+
+- [Workspace ecosystem audit — 2026-10-06](audits/2026-10-06-workspace-ecosystem-audit/README.md) — Structural rescan of 11 agent homes, 130728 entries; tmp manifest gitignored; hotspots Codex sqlite/Hermes state.db/Grok installers; secret-named list; [xlsx workbook](audits/2026-10-06-workspace-ecosystem-audit/workspace-ecosystem-audit-2026-10-06.xlsx); [sanitized Grok export](audits/2026-10-06-workspace-ecosystem-audit/exports/2026-10-06-grok-01a11447-workspace-audit.md); [knowledge pack](audits/2026-10-06-workspace-ecosystem-audit/knowledge/README.md); no deletes.
+
+- [Ruflo leftovers removal — 2026-10-05](audits/ruflo-leftovers-2026-10-05/README.md) — Finished the Ruflo/claude-flow purge: archived then removed live copies in `~/iterm2/.claude`, `~/iterm2/.agents`, `~/scripts/.claude`, agent-skills `.claude/skills` pack, Ruflo `CLAUDE.md`/`AGENTS.md`, Codex `CLAUDE_FLOW_*` env, and `proven-config.json`. Undo: `~/.agent-skills/backups/ruflo-leftovers-2026-10-05/`. Records kept.
+
+- [skillOverrides `off` review — 2026-10-05](audits/skills-off-review-2026-10-05/README.md) — Review of 230 skills set `off` by /doctor: 110 flagged (dependency-named or recently modified), 3 confirmed export-skill prerequisites (capability-atlas, chroma, research-source-intake). Sheet: `off-skills-review.csv`. No overrides changed; limitations stated in the README.
+
 - [Local agent ecosystem deep-dive — 2026-09-12](audits/2026-09-12-agent-ecosystem-deepdive/README.md) — Current topology, canonical skill/agent surfaces, Hermes toolsets/MCP, runtime risks, parity drift, and ranked recommendations.
 
 - [Workspace ecosystem audit — 2026-09-11](audits/2026-09-11-workspace-ecosystem/README.md) — Structural no-follow scan of `~/.agents` through `~/.hermes`. Skill `inventory.py` missing. Only Claude skills/agents symlink to canonical. Codex==.Codex same inode. Hotspots: Codex sqlite, Grok installers, Claude ccassist.db.

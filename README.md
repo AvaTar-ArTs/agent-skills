@@ -14,45 +14,38 @@ changelog beside the CSV.
 
 ## Layout
 
-- `agents/` - Markdown, TOML, YAML, CSV, and text agent/persona definitions.
-- `skills/` - Skill directories and nested skill libraries.
-- `deep-research/` - Research-oriented skill material.
+- `agents/` - Markdown, TOML, YAML, CSV, and text agent/persona definitions. Live set = root paired `.md`+`.toml`. Numbered packs are historical; untracked category packs sit in `agents/_incoming/`.
+- `skills/` - Canonical skill directories and nested skill libraries.
+- `active-skills/` - Curated **symlink projection** into `skills/` for hosts that want a trimmed discovery set (see `active-skills/PROJECTION.md`).
 - `scripts/` - Local inspection and catalog tooling for this workspace.
+- `backups/` - Local reclaim/quarantine backups and cleanup manifests (gitignored).
 - `tmp-csv/` - Local staged CSV outputs, ignored by Git.
 - `tmp-md/` - Local staged Markdown reports, ignored by Git.
 - `tmp/` - Local scratch/history folder, ignored by Git.
 
 ## Current Runtime Surface
 
-Last audited: 2026-08-18. See
-`docs/audits/local-agent-skills-review-2026-08-18.md` for scope and findings.
+Last audited: **2026-10-05** (git reconcile + projection rebuild). Prior deep dives:
+`docs/audits/local-agent-skills-review-2026-08-18.md`,
+`docs/audits/2026-09-12-agent-ecosystem-deepdive/`,
+`tmp-md/2026-10-05-agents-skills-synthesis.md`.
 
-- `agents/`: 218 Markdown files in the active tree (excluding README and
-  non-source archive/project areas); 103 are directly under `agents/`.
-- `skills/` plus `deep-research/`: 311 `SKILL.md` files in the active tree.
-- Skill metadata: all 311 active skill files have frontmatter with `name` and
-  `description` fields.
-- Agent metadata: 34 Markdown files are reference/legacy material without
-  frontmatter; `agents/test-agent.md` is the one runtime-like file missing a
-  description.
-- Duplicate names need taxonomy work: 22 skill-name collisions and 70
-  agent-name collisions; many are intentional categorized copies, but they
-  should be explicitly marked as aliases, references, or runtime primaries.
+Measured inventory (2026-10-05):
 
-Claude and Codex should consume this tree directly:
+- `agents/` root: **109** paired `.md`+`.toml` definitions (plus archive packs and `agents/_incoming/`).
+- `skills/`: **~343** top-level entries; **~599** `SKILL.md` files (includes nested packs such as calesthio).
+- `active-skills/`: **~299** projected tops (**298** symlinks into `skills/` / `skills/.system/`); **~338** `SKILL.md` reachable via those links.
+- Claude discovery uses the **active-skills** projection, not the full `skills/` tree.
+- Leaf-name collisions and pack copies still exist; treat root / projected entries as primaries.
 
+Runtime doors (verified 2026-10-05):
+
+- `/Users/steven/.agents/skills -> /Users/steven/.agent-skills/skills`
 - `/Users/steven/.claude/agents -> /Users/steven/.agent-skills/agents`
-- `/Users/steven/.claude/skills -> /Users/steven/.agent-skills/skills`
-- `/Users/steven/.codex/agents -> /Users/steven/.agent-skills/agents`
+- `/Users/steven/.claude/skills -> /Users/steven/.agent-skills/active-skills`
 - `/Users/steven/.codex/superpowers -> /Users/steven/.agent-skills/skills/using-superpowers`
 
-The repository-local `.claude/skills/` compatibility links are currently
-broken and are not the same as the healthy host-level
-`/Users/steven/.claude/skills` link. Repair or remove those 25 links before
-using the repository-local Claude configuration.
-
-Codex note: `/Users/steven/.codex/skills` is an existing managed directory with
-system skills, not a symlink to this tree.
+Codex note: `/Users/steven/.codex/agents` is a flat mirror (not a directory symlink). `/Users/steven/.codex/skills` remains a managed directory with system skills, not a symlink to this tree.
 
 `INDEX.md` is the broader generated overview. This README is the short entry
 point for the repository.

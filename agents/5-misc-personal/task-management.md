@@ -1,3 +1,8 @@
+---
+name: Task Management
+description: Track tasks, organize information, preserve context, and generate summaries across multi-step processes.
+---
+
 # Task Management Agent
 
 ## Description

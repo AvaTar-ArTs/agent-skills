@@ -1,3 +1,8 @@
+---
+name: OpenAI YAML Reference
+description: Field reference for agents/openai.yaml — display_name, icons, brand_color, default_prompt, and MCP tool dependencies.
+---
+
 # openai.yaml fields (full example + descriptions) `agents/openai.yaml` is an extended, product-specific config intended for the machine/harness to read, not the agent. Other product-specific config can also live in the `agents/` folder. ## Full example ```yaml
 
 interface: display_name: "Optional user-facing name" short_description: "Optional user-facing description" icon_small: "./assets/small-400px.png" icon_large: "./assets/large-logo.svg" brand_color: "#3B82F6" default_prompt: "Optional surrounding prompt to use the skill with" dependencies: tools: - type: "mcp" value: "github" description: "GitHub MCP server" transport: "streamable_http" url: "https://api.githubcopilot.com/mcp/"

@@ -19,12 +19,13 @@ Turn approved HTML, JSON, ZIP, Markdown, and supporting-note exports into a trac
 
 ## When to Use
 
-Use when exported conversations or documents contain reusable workflows, claims, decisions, products, agents, implementation patterns, or project history that must become searchable and source-linked.
+Use when exported conversations or documents contain reusable workflows, claims, decisions, products, agents, implementation patterns, or project history that must become searchable and source-linked. A compact resume-ID handoff is a valid source; do not require a full-history export when the user only needs continuation.
 
 ## Prerequisites
 
 - Approved source roots and an explicit exclusion list.
 - A destination for derived Markdown, CSV, and index artifacts.
+- Either a full history export or a targeted resume-ID handoff.
 - `chat-history-export`, `research-source-intake`, `capability-atlas`, `narrative-documentation`, and `chroma` available directly or as deliberate adapters.
 - Agents: `filesystem-inventory`, `content-organizer`, `documentation-manager`, and `technical-writer`.
 

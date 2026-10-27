@@ -1,17 +1,17 @@
 # eza Usage Guide
 
-Last updated: 2026-05-18 07:57:38
+Last updated: 2026-10-09
 
 ## Purpose
 
-`eza` is installed at `/usr/local/bin/eza` and should be used instead of `ls` for directory listings in this workspace.
+Resolve `eza` with `command -v eza`. Do not hardcode `/usr/local/bin/eza`. On this machine the live binary is MacPorts `/opt/local/bin/eza`. Use `eza` instead of `ls` for directory listings.
 
 Version discovered locally:
 
 ```text
 Version:
 eza - A modern, maintained replacement for ls
-v0.23.4 [+git]
+v0.23.5 [+git]
 https://github.com/eza-community/eza
 ```
 
@@ -338,7 +338,7 @@ readlink /path
 ```text
 Version:
 eza - A modern, maintained replacement for ls
-v0.23.4 [+git]
+v0.23.5 [+git]
 https://github.com/eza-community/eza
 
 Help full:

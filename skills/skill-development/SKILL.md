@@ -1,6 +1,12 @@
 ---
 name: skill-development
-description: This skill should be used when the user wants to "create a skill", "add a skill to plugin", "write a new skill", "improve skill description", "organize skill content", or needs guidance on skill structure, progressive disclosure, or skill development best practices for Codex plugins.
+# v1 description (preserved 2026-10-03):
+#   This skill should be used when the user wants to "create a skill", "add a skill to plugin", 
+#   "write a new skill", "improve skill description", "organize skill content", or needs 
+#   guidance on skill structure, progressive disclosure, or skill development best practices 
+#   for Codex plugins.
+# v1: description: Progressive disclosure, content organisation and description tuning for Codex plugin skills. Triggers: "create a skill", "improve skill description".
+description: "Progressive disclosure, content organisation and description tuning for Codex plugin skills. Triggers: \"create a skill\", \"improve skill description\"."
 version: 0.1.0
 ---
 

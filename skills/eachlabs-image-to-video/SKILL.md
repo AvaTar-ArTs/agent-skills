@@ -1,9 +1,13 @@
 ---
-name: image-to-video
-description: Transform static images into dynamic videos using each::sense AI. Create animations, Ken Burns effects, cinemagraphs, product showcases, and motion graphics from still photos.
-metadata:
-  author: eachlabs
-  version: "2.0"
+# v1 name (preserved 2026-10-03): image-to-video
+# renamed to match its directory and provider; the generic name is owned by
+# skills/image-to-video/ (the RunComfy router). Resolves a true name collision.
+name: eachlabs-image-to-video
+# v2 description (preserved 2026-10-03, superseded: its opening repeated the name):
+#   Transform static images into dynamic videos using each::sense AI. Create animations, Ken 
+#   Burns effects, cinemagraphs, product showcases, and motion graphics from still photos. 
+#   metadata: author: eachlabs version: "2.0"
+description: Ken Burns moves, cinemagraphs, product showcases and motion graphics generated from stills via each::sense AI.
 ---
 
 # Image to Video Animation

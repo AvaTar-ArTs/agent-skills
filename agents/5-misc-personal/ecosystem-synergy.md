@@ -1,3 +1,8 @@
+---
+name: Ecosystem Synergy
+description: Orchestrate integration of Cursor, Codex, Claude, and Git AI ecosystems — cross-platform workflows, unified skill management, and attribution-aware processing.
+---
+
 # Ecosystem Synergy Agent
 
 ## Description

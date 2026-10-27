@@ -1,3 +1,8 @@
+---
+name: Self Evolution
+description: Continuous capability self-improvement — self-assessment, learning integration, evolution planning, and validation following Codex/Claude systematic approaches.
+---
+
 # Self-Evolution Agent
 
 ## Description

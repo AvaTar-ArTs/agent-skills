@@ -1,3 +1,8 @@
+---
+name: Ice Tracker Assistant
+description: ICE Tracker project assistant — architecture analysis, Git AI attribution tracking, mapping/RSS features, and variant-specific guidance (v2–v7).
+---
+
 # ICE Tracker Assistant Agent
 
 ## Description

@@ -55,11 +55,25 @@ def sync(check_only: bool = False) -> int:
     changes: list[str] = []
     errors: list[str] = []
 
+    # If package assets/ is a symlink into skill-root assets/, copies are unnecessary.
+    pkg_assets = PACKAGE_ROOT / "assets"
+    if pkg_assets.is_symlink():
+        try:
+            if pkg_assets.resolve() == (REPO_ROOT / "assets").resolve():
+                if check_only:
+                    print("OK: scripts/comfyui/assets -> ../../assets (symlink projection)")
+                return 0
+        except OSError:
+            pass
+
     for src_rel, dst_rel, pattern in SYNC_TRIPLETS:
         src_dir = REPO_ROOT / src_rel
         dst_dir = PACKAGE_ROOT / dst_rel
 
         if not src_dir.is_dir():
+            continue
+        if dst_dir.is_symlink():
+            changes.append(f"SKIP_SYMLINK_DST: {dst_rel}")
             continue
         dst_dir.mkdir(parents=True, exist_ok=True)
 

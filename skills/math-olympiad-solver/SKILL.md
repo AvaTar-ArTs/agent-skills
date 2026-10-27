@@ -1,5 +1,8 @@
 ---
-name: math-olympiad
+# v1 name (preserved 2026-10-03): math-olympiad
+# renamed to match its directory so discovery, invocation and the name
+# shown in the skill listing all agree.
+name: math-olympiad-solver
 description: Solves competition math problems using a rigorous, multi-stage process involving interpretation, internal refinement, adversarial verification, and calibrated abstention. Use for IMO, Putnam, USAMO, AIME, and similar competition math problems.
 version: 0.1.0
 ---

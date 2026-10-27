@@ -1,16 +1,20 @@
 ---
 name: session-export
-description: AvatarArts Terminal Session Exporter - creates durable project handoffs for agent continuation
+description: AvatarArts Terminal Session Exporter - creates durable project handoffs for agent continuation, including compact quit/resume-ID handoffs
 ---
 
 # Session Export
 
-Creates continuation-ready session exports with workspace state, decisions, and next steps.
+Creates continuation-ready session exports with workspace state, decisions, and next steps. Use a compact resume export when quitting returns a resume ID; a full history export is optional.
 
 ## Usage
 
 ```bash
 python3 ~/.config/poolside/skills/session-export/scripts/export_session.py --focus "integration task"
+
+# Compact handoff keyed by the resume ID shown when quitting
+python3 ~/.config/poolside/skills/session-export/scripts/export_session.py \
+  --focus "integration task" --resume-id <resume-id> --depth compact
 ```
 
 ## Output
@@ -34,6 +38,7 @@ Creates `.agent-exports/YYYY-MM-DD_HHMMSS-<slug>.md` containing:
 | `--format` | md, json | md |
 | `--depth` | compact, standard, deep | standard |
 | `--path` | Custom output path | .agent-exports/ |
+| `--resume-id` | Quit/resume identifier | empty |
 
 ## Output Contract
 
@@ -43,6 +48,7 @@ Creates `.agent-exports/YYYY-MM-DD_HHMMSS-<slug>.md` containing:
 
 ### JSON
 - `schema_version`, `exporter`, `exported_at`, `source`, `title`, `project`, `cwd`, `git`, `status`, `focus`, `original_goal`, `work_completed`, `decisions`, `workspace_changes`, `commands_and_verification`, `errors_and_diagnostics`, `remaining_work`, `continuation_prompt`, `session_narrative`, `provenance`, `redactions`
+- Resume exports additionally include `export_mode: resume`, `resume_id`, and `depth: compact`.
 
 ## Safety Rules
 

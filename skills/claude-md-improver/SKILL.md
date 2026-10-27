@@ -1,5 +1,8 @@
 ---
-name: Codex-md-improver
+# v1 name (preserved 2026-10-03): Codex-md-improver
+# renamed to match its directory so discovery, invocation and the name
+# shown in the skill listing all agree.
+name: claude-md-improver
 description: Audit and improve AGENTS.md files in repositories. Use when user asks to check, audit, update, improve, or fix AGENTS.md files. Scans for all AGENTS.md files, evaluates quality against templates, outputs quality report, then makes targeted updates. Also use when the user mentions "AGENTS.md maintenance" or "project memory optimization".
 tools: Read, Glob, Grep, Bash, Edit
 ---

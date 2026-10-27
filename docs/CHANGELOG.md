@@ -6,9 +6,14 @@
 - Restored 69 missing support files (`references/`, `examples/`, `templates/`, `scripts/`) for 11 skills: build-mcp-server, hook-development, playground, agent-development, automation-recommender, build-mcp-app, mcp-integration, build-mcpb, claude-md-improver, command-development, plugin-settings. Source: `AvaTar-ArTs/.Agent-skills@5dc4c75` (`plugins/claude-plugins-official/`); 66 of 69 identical to current upstream `anthropics/claude-plugins-official@d182ca4`, and the 3 revised upstream `mcp-integration` files (plus the matching `SKILL.md` line) were taken from upstream. All 45 SKILL.md references resolve.
 
 ### Added — 2026-10-05
+- Local reclaim + projection rebuild (see `backups/cleanup-manifest-2026-10-05.csv`): ComfyUI package `assets` symlinked to skill-root assets; `skills/dormant_archives/` relocated to `backups/`; `active-skills/` rebuilt as symlink projection (~67MB → ~4.4MB); 22 untracked agent category packs quarantined under `agents/_incoming/`; root agent md/toml pairing raised to 109.
 - Lineage and restore checkpoint with chronological change log, checkpoints, and self-evaluation: `docs/checkpoints/2026-10-05-agent-skills-lineage-and-restore.md` (+ JSON). Records that `.Agent-skills` is a superseded subset of this repository and that its history must be kept as provenance.
 
 ### Added / Enhanced — 2026-09-12
+- Saved a detailed continuation handoff at `/tmp/skill-wanderer-handoff-2026-09-12.md`, covering ecosystem findings, marketplace research, reviewer conclusions, privacy boundaries, and the proposed Skill Wanderer project.
+- Added marketplace research artifacts under `docs/research/`: skills.sh/GitHub/npx/npm/Claude marketplace brief, sources table, evidence ledger, and candidate-skill review.
+- Identified Skill Wanderer as the next project direction: a provenance-first, quarantine-before-promotion explorer for local and public agent skills; design approval is still required before implementation.
+- Ran independent read-only code-reviewer, security-engineer, ecosystem-analyzer, and Superpowers workflow reviews; no external skills, plugins, projections, or canonical sources were modified.
 - Completed and indexed local agent ecosystem deep-dive audit (`docs/audits/2026-09-12-agent-ecosystem-deepdive/`) with drift ledger, surface inventory, and Hermes control-plane risk analysis.
 - Staged and verified ~34 media & AI generative skills including `seedance-2-5-*`, `kling-studio`, `eachlabs-*`, `audiomind`, `video-overlay`, `video-upscaler`, and `wan-2-7`.
 - Enhanced `hooks/pre-tool-autocontext.sh` with fail-open guardrails, bounded input parsing, and safe SQLite query escaping.

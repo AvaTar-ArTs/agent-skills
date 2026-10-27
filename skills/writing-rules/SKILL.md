@@ -1,6 +1,11 @@
 ---
 name: writing-rules
-description: This skill should be used when the user asks to "create a hookify rule", "write a hook rule", "configure hookify", "add a hookify rule", or needs guidance on hookify rule syntax and patterns.
+# v1 description (preserved 2026-10-03):
+#   This skill should be used when the user asks to "create a hookify rule", "write a hook 
+#   rule", "configure hookify", "add a hookify rule", or needs guidance on hookify rule syntax 
+#   and patterns.
+# v1: description: Hookify rule syntax and patterns. Triggers: "create a hookify rule", "configure hookify", "add a hookify rule".
+description: "Hookify rule syntax and patterns. Triggers: \"create a hookify rule\", \"configure hookify\", \"add a hookify rule\"."
 version: 0.1.0
 ---
 

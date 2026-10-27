@@ -1,3 +1,8 @@
+---
+name: API Connector (Converted Example)
+description: "Skill-porter before/after example: API connector skill converted to Gemini CLI extension format."
+---
+
 # API Connector - Gemini CLI Extension Connect to REST APIs, manage authentication, and process responses. ## Features - Make GET, POST, PUT, DELETE requests
 
 - Automatic authentication header management

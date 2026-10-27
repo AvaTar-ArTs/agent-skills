@@ -1,3 +1,8 @@
+---
+name: Ecosystem Learning
+description: Learn from and integrate patterns across Codex, Claude, and Qwen ecosystems — pattern recognition, methodology adaptation, and best-practice adoption.
+---
+
 # Ecosystem Learning Agent
 
 ## Description

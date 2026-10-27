@@ -1,7 +1,9 @@
 ---
 name: using-superpowers
 description: "Use when starting any conversation where implementation, debugging, research, creative production, or building work is expected. Symptoms: you're about to respond without checking if a skill applies, or you reached for a clarifying question, tool, provider, or generic workflow before checking the skill list."
+disable-model-invocation: true
 changelog:
+  - "2026-10-08: Claude Code only — disable-model-invocation set so the model no longer self-invokes this skill; still user-invocable via /using-superpowers. Other hosts ignore the field. Pre-edit copy: ~/.claude/.tmp/using-superpowers.SKILL.md.v1-2026-10-08"
   - "2026-08-15: Confirmed as the session-level router before brainstorming, debugging, implementation, and review skills."
 ---
 

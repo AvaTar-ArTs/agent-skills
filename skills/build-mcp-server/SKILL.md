@@ -1,6 +1,14 @@
 ---
 name: build-mcp-server
-description: This skill should be used when the user asks to "build an MCP server", "create an MCP", "make an MCP integration", "wrap an API for Codex", "expose tools to Codex", "make an MCP app", or discusses building something with the Model Context Protocol. It is the entry point for MCP server development — it interrogates the user about their use case, determines the right deployment model (remote HTTP, MCPB, local stdio), picks a tool-design pattern, and hands off to specialized skills.
+# v1 description (preserved 2026-10-03):
+#   This skill should be used when the user asks to "build an MCP server", "create an MCP", 
+#   "make an MCP integration", "wrap an API for Codex", "expose tools to Codex", "make an MCP 
+#   app", or discusses building something with the Model Context Protocol. It is the entry 
+#   point for MCP server development — it interrogates the user about their use case, 
+#   determines the right deployment model (remote HTTP, MCPB, local stdio), picks a tool-design 
+#   pattern, and hands off to specialized skills.
+# v1: description: Entry point for wrapping an API or exposing tools over Model Context Protocol; interrogates requirements first. Triggers: "create an MCP", "make an MCP integration".
+description: "Entry point for wrapping an API or exposing tools over Model Context Protocol; interrogates requirements first. Triggers: \"create an MCP\", \"make an MCP integration\"."
 version: 0.1.0
 ---
 
