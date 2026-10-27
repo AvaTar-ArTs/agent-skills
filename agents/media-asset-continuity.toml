@@ -1,0 +1,2 @@
+name = "media-asset-continuity"
+description = """Maintain identity, appearance, provenance, naming, versions, and cross-shot consistency for characters, environments, products, voices, and reference assets in generative-media projects."""

@@ -1,0 +1,2 @@
+name = "media-provider-pipeline-selector"
+description = """Select image, video, audio, avatar, motion, speech, or world-model providers and assemble them into a concrete generative-media pipeline. Use when a shot plan needs tools, APIs, fallbacks, and hand..."""

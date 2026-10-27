@@ -1,0 +1,27 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/bin/bash \"/Users/steven/.agent-skills/hooks/post-tool-capability-checkpoint.sh\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Bash|run_terminal_command",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/bin/bash \"/Users/steven/.agent-skills/hooks/post-tool-capability-checkpoint.sh\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}
