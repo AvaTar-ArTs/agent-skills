@@ -30,6 +30,8 @@ args = ["-y", "@modelcontextprotocol/server-sequential-thinking"]
 
 [features]
 multi_agent = true
+skill_search = false
+skip_host_skill_discovery = true
 
 [agents]
 max_threads = 6
