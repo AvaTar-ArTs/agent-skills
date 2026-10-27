@@ -1,4 +1,7 @@
 ---
+# 2026-10-27: Keep this command alias distinct from its folder name. The
+# standard design skill is exposed as /design-taste-frontend; the directory
+# name /taste-skill remains available as well.
 name: design-taste-frontend
 # v1 description (preserved 2026-10-03, replaced with content-first wording):
 #   Anti-slop frontend skill for landing pages, portfolios, and redesigns. The agent reads the 

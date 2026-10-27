@@ -1,6 +1,8 @@
 ---
+# 2026-10-27: The folder command is /design-taste-frontend; this frontmatter
+# alias keeps the experimental rewrite separately addressable.
 name: design-taste-frontend-experimental
-description: Use when explicitly testing the experimental frontend taste rewrite for landing pages, portfolios, and redesigns; the standard runtime design skill remains design-taste-frontend under /Users/steven/.agent-skills/skills/taste-skill.
+description: Use when explicitly testing the experimental frontend taste rewrite for landing pages, portfolios, and redesigns. The standard runtime design skill is design-taste-frontend under /Users/steven/.agent-skills/skills/taste-skill.
 ---
 
 # tasteskill: Anti-Slop Frontend Skill

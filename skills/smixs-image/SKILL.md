@@ -1,5 +1,7 @@
 ---
-name: image
+# 2026-10-26: name was image, which belongs to skills/image. This field
+# now matches the smixs-image directory.
+name: smixs-image
 license: CC-BY-4.0 (attribution required — Serge Shima, github.com/smixs/visual-skills)
 description: >
   Image prompting skill for Nano Banana (NBP/NB2) and GPT Image 2.5 (Flare/Sunburst). Writes ready-to-use

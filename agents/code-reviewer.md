@@ -1,5 +1,7 @@
 ---
-name: code-review-guidance
+# 2026-10-26: name was code-review-guidance. The file is code-reviewer.md;
+# agents/code-review.md remains the separate worker.
+name: code-reviewer
 description: Use when reviewing code for quality, correctness, maintainability, or security — pull requests, scripts, CLI tools, Python utilities, shell scripts, or any code that needs a second set of eyes before shipping or sharing. Gives prioritized, constructive feedback distinguishing blocking issues from suggestions.
 ---
 
