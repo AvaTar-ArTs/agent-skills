@@ -24,7 +24,7 @@ Exit code = number of FAILed checks (0 = healthy; 64 = bad argument). `WARN` lin
 
 | Check | What it does | FAILs when |
 |---|---|---|
-| `audit` | `scripts/audit_runtime.py`, summarized counts (agents/skills, dup names, exact dupes, missing frontmatter) | any broken link |
+| `audit` | `scripts/audit_runtime.py`, summarized canonical skill/root-agent counts (dup names, exact dupes, missing frontmatter) | any dangling filesystem symlink |
 | `hooks` | every `hooks/tests/*.sh` | a test exits non-zero |
 | `doors` | `~/.claude/agents`, `~/.claude/skills`, `~/.agents/skills` symlink targets; dangling links in `active-skills/` | wrong target, not a link, or dangling |
 | `hosts` | `~/.cursor/{skills,agents}`, `~/.grok/skills`: entry/link counts, dangling links, entries absent from canonical `skills/` | never (report-only; WARN on dangling) |
@@ -51,7 +51,8 @@ bash hooks/tests/test-pre-tool-autocontext.sh                         # prints "
 - **`export_catalog_csv.py --root` defaults to `~/.agents`**, not this repo (per its help text). `~/.agents/skills` is a symlink here, but pass `--root ~/.agent-skills` to be explicit.
 - **Audit fields change type:** `missing_frontmatter` / `missing_name` / `missing_description` are `0` when empty and a **list of paths** when not. Count with `len()` on lists; printing raw dumps every path.
 - **`audit.json` is large** (~32 KB; duplicate maps list every path). Summarize it; don't paste it into a conversation.
-- **Agent counts differ by tool:** audit says 295 agents (frontmatter-bearing `.md`); a raw `find agents -name '*.md'` says 298. Not a bug: 17 files lack frontmatter and some names repeat.
+- **Audit scope:** `audit_runtime.py` counts canonical `SKILL.md` files recursively and root-level agent definitions only. Numbered packs, `_incoming/`, policy files, and skill documentation nested under `agents/` are outside the agent count.
+- **Markdown links:** this audit reports filesystem symlinks only; it does not validate relative links inside Markdown.
 - **Hosts are copies, not links.** `~/.cursor/skills` is ~261 real directories with only 1 link into this library, so Cursor drifts from canonical silently. `~/.grok/skills` links into `../../.agents/skills/…`, so a skill removed here dangles there.
 
 ## Troubleshooting

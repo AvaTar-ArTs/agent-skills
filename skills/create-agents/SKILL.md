@@ -501,9 +501,8 @@ After creating an agent, verify:
 - [ ] Agent can be invoked and works correctly
 </checklist>
 
-## References
+## Related sections
 
-For detailed documentation:
-- [reference.md](reference.md) - Complete frontmatter schema
-- [templates.md](templates.md) - More agent templates
-- [examples.md](examples.md) - Real-world agent examples
+- [Agent Frontmatter Schema](#agent-frontmatter-schema)
+- [Agent Templates](#agent-templates)
+- [Provide Examples](#provide-examples-multishot)

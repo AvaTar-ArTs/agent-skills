@@ -73,6 +73,10 @@ chozen-land.txt
 deeptutor/user/logs/
 deeptutor/user/**/*.db
 
+# Generated inventories contain machine-specific absolute paths and previews.
+deeptutor/home-dot-ecosystem-inventory.json
+snapshots/historical-audits/inventory-agent-skills.json
+
 # Ruflo local secrets and runtime data
 .env
 .env.local

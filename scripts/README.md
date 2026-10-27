@@ -74,17 +74,18 @@ python3 ~/.agent-skills/scripts/inspect_md_content.py
 
 ### `audit_runtime.py`
 
-**Purpose:** Audits the active runtime surface separately from backups,
-generated catalogs, memory exports, and the Deeptutor project. Checks skill and
-agent frontmatter, duplicate names, exact duplicate content, and broken links.
+**Purpose:** Audits every `SKILL.md` in the canonical skills tree and root-level
+agent definitions. It checks frontmatter, duplicate names, exact duplicate
+content, and dangling filesystem symlinks. The active host projection is a
+separate surface; Markdown links are not checked by this script.
 
 **Usage:**
 ```bash
 python3 ~/.agent-skills/scripts/audit_runtime.py --pretty
 ```
 
-This is the focused freshness check for `README.md` and `INDEX.md`; it emits
-JSON so CI or a later manifest generator can consume the same facts.
+The JSON uses `broken_symlinks` for clarity and retains `broken_links` as a
+compatibility alias for the existing smoke runner.
 
 ### `audit_home_capabilities.py`
 

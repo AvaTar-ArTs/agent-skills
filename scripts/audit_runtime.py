@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Audit the active ~/.agent-skills runtime surface.
+"""Audit canonical skill files and root agent definitions in ~/.agent-skills.
 
-This intentionally reports active source separately from backups, exports,
-generated catalogs, and the Deeptutor project so stale totals do not look like
-runtime capabilities.
+The active host projection is reported elsewhere. This script counts every
+SKILL.md in the canonical skill tree and only root-level agent definitions;
+packs and quarantine files are historical material, not the root roster.
 """
 
 from __future__ import annotations
@@ -17,16 +17,22 @@ from pathlib import Path
 
 
 SKIP_PARTS = {
-    ".git", ".venv", "__pycache__", "node_modules", "backups", "deeptutor",
-    "tmp", "tmp-csv", "tmp-md", "docs", "memory",
+    ".git", ".venv", "__pycache__", "node_modules", "backups",
+    "tmp", "tmp-csv", "tmp-md",
 }
 SENSITIVE_NAMES = {".env", ".env.local", "auth_info.json", "credentials.json", "token.json", "tokens.json", "secrets.json", "cookie.json", "cookies.json", "history.jsonl"}
 SENSITIVE_PARTS = {"auth", "authentication", "credential", "credentials", "secret", "secrets", "token", "tokens", "keychain", "cookies", "history", "histories", "sessions", "session", "private"}
 
 
-def in_scope(path: Path) -> bool:
-    lowered = {part.lower() for part in path.parts}
-    return not any(part in SKIP_PARTS for part in path.parts) and path.name.lower() not in SENSITIVE_NAMES and not bool(lowered & SENSITIVE_PARTS)
+def in_scope(path: Path, base: Path) -> bool:
+    """Filter using paths relative to the scanned tree, not host path parts."""
+    relative_parts = path.relative_to(base).parts
+    lowered = {part.lower() for part in relative_parts}
+    return (
+        not any(part in SKIP_PARTS for part in lowered)
+        and path.name.lower() not in SENSITIVE_NAMES
+        and not bool(lowered & SENSITIVE_PARTS)
+    )
 
 
 def frontmatter(text: str) -> dict[str, str]:
@@ -46,7 +52,7 @@ def read(path: Path) -> str:
 
 
 def collect(root: Path, pattern: str) -> list[Path]:
-    return sorted(path for path in root.rglob(pattern) if in_scope(path))
+    return sorted(path for path in root.rglob(pattern) if in_scope(path, root))
 
 
 def metadata_report(paths: list[Path], root: Path) -> dict[str, object]:
@@ -81,7 +87,7 @@ def metadata_report(paths: list[Path], root: Path) -> dict[str, object]:
     }
 
 
-def broken_links(root: Path) -> list[str]:
+def broken_symlinks(root: Path) -> list[str]:
     result = []
     for path in root.rglob("*"):
         if path.is_symlink() and not path.exists():
@@ -97,14 +103,25 @@ def main() -> None:
     root = args.root.resolve()
     skills = collect(root / "skills", "SKILL.md")
     skills += collect(root / "deep-research", "SKILL.md")
-    agents = [path for path in collect(root / "agents", "*.md") if path.name != "README.md"]
+    # Agent packs, quarantined prompts, and embedded skill documentation are
+    # not the root agent roster. Exclude the two root policy/reference files.
+    agents = sorted(
+        path for path in (root / "agents").glob("*.md")
+        if path.name not in {"README.md", "ARCHIVE-PACKS.md", "AGENT_PATTERN_GUIDE.md"}
+    )
+    dangling_symlinks = broken_symlinks(root)
     report = {
         "root": str(root),
         "skills": metadata_report(skills, root),
         "agents": metadata_report(agents, root),
-        "broken_links": broken_links(root),
+        "broken_symlinks": dangling_symlinks,
+        # Keep the original key for the existing smoke runner. It has always
+        # represented filesystem symlinks, not Markdown links.
+        "broken_links": dangling_symlinks,
+        "markdown_links_checked": False,
         "top_level_skill_directories": sorted(
-            path.name for path in (root / "skills").iterdir() if path.is_dir()
+            path.name for path in (root / "skills").iterdir()
+            if path.is_dir() and (path / "SKILL.md").is_file()
         ),
     }
     print(json.dumps(report, indent=2 if args.pretty else None, sort_keys=True))
