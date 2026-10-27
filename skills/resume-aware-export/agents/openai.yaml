@@ -1,0 +1,4 @@
+interface:
+  display_name: "Resume-Aware Export"
+  short_description: "Save compact quit/resume session handoffs"
+  default_prompt: "Use $resume-aware-export to save this session as a compact, resume-ID-keyed handoff without exporting all history."
