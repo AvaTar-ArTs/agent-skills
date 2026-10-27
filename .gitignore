@@ -7,9 +7,16 @@ __pycache__/
 
 # Local runtime state
 memory/*.sqlite
+memory/*.bak*
 skills/agmsg/db/*.db
 skills/agmsg/db/*.db-shm
 skills/agmsg/db/*.db-wal
+ruvector.db
+
+# Host runtime configuration and local state in this library checkout
+.claude/
+.agents/
+.mcp.json
 
 # AI/session history is local evidence, not reusable public source.
 .codex-history/
@@ -37,8 +44,24 @@ temp_local_*/
 
 # Local generated review/staging outputs
 tmp/
+.tmp/
 tmp-csv/
 tmp-md/
+hooks/tests/.tmp-codex-schema/
+
+# Conversation exports and generated metadata catalogs
+carbons
+html
+*-meta.csv
+*-meta.csv.summary.json
+*-meta.duplicates.csv
+.agent-skills-meta.*
+
+# Host-specific active links whose targets live outside this repository
+active-skills/coh-mod
+active-skills/coh-mod-narrator
+active-skills/find-skills
+active-skills/review-agent
 
 # Large metadata dumps
 enriched-*.csv
