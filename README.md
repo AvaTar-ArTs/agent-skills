@@ -25,23 +25,24 @@ changelog beside the CSV.
 
 ## Current Runtime Surface
 
-Last audited: **2026-10-05** (git reconcile + projection rebuild). Prior deep dives:
+Last audited: **2026-10-27** (local runtime and repository reconcile). Prior deep dives:
 `docs/audits/local-agent-skills-review-2026-08-18.md`,
 `docs/audits/2026-09-12-agent-ecosystem-deepdive/`,
 `tmp-md/2026-10-05-agents-skills-synthesis.md`.
 
-Measured inventory (2026-10-05):
+Measured inventory (2026-10-27):
 
-- `agents/` root: **109** paired `.md`+`.toml` definitions (plus archive packs and `agents/_incoming/`).
-- `skills/`: **~343** top-level entries; **~599** `SKILL.md` files (includes nested packs such as calesthio).
-- `active-skills/`: **~299** projected tops (**298** symlinks into `skills/` / `skills/.system/`); **~338** `SKILL.md` reachable via those links.
+- `agents/` root: **110** paired `.md`+`.toml` definitions (plus archive packs and `agents/_incoming/`).
+- `skills/`: **347** top-level directories; **608** `SKILL.md` files (includes nested packs such as calesthio).
+- `active-skills/`: **317** entries: **308** symlinks and **9** materialized skill directories.
 - Claude discovery uses the **active-skills** projection, not the full `skills/` tree.
+- Claude's `~/.claude/agents/` is a separate roster of **7 copied agent files**; it does not load this repository's agent archive automatically.
 - Leaf-name collisions and pack copies still exist; treat root / projected entries as primaries.
 
-Runtime doors (verified 2026-10-05):
+Runtime doors (verified 2026-10-27):
 
 - `/Users/steven/.agents/skills -> /Users/steven/.agent-skills/skills`
-- `/Users/steven/.claude/agents -> /Users/steven/.agent-skills/agents`
+- `/Users/steven/.claude/agents/` is a runtime directory with 7 copied agent files, not a symlink to this repository.
 - `/Users/steven/.claude/skills -> /Users/steven/.agent-skills/active-skills`
 - `/Users/steven/.codex/superpowers -> /Users/steven/.agent-skills/skills/using-superpowers`
 
