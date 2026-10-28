@@ -16,12 +16,13 @@ from __future__ import annotations
 import argparse
 import csv
 import re
+import sys
 from dataclasses import asdict, dataclass
 from datetime import datetime
 from pathlib import Path
 
 
-DEFAULT_ROOT = Path("/Users/steven/.agent-skills")
+DEFAULT_ROOT = Path(__file__).resolve().parents[1]
 SKIP_DIRS = {
     ".git",
     ".venv",
@@ -80,7 +81,7 @@ def parse_frontmatter(text: str) -> dict[str, str]:
             current = key.strip()
             data[current] = value.strip().strip("'\"")
         elif current:
-            data[current] = f"{data[current]} {line.strip().strip('\"')}".strip()
+            data[current] = (data[current] + " " + line.strip().strip('"')).strip()
     return data
 
 
@@ -338,6 +339,9 @@ def main() -> int:
 
     rows = [summarize(path, root) for path in iter_markdown(root, args.include_plugins)]
     rows.sort(key=lambda row: (row.kind, row.name.lower(), row.path))
+    if not rows:
+        print(f"no files found under {args.root}; pass --root to the library checkout", file=sys.stderr)
+        return 1
     write_csv(rows, csv_path)
     append_csv_changelog(csv_path, len(rows), "Regenerated what-this-is/what-this-does summary from Markdown content.")
     write_md(rows, md_path)

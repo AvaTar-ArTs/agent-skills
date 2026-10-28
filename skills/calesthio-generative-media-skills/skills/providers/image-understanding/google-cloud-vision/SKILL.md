@@ -1,6 +1,6 @@
 ---
 name: google-cloud-vision
-description: Use this skill when an agent needs Google Cloud Vision API for still-image understanding: labels, object localization, OCR, document text, SafeSearch, image properties, crop hints, web detection, batch annotation, Cloud Storage based pipelines, confidence evaluation, privacy, quotas, cost, and QA. Do not use it for Gemini multimodal reasoning, video analysis, image generation, custom model training, product catalog search design, or human reference/authenticity review.
+description: "Use this skill when an agent needs Google Cloud Vision API for still-image understanding: labels, object localization, OCR, document text, SafeSearch, image properties, crop hints, web detection, batch annotation, Cloud Storage based pipelines, confidence evaluation, privacy, quotas, cost, and QA. Do not use it for Gemini multimodal reasoning, video analysis, image generation, custom model training, product catalog search design, or human reference/authenticity review."
 ---
 
 # Google Cloud Vision API for still-image understanding
