@@ -17,12 +17,13 @@ import argparse
 import csv
 import json
 import re
+import sys
 from dataclasses import dataclass
 from datetime import datetime
 from pathlib import Path
 
 
-DEFAULT_ROOT = Path("/Users/steven/.agent-skills")
+DEFAULT_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_OUT_NAME = "agents-catalog.csv"
 
 SKIP_DIRS = {
@@ -78,7 +79,7 @@ def parse_frontmatter(text: str) -> dict[str, str]:
             current_key = key.strip()
             data[current_key] = value.strip().strip("'\"")
         elif current_key:
-            data[current_key] = f"{data[current_key]} {line.strip().strip('\"')}".strip()
+            data[current_key] = (data[current_key] + " " + line.strip().strip('"')).strip()
     return data
 
 
@@ -308,6 +309,9 @@ def main() -> int:
 
     out_path = args.out or (Path.cwd() / "tmp-csv" / DEFAULT_OUT_NAME)
     rows = build_rows(args.root)
+    if not rows:
+        print(f"no files found under {args.root}; pass --root to the library checkout", file=sys.stderr)
+        return 1
     write_csv(rows, out_path)
     append_csv_changelog(out_path, len(rows), "Regenerated compact agents catalog from current filesystem contents.")
     print(f"wrote {len(rows)} rows -> {out_path}")

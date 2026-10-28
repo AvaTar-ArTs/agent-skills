@@ -1,6 +1,6 @@
 ---
 name: amazon-rekognition
-description: Use this skill when an agent needs production image or video understanding with Amazon Rekognition: labels, objects, scenes, OCR, moderation, image properties, Custom Labels or moderation adapters, stored-video analysis, conditional streaming-video workflows for existing eligible accounts, searchable media libraries, confidence evaluation, S3/IAM/event architecture, privacy, biometric consent, cost control, lifecycle management, and QA.
+description: "Use this skill when an agent needs production image or video understanding with Amazon Rekognition: labels, objects, scenes, OCR, moderation, image properties, Custom Labels or moderation adapters, stored-video analysis, conditional streaming-video workflows for existing eligible accounts, searchable media libraries, confidence evaluation, S3/IAM/event architecture, privacy, biometric consent, cost control, lifecycle management, and QA."
 ---
 
 # Amazon Rekognition for Production Image and Video Understanding
